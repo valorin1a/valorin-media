@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Valorin Peppol Pulse video</title>
+<style>
+@font-face{font-family:"RC";font-weight:700;src:url(node_modules/@fontsource/roboto-condensed/files/roboto-condensed-latin-700-normal.woff2)}
+@font-face{font-family:"RC";font-weight:800;src:url(node_modules/@fontsource/roboto-condensed/files/roboto-condensed-latin-800-normal.woff2)}
+@font-face{font-family:"RC";font-weight:900;src:url(node_modules/@fontsource/roboto-condensed/files/roboto-condensed-latin-900-normal.woff2)}
+@font-face{font-family:"RB";font-weight:400;src:url(node_modules/@fontsource/roboto/files/roboto-latin-400-normal.woff2)}
+@font-face{font-family:"RB";font-weight:500;src:url(node_modules/@fontsource/roboto/files/roboto-latin-500-normal.woff2)}
+@font-face{font-family:"RB";font-weight:700;src:url(node_modules/@fontsource/roboto/files/roboto-latin-700-normal.woff2)}
+:root{--navy:#13283D;--navy2:#0E1F31;--gold:#B29A74;--gold2:#D6C29A;--ivory:#F6F2EA;--red:#E05252;--amber:#E0A040;--teal:#3FB8AE;--mut:#C3CCD6}
+*{box-sizing:border-box}
+html,body{margin:0;background:#000}
+.v{position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--navy);color:#fff;font-family:"RB",sans-serif}
+.c{font-family:"RC",sans-serif}
+.top{position:absolute;left:0;right:0;top:0;height:250px;background:#fff;display:flex;align-items:flex-end;justify-content:center;padding-bottom:38px;border-bottom:8px solid var(--gold)}
+.top img{height:96px}
+.scene{position:absolute;left:80px;right:80px;top:330px;bottom:420px;display:flex;flex-direction:column;justify-content:center;gap:34px}
+.el{will-change:opacity,transform}
+.k{font-weight:800;font-size:40px;letter-spacing:.14em;color:var(--gold2)}
+.h1{font-weight:900;font-size:128px;line-height:.95;text-transform:uppercase}
+.h1 em{font-style:normal;color:var(--gold2)}
+.pulse{display:flex;align-items:center;gap:20px;font-weight:900;font-size:64px;color:#fff}
+.sub{font-size:40px;line-height:1.35;color:var(--mut)}
+.num{font-weight:900;font-size:250px;line-height:.85;color:var(--gold2);letter-spacing:-.01em}
+.vs{display:flex;align-items:baseline;gap:22px;font-weight:900;font-size:96px}
+.vs small{font-family:"RB";font-weight:500;font-size:40px;color:var(--mut)}
+.big2{font-weight:900;font-size:84px;line-height:1.02;text-transform:uppercase}
+.big2 em{font-style:normal;color:var(--gold2)}
+.stat{border-left:12px solid var(--cc);padding:10px 0 10px 34px;display:flex;flex-direction:column;gap:6px}
+.stat .n{font-weight:900;font-size:120px;line-height:.95;color:var(--cc)}
+.stat .n small{font-size:58px}
+.stat .l{font-size:40px;line-height:1.3;color:#E6EBF0}
+.svc{display:flex;gap:28px;align-items:center}
+.svc .i{flex:none;width:96px;height:96px;border-radius:22px;background:var(--gold);color:var(--navy);display:flex;align-items:center;justify-content:center;font-weight:900;font-size:56px}
+.svc .t{font-weight:800;font-size:58px;line-height:1.05}
+.svc .t small{display:block;font-family:"RB";font-weight:400;font-size:34px;color:var(--mut);margin-top:6px}
+.cta{background:var(--gold);color:var(--navy);border-radius:28px;padding:34px 40px;display:flex;flex-direction:column;gap:10px}
+.cta .a{font-weight:900;font-size:66px;line-height:1}
+.cta .b{font-size:40px;font-weight:700}
+.zoho{align-self:flex-start;border:3px solid var(--teal);color:var(--teal);border-radius:999px;padding:12px 28px;font-size:32px;font-weight:700}
+.disc{font-size:24px;line-height:1.4;color:#8FA0B3}
+.bar{position:absolute;left:0;bottom:0;height:14px;background:var(--gold)}
+</style>
+</head>
+<body>
+<div class="v" id="v">
+<div class="top"><img src="valorin_logo.png" alt="Valorin, Finance | Tax | Advisory"></div>
+
+<div class="scene" data-s="0" data-e="2.8">
+<div class="el pulse c" data-in="0.2"><svg width="96" height="56" viewBox="0 0 58 34" fill="none" stroke="#D6C29A" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 18h12l5-12 8 24 6-16 4 4h19"/></svg>PEPPOL PULSE</div>
+<div class="el k c" data-in="0.4">UAE E-INVOICING TRACKER · {{DATE}}</div>
+<div class="el h1 c" data-in="0.7">Is your company <em>on Peppol</em> yet?</div>
+</div>
+
+<div class="scene" data-s="2.8" data-e="6.6">
+<div class="el k c" data-in="3.0">UAE ENTITIES IN THE PEPPOL DIRECTORY</div>
+<div class="el num c" data-in="3.0" id="counter">0</div>
+<div class="el vs c" data-in="4.4">vs 1.4M+ <small>UAE companies</small></div>
+<div class="el big2 c" data-in="5.0"><em>{{RATIO}}</em> UAE companies</div>
+<div class="el disc" data-in="5.0">Source: Peppol Directory via Ionite, {{DATEPLAIN}}. Company total: UAE Ministry of Economy (Jan 2026). The directory may not list every participant.</div>
+</div>
+
+<div class="scene" data-s="6.6" data-e="10.4">
+<div class="el stat c" style="--cc:var(--teal)" data-in="6.8"><div class="n">{{DELTA}}</div><div class="l">{{DELTALBL}}</div></div>
+<div class="el stat c" style="--cc:var(--red)" data-in="7.5"><div class="n">{{DAYS}} <small>DAYS</small></div><div class="l">{{DLBL}}</div></div>
+<div class="el stat c" style="--cc:var(--amber)" data-in="8.2"><div class="n"><small>AED</small> 5,000</div><div class="l">per month penalty for in-scope businesses missing the ASP deadline (Cabinet Decision No. 106/2025)</div></div>
+</div>
+
+<div class="scene" data-s="10.4" data-e="99">
+<div class="el k c" data-in="10.6">HOW VALORIN GETS YOU READY</div>
+<div class="el svc c" data-in="10.8"><div class="i">1</div><div class="t">GAP ASSESSMENT<small>ERP, data and process readiness</small></div></div>
+<div class="el svc c" data-in="11.2"><div class="i">2</div><div class="t">ASP SELECTION<small>With our MoF-accredited ASP partners</small></div></div>
+<div class="el svc c" data-in="11.6"><div class="i">3</div><div class="t">ERP INTEGRATION<small>Oracle integration with ASP portals</small></div></div>
+<div class="el zoho" data-in="12.0">Zoho Consulting Partner · ID PU1671773</div>
+<div class="el cta c" data-in="12.4"><div class="a">WHATSAPP 058-2754282</div><div class="b">www.valorin.ae · Dubai, UAE</div></div>
+<div class="el disc" data-in="12.4">General information only, not legal or tax advice. Valorin is not an ASP. Zoho and Oracle are trademarks of their respective owners.</div>
+</div>
+
+<div class="bar" id="bar"></div>
+</div>
+<script>
+const TOTAL = {{TOTAL}};
+const TARGET = {{REGNUM}};
+function ease(x){x=Math.max(0,Math.min(1,x));return 1-Math.pow(1-x,3);}
+window.renderAt = function(t){
+  document.querySelectorAll('.scene').forEach(s=>{
+    const a=+s.dataset.s, b=+s.dataset.e;
+    let o = t<a?0 : t>b?0 : Math.min(1,(t-a)/0.25, (b-t)/0.25);
+    if (b>=99) o = t<a?0:Math.min(1,(t-a)/0.25);
+    s.style.opacity=o; s.style.visibility=o>0?'visible':'hidden';
+  });
+  document.querySelectorAll('.el').forEach(e=>{
+    const p=ease((t-(+e.dataset.in))/0.45);
+    e.style.opacity=p; e.style.transform=`translateY(${(1-p)*40}px)`;
+  });
+  const cp=ease((t-3.0)/1.4);
+  document.getElementById('counter').textContent=Math.round(TARGET*cp).toLocaleString('en-US');
+  document.getElementById('bar').style.width=(Math.min(1,t/TOTAL)*100)+'%';
+};
+window.renderAt(0);
+</script>
+</body>
+</html>

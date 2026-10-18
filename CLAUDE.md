@@ -1,0 +1,28 @@
+# Valorin Peppol Pulse – workflow for Claude
+
+Public repository: holds only finished, public social media files and the tools that make them. Never commit
+credentials, account IDs, client data or anything private. Account IDs live in the private Google Doc
+"Valorin Marketing Playbook (read first)" in the user's Drive folder "Valorin Peppol Pulse" – read it before posting.
+
+## Each update (user sends only the Ionite UAE number)
+1. `cd tools && npm install` (first time in a workspace). Chromium headless shell:
+   `/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell` (path is set in render.js / video.js;
+   adjust if the workspace differs). ffmpeg with libx264 is required for the video.
+2. Previous reading = last line of `data/pulse.csv`. Write `tools/data.json.local`:
+   `{"date":"YYYY-MM-DD","registered":N,"previousDate":"YYYY-MM-DD","previousRegistered":N,"totalCompanies":1400000}`
+3. `node render.js data.json.local ../media/YYYY-MM-DD/card.png` and
+   `node video.js data.json.local ../media/YYYY-MM-DD/video.mp4` (create the folder first). Look at the card before use.
+   If two updates fall on one day, use folder `YYYY-MM-DD-2`.
+4. Append the reading to `data/pulse.csv`, commit as Claude <noreply@anthropic.com>, push to `main`.
+5. Media URLs for Metricool:
+   `https://raw.githubusercontent.com/valorin1a/valorin-media/main/media/<folder>/card.png` and `.../video.mp4`.
+6. Schedule in Metricool (one post per network, own caption): card → Instagram, Facebook, Google Business Profile
+   (type publication), Pinterest (board "UAE E-Invoicing Tracker", link https://www.valorin.ae); video → YouTube
+   (type short, madeForKids false, category EDUCATION) and TikTok (commercialContentOwnBrand true).
+7. Append a row to the Google Sheet "Peppol Pulse Log". Give the user LinkedIn and X captions.
+
+## Rules (summary – full rules in the Drive playbook)
+- Sourced, dated numbers only. "Listed in the Peppol Directory", not "registered". "1.4M+" UAE companies.
+- Penalties per Cabinet Decision No. 106 of 2025, "for in-scope businesses". "General information only, not legal or tax advice."
+- FTA / MoF hashtags allowed as topic tags only (#FTA #FederalTaxAuthority #UAEMinistryOfFinance #MoFUAE); never @mention
+  government accounts or imply endorsement; add "Valorin is an independent advisory firm, not affiliated with the FTA or MoF."
