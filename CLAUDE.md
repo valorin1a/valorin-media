@@ -18,10 +18,10 @@ credentials, account IDs, client data or anything private. Account IDs live in t
 3. `node render.js data.json.local ../media/YYYY-MM-DD/card.png` and
    `node video.js data.json.local ../media/YYYY-MM-DD/video.mp4` (create the folder first). Look at the card before use.
    If two updates fall on one day, use folder `YYYY-MM-DD-2`.
-4. Append the reading to `data/pulse.csv`, commit as Claude <noreply@anthropic.com>, push to `main`.
+4. Append the reading to `data/pulse.csv` with the `angle` and `opening` columns filled in, commit as Claude <noreply@anthropic.com>, push to `main`.
 5. Media URLs for Metricool:
    `https://raw.githubusercontent.com/valorin1a/valorin-media/main/media/<folder>/card.png` and `.../video.mp4`.
-6. Schedule in Metricool (one post per network, own caption): card → Instagram, Facebook, Google Business Profile
+6. Schedule in Metricool at the times in "Posting times" below (one post per network, own caption): card → Instagram, Facebook, Google Business Profile
    (type publication), Pinterest (board "UAE E-Invoicing Tracker", link https://www.valorin.ae); video → YouTube
    (type short, madeForKids false, category EDUCATION) and TikTok (commercialContentOwnBrand true).
    YouTube description must end with: "Voiceover: synthetic voice (Piper TTS, LibriTTS voice, CC BY 4.0). Music: original."
@@ -33,6 +33,27 @@ credentials, account IDs, client data or anything private. Account IDs live in t
 - Penalties per Cabinet Decision No. 106 of 2025, "for in-scope businesses". "General information only, not legal or tax advice."
 - FTA / MoF hashtags allowed as topic tags only (#FTA #FederalTaxAuthority #UAEMinistryOfFinance #MoFUAE); never @mention
   government accounts or imply endorsement; add "Valorin is an independent advisory firm, not affiliated with the FTA or MoF."
+
+## Posting times (Dubai time)
+Based on Metricool best-time data for 13–19 Oct 2026. The data is thin: about one week, and the account was connected on 18 Oct.
+- Facebook (card) and TikTok (video): 10:00. YouTube Shorts (video): 16:00.
+- Instagram, Google Business Profile and Pinterest (card): 12:00. There is no best-time data for these yet, so this is a guess.
+- Do not schedule at 21:00: it is the weakest hour in the data.
+- Post at the next matching slot after the reading. Re-run getBestTimeToPostByNetwork in 2–3 weeks and update these times.
+
+## Daily wording (every day different)
+- Choose an angle that is not in the last two rows of the `angle` column in `data/pulse.csv`. Angles:
+  1. Milestone: a round number, or the "1 in 100" comparison.
+  2. Movement: what changed since the last reading.
+  3. Deadline: state the date. Use a day count only when posting the same day.
+  4. Practical step: one action a finance team can take this week.
+  5. Myth versus fact: a common e-invoicing misconception, corrected.
+  6. Question to the reader: a question that invites a reply.
+  7. Behind the number: what the directory count does and does not show.
+  8. Penalty check: who it applies to, with the disclaimer.
+- The opening line must differ from the `opening` column of the last seven rows.
+- Vary sentence length. Avoid stock phrases ("Exciting news", "Don't miss out", "Stay ahead") and all capitals.
+- Every caption keeps the fixed items: the figure with its source and date, Cabinet Decision No. 106 of 2025 for penalties, "General information only, not legal or tax advice", the independent-firm line, the FTA/MoF topic tags, and the contact line.
 
 ## Contact details on all media
 Dubai, UAE · www.valorin.ae · advisory@valorin.ae · WhatsApp 058-2754282
