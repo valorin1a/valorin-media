@@ -53,13 +53,26 @@ Based on Metricool best-time data for 13–19 Oct 2026. The data is thin: about 
   8. Penalty check: who it applies to, with the disclaimer.
 - The opening line must differ from the `opening` column of the last seven rows.
 - Vary sentence length. Avoid stock phrases ("Exciting news", "Don't miss out", "Stay ahead") and all capitals.
-- Every caption keeps the fixed items: the figure with its source and date, Cabinet Decision No. 106 of 2025 for penalties, "General information only, not legal or tax advice", the independent-firm line, the FTA/MoF topic tags, the tagline, and the contact line.
+- Every caption keeps the fixed items: the figure with its source and date, Cabinet Decision No. 106 of 2025 for penalties, "General information only, not legal or tax advice", the independent-firm line, the FTA/MoF topic tags (not on Google Business Profile), both brand lines, and the contact line.
 
 ## Contact details on all media
 Dubai, UAE · www.valorin.ae · advisory@valorin.ae · WhatsApp 058-2754282
 
 ## Tagline on all cards and posts
-"Finance with Integrity. Growth with Insight." Cards: top-left of the header, under the logo (card.html `.hl` / `.tagline`). Keep the rest of the header unchanged. Captions: include it in every caption, on its own line.
+Two brand lines, both printed (user decision, 19 Oct 2026):
+- "Finance | Tax | Advisory": the descriptor in the logo (valorin_logo.png). In captions, use it in the sign-off as
+  "Valorin · Finance | Tax | Advisory".
+- "Finance with Integrity. Growth with Insight." Cards: top-left of the header, under the logo (card.html `.hl` / `.tagline`). Keep the rest of the header unchanged. Captions: include it in every caption, on its own line.
+
+## Media hosting
+Use the GitHub raw URLs in step 5 for Metricool, not Google Drive links (this replaces playbook step 5e).
+
+## Hashtags per network
+Follow the playbook counts: Instagram 10-15; Facebook 2-3; TikTok 6-8; Pinterest 2-3; YouTube 2-3 incl. #Shorts.
+FTA/MoF topic tags go on every network except Google Business Profile.
+Google Business Profile: no hashtags at all (Google does not use them there, and government-named tags on a business
+listing add risk of implied association without any benefit). The independent-firm line and the disclaimer still
+go in every GBP caption.
 
 ## Voice
 Default LibriTTS speaker id: 92 (male, chosen by the user as option B). Other shortlisted options: 200 (male), 60 (female), 880 (female).
