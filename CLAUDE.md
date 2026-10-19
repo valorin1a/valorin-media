@@ -53,10 +53,13 @@ Based on Metricool best-time data for 13–19 Oct 2026. The data is thin: about 
   8. Penalty check: who it applies to, with the disclaimer.
 - The opening line must differ from the `opening` column of the last seven rows.
 - Vary sentence length. Avoid stock phrases ("Exciting news", "Don't miss out", "Stay ahead") and all capitals.
-- Every caption keeps the fixed items: the figure with its source and date, Cabinet Decision No. 106 of 2025 for penalties, "General information only, not legal or tax advice", the independent-firm line, the FTA/MoF topic tags, and the contact line.
+- Every caption keeps the fixed items: the figure with its source and date, Cabinet Decision No. 106 of 2025 for penalties, "General information only, not legal or tax advice", the independent-firm line, the FTA/MoF topic tags, the tagline, and the contact line.
 
 ## Contact details on all media
 Dubai, UAE · www.valorin.ae · advisory@valorin.ae · WhatsApp 058-2754282
+
+## Tagline on all cards and posts
+"Finance with Integrity. Growth with Insight." Cards: top-left of the header, under the logo (card.html `.hl` / `.tagline`). Keep the rest of the header unchanged. Captions: include it in every caption, on its own line.
 
 ## Voice
 Default LibriTTS speaker id: 92 (male, chosen by the user as option B). Other shortlisted options: 200 (male), 60 (female), 880 (female).
