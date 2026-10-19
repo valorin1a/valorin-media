@@ -115,7 +115,7 @@ fs.mkdirSync(framesDir);
   const audioIn = audioWav ? ['-i', audioWav] : ['-f', 'lavfi', '-i', 'anullsrc=channel_layout=stereo:sample_rate=44100'];
   execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-framerate', String(FPS), '-i', path.join(framesDir, 'f%04d.png'),
     ...audioIn, ...(audioWav ? ['-af', 'loudnorm=I=-14:TP=-1.5:LRA=11'] : []), '-shortest', '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-profile:v', 'high', '-crf', '20',
-    '-c:a', 'aac', '-b:a', '160k', '-movflags', '+faststart', out]);
+    '-c:a', 'aac', '-b:a', '160k', '-ar', '48000', '-movflags', '+faststart', out]);
   fs.rmSync(framesDir, { recursive: true, force: true });
   console.log('saved', out, realTotal.toFixed(1) + 's');
   console.log('voice script:\n' + segments.join('\n'));

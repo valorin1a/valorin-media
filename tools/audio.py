@@ -37,6 +37,20 @@ def write_wav(path, x):
         w.writeframes((stereo * 32767).astype(np.int16).tobytes())
 
 
+# Clarity chain, applied to the voice only: cut low rumble, reduce boxiness,
+# lift consonant presence (3 kHz), and gently even out loudness so soft words are not lost.
+CLARITY = ('highpass=f=90,'
+           'equalizer=f=250:width_type=q:width=1:g=-2,'
+           'equalizer=f=3000:width_type=q:width=1.2:g=3,'
+           'acompressor=threshold=0.1:ratio=3:attack=5:release=100:makeup=1.3')
+
+
+def clarify(path):
+    tmp = path + '.clar.wav'
+    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', path, '-af', CLARITY, tmp], check=True)
+    os.replace(tmp, path)
+
+
 def voice(model, speaker, segfile, outdir):
     os.makedirs(outdir, exist_ok=True)
     segs = json.load(open(segfile))
@@ -44,8 +58,9 @@ def voice(model, speaker, segfile, outdir):
     for i, text in enumerate(segs):
         out = os.path.join(outdir, f'seg_{i}.wav')
         subprocess.run([sys.executable, '-m', 'piper', '-m', model, '-s', str(speaker),
-                        '--length-scale', '0.95', '--sentence-silence', '0.15', '-f', out],
+                        '--length-scale', '1.0', '--sentence-silence', '0.15', '-f', out],
                        input=text.encode(), check=True, capture_output=True)
+        clarify(out)
         durs.append(LEAD + len(read_wav(out)) / SR + TAIL)
     json.dump({'durations': durs}, open(os.path.join(outdir, 'timing.json'), 'w'))
     print(json.dumps({'durations': durs, 'total': sum(durs)}))
