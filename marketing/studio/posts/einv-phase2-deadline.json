@@ -1,0 +1,182 @@
+{
+  "id": "einv-phase2-deadline",
+  "status": "SAMPLE – not approved for posting",
+  "series": "E-Invoicing Brief",
+  "subline": "UAE e-invoicing · Phase 2",
+  "as_of": "19 Oct 2026",
+  "as_of_iso": "2026-10-19",
+  "voice": "bm_george",
+  "speed": 0.85,
+  "card": {
+    "kicker": "In-scope businesses with revenue below AED 50M",
+    "headline": [
+      [
+        "Your ASP deadline is ",
+        "w"
+      ],
+      [
+        "31 March 2027",
+        "g"
+      ]
+    ],
+    "box_label": "Go-live",
+    "box_value": "1 Jul 2027",
+    "box_note": "Phase 2 e-invoicing",
+    "tiles": [
+      {
+        "tone": "teal",
+        "label": "Who",
+        "big": "< AED 50M",
+        "small": "revenue, invoicing other businesses (B2B or B2G)"
+      },
+      {
+        "tone": "red",
+        "label": "Deadline",
+        "big": "{days} days",
+        "small": "to appoint an ASP, counted from {as_of}"
+      },
+      {
+        "tone": "bronze",
+        "label": "Order of work",
+        "big": "Data first",
+        "small": "check invoices against PINT AE before signing"
+      }
+    ],
+    "cta_title": "One window, gap assessment to go-live",
+    "cta_sub": "Book an e-invoicing readiness call with Valorin."
+  },
+  "steps": [
+    [
+      "Gap assessment",
+      "Invoices, ERP data and processes vs PINT AE"
+    ],
+    [
+      "ASP quotes",
+      "Quotes from accredited ASPs; we recommend the fit"
+    ],
+    [
+      "Appointment",
+      "We coordinate appointment and onboarding"
+    ],
+    [
+      "ERP integration",
+      "Oracle, Zoho or Odoo, tested to go-live"
+    ]
+  ],
+  "source": "Source: Ministerial Decision No. 244 of 2025, Art. 5(1)(b), checked {as_of}. B2C-only businesses are outside the system until a further Ministerial decision.",
+  "disclaimer": "General information only, not legal or tax advice. Valorin is an independent advisory firm, not affiliated with the FTA or MoF. Valorin is not an ASP. Oracle, Zoho and Odoo are trademarks of their respective owners.",
+  "video": {
+    "scenes": [
+      {
+        "type": "hook",
+        "label": "UAE e-invoicing · Phase 2",
+        "lines": [
+          [
+            [
+              "Below AED 50M",
+              "g"
+            ]
+          ],
+          [
+            [
+              "and invoicing",
+              "w"
+            ]
+          ],
+          [
+            [
+              "other businesses?",
+              "w"
+            ]
+          ]
+        ],
+        "vo": [
+          "Is your business below fifty million dirhams in revenue, and does it invoice other businesses?"
+        ],
+        "cap": [
+          "Below AED 50M in revenue and invoicing other businesses?"
+        ]
+      },
+      {
+        "type": "fact",
+        "label": "ASP appointment deadline",
+        "big": "31 Mar 2027",
+        "chips": [
+          [
+            "teal",
+            "Go-live",
+            "1 Jul 2027"
+          ],
+          [
+            "red",
+            "Time left",
+            "{days} days from {as_of}"
+          ]
+        ],
+        "vo": [
+          "Then your deadline to appoint an accredited service provider is the thirty-first of March, twenty twenty-seven.",
+          "Go-live follows on the first of July."
+        ],
+        "cap": [
+          "Your deadline to appoint an Accredited Service Provider: 31 March 2027.",
+          "Go-live: 1 July 2027. Source on screen."
+        ]
+      },
+      {
+        "type": "insight",
+        "label": "The step most teams miss",
+        "head": [
+          [
+            "The ASP contract is the ",
+            "w"
+          ],
+          [
+            "last step",
+            "g"
+          ],
+          [
+            ", not the first.",
+            "w"
+          ]
+        ],
+        "items": [
+          "Invoice data checked against PINT AE",
+          "ERP connector",
+          "Pricing basis",
+          "Service levels",
+          "Exit terms"
+        ],
+        "vo": [
+          "Most teams start with the provider. The A.S.P. contract should be the last step, not the first.",
+          "Check your invoice data first. Then compare quotes on connector, pricing, service levels and exit terms."
+        ],
+        "cap": [
+          "The ASP contract should be the last step, not the first.",
+          "Check invoice data first. Then compare quotes: connector, pricing, service levels, exit terms."
+        ]
+      },
+      {
+        "type": "steps",
+        "label": "How Valorin gets you ready · one window",
+        "vo": [
+          "Valorin handles it from one window: gap assessment, provider quotes, appointment, and E.R.P. integration."
+        ],
+        "cap": [
+          "One window: gap assessment, ASP quotes, appointment, ERP integration."
+        ]
+      },
+      {
+        "type": "cta",
+        "title": "Book your readiness call",
+        "vo": [
+          "WhatsApp us on zero five eight, two seven five, four two eight two.",
+          "General information only. Not legal or tax advice."
+        ],
+        "cap": [
+          "WhatsApp 058-2754282 · advisory@valorin.ae",
+          "General information only, not legal or tax advice."
+        ]
+      }
+    ]
+  }
+}
