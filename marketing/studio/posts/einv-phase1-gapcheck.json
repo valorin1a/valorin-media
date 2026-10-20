@@ -1,0 +1,185 @@
+{
+ "id": "einv-phase1-gapcheck",
+ "status": "Approved: Gate 1 PASS, Gate 2 PASS, 20 Oct 2026",
+ "series": "E-Invoicing Brief",
+ "subline": "UAE e-invoicing · Phase 1",
+ "as_of": "20 Oct 2026",
+ "as_of_iso": "2026-10-20",
+ "voice": "bm_george",
+ "speed": 0.85,
+ "card": {
+  "kicker": "In-scope businesses with revenue of AED 50M or more",
+  "headline": [
+   [
+    "Check the data ",
+    "w"
+   ],
+   [
+    "before you sign",
+    "g"
+   ]
+  ],
+  "box_label": "ASP appointment",
+  "box_value": "30 Oct 2026",
+  "box_note": "Go-live 1 Jan 2027",
+  "tiles": [
+   {
+    "tone": "teal",
+    "label": "This week",
+    "big": "Invoices",
+    "small": "last month's invoices, credit notes and customer TRNs"
+   },
+   {
+    "tone": "bronze",
+    "label": "Next",
+    "big": "ERP path",
+    "small": "how invoices leave the system, who builds the link"
+   },
+   {
+    "tone": "red",
+    "label": "By 30 Oct",
+    "big": "Sign",
+    "small": "with your data questions answered in the contract"
+   }
+  ],
+  "cta_title": "Book a short gap check",
+  "cta_sub": "WhatsApp, or email advisory@valorin.ae"
+ },
+ "steps": [
+  [
+   "Gap assessment",
+   "Invoices, ERP data and processes vs PINT AE"
+  ],
+  [
+   "ASP quotes",
+   "Quotes from accredited ASPs; we recommend the one that fits"
+  ],
+  [
+   "Appointment coordination",
+   "We coordinate appointment and onboarding"
+  ],
+  [
+   "ERP integration",
+   "Oracle, Zoho or Odoo, tested to go-live"
+  ]
+ ],
+ "source": "Source: Ministerial Decision No. 244 of 2025, as amended; Ministry of Finance announcement, 10 May 2026; checked {as_of}.",
+ "disclaimer": "General information only, not legal or tax advice. Valorin is an independent advisory firm, not affiliated with the FTA or MoF. Valorin is not an ASP and provides advisory and coordination only; if an ASP pays Valorin a referral fee, it is disclosed to the client in writing, in our engagement letter, before they choose an ASP. Oracle, Zoho and Odoo are trademarks of their respective owners.",
+ "video": {
+  "scenes": [
+   {
+    "type": "hook",
+    "label": "UAE e-invoicing · Phase 1",
+    "lines": [
+     [
+      [
+       "Not signed",
+       "g"
+      ]
+     ],
+     [
+      [
+       "with a provider",
+       "w"
+      ]
+     ],
+     [
+      [
+       "yet?",
+       "w"
+      ]
+     ]
+    ],
+    "vo": [
+     "Revenue of fifty million dirhams or more, and no e-invoicing provider signed yet?"
+    ],
+    "cap": [
+     "AED 50M+ in revenue and no e-invoicing provider signed yet?"
+    ]
+   },
+   {
+    "type": "fact",
+    "label": "ASP deadline · revenue AED 50M+",
+    "big": "30 Oct 2026",
+    "chips": [
+     [
+      "teal",
+      "Go-live",
+      "1 Jan 2027"
+     ],
+     [
+      "red",
+      "Checked",
+      "{as_of}"
+     ]
+    ],
+    "vo": [
+     "In-scope businesses in that group must appoint an accredited service provider by the thirtieth of October, twenty twenty-six.",
+     "Go-live is the first of January, twenty twenty-seven."
+    ],
+    "cap": [
+     "In-scope businesses with AED 50M+ revenue must appoint an Accredited Service Provider by 30 October 2026.",
+     "Go-live: 1 January 2027. Source on screen."
+    ]
+   },
+   {
+    "type": "insight",
+    "label": "This week's order of work",
+    "head": [
+     [
+      "Check the data ",
+      "w"
+     ],
+     [
+      "before",
+      "g"
+     ],
+     [
+      " you sign.",
+      "w"
+     ]
+    ],
+    "items": [
+     "Last month's invoices and credit notes",
+     "Customer legal names and TRNs",
+     "How invoices leave your ERP",
+     "Questions to providers: connector, rejections, exit terms"
+    ],
+    "vo": [
+     "Use this week for a short gap check.",
+     "Pull last month's invoices and credit notes, and check the customer data behind them.",
+     "Map how invoices leave your E.R.P.",
+     "Put what you find to the providers you're talking to now, and sign by the deadline."
+    ],
+    "cap": [
+     "Use this week for a short gap check.",
+     "Pull last month's invoices and credit notes. Check the customer data behind them.",
+     "Map how invoices leave your ERP.",
+     "Put what you find to the providers you're talking to now. Sign by the deadline."
+    ]
+   },
+   {
+    "type": "steps",
+    "label": "How Valorin helps you prepare · one window",
+    "vo": [
+     "Valorin works as one window: gap assessment, provider quotes, coordination of your provider appointment, and E.R.P. integration through go-live."
+    ],
+    "cap": [
+     "One window: gap assessment, ASP quotes, appointment coordination, ERP integration."
+    ]
+   },
+   {
+    "type": "cta",
+    "title": "Book a short gap check",
+    "vo": [
+     "WhatsApp us on zero five eight, two seven five, four two eight two.",
+     "General information only. Not legal or tax advice."
+    ],
+    "cap": [
+     "WhatsApp 058-2754282 · advisory@valorin.ae",
+     "General information only, not legal or tax advice."
+    ]
+   }
+  ]
+ }
+}

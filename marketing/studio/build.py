@@ -130,7 +130,7 @@ def card_html(p, ctx):
     <div class="hero"><div class="l"><div class="kick">{esc(c['kicker'])}</div><h1>{runs(c['headline'])}</h1></div>
       <div class="box"><div class="bl">{esc(c['box_label'])}</div><div class="bv">{esc(c['box_value'])}</div><div class="bn">{esc(c['box_note'])}</div></div></div>
     <div class="tiles">{tiles}</div>
-    <div class="how"><h2>How Valorin gets you ready</h2><div class="steps">{steps}</div></div>
+    <div class="how"><h2>{esc(p.get('how_title', 'How Valorin helps you prepare'))}</h2><div class="steps">{steps}</div></div>
     <div class="cta"><div><div class="t">{esc(c['cta_title'])}</div><div class="s">{esc(c['cta_sub'])}</div></div>
       <div class="pill">{icon('chat', 32, '#fff')}058-2754282</div></div>
     <div class="disc">{esc(fill(p['source'], ctx))} {esc(p['disclaimer'])}</div>
@@ -165,7 +165,7 @@ def scene_html(s, p, ctx, idx):
         body = f"""<div class="ctab a" {A(0, 'data-fx=zoom')}><div class="ct">{esc(s['title'])}</div>
             <div class="cw">{icon('chat', 64, NAVY, 2.4)}WhatsApp 058-2754282</div>
             <div class="ce">advisory@valorin.ae · www.valorin.ae</div></div>
-          <div class="disc2 a" {A(1)}>{esc(p['disclaimer'])}</div>"""
+          <div class="disc2 a" {A(1)}>{esc(fill(p['source'], ctx))} {esc(p['disclaimer'])}</div>"""
     return f'<div class="scene" id="s{idx}">{body}</div>'
 
 
