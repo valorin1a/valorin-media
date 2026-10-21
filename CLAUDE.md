@@ -74,6 +74,19 @@ Google Business Profile: no hashtags at all (Google does not use them there, and
 listing add risk of implied association without any benefit). The independent-firm line and the disclaimer still
 go in every GBP caption.
 
+## Card and video design (v2, from 21 Oct 2026, user request)
+White, premium layout in the style of the brand announcement cards: logo and tagline top-left, series and date top-right,
+one large figure, the ratio line with a slim progress bar, three facts in columns (change, ASP deadline, penalty) without boxes,
+a "Follow the live UAE e-invoicing tracker" panel with the WhatsApp pill, the source line, and the navy contact footer.
+Video uses the same white theme, keeps text clear of the bottom 460 px and right 150 px (TikTok/Shorts controls), and ends
+on the live-tracker call to action. Key content sits in the centre so 3:4 (IG grid), 1:1 and 4:3 (GBP) crops keep the figure,
+deadline and penalty. Check crops before posting. Keep this design unless the user asks to change it.
+
+## Live tracker
+www.valorin.ae has a live "UAE e-invoicing today" section. Every caption should point to it once, e.g.
+"Live UAE e-invoicing tracker: www.valorin.ae". Use UTM links where the network shows clickable links
+(https://www.valorin.ae/?utm_source=<network>&utm_medium=social&utm_campaign=peppol-pulse).
+
 ## Voice
 Default LibriTTS speaker id: 92 (male, chosen by the user as option B). Other shortlisted options: 200 (male), 60 (female), 880 (female).
 The voice gets a clarity chain in audio.py (CLARITY: low cut, boxiness cut, 3 kHz presence lift, gentle compression) and a normal pace (length-scale 1.0). Keep these unless the user asks to change them.

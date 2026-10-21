@@ -31,7 +31,7 @@ function words(n) {
 
 // ---- deadline ----
 const milestones = [
-  ['2026-10-30', 'to the Phase 1 ASP appointment deadline (30 Oct 2026)', 'left for Phase 1 businesses to appoint an accredited service provider'],
+  ['2026-10-30', 'to appoint an ASP (Phase 1), 30 Oct 2026', 'left for Phase 1 businesses to appoint an accredited service provider'],
   ['2027-01-01', 'to Phase 1 mandatory go-live (1 Jan 2027)', 'until mandatory e-invoicing goes live for Phase 1 businesses'],
   ['2027-03-31', 'to the Phase 2 ASP appointment deadline (31 Mar 2027)', 'left for Phase 2 businesses to appoint an accredited service provider'],
   ['2027-07-01', 'to Phase 2 mandatory go-live (1 Jul 2027)', 'until mandatory e-invoicing goes live for Phase 2 businesses'],
@@ -43,7 +43,7 @@ for (const [ms, lbl, say] of milestones) {
 }
 
 // ---- delta ----
-let delta = fmt(reg), deltaLbl = 'UAE entities listed so far: our first Pulse reading', deltaSay = '';
+let deltaTag = 'FIRST READING', delta = fmt(reg), deltaLbl = 'UAE entities listed so far: our first Pulse reading', deltaSay = '';
 if (data.previousRegistered) {
   const dd = reg - data.previousRegistered;
   const pd = new Date(data.previousDate + 'T00:00:00Z');
@@ -51,23 +51,29 @@ if (data.previousRegistered) {
   const chg = `${dd >= 0 ? '+' : '−'}${Math.abs(dd / data.previousRegistered * 100).toFixed(1)}%`;
   delta = (dd >= 0 ? '+' : '−') + fmt(Math.abs(dd));
   deltaLbl = gap <= 0 ? `new listings since our earlier update today (${chg})`
-    : `new listings in ${gap} day${gap === 1 ? '' : 's'} (${chg}) since ${pd.getUTCDate()} ${MONP[pd.getUTCMonth()]}`;
+    : `new listings in ${gap} day${gap === 1 ? '' : 's'} (${chg})`;
+  deltaTag = gap <= 0 ? 'SINCE THIS MORNING' : `SINCE ${pd.getUTCDate()} ${MON[pd.getUTCMonth()]}`;
   if (dd > 0) deltaSay = `${words(dd)} new listings ${gap <= 0 ? 'since our earlier update today' : gap === 1 ? 'since yesterday' : 'in the last ' + words(gap) + ' days'}. `;
 }
 
-const ratioTxt = pct < 1 ? 'Fewer than 1 in 100' : `Only about 1 in ${Math.round(total / reg)}`;
-const ratioSay = pct < 1 ? 'That is fewer than one in a hundred UAE companies.' : `That is only about one in ${words(Math.round(total / reg))} UAE companies.`;
+const ratioTxt = pct < 1 ? "Fewer than <em>1 in 100</em> of the UAE's 1.4M+ companies"
+  : pct < 1.5 ? "About <em>1 in 100</em> of the UAE's 1.4M+ companies"
+  : `About <em>1 in ${Math.round(total / reg)}</em> of the UAE's 1.4M+ companies`;
+const ratioSay = pct < 1 ? 'That is fewer than one in a hundred UAE companies.'
+  : pct < 1.5 ? 'That is about one in a hundred UAE companies.'
+  : `That is about one in ${words(Math.round(total / reg))} UAE companies.`;
+const hook = dsay ? `<em>${days} days</em> to the Phase&nbsp;1 ASP deadline` : 'Is your company on Peppol yet?';
 const segments = [
-  'UAE e-invoicing alert. Is your company on Peppol yet?',
+  dsay ? `UAE e-invoicing update. ${words(days)} days to the Phase 1 deadline.` : 'UAE e-invoicing update. Is your company on Peppol yet?',
   `As of ${d.getUTCDate()} ${MONF[d.getUTCMonth()]}, ${words(reg)} UAE entities are listed in the Peppol Directory. ${ratioSay}`,
-  deltaSay + (dsay ? `${words(days)} days ${dsay}. Missing the deadline can cost five thousand dirhams a month.` : 'Mandatory e-invoicing is now live. Penalties can reach five thousand dirhams a month.'),
-  'Valorin can help, from gap assessment to A S P selection and Oracle integration. Message us on WhatsApp, or email advisory at valorin dot A E.',
+  deltaSay + (dsay ? `${words(days)} days ${dsay}. For in-scope businesses, missing it can cost five thousand dirhams a month.` : 'Mandatory e-invoicing is now live. For in-scope businesses, penalties can reach five thousand dirhams a month.'),
+  'Valorin can help, from gap assessment to A S P selection and Oracle integration. Follow the live tracker at valorin dot A E, or message us on WhatsApp.',
 ];
 
 const vals = {
   DATE: `${d.getUTCDate()} ${MON[d.getUTCMonth()]} ${d.getUTCFullYear()}`,
   DATEPLAIN: `${d.getUTCDate()} ${MONP[d.getUTCMonth()]} ${d.getUTCFullYear()}`,
-  RATIO: ratioTxt, DELTA: delta, DELTALBL: deltaLbl, DAYS: days, DLBL: dlbl,
+  RATIO: ratioTxt, HOOK: hook, DELTATAG: deltaTag, DELTA: delta, DELTALBL: deltaLbl, DAYS: days, DLBL: dlbl,
   TOTAL: 15, REGNUM: reg,
 };
 let html = fs.readFileSync(path.join(__dirname, 'video.html'), 'utf8');

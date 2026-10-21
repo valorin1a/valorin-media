@@ -15,10 +15,10 @@ const total = data.totalCompanies || 1400000;
 const pct = (reg / total) * 100;
 
 const milestones = [
-  ['2026-10-30', 'to the Phase 1 ASP appointment deadline (30 Oct 2026)'],
-  ['2027-01-01', 'to Phase 1 mandatory go-live (1 Jan 2027)'],
-  ['2027-03-31', 'to the Phase 2 ASP appointment deadline (31 Mar 2027)'],
-  ['2027-07-01', 'to Phase 2 mandatory go-live (1 Jul 2027)'],
+  ['2026-10-30', 'to appoint an ASP (Phase&nbsp;1), 30&nbsp;Oct&nbsp;2026'],
+  ['2027-01-01', 'to Phase 1 go-live, 1 Jan 2027'],
+  ['2027-03-31', 'to appoint an ASP, Phase 2, 31 Mar 2027'],
+  ['2027-07-01', 'to Phase 2 go-live, 1 Jul 2027'],
 ];
 let days = 0, dlbl = 'All business phases are now live';
 for (const [ms, lbl] of milestones) {
@@ -32,12 +32,12 @@ if (data.previousRegistered) {
   const pd = new Date(data.previousDate + 'T00:00:00Z');
   const gap = Math.round((d - pd) / 86400000);
   const chg = (delta / data.previousRegistered) * 100;
-  t1tag = 'SINCE LAST UPDATE';
+  t1tag = gap <= 0 ? 'SINCE THIS MORNING' : `SINCE ${pd.getUTCDate()} ${MON[pd.getUTCMonth()]}`;
   t1num = (delta >= 0 ? '+' : '−') + fmt(Math.abs(delta));
   const chgTxt = `${chg >= 0 ? '+' : '−'}${Math.abs(chg).toFixed(1)}%`;
   t1lbl = gap <= 0
     ? `new listings since our earlier update today (${chgTxt})`
-    : `new listings in ${gap} day${gap === 1 ? '' : 's'} (${chgTxt}) since ${pd.getUTCDate()} ${MONP[pd.getUTCMonth()]}`;
+    : `new listings in ${gap} day${gap === 1 ? '' : 's'} (${chgTxt})`;
 }
 
 const blocks = 50;
@@ -55,8 +55,11 @@ const vals = {
   DATEPLAIN: `${d.getUTCDate()} ${MONP[d.getUTCMonth()]} ${d.getUTCFullYear()}`,
   KICKER: 'UAE ENTITIES LISTED IN THE PEPPOL DIRECTORY SO FAR',
   REG: fmt(reg),
-  PCT: pct < 1 ? 'Under 1%' : pct.toFixed(1) + '%',
-  RATIO: pct < 1 ? 'Fewer than 1 in 100' : `Only about 1 in ${Math.round(total / reg)}`,
+  PCT: pct < 1 ? 'Under 1%' : pct < 1.5 ? 'About 1%' : 'About ' + pct.toFixed(1) + '%',
+  RATIO: pct < 1 ? "Fewer than <b>1 in 100</b> of the UAE's 1.4M+ companies"
+       : pct < 1.5 ? "About <b>1 in 100</b> of the UAE's 1.4M+ companies"
+       : `About <b>1 in ${Math.round(total / reg)}</b> of the UAE's 1.4M+ companies`,
+  BARW: Math.max(pct, 0.5).toFixed(2) + '%',
   DOTS: dots,
   T1TAG: t1tag, T1NUM: t1num, T1LBL: t1lbl,
   DAYS: days, DLBL: dlbl,
