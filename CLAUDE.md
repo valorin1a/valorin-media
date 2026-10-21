@@ -25,7 +25,7 @@ credentials, account IDs, client data or anything private. Account IDs live in t
    (type publication), Pinterest (board "UAE E-Invoicing Tracker", link https://www.valorin.ae); video → YouTube
    (type short, madeForKids false, category EDUCATION) and TikTok (commercialContentOwnBrand true).
    YouTube description must end with: "Voiceover: synthetic voice (Kokoro-82M TTS, Apache 2.0). Music: original."
-   Video length follows the voiceover (about 35-42 s at speed 0.85).
+   Video length follows the voiceover (about 50 s at speed 0.85).
 7. Append a row to the Google Sheet "Peppol Pulse Log". Give the user LinkedIn and X captions.
 
 ## Rules (summary – full rules in the Drive playbook)
@@ -74,15 +74,16 @@ Google Business Profile: no hashtags at all (Google does not use them there, and
 listing add risk of implied association without any benefit). The independent-firm line and the disclaimer still
 go in every GBP caption.
 
-## Card and video design (v3, from 21 Oct 2026, user request)
+## Card design (v3, from 21 Oct 2026, user request) and video
 Premium report style, modelled on the brand announcement cards: white page, quiet ivory diagonal top-right, logo and tagline
 top-left, kicker "PEPPOL PULSE · <date>" with a short gold rule, the figure in Roboto 500 (not heavy condensed), one
 descriptor line and the "1 in 100" line, three facts in columns (change, ASP deadline in red, penalty), a hairline
 "Live UAE e-invoicing tracker → www.valorin.ae" row, the source line, and the navy contact footer.
 Rules: each fact appears once (the phone number only in the footer); no progress bar; one accent colour (red, deadline only).
-Video uses the same white theme and type, keeps text clear of the bottom 460 px and right 150 px (TikTok/Shorts controls),
-never animates the figure (no count-up: a paused frame or thumbnail must never show a wrong number), and ends on the
-live-tracker call to action. Key content sits in the centre so 3:4 (IG grid), 1:1 and 4:3 (GBP) crops keep the figure,
+Video: keep the original animated navy design (tools/video.html as of 19 Oct 2026, count-up included; user decision
+21 Oct 2026: change only the voice). Set the TikTok/YouTube cover with videoCoverMilliseconds to a frame near the end of
+the figure scene, so the thumbnail shows the full figure, not a partial count.
+Key content sits in the centre so 3:4 (IG grid), 1:1 and 4:3 (GBP) crops keep the figure,
 deadline and penalty. Check crops before posting. Keep this design unless the user asks to change it.
 
 ## Live tracker
