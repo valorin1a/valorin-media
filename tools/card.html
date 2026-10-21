@@ -54,6 +54,20 @@ main{position:relative;flex:1;padding:0 72px;display:flex;flex-direction:column}
 .ftr{flex:none;height:92px;background:var(--navy2);border-top:4px solid var(--gold);color:#fff;padding:0 60px;display:flex;align-items:center;justify-content:space-between;font-size:22px;font-weight:400}
 .ftr span{display:flex;align-items:center;gap:11px}
 .sep{width:1px;height:30px;background:#34506D}
+/* size variants: same content and footer; the logo header is dropped as in the platform crops */
+.card.square{height:1080px}
+.card.landscape{width:1440px;height:1080px}
+.card.square .top,.card.landscape .top,.card.square .facet2,.card.landscape .facet2{display:none}
+.card.square .kicker,.card.landscape .kicker{margin-top:56px}
+.card.square .hr{margin-top:40px}
+.card.square .stats{margin-top:32px}
+.card.square .cta{margin-bottom:22px;padding:22px 0}
+.card.square .src{padding-bottom:20px;font-size:14.5px}
+.card.landscape main,.card.landscape .src{padding-left:96px;padding-right:96px}
+.card.landscape .big{font-size:236px}
+.card.landscape .stat{padding:0 44px}
+.card.landscape .stat:first-child{padding-left:0}
+.card.landscape .ftr{padding:0 96px}
 </style>
 </head>
 <body>

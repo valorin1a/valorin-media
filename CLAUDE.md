@@ -83,8 +83,10 @@ Rules: each fact appears once (the phone number only in the footer); no progress
 Video: keep the original animated navy design (tools/video.html as of 19 Oct 2026, count-up included; user decision
 21 Oct 2026: change only the voice). Set the TikTok/YouTube cover with videoCoverMilliseconds to a frame near the end of
 the figure scene, so the thumbnail shows the full figure, not a partial count.
-Key content sits in the centre so 3:4 (IG grid), 1:1 and 4:3 (GBP) crops keep the figure,
-deadline and penalty. Check crops before posting. Keep this design unless the user asks to change it.
+Sizes (same content, same navy footer on every size; user decision 21 Oct 2026): `node render.js data.json.local <out> [feed|square|landscape]`
+-> card.png 1080x1350 (Instagram, Facebook, LinkedIn, Pinterest), card-landscape.png 1440x1080 (Google Business Profile),
+card-square.png 1080x1080 (spare, e.g. X). Square and landscape drop the logo header, as in the platform crops the user approved.
+Key content sits in the centre so the IG grid crop keeps the figure, deadline and penalty. Check crops before posting. Keep this design unless the user asks to change it.
 
 ## Live tracker
 www.valorin.ae has a live "UAE e-invoicing today" section. Every caption should point to it once, e.g.

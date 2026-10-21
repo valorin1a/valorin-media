@@ -6,6 +6,8 @@ const { chromium } = require('playwright');
 
 const data = JSON.parse(fs.readFileSync(process.argv[2], 'utf8'));
 const out = path.resolve(process.argv[3] || 'card.png');
+const SIZE = process.argv[4] || 'feed';   // feed 1080x1350 | square 1080x1080 | landscape 1440x1080
+const DIM = { feed: [1080, 1350], square: [1080, 1080], landscape: [1440, 1080] }[SIZE];
 const fmt = (n) => Math.round(n).toLocaleString('en-US');
 const MON = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
 const MONP = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
@@ -67,12 +69,13 @@ const vals = {
 
 let html = fs.readFileSync(path.join(__dirname, 'card.html'), 'utf8');
 for (const [k, v] of Object.entries(vals)) html = html.split(`{{${k}}}`).join(String(v));
+if (SIZE !== 'feed') html = html.replace('<div class="card">', `<div class="card ${SIZE}">`);
 const tmp = path.join(__dirname, '_filled.html');
 fs.writeFileSync(tmp, html);
 
 (async () => {
   const browser = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell' });
-  const page = await browser.newPage({ viewport: { width: 1080, height: 1350 }, deviceScaleFactor: 1 });
+  const page = await browser.newPage({ viewport: { width: DIM[0], height: DIM[1] }, deviceScaleFactor: 1 });
   await page.goto('file://' + tmp);
   await page.evaluate(() => document.fonts.ready);
   await page.waitForTimeout(300);
