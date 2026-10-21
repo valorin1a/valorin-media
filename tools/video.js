@@ -53,21 +53,23 @@ if (data.previousRegistered) {
   deltaLbl = gap <= 0 ? `new listings since our earlier update today (${chg})`
     : `new listings in ${gap} day${gap === 1 ? '' : 's'} (${chg})`;
   deltaTag = gap <= 0 ? 'SINCE THIS MORNING' : `SINCE ${pd.getUTCDate()} ${MON[pd.getUTCMonth()]}`;
-  if (dd > 0) deltaSay = `${words(dd)} new listings ${gap <= 0 ? 'since our earlier update today' : gap === 1 ? 'since yesterday' : 'in the last ' + words(gap) + ' days'}. `;
+  if (dd > 0) deltaSay = `That's ${words(dd)} more ${gap <= 0 ? 'since this morning' : gap === 1 ? 'since yesterday' : 'in ' + words(gap) + ' days'}. `;
 }
 
 const ratioTxt = pct < 1 ? "Fewer than <em>1 in 100</em> of the UAE's 1.4M+ companies"
   : pct < 1.5 ? "About <em>1 in 100</em> of the UAE's 1.4M+ companies"
   : `About <em>1 in ${Math.round(total / reg)}</em> of the UAE's 1.4M+ companies`;
-const ratioSay = pct < 1 ? 'That is fewer than one in a hundred UAE companies.'
-  : pct < 1.5 ? 'That is about one in a hundred UAE companies.'
-  : `That is about one in ${words(Math.round(total / reg))} UAE companies.`;
+const ratioSay = pct < 1 ? 'Fewer than one in a hundred UAE companies.'
+  : pct < 1.5 ? 'About one in a hundred UAE companies.'
+  : `About one in ${words(Math.round(total / reg))} UAE companies.`;
 const hook = dsay ? `<em>${days} days</em> to the Phase&nbsp;1 ASP deadline` : 'Is your company on Peppol yet?';
+const dl = new Date(milestones.find(m => m[2] === dsay)?.[0] + 'T00:00:00Z');
+const dlSay = dsay ? `${dl.getUTCDate()} ${MONF[dl.getUTCMonth()]}` : '';
 const segments = [
-  dsay ? `UAE e-invoicing update. ${words(days)} days to the Phase 1 deadline.` : 'UAE e-invoicing update. Is your company on Peppol yet?',
+  dsay ? `UAE e-invoicing update. ${words(days)} days to the Phase 1 deadline, on ${dlSay}.` : 'UAE e-invoicing update. Is your company on Peppol yet?',
   `As of ${d.getUTCDate()} ${MONF[d.getUTCMonth()]}, ${words(reg)} UAE entities are listed in the Peppol Directory. ${ratioSay}`,
-  deltaSay + (dsay ? `${words(days)} days ${dsay}. For in-scope businesses, missing it can cost five thousand dirhams a month.` : 'Mandatory e-invoicing is now live. For in-scope businesses, penalties can reach five thousand dirhams a month.'),
-  'Valorin can help, from gap assessment to A S P selection and Oracle integration. Follow the live tracker at valorin dot A E, or message us on WhatsApp.',
+  (deltaSay ? deltaSay : '') + (dsay ? 'For in-scope businesses, missing the provider deadline can cost five thousand dirhams a month.' : 'For in-scope businesses, penalties can reach five thousand dirhams a month.'),
+  'Follow the live tracker at valorin dot A E. Or message Valorin on WhatsApp.',
 ];
 
 const vals = {

@@ -51,8 +51,34 @@ def clarify(path):
     os.replace(tmp, path)
 
 
+# Kokoro voice, identical to the Valorin Marketing studio (marketing/studio/build.py):
+# Kokoro-82M int8, voice bm_george, speed 0.85, British English, high-pass at 70 Hz.
+KOKORO_CHAIN = 'highpass=f=70'
+
+
+def voice_kokoro(kdir, name, speed, segfile, outdir):
+    from kokoro_onnx import Kokoro
+    import soundfile as sf
+    k = Kokoro(os.path.join(kdir, 'kokoro.onnx'), os.path.join(kdir, 'voices.bin'))
+    segs = json.load(open(segfile))
+    durs = []
+    for i, text in enumerate(segs):
+        audio, sr = k.create(text, voice=name, speed=float(speed), lang='en-gb')
+        raw = os.path.join(outdir, f'seg_{i}.raw.wav')
+        out = os.path.join(outdir, f'seg_{i}.wav')
+        sf.write(raw, audio, sr, subtype='PCM_16')
+        subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', raw, '-af', KOKORO_CHAIN, '-ar', str(SR), out], check=True)
+        os.remove(raw)
+        durs.append(LEAD + len(read_wav(out)) / SR + TAIL)
+    json.dump({'durations': durs}, open(os.path.join(outdir, 'timing.json'), 'w'))
+    print(json.dumps({'durations': durs, 'total': sum(durs)}))
+
+
 def voice(model, speaker, segfile, outdir):
     os.makedirs(outdir, exist_ok=True)
+    if model.startswith('kokoro:'):
+        name, _, speed = str(speaker).partition('@')
+        return voice_kokoro(model[len('kokoro:'):], name, speed or 0.85, segfile, outdir)
     segs = json.load(open(segfile))
     durs = []
     for i, text in enumerate(segs):
