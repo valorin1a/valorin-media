@@ -54,20 +54,63 @@ main{position:relative;flex:1;padding:0 72px;display:flex;flex-direction:column}
 .ftr{flex:none;height:92px;background:var(--navy2);border-top:4px solid var(--gold);color:#fff;padding:0 60px;display:flex;align-items:center;justify-content:space-between;font-size:22px;font-weight:400}
 .ftr span{display:flex;align-items:center;gap:11px}
 .sep{width:1px;height:30px;background:#34506D}
-/* size variants: same content and footer; the logo header is dropped as in the platform crops */
+/* size variants: same header, content and footer on every size */
+.card.pinterest{height:1620px}
+.card.pinterest .kicker{margin-top:150px}
+.card.pinterest .hr{margin-top:90px}
+.card.pinterest .stats{margin-top:60px}
 .card.square{height:1080px}
 .card.landscape{width:1440px;height:1080px}
-.card.square .top,.card.landscape .top,.card.square .facet2,.card.landscape .facet2{display:none}
-.card.square .kicker,.card.landscape .kicker{margin-top:56px}
-.card.square .hr{margin-top:40px}
-.card.square .stats{margin-top:32px}
-.card.square .cta{margin-bottom:22px;padding:22px 0}
-.card.square .src{padding-bottom:20px;font-size:14.5px}
-.card.landscape main,.card.landscape .src{padding-left:96px;padding-right:96px}
-.card.landscape .big{font-size:236px}
+.card.square .facet,.card.square .facet2,.card.landscape .facet,.card.landscape .facet2{height:440px}
+.card.square .top,.card.landscape .top{padding-top:48px}
+.card.square .brand img,.card.landscape .brand img{height:56px}
+.card.square .tagline,.card.landscape .tagline{margin-top:10px;font-size:18px}
+.card.square .kicker,.card.landscape .kicker{margin-top:34px;font-size:19px}
+.card.square .rule,.card.landscape .rule{margin-top:14px}
+.card.square .big,.card.landscape .big{margin-top:16px;font-size:150px}
+.card.square .desc,.card.landscape .desc{margin-top:16px;font-size:31px}
+.card.square .ctx,.card.landscape .ctx{margin-top:6px;font-size:24px}
+.card.square .hr,.card.landscape .hr{margin-top:28px}
+.card.square .stats,.card.landscape .stats{margin-top:24px}
+.card.square .stat .k,.card.landscape .stat .k{font-size:16px}
+.card.square .stat .n,.card.landscape .stat .n{margin-top:10px;font-size:52px}
+.card.square .stat .n small,.card.landscape .stat .n small{font-size:24px}
+.card.square .stat .l,.card.landscape .stat .l{margin-top:8px;font-size:18px}
+.card.square .cta,.card.landscape .cta{margin-bottom:16px;padding:14px 0}
+.card.square .cta .h,.card.landscape .cta .h{font-size:17px}
+.card.square .cta .d,.card.landscape .cta .d{margin-top:6px;font-size:21px}
+.card.square .go,.card.landscape .go{font-size:25px}
+.card.square .src,.card.landscape .src{padding-bottom:14px;font-size:13px;line-height:1.4}
+.card.landscape main,.card.landscape .src,.card.landscape .top{padding-left:96px;padding-right:96px}
 .card.landscape .stat{padding:0 44px}
 .card.landscape .stat:first-child{padding-left:0}
 .card.landscape .ftr{padding:0 96px}
+/* X / Twitter 16:9: two columns (figure left, facts right), same header and footer */
+.card.wide{width:1600px;height:900px}
+.card.wide .facet,.card.wide .facet2{height:400px;width:380px}
+.card.wide .top{padding:44px 88px 0}
+.card.wide .brand img{height:54px}
+.card.wide .tagline{margin-top:8px;font-size:18px}
+.card.wide main{padding:0 88px;display:grid;grid-template-columns:1.15fr 1fr;grid-template-rows:repeat(5,auto) 1fr auto;column-gap:72px}
+.card.wide .kicker{grid-column:1;margin-top:34px;font-size:19px}
+.card.wide .rule{grid-column:1;margin-top:14px}
+.card.wide .big{grid-column:1;margin-top:26px;font-size:200px}
+.card.wide .desc{grid-column:1;margin-top:24px;font-size:34px}
+.card.wide .ctx{grid-column:1;margin-top:6px;font-size:24px}
+.card.wide .hr{display:none}
+.card.wide .stats{grid-column:2;grid-row:1 / 7;align-self:center;margin-top:20px;grid-template-columns:1fr;row-gap:22px}
+.card.wide .stat{padding:0 0 0 30px;border-left:1px solid var(--line)}
+.card.wide .stat:first-child{padding-left:30px;border-left:1px solid var(--line)}
+.card.wide .stat .k{font-size:15px}
+.card.wide .stat .n{margin-top:6px;font-size:46px}
+.card.wide .stat .n small{font-size:22px}
+.card.wide .stat .l{margin-top:4px;font-size:17px}
+.card.wide .cta{grid-column:1 / span 2;grid-row:7;margin:22px 0 12px;padding:12px 0}
+.card.wide .cta .h{font-size:15px}
+.card.wide .cta .d{margin-top:4px;font-size:19px}
+.card.wide .go{font-size:23px}
+.card.wide .src{padding:0 88px 12px;font-size:12px;line-height:1.35}
+.card.wide .ftr{height:76px;padding:0 88px;font-size:20px}
 </style>
 </head>
 <body>

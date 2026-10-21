@@ -20,12 +20,12 @@ credentials, account IDs, client data or anything private. Account IDs live in t
    If two updates fall on one day, use folder `YYYY-MM-DD-2`.
 4. Append the reading to `data/pulse.csv` with the `angle` and `opening` columns filled in, commit as Claude <noreply@anthropic.com>, push to `main`.
 5. Media URLs for Metricool:
-   `https://raw.githubusercontent.com/valorin1a/valorin-media/main/media/<folder>/card.png` and `.../video.mp4`.
+   `https://raw.githubusercontent.com/valorin1a/valorin-media/main/media/<folder>/<file>` (files listed in the design section).
 6. Schedule in Metricool at the times in "Posting times" below (one post per network, own caption): card → Instagram, Facebook, Google Business Profile
    (type publication), Pinterest (board "UAE E-Invoicing Tracker", link https://www.valorin.ae); video → YouTube
    (type short, madeForKids false, category EDUCATION) and TikTok (commercialContentOwnBrand true).
    YouTube description must end with: "Voiceover: synthetic voice (Kokoro-82M TTS, Apache 2.0). Music: original."
-   Video length follows the voiceover (about 50 s at speed 0.85).
+   Video length follows the voiceover (about 40 s at speed 0.85).
 7. Append a row to the Google Sheet "Peppol Pulse Log". Give the user LinkedIn and X captions.
 
 ## Rules (summary – full rules in the Drive playbook)
@@ -74,19 +74,25 @@ Google Business Profile: no hashtags at all (Google does not use them there, and
 listing add risk of implied association without any benefit). The independent-firm line and the disclaimer still
 go in every GBP caption.
 
-## Card design (v3, from 21 Oct 2026, user request) and video
-Premium report style, modelled on the brand announcement cards: white page, quiet ivory diagonal top-right, logo and tagline
-top-left, kicker "PEPPOL PULSE · <date>" with a short gold rule, the figure in Roboto 500 (not heavy condensed), one
-descriptor line and the "1 in 100" line, three facts in columns (change, ASP deadline in red, penalty), a hairline
-"Live UAE e-invoicing tracker → www.valorin.ae" row, the source line, and the navy contact footer.
-Rules: each fact appears once (the phone number only in the footer); no progress bar; one accent colour (red, deadline only).
-Video: keep the original animated navy design (tools/video.html as of 19 Oct 2026, count-up included; user decision
-21 Oct 2026: change only the voice). Set the TikTok/YouTube cover with videoCoverMilliseconds to a frame near the end of
-the figure scene, so the thumbnail shows the full figure, not a partial count.
-Sizes (same content, same navy footer on every size; user decision 21 Oct 2026): `node render.js data.json.local <out> [feed|square|landscape]`
--> card.png 1080x1350 (Instagram, Facebook, LinkedIn, Pinterest), card-landscape.png 1440x1080 (Google Business Profile),
-card-square.png 1080x1080 (spare, e.g. X). Square and landscape drop the logo header, as in the platform crops the user approved.
-Key content sits in the centre so the IG grid crop keeps the figure, deadline and penalty. Check crops before posting. Keep this design unless the user asks to change it.
+## Card and video design (LOCKED by the user, 21 Oct 2026; do not change unless the user asks)
+Premium report style: white page, quiet ivory diagonal top-right, the SAME header (logo + "Finance with Integrity. Growth
+with Insight.") and the SAME navy contact footer (Dubai, UAE · www.valorin.ae · advisory@valorin.ae · 058-2754282) on every
+card and every video frame. Content: kicker "PEPPOL PULSE · <date>" with a short gold rule, the figure in Roboto 500,
+one descriptor line and the "1 in 100" line, three facts (change, ASP deadline in red, penalty), a hairline
+"Live UAE e-invoicing tracker → www.valorin.ae" row and the source line. Each fact appears once; one accent colour (red).
+
+Render every size for each reading (`node render.js data.json.local <out> <size>`), into media/<folder>/:
+| File | Size | Networks |
+|---|---|---|
+| card.png | feed 1080x1350 (4:5) | Instagram, Facebook, LinkedIn |
+| card-pinterest.png | pinterest 1080x1620 (2:3) | Pinterest |
+| card-landscape.png | landscape 1440x1080 (4:3) | Google Business Profile |
+| card-x.png | wide 1600x900 (16:9, two columns) | X |
+| video.mp4 | 1080x1920 (9:16) | TikTok, YouTube Shorts |
+Video: same white card style with element fade-ins and the count-up animation, George voice (see Voice).
+Header sits just below the top 250 px and the footer row just above the bottom 350 px (app UI zones); the navy footer
+band runs to the bottom edge. Always set videoCoverMilliseconds on TikTok/YouTube to a frame near the end of the figure
+scene so the thumbnail shows the full figure, not a partial count. Look at every size before posting.
 
 ## Live tracker
 www.valorin.ae has a live "UAE e-invoicing today" section. Every caption should point to it once, e.g.

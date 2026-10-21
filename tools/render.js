@@ -6,8 +6,8 @@ const { chromium } = require('playwright');
 
 const data = JSON.parse(fs.readFileSync(process.argv[2], 'utf8'));
 const out = path.resolve(process.argv[3] || 'card.png');
-const SIZE = process.argv[4] || 'feed';   // feed 1080x1350 | square 1080x1080 | landscape 1440x1080
-const DIM = { feed: [1080, 1350], square: [1080, 1080], landscape: [1440, 1080] }[SIZE];
+const SIZE = process.argv[4] || 'feed';   // feed 1080x1350 | pinterest 1080x1620 | square 1080x1080 | landscape 1440x1080 | wide 1600x900
+const DIM = { feed: [1080, 1350], pinterest: [1080, 1620], square: [1080, 1080], landscape: [1440, 1080], wide: [1600, 900] }[SIZE];
 const fmt = (n) => Math.round(n).toLocaleString('en-US');
 const MON = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
 const MONP = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];

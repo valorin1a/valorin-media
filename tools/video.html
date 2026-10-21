@@ -4,69 +4,83 @@
 <meta charset="utf-8">
 <title>Valorin Peppol Pulse video</title>
 <style>
+@font-face{font-family:"RC";font-weight:600;src:url(node_modules/@fontsource/roboto-condensed/files/roboto-condensed-latin-600-normal.woff2)}
+@font-face{font-family:"RB";font-weight:300;src:url(node_modules/@fontsource/roboto/files/roboto-latin-300-normal.woff2)}
+@font-face{font-family:"RB";font-style:italic;font-weight:400;src:url(node_modules/@fontsource/roboto/files/roboto-latin-400-italic.woff2)}
 @font-face{font-family:"RC";font-weight:700;src:url(node_modules/@fontsource/roboto-condensed/files/roboto-condensed-latin-700-normal.woff2)}
 @font-face{font-family:"RC";font-weight:800;src:url(node_modules/@fontsource/roboto-condensed/files/roboto-condensed-latin-800-normal.woff2)}
 @font-face{font-family:"RC";font-weight:900;src:url(node_modules/@fontsource/roboto-condensed/files/roboto-condensed-latin-900-normal.woff2)}
 @font-face{font-family:"RB";font-weight:400;src:url(node_modules/@fontsource/roboto/files/roboto-latin-400-normal.woff2)}
 @font-face{font-family:"RB";font-weight:500;src:url(node_modules/@fontsource/roboto/files/roboto-latin-500-normal.woff2)}
 @font-face{font-family:"RB";font-weight:700;src:url(node_modules/@fontsource/roboto/files/roboto-latin-700-normal.woff2)}
-:root{--navy:#13283D;--navy2:#0E1F31;--gold:#B29A74;--gold2:#D6C29A;--ivory:#F6F2EA;--red:#E05252;--amber:#E0A040;--teal:#3FB8AE;--mut:#C3CCD6}
+:root{--navy:#13283D;--navy2:#0E1F31;--gold:#B29A74;--gold2:#D6C29A;--goldT:#7A6545;--ivory:#F6F2EA;--line:#E6DFD2;--ink:#3E4A57;--mut:#6A6F76;--red:#B3261E;--teal:#0F6E68}
 *{box-sizing:border-box}
-html,body{margin:0;background:#000}
-.v{position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--navy);color:#fff;font-family:"RB",sans-serif}
+html,body{margin:0;background:#fff}
+.v{position:relative;width:1080px;height:1920px;overflow:hidden;background:#fff;color:var(--navy);font-family:"RB",sans-serif}
 .c{font-family:"RC",sans-serif}
-.top{position:absolute;left:0;right:0;top:0;height:250px;background:#fff;display:flex;align-items:flex-end;justify-content:center;padding-bottom:38px;border-bottom:8px solid var(--gold)}
-.top img{height:96px}
-.scene{position:absolute;left:80px;right:80px;top:330px;bottom:420px;display:flex;flex-direction:column;justify-content:center;gap:34px}
+.facet{position:absolute;top:0;right:0;width:430px;height:760px;background:var(--ivory);clip-path:polygon(40% 0,100% 0,100% 100%)}
+.facet2{position:absolute;top:0;right:0;width:430px;height:760px;background:#EFE8DA;clip-path:polygon(78% 0,100% 0,100% 46%)}
+.top{position:absolute;left:72px;right:72px;top:250px}
+.top img{height:68px;display:block}
+.top .tg{margin-top:14px;font-style:italic;font-weight:400;font-size:21px;letter-spacing:.01em;color:var(--goldT)}
+.top .rl{width:84px;height:3px;background:var(--gold);margin-top:18px}
+.scene{position:absolute;left:72px;right:150px;top:440px;bottom:470px;display:flex;flex-direction:column;justify-content:center;gap:34px}
 .el{will-change:opacity,transform}
-.k{font-weight:800;font-size:40px;letter-spacing:.14em;color:var(--gold2)}
-.h1{font-weight:900;font-size:128px;line-height:.95;text-transform:uppercase}
-.h1 em{font-style:normal;color:var(--gold2)}
-.pulse{display:flex;align-items:center;gap:20px;font-weight:900;font-size:64px;color:#fff}
-.sub{font-size:40px;line-height:1.35;color:var(--mut)}
-.num{font-weight:900;font-size:250px;line-height:.85;color:var(--gold2);letter-spacing:-.01em}
-.vs{display:flex;align-items:baseline;gap:22px;font-weight:900;font-size:96px}
-.vs small{font-family:"RB";font-weight:500;font-size:40px;color:var(--mut)}
-.big2{font-weight:900;font-size:84px;line-height:1.02;text-transform:uppercase}
-.big2 em{font-style:normal;color:var(--gold2)}
-.stat{border-left:12px solid var(--cc);padding:10px 0 10px 34px;display:flex;flex-direction:column;gap:6px}
-.stat .n{font-weight:900;font-size:120px;line-height:.95;color:var(--cc)}
-.stat .n small{font-size:58px}
-.stat .l{font-size:40px;line-height:1.3;color:#E6EBF0}
-.svc{display:flex;gap:28px;align-items:center}
-.svc .i{flex:none;width:96px;height:96px;border-radius:22px;background:var(--gold);color:var(--navy);display:flex;align-items:center;justify-content:center;font-weight:900;font-size:56px}
-.svc .t{font-weight:800;font-size:58px;line-height:1.05}
-.svc .t small{display:block;font-family:"RB";font-weight:400;font-size:34px;color:var(--mut);margin-top:6px}
-.cta{background:var(--gold);color:var(--navy);border-radius:28px;padding:34px 40px;display:flex;flex-direction:column;gap:10px}
-.cta .a{font-weight:900;font-size:66px;line-height:1}
-.cta .b{font-size:40px;font-weight:700}
-.zoho{align-self:flex-start;border:3px solid var(--teal);color:var(--teal);border-radius:999px;padding:12px 28px;font-size:32px;font-weight:700}
-.disc{font-size:24px;line-height:1.4;color:#8FA0B3}
-.bar{position:absolute;left:0;bottom:0;height:14px;background:var(--gold)}
+.k{font-weight:600;font-size:34px;letter-spacing:.22em;color:var(--goldT)}
+.h1{font-family:"RB";font-weight:500;font-size:124px;line-height:1.02;letter-spacing:-.02em;color:var(--navy)}
+.h1 em{font-style:normal;color:#8C7550}
+.pulse{display:flex;align-items:center;gap:20px;font-weight:700;font-size:46px;letter-spacing:.2em;color:var(--navy)}
+.sub{font-size:40px;line-height:1.35;color:var(--ink)}
+.num{font-family:"RB";font-weight:500;font-size:248px;line-height:.9;color:var(--navy);letter-spacing:-.025em}
+.vs{display:flex;align-items:baseline;gap:22px;font-weight:400;font-family:"RB";font-size:52px;color:var(--navy)}
+.vs small{font-family:"RB";font-weight:300;font-size:44px;color:var(--ink)}
+.big2{font-family:"RB";font-weight:300;font-size:60px;line-height:1.2;color:var(--ink)}
+.big2 em{font-style:normal;font-weight:500;color:var(--navy)}
+.stat{border-left:6px solid var(--cc);padding:8px 0 8px 36px;display:flex;flex-direction:column;gap:8px}
+.stat .k2{font-weight:600;font-size:30px;letter-spacing:.2em;color:var(--goldT)}
+.stat .n{font-family:"RB";font-weight:500;font-size:112px;line-height:.95;letter-spacing:-.01em;color:var(--navy)}
+.stat .n.alert{color:var(--red)}
+.stat .n small{font-size:56px;font-weight:600}
+.stat .l{font-family:"RB";font-size:38px;line-height:1.3;color:var(--ink)}
+.svc{display:flex;gap:30px;align-items:center}
+.svc .i{flex:none;width:92px;height:92px;border-radius:50%;border:3px solid var(--gold);color:var(--navy);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:48px}
+.svc .t{font-family:"RB";font-weight:500;font-size:50px;line-height:1.05;color:var(--navy)}
+.svc .t small{display:block;font-family:"RB";font-weight:400;font-size:34px;color:var(--ink);margin-top:8px}
+.cta{background:var(--navy2);color:#fff;border-radius:6px;border-left:8px solid var(--gold);padding:36px 42px;display:flex;flex-direction:column;gap:12px}
+.cta .h{font-weight:600;font-size:34px;letter-spacing:.2em;color:var(--gold2)}
+.cta .b{font-family:"RB";font-weight:500;font-size:52px;color:#fff}
+.cta .a{font-family:"RB";font-weight:500;font-size:54px;line-height:1;margin-top:10px}
+.zoho{align-self:flex-start;border:2px solid var(--teal);color:var(--teal);border-radius:999px;padding:10px 26px;font-size:30px;font-weight:500}
+.disc{font-size:24px;line-height:1.4;color:var(--mut)}
+.ftr{position:absolute;left:0;right:0;bottom:0;height:442px;align-items:flex-start;padding-top:28px;background:var(--navy2);border-top:4px solid var(--gold);color:#fff;padding:0 60px;display:flex;align-items:center;justify-content:space-between;font-family:"RB";font-size:22px;font-weight:400}
+.ftr span{display:flex;align-items:center;gap:11px}
+.sep{width:1px;height:30px;background:#34506D}
+.bar{position:absolute;left:0;bottom:446px;height:6px;background:var(--gold)}
 </style>
 </head>
 <body>
 <div class="v" id="v">
-<div class="top"><img src="valorin_logo.png" alt="Valorin, Finance | Tax | Advisory"></div>
+<div class="facet"></div><div class="facet2"></div>
+<div class="top"><img src="valorin_logo.png" alt="Valorin, Finance | Tax | Advisory"><div class="tg">Finance with Integrity. Growth with Insight.</div></div>
 
 <div class="scene" data-s="0" data-e="2.8">
-<div class="el pulse c" data-in="0.2"><svg width="96" height="56" viewBox="0 0 58 34" fill="none" stroke="#D6C29A" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 18h12l5-12 8 24 6-16 4 4h19"/></svg>PEPPOL PULSE</div>
-<div class="el k c" data-in="0.4">UAE E-INVOICING TRACKER · {{DATE}}</div>
-<div class="el h1 c" data-in="0.7">Is your company <em>on Peppol</em> yet?</div>
+<div class="el pulse c" data-in="0.2"><svg width="96" height="56" viewBox="0 0 58 34" fill="none" stroke="#B29A74" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 18h12l5-12 8 24 6-16 4 4h19"/></svg>PEPPOL PULSE</div>
+<div class="el k c" data-in="0.4">UAE E-INVOICING TRACKER</div><div class="el k c" data-in="0.5" style="margin-top:-22px">{{DATE}}</div>
+<div class="el h1 c" data-in="0.7">{{HOOK}}</div>
 </div>
 
 <div class="scene" data-s="2.8" data-e="6.6">
-<div class="el k c" data-in="3.0">UAE ENTITIES IN THE PEPPOL DIRECTORY</div>
+<div class="el k c" data-in="3.0">AS OF {{DATE}}</div>
 <div class="el num c" data-in="3.0" id="counter">0</div>
-<div class="el vs c" data-in="4.4">vs 1.4M+ <small>UAE companies</small></div>
-<div class="el big2 c" data-in="5.0"><em>{{RATIO}}</em> UAE companies</div>
-<div class="el disc" data-in="5.0">Source: Peppol Directory via Ionite, {{DATEPLAIN}}. Company total: UAE Ministry of Economy (Jan 2026). The directory may not list every participant.</div>
+<div class="el vs" data-in="4.4">UAE entities listed in the Peppol Directory</div>
+<div class="el big2" data-in="5.0">{{RATIO}}</div>
+<div class="el disc" data-in="5.0">Source: Peppol Directory via Ionite statistics, checked {{DATEPLAIN}}. Company total: UAE Ministry of Economy (Jan 2026). The directory may not list every participant.</div>
 </div>
 
 <div class="scene" data-s="6.6" data-e="10.4">
-<div class="el stat c" style="--cc:var(--teal)" data-in="6.8"><div class="n">{{DELTA}}</div><div class="l">{{DELTALBL}}</div></div>
-<div class="el stat c" style="--cc:var(--red)" data-in="7.5"><div class="n">{{DAYS}} <small>DAYS</small></div><div class="l">{{DLBL}}</div></div>
-<div class="el stat c" style="--cc:var(--amber)" data-in="8.2"><div class="n"><small>AED</small> 5,000</div><div class="l">per month penalty for in-scope businesses missing the ASP deadline (Cabinet Decision No. 106/2025)</div></div>
+<div class="el stat c" style="--cc:var(--teal)" data-in="6.8"><div class="k2">{{DELTATAG}}</div><div class="n">{{DELTA}}</div><div class="l">{{DELTALBL}}</div></div>
+<div class="el stat c" style="--cc:var(--red)" data-in="7.5"><div class="k2">ASP DEADLINE</div><div class="n alert">{{DAYS}} <small>DAYS</small></div><div class="l">{{DLBL}}</div></div>
+<div class="el stat c" style="--cc:var(--gold)" data-in="8.2"><div class="k2">PENALTY</div><div class="n"><small>AED</small> 5,000</div><div class="l">per month, for in-scope businesses that miss it (Cabinet Decision No. 106 of 2025)</div></div>
 </div>
 
 <div class="scene" data-s="10.4" data-e="99">
@@ -75,11 +89,20 @@ html,body{margin:0;background:#000}
 <div class="el svc c" data-in="11.2"><div class="i">2</div><div class="t">ASP SELECTION<small>With our MoF-accredited ASP partners</small></div></div>
 <div class="el svc c" data-in="11.6"><div class="i">3</div><div class="t">ERP INTEGRATION<small>Oracle integration with ASP portals</small></div></div>
 <div class="el zoho" data-in="12.0">Zoho Consulting Partner · ID PU1671773</div>
-<div class="el cta c" data-in="12.4"><div class="a">WHATSAPP 058-2754282</div><div class="b">advisory@valorin.ae</div><div class="b">www.valorin.ae · Dubai, UAE</div></div>
-<div class="el disc" data-in="12.4">General information only, not legal or tax advice. Valorin is not an ASP. Zoho and Oracle are trademarks of their respective owners.</div>
+<div class="el cta c" data-in="12.4"><div class="h">LIVE UAE E-INVOICING TRACKER</div><div class="b">www.valorin.ae</div><div class="a">WhatsApp 058-2754282</div></div>
+<div class="el disc" data-in="12.4">General information only, not legal or tax advice. Valorin is an independent advisory firm, not affiliated with the FTA or MoF, and is not an ASP. Zoho and Oracle are trademarks of their respective owners.</div>
 </div>
 
 <div class="bar" id="bar"></div>
+<div class="ftr">
+<span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#D6C29A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.6"/></svg>Dubai, UAE</span>
+<div class="sep"></div>
+<span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#D6C29A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19"/><path d="M12 2.5c2.6 2.8 3.9 6 3.9 9.5s-1.3 6.7-3.9 9.5c-2.6-2.8-3.9-6-3.9-9.5s1.3-6.7 3.9-9.5z"/></svg>www.valorin.ae</span>
+<div class="sep"></div>
+<span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#D6C29A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3.5 6.5 8.5 6.5 8.5-6.5"/></svg>advisory@valorin.ae</span>
+<div class="sep"></div>
+<span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#D6C29A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 11.6a8.5 8.5 0 0 1-12.6 7.4L3.5 20.5l1.5-4.3A8.5 8.5 0 1 1 20.5 11.6z"/></svg>058-2754282</span>
+</div>
 </div>
 <script>
 const TOTAL = {{TOTAL}};
