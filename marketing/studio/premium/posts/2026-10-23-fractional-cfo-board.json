@@ -8,7 +8,7 @@
     "figure": {
       "n": "9",
       "unit": "MONTHS",
-      "label": "to file the return and pay corporate tax after the tax period ends (general rule). <b>For a 31&nbsp;Dec&nbsp;2026 year‑end: 30&nbsp;Sep&nbsp;2027.</b>"
+      "label": "to file the return and pay corporate tax after the tax period ends (general rule). <b>For a 31&nbsp;Dec&nbsp;2026 year‑end, that points to 30&nbsp;Sep&nbsp;2027.</b>"
     },
     "tiles": [
       {
@@ -48,9 +48,9 @@
         "kicker": "CORPORATE TAX RETURN",
         "n": "9",
         "unit": "MONTHS",
-        "desc": "after the tax period ends, to file and pay (general rule). For a 31 Dec 2026 year‑end: 30 Sep 2027.",
+        "desc": "after the tax period ends, to file and pay (general rule). For a 31&nbsp;Dec&nbsp;2026 year‑end, that points to 30&nbsp;Sep&nbsp;2027.",
         "src": "Federal Decree-Law No. 47 of 2022, Articles 48 and 53; FTA release of 26 Sep 2026; the FTA may set another date. Checked 23 Oct 2026.",
-        "say": "Here's one example. In the UAE, a taxable person generally files the corporate tax return, and pays, within nine months of the end of the tax period. For a December twenty twenty-six year-end, that points to the thirtieth of September, twenty twenty-seven."
+        "say": "Here's one example. In the UAE, a taxable person generally files the corporate tax return, and pays, within nine months of the end of the tax period. For a December twenty twenty-six year-end, that points to the thirtieth of September, twenty twenty-seven, unless the tax authority sets another date."
       },
       {
         "type": "points",
