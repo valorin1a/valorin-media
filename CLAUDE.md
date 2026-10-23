@@ -58,6 +58,31 @@ Based on Metricool best-time data for 13–19 Oct 2026. The data is thin: about 
 - Vary sentence length. Avoid stock phrases ("Exciting news", "Don't miss out", "Stay ahead") and all capitals.
 - Every caption keeps the fixed items: the figure with its source and date, Cabinet Decision No. 106 of 2025 for penalties, "General information only, not legal or tax advice", the independent-firm line, the FTA/MoF topic tags (not on Google Business Profile), both brand lines, and the contact line.
 
+## Platform-specific captions: SEO, AEO, GEO (user, 23 Oct 2026)
+Never reuse one caption across networks. Each network gets its own text written for how people find content there:
+same facts and fixed items, but a different hook, structure, length and keyword set. The approach per network below
+is a working assumption about how each platform ranks content, not verified algorithm detail; review it when best-time
+data is re-run.
+- SEO: put the phrase people search for in the first line and in titles (e.g. "UAE e-invoicing deadline",
+  "Peppol UAE", "Phase 1 ASP appointment", "FTA e-invoicing penalty").
+- AEO (answer engines): include one plain question and a one-sentence direct answer with the date and source.
+- GEO (AI search): short factual, sourced sentences that can be quoted on their own, with full entity names
+  (UAE Ministry of Finance, Federal Tax Authority, Peppol Directory, Accredited Service Provider).
+Per network:
+- LinkedIn: insight post for finance leaders. Hook in the first two lines (before "see more"), short paragraphs,
+  one takeaway, end with a question that invites comments. 3–5 hashtags. UTM link allowed.
+- Facebook: conversational and shorter (about 80–150 words), plain language, a question to prompt comments.
+- Instagram: keyword-rich first line (captions are searchable), save-worthy checklist or myth/fact format,
+  "link in bio", 10–15 hashtags at the end.
+- TikTok: caption and title read like a search query; very short body; 6–8 hashtags.
+- YouTube Shorts: title as a question or search phrase (under about 70 characters); description opens with the direct
+  answer sentence, then keywords; 2–3 hashtags incl. #Shorts.
+- Pinterest: evergreen pin title and description written as search phrases, descriptive rather than chatty; 2–3 hashtags.
+- Google Business Profile: local-search wording (e.g. "e-invoicing advisory in Dubai"), plain update, no hashtags.
+- X: one sharp line plus the figure; drop items that do not fit and say which.
+- The first line of each network's caption must differ from the other networks in the same batch. The CSV `opening`
+  column records the LinkedIn opening; all openings must still differ from the last seven rows.
+
 ## Contact details on all media
 Dubai, UAE · www.valorin.ae · advisory@valorin.ae · WhatsApp 058-2754282
 
