@@ -1,0 +1,101 @@
+{
+  "id": "2026-10-23-fractional-cfo-board",
+  "date": "2026-10-23",
+  "card": {
+    "kicker": "FRACTIONAL CFO · 23 OCT 2026",
+    "head": "Fractional or full‑time CFO?",
+    "sub": "Start with what your board needs every month.",
+    "figure": {
+      "n": "9",
+      "unit": "MONTHS",
+      "label": "to file the return and pay corporate tax after the tax period ends (general rule). <b>For a 31&nbsp;Dec&nbsp;2026 year‑end: 30&nbsp;Sep&nbsp;2027.</b>"
+    },
+    "tiles": [
+      {
+        "k": "THE NUMBERS",
+        "t": "Final by a fixed date",
+        "l": "One monthly pack the board can rely on"
+      },
+      {
+        "k": "THE CASH",
+        "t": "Three months ahead",
+        "l": "A forward view, not last month's balance"
+      },
+      {
+        "k": "THE CALENDAR",
+        "t": "One owner per date",
+        "l": "Tax, lender and licence dates planned early"
+      }
+    ],
+    "cta": {
+      "h": "TALK IT THROUGH",
+      "d": "Which fits your business: fractional or full‑time",
+      "go": "WhatsApp 058-2754282"
+    },
+    "source": "Corporate tax: Federal Decree-Law No. 47 of 2022, Articles 48 and 53 (MoF consolidated text) and FTA release of 26 Sep 2026; the FTA may set another date. Checked 23 Oct 2026. General information only, not legal or tax advice. Valorin is an independent advisory firm, not affiliated with the FTA or MoF."
+  },
+  "video": {
+    "scenes": [
+      {
+        "type": "hook",
+        "kicker": "FRACTIONAL CFO · 23 OCT 2026",
+        "head": "Fractional or <em>full‑time</em> CFO?",
+        "sub": "Start with what your board needs every month.",
+        "say": "Fractional or full-time CFO? Don't start with the job title. Start with what your board needs every month."
+      },
+      {
+        "type": "figure",
+        "kicker": "CORPORATE TAX RETURN",
+        "n": "9",
+        "unit": "MONTHS",
+        "desc": "after the tax period ends, to file and pay (general rule). For a 31 Dec 2026 year‑end: 30 Sep 2027.",
+        "src": "Federal Decree-Law No. 47 of 2022, Articles 48 and 53; FTA release of 26 Sep 2026; the FTA may set another date. Checked 23 Oct 2026.",
+        "say": "Here's one example. In the UAE, a taxable person generally files the corporate tax return, and pays, within nine months of the end of the tax period. For a December twenty twenty-six year-end, that points to the thirtieth of September, twenty twenty-seven."
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "THE NUMBERS",
+            "n": "Final by a fixed date",
+            "l": "One monthly pack the board can rely on"
+          },
+          {
+            "k": "THE CASH",
+            "n": "Three months ahead",
+            "l": "A forward view, not last month's balance"
+          },
+          {
+            "k": "THE CALENDAR",
+            "n": "One owner per date",
+            "l": "Tax, lender and licence dates planned early"
+          }
+        ],
+        "say": "So ask three questions. Are the monthly numbers final by a fixed date? Can you see your cash three months ahead? And does one person own every filing date?"
+      },
+      {
+        "type": "steps",
+        "kicker": "WHICH FITS",
+        "items": [
+          {
+            "t": "Fractional",
+            "small": "A few days a month, when the board needs the pack, the cash view and the calendar"
+          },
+          {
+            "t": "Full‑time",
+            "small": "When finance decisions come up daily: several entities, active financing, a large team"
+          }
+        ],
+        "say": "If that's what your board needs, a few days a month of CFO-level support can often cover it. If finance decisions come up every day, across several entities or lenders, a full-time hire starts to make sense."
+      },
+      {
+        "type": "cta",
+        "h": "TALK IT THROUGH",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "say": "Not sure which fits? Message Valorin on WhatsApp, or email advisory at valorin dot A E. General information only, not legal or tax advice."
+      }
+    ]
+  }
+}
