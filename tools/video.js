@@ -36,10 +36,10 @@ const milestones = [
   ['2027-03-31', 'to the Phase 2 ASP appointment deadline (31 Mar 2027)', 'left for Phase 2 businesses to appoint an accredited service provider'],
   ['2027-07-01', 'to Phase 2 mandatory go-live (1 Jul 2027)', 'until mandatory e-invoicing goes live for Phase 2 businesses'],
 ];
-let days = 0, dlbl = 'All business phases are now live', dsay = null;
+let days = 0, dlbl = 'All business phases are now live', dsay = null, dkey = 'LIVE';
 for (const [ms, lbl, say] of milestones) {
   const diff = Math.ceil((new Date(ms + 'T00:00:00Z') - d) / 86400000);
-  if (diff >= 0) { days = diff; dlbl = lbl; dsay = say; break; }
+  if (diff >= 0) { days = diff; dlbl = lbl; dsay = say; dkey = lbl.includes('go-live') ? 'GO-LIVE' : 'ASP DEADLINE'; break; }
 }
 
 // ---- delta ----
@@ -75,7 +75,7 @@ const segments = [
 const vals = {
   DATE: `${d.getUTCDate()} ${MON[d.getUTCMonth()]} ${d.getUTCFullYear()}`,
   DATEPLAIN: `${d.getUTCDate()} ${MONP[d.getUTCMonth()]} ${d.getUTCFullYear()}`,
-  RATIO: ratioTxt, HOOK: hook, DELTATAG: deltaTag, DELTA: delta, DELTALBL: deltaLbl, DAYS: days, DLBL: dlbl,
+  RATIO: ratioTxt, HOOK: hook, DELTATAG: deltaTag, DELTA: delta, DELTALBL: deltaLbl, DAYS: days, DLBL: dlbl, DKEY: dkey,
   TOTAL: 15, REGNUM: reg,
 };
 let html = fs.readFileSync(path.join(__dirname, 'video.html'), 'utf8');

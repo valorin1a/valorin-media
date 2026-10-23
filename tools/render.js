@@ -22,10 +22,10 @@ const milestones = [
   ['2027-03-31', 'to appoint an ASP, Phase 2, 31 Mar 2027'],
   ['2027-07-01', 'to Phase 2 go-live, 1 Jul 2027'],
 ];
-let days = 0, dlbl = 'All business phases are now live';
+let days = 0, dlbl = 'All business phases are now live', dkey = 'LIVE';
 for (const [ms, lbl] of milestones) {
   const diff = Math.ceil((new Date(ms + 'T00:00:00Z') - d) / 86400000);
-  if (diff >= 0) { days = diff; dlbl = lbl; break; }
+  if (diff >= 0) { days = diff; dlbl = lbl; dkey = lbl.includes('go-live') ? 'GO-LIVE' : 'ASP DEADLINE'; break; }
 }
 
 let t1tag = 'FIRST READING', t1num = 'BASELINE', t1lbl = 'Change since last update will be tracked from our next Pulse';
@@ -64,7 +64,7 @@ const vals = {
   BARW: Math.max(pct, 0.5).toFixed(2) + '%',
   DOTS: dots,
   T1TAG: t1tag, T1NUM: t1num, T1LBL: t1lbl,
-  DAYS: days, DLBL: dlbl,
+  DAYS: days, DLBL: dlbl, DKEY: dkey,
 };
 
 let html = fs.readFileSync(path.join(__dirname, 'card.html'), 'utf8');
