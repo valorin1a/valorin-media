@@ -69,7 +69,7 @@ const segments = [
   dsay ? `UAE e-invoicing update. ${words(days)} days to the Phase 1 deadline, on ${dlSay}.` : 'UAE e-invoicing update. Is your company on Peppol yet?',
   `As of ${d.getUTCDate()} ${MONF[d.getUTCMonth()]}, ${words(reg)} UAE entities are listed in the Peppol Directory. ${ratioSay}`,
   (deltaSay ? deltaSay : '') + (dsay ? 'For in-scope businesses, missing the provider deadline can cost five thousand dirhams a month.' : 'For in-scope businesses, penalties can reach five thousand dirhams a month.'),
-  'Follow the live tracker at valorin dot A E. Or message Valorin on WhatsApp.',
+  'Key dates and sources are at valorin dot A E. Or message Valorin on WhatsApp.',
 ];
 
 const vals = {

@@ -67,6 +67,9 @@ Two brand lines, both printed (user decision, 19 Oct 2026):
   "Valorin · Finance | Tax | Advisory".
 - "Finance with Integrity. Growth with Insight." Cards: top-left of the header, under the logo (card.html `.hl` / `.tagline`). Keep the rest of the header unchanged. Captions: include it in every caption, on its own line.
 
+## Metricool plan
+Paid plan, no monthly post limit (user, 23 Oct 2026). Each reading adds 7 posts; no quota warning needed.
+
 ## Media hosting
 Use the GitHub raw URLs in step 5 for Metricool, not Google Drive links (this replaces playbook step 5e).
 
@@ -82,7 +85,7 @@ Premium report style: white page, quiet ivory diagonal top-right, the SAME heade
 with Insight.") and the SAME navy contact footer (Dubai, UAE · www.valorin.ae · advisory@valorin.ae · 058-2754282) on every
 card and every video frame. Content: kicker "PEPPOL PULSE · <date>" with a short gold rule, the figure in Roboto 500,
 one descriptor line and the "1 in 100" line, three facts (change, ASP deadline in red, penalty), a hairline
-"Live UAE e-invoicing tracker → www.valorin.ae" row and the source line. Each fact appears once; one accent colour (red).
+"UAE e-invoicing: key dates and figures → www.valorin.ae" row and the source line. Each fact appears once; one accent colour (red).
 
 Render every size for each reading (`node render.js data.json.local <out> <size>`), into media/<folder>/:
 | File | Size | Networks |
@@ -97,10 +100,12 @@ Header sits just below the top 250 px and the footer row just above the bottom 3
 band runs to the bottom edge. Always set videoCoverMilliseconds on TikTok/YouTube to a frame near the end of the figure
 scene so the thumbnail shows the full figure, not a partial count. Look at every size before posting.
 
-## Live tracker
-www.valorin.ae has a live "UAE e-invoicing today" section. Every caption should point to it once, e.g.
-"Live UAE e-invoicing tracker: www.valorin.ae". Use UTM links where the network shows clickable links
+## Website reference (updated 23 Oct 2026)
+www.valorin.ae no longer shows a live Peppol number. It has a "Key dates and figures" section (deadlines, ASP count,
+link to Ionite for the Peppol figure). Never call it a "live tracker". Every caption points to it once, e.g.
+"Key UAE e-invoicing dates and sources: www.valorin.ae". Use UTM links where the network shows clickable links
 (https://www.valorin.ae/?utm_source=<network>&utm_medium=social&utm_campaign=peppol-pulse).
+Card and video use the row "UAE E-INVOICING: KEY DATES AND FIGURES → www.valorin.ae".
 
 ## Voice
 Kokoro-82M, voice bm_george (George, British male), speed 0.85, en-gb, high-pass at 70 Hz: identical to the Valorin
