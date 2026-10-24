@@ -1,0 +1,105 @@
+{
+  "id": "2026-10-24-cfo-desk-md197",
+  "date": "2026-10-24",
+  "card": {
+    "kicker": "CFO DESK · 24 OCT 2026",
+    "head": "Same tax group transactions: excluded for two years",
+    "sub": "Three changes in Ministerial Decision No. 197 of 2026.",
+    "figure": {
+      "n": "24",
+      "unit": "MONTHS",
+      "label": "transactions between members of the same Tax Group treated as excluded, from 1&nbsp;Jan&nbsp;2027. <b>In force since 1&nbsp;Oct&nbsp;2026.</b>"
+    },
+    "tiles": [
+      {
+        "k": "TAX GROUP",
+        "t": "Map Tax Group flows",
+        "l": "Agree how your ERP flags them"
+      },
+      {
+        "k": "DATA",
+        "t": "No UAE storage rule",
+        "l": "Tax Procedures Law retention still applies"
+      },
+      {
+        "k": "SYSTEM FAILURE",
+        "t": "Notice repealed",
+        "l": "Update procedures that cite it"
+      }
+    ],
+    "cta": {
+      "h": "TALK TO US",
+      "d": "ERP integration and testing. Valorin is not an ASP.",
+      "go": "WhatsApp 058-2754282"
+    },
+    "source": "Source: Ministerial Decision No. 197 of 2026, UAE Ministry of Finance news, 19 Oct 2026; checked 24 Oct 2026. General information only, not legal or tax advice. Valorin is an independent advisory firm, not affiliated with the FTA or MoF. Valorin is not an ASP."
+  },
+  "video": {
+    "scenes": [
+      {
+        "type": "hook",
+        "kicker": "CFO DESK · 24 OCT 2026",
+        "head": "Same tax group: <em>e‑invoicing</em> from January?",
+        "sub": "Two companies, one invoice between them.",
+        "say": "Two companies in the same tax group: does an invoice between them need e-invoicing from January twenty twenty-seven? For two years, no."
+      },
+      {
+        "type": "figure",
+        "kicker": "TAX GROUP EXCLUSION",
+        "n": "24",
+        "unit": "MONTHS",
+        "desc": "transactions between members of the same Tax Group treated as excluded, from 1&nbsp;Jan&nbsp;2027.",
+        "src": "Ministerial Decision No. 197 of 2026, UAE Ministry of Finance news, 19 Oct 2026. Checked 24 Oct 2026. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "say": "Under Ministerial Decision one ninety-seven of twenty twenty-six, these transactions are excluded for twenty-four months, from the first of January, twenty twenty-seven."
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "TAX GROUP",
+            "n": "Excluded 24 months",
+            "l": "From 1 Jan 2027"
+          },
+          {
+            "k": "DATA",
+            "n": "No UAE storage rule",
+            "l": "Tax Procedures Law retention still applies"
+          },
+          {
+            "k": "SYSTEM FAILURE",
+            "n": "Notice repealed",
+            "l": "Two-business-day notice removed"
+          }
+        ],
+        "say": "The decision also drops the rule to store e-invoice data in the UAE, and the system-failure notice."
+      },
+      {
+        "type": "steps",
+        "kicker": "WHAT WE'D LOOK AT THIS WEEK",
+        "items": [
+          {
+            "t": "Map the flows",
+            "small": "Transactions within your Tax Group"
+          },
+          {
+            "t": "Set ERP flags",
+            "small": "How excluded transactions are treated"
+          },
+          {
+            "t": "Update procedures",
+            "small": "Archiving and the old notice step"
+          }
+        ],
+        "say": "This week, we'd map transactions within your tax group, set the E.R.P. flags, and update your procedures."
+      },
+      {
+        "type": "cta",
+        "h": "TALK TO US",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Valorin is an independent advisory firm, not affiliated with the FTA or MoF. Valorin is not an ASP.",
+        "say": "Valorin is not an A.S.P. Talk to us on WhatsApp, or email advisory at valorin dot A E. General information only, not legal or tax advice."
+      }
+    ]
+  }
+}

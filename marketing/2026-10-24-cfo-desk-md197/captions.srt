@@ -1,0 +1,31 @@
+1
+00:00:00,250 --> 00:00:08,994
+Two companies in the same tax group: does an invoice between them need e-invoicing from January 2027?
+
+2
+00:00:08,994 --> 00:00:10,426
+For two years, no.
+
+3
+00:00:11,126 --> 00:00:24,075
+Under Ministerial Decision No. 197 of 2026, these transactions are excluded for 24 months, from 1 January 2027.
+
+4
+00:00:24,775 --> 00:00:32,711
+The decision also drops the rule to store e-invoice data in the UAE, and the system-failure notice.
+
+5
+00:00:33,411 --> 00:00:41,710
+This week, we'd map transactions within your tax group, set the ERP flags, and update your procedures.
+
+6
+00:00:42,410 --> 00:00:44,581
+Valorin is not an ASP.
+
+7
+00:00:44,581 --> 00:00:50,191
+Talk to us on WhatsApp, or email advisory@valorin.ae.
+
+8
+00:00:50,191 --> 00:00:54,805
+General information only, not legal or tax advice.
