@@ -1,0 +1,103 @@
+{
+  "id": "2026-11-13-pm-myth-approved-budget-is-done",
+  "date": "2026-11-13",
+  "series": "daily video",
+  "video": {
+    "scenes": [
+      {
+        "type": "personaAnim",
+        "kicker": "MYTH OR FACT · 13 NOV 2026",
+        "bubble": "The board approved the budget. Job done.",
+        "caption": "What happens after approval.",
+        "say": "Myth or fact? Once the board approves the budget, the work is done.",
+        "cap": [
+          "Myth or fact?",
+          "Once the board *approves the budget*, the work is done."
+        ],
+        "shirt": "navy"
+      },
+      {
+        "type": "chart",
+        "kind": "bar",
+        "kicker": "ILLUSTRATIVE EXAMPLE · GROSS PROFIT, AED THOUSANDS",
+        "head": "Budget vs <em>actual</em>",
+        "data": [
+          {
+            "label": "Jan|budget",
+            "v": 200,
+            "color": "navy"
+          },
+          {
+            "label": "Jan|actual",
+            "v": 195,
+            "color": "teal"
+          },
+          {
+            "label": "Feb|budget",
+            "v": 210,
+            "color": "navy"
+          },
+          {
+            "label": "Feb|actual",
+            "v": 180,
+            "color": "red"
+          },
+          {
+            "label": "Mar|budget",
+            "v": 220,
+            "color": "navy"
+          },
+          {
+            "label": "Mar|actual",
+            "v": 170,
+            "color": "red"
+          }
+        ],
+        "src": "Illustrative example, not a real company.",
+        "say": "In our view, that's when it starts. In this illustrative year, gross profit falls behind budget from February, and the gap widens every month.",
+        "cap": [
+          "In our view, that's when it *starts*.",
+          "Here, gross profit falls behind from February, and the gap *widens every month*."
+        ]
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "MONTHLY",
+            "n": "Budget vs actual",
+            "l": "Within days of the close"
+          },
+          {
+            "k": "EXPLAIN",
+            "n": "The big variances",
+            "l": "Not every line"
+          },
+          {
+            "k": "DECIDE",
+            "n": "What changes now",
+            "l": "Owner and date"
+          }
+        ],
+        "say": "Review budget against actual every month, explain the big variances, and agree what changes.",
+        "cap": [
+          "Review *budget vs actual* every month, explain the big variances, and *agree what changes*."
+        ]
+      },
+      {
+        "type": "cta",
+        "q": "Who reviews yours each month?",
+        "h": "FRACTIONAL CFO",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Illustrative example, not a real company.",
+        "say": "Our fractional C.F.O. service runs this review with you. Building your 2027 budget? Send us a WhatsApp, and let's talk it through.",
+        "cap": [
+          "Our fractional CFO service runs this review with you.",
+          "Building your *2027 budget*?",
+          "Send us a *WhatsApp*, and let's talk it through."
+        ]
+      }
+    ]
+  }
+}

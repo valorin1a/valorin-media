@@ -1,0 +1,96 @@
+{
+  "id": "2026-11-06-pm-myth-cant-start-before-phase",
+  "date": "2026-11-06",
+  "series": "daily video",
+  "video": {
+    "scenes": [
+      {
+        "type": "personaAnim",
+        "kicker": "MYTH OR FACT · 06 NOV 2026",
+        "bubble": "We can't start until our phase begins.",
+        "caption": "UAE e‑invoicing timing.",
+        "say": "Myth or fact? You can't start e-invoicing before your phase begins.",
+        "cap": [
+          "Myth or fact?",
+          "You can't start *e‑invoicing* before your phase begins."
+        ],
+        "shirt": "navy"
+      },
+      {
+        "type": "gantt",
+        "kicker": "UAE E‑INVOICING · REVENUE BELOW AED 50M",
+        "head": "Voluntary from <em>1 July 2026</em>",
+        "max": 12.5,
+        "ticks": [],
+        "rows": [
+          {
+            "label": "Voluntary adoption open",
+            "from": 0,
+            "to": 12,
+            "color": "teal",
+            "d": "From 1 Jul 2026"
+          },
+          {
+            "label": "Appoint an ASP",
+            "from": 0,
+            "to": 9,
+            "color": "gold",
+            "d": "By 31 Mar 2027"
+          },
+          {
+            "label": "Implement",
+            "from": 9,
+            "to": 12,
+            "color": "navy",
+            "d": "By 1 Jul 2027"
+          }
+        ],
+        "src": "UAE Electronic Invoicing Guidelines V2.0, UAE Ministry of Finance, 26 Oct 2026, ss. 8.2 and 8.3; checked 29 Oct 2026. In-scope businesses. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "say": "Fact: any business can adopt e-invoicing voluntarily from the first of July twenty twenty-six. In-scope businesses below fifty million dirhams in revenue must appoint a provider by the thirty-first of March twenty twenty-seven.",
+        "cap": [
+          "Fact: any business can adopt e‑invoicing *voluntarily* from 1 July 2026.",
+          "In‑scope businesses below AED 50m in revenue must appoint a provider by *31 March 2027*."
+        ]
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "WHY EARLY",
+            "n": "Test with real invoices",
+            "l": "Before the deadline"
+          },
+          {
+            "k": "WHAT FIRST",
+            "n": "Your invoice data",
+            "l": "Fields and ERP output"
+          },
+          {
+            "k": "THEN",
+            "n": "Choose a provider",
+            "l": "That fits your ERP"
+          }
+        ],
+        "say": "Starting early gives you time to test with real invoices.",
+        "cap": [
+          "Starting early gives you time to *test with real invoices*."
+        ]
+      },
+      {
+        "type": "cta",
+        "q": "Starting early?",
+        "h": "E‑INVOICING READINESS",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "say": "Valorin is not an A.S.P. We help you prepare and implement. Not sure where to start? Send us a WhatsApp.",
+        "cap": [
+          "Valorin is not an *ASP*.",
+          "We help you prepare and implement.",
+          "Not sure where to start?",
+          "Send us a *WhatsApp*."
+        ]
+      }
+    ]
+  }
+}

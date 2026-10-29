@@ -1,0 +1,88 @@
+{
+  "id": "2026-11-11-am-audited-fs-corporate-tax",
+  "date": "2026-11-11",
+  "series": "daily video",
+  "video": {
+    "scenes": [
+      {
+        "type": "personaAnim",
+        "kicker": "FINANCE IN 30S · 11 NOV 2026",
+        "bubble": "Do we need audited accounts for corporate tax?",
+        "caption": "UAE corporate tax.",
+        "say": "Do you need audited financial statements for U.A.E. corporate tax? Some businesses do.",
+        "cap": [
+          "Do you need *audited financial statements* for UAE corporate tax?",
+          "Some businesses do."
+        ],
+        "shirt": "navy"
+      },
+      {
+        "type": "impact",
+        "kicker": "MINISTERIAL DECISION NO. 84 OF 2025",
+        "max": 70,
+        "bars": [
+          {
+            "label": "Revenue threshold",
+            "v": 50,
+            "d": "AED 50m",
+            "color": "gold"
+          },
+          {
+            "label": "Illustrative business",
+            "v": 62,
+            "d": "AED 62m",
+            "color": "navy"
+          }
+        ],
+        "pre": "AED ",
+        "n": 62,
+        "unit": "M",
+        "desc": "revenue in the period: above the line, so audited statements are required.",
+        "src": "Ministerial Decision No. 84 of 2025, Arts. 2 and 4 (mof.gov.ae); checked 29 Oct 2026. Tax periods starting on or after 1 Jan 2025. Rules for Tax Groups differ. Illustrative example, not a real company. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "say": "Under Ministerial Decision eighty-four of twenty twenty-five, taxable persons with revenue above fifty million dirhams, and qualifying free zone persons, must prepare and maintain audited financial statements. It applies to tax periods starting on or after the first of January twenty twenty-five.",
+        "cap": [
+          "Ministerial Decision No. 84 of 2025: taxable persons with revenue above *AED 50m*, and *Qualifying Free Zone Persons*, must prepare and maintain *audited financial statements*.",
+          "It applies to tax periods starting on or after *1 January 2025*."
+        ]
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "CHECK",
+            "n": "Revenue for the period",
+            "l": "Against AED 50m"
+          },
+          {
+            "k": "BOOK",
+            "n": "Your auditors early",
+            "l": "Before year‑end"
+          },
+          {
+            "k": "ALIGN",
+            "n": "Audit and tax timelines",
+            "l": "Nine‑month return window"
+          }
+        ],
+        "say": "So check your revenue against the threshold, and book the audit early enough for the tax return.",
+        "cap": [
+          "Check revenue against the threshold, and book the audit *early enough* for the tax return."
+        ]
+      },
+      {
+        "type": "cta",
+        "q": "Above the threshold?",
+        "h": "CORPORATE TAX ADVISORY",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "say": "Our corporate tax advisory helps you plan both timelines. Want to check yours? Message us on WhatsApp.",
+        "cap": [
+          "Our corporate tax advisory helps you plan both timelines.",
+          "Want to check yours?",
+          "Message us on *WhatsApp*."
+        ]
+      }
+    ]
+  }
+}

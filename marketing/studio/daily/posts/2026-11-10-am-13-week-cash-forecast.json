@@ -1,0 +1,103 @@
+{
+  "id": "2026-11-10-am-13-week-cash-forecast",
+  "date": "2026-11-10",
+  "series": "daily video",
+  "video": {
+    "scenes": [
+      {
+        "type": "personaAnim",
+        "kicker": "FINANCE IN 30S · 10 NOV 2026",
+        "bubble": "Will we have enough cash in January?",
+        "caption": "The first quarter of 2027.",
+        "say": "Will there be enough cash in the first quarter? A thirteen-week forecast tells you.",
+        "cap": [
+          "Will there be enough *cash* in the first quarter?",
+          "A *13‑week forecast* tells you."
+        ],
+        "shirt": "gold"
+      },
+      {
+        "type": "chart",
+        "kind": "line",
+        "color": "navy",
+        "kicker": "ILLUSTRATIVE EXAMPLE · CLOSING CASH, AED THOUSANDS",
+        "head": "Cash, week by <em>week</em>",
+        "data": [
+          {
+            "label": "W1",
+            "v": 900
+          },
+          {
+            "label": "W3",
+            "v": 750
+          },
+          {
+            "label": "W5",
+            "v": 520
+          },
+          {
+            "label": "W7",
+            "v": 610
+          },
+          {
+            "label": "W9",
+            "v": 380,
+            "color": "red"
+          },
+          {
+            "label": "W11",
+            "v": 450
+          },
+          {
+            "label": "W13",
+            "v": 600
+          }
+        ],
+        "src": "Illustrative example, not a real company.",
+        "say": "It's cash in and cash out, week by week, for thirteen weeks. In this illustrative plan, week nine is the tight point.",
+        "cap": [
+          "Cash in and cash out, *week by week*, for 13 weeks.",
+          "In this illustrative plan, *week 9* is the tight point."
+        ]
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "IN",
+            "n": "Customer receipts",
+            "l": "By expected date"
+          },
+          {
+            "k": "OUT",
+            "n": "Payroll, suppliers, rent",
+            "l": "By due date"
+          },
+          {
+            "k": "UPDATE",
+            "n": "Every week",
+            "l": "Roll it forward"
+          }
+        ],
+        "say": "Use receipts by expected date, payments by due date, and roll it forward every week.",
+        "cap": [
+          "Receipts by *expected date*, payments by *due date*, rolled forward *every week*."
+        ]
+      },
+      {
+        "type": "cta",
+        "q": "Where's your tight week?",
+        "h": "FRACTIONAL CFO",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Illustrative example, not a real company.",
+        "say": "Our fractional C.F.O. service builds this forecast with you. Want a clearer view of your cash? Message us.",
+        "cap": [
+          "Our fractional CFO service builds this forecast with you.",
+          "Want a clearer view of your *cash*?",
+          "Message us."
+        ]
+      }
+    ]
+  }
+}

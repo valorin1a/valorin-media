@@ -1,0 +1,92 @@
+{
+  "id": "2026-11-10-pm-myth-covenants-only-when-borrowing",
+  "date": "2026-11-10",
+  "series": "daily video",
+  "video": {
+    "scenes": [
+      {
+        "type": "personaAnim",
+        "kicker": "MYTH OR FACT · 10 NOV 2026",
+        "bubble": "Covenants only matter when we borrow more.",
+        "caption": "Bank covenants at year‑end.",
+        "say": "Myth or fact? Covenants are only tested when you borrow more.",
+        "cap": [
+          "Myth or fact?",
+          "*Covenants* are only tested when you borrow more."
+        ],
+        "shirt": "navy"
+      },
+      {
+        "type": "chart",
+        "kind": "bar",
+        "kicker": "ILLUSTRATIVE EXAMPLE · DEBT TO EBITDA, TIMES",
+        "head": "Tested on <em>year‑end</em> numbers",
+        "data": [
+          {
+            "label": "Covenant|maximum",
+            "v": 3.0,
+            "d": "3.0x",
+            "color": "grey"
+          },
+          {
+            "label": "Last year",
+            "v": 2.4,
+            "d": "2.4x",
+            "color": "navy"
+          },
+          {
+            "label": "This year",
+            "v": 3.2,
+            "d": "3.2x",
+            "color": "red"
+          }
+        ],
+        "src": "Illustrative example, not a real company. Definitions and test dates are in your facility letter.",
+        "say": "In our view, myth. Covenants are usually tested on set dates, often on year-end figures. Here, an illustrative ratio crosses the limit with no new borrowing.",
+        "cap": [
+          "In our view, *myth*.",
+          "Covenants are usually tested on *set dates*, often on year‑end figures.",
+          "Here, an illustrative ratio crosses the limit with *no new borrowing*."
+        ]
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "FIND",
+            "n": "Each covenant and test date",
+            "l": "In the facility letter"
+          },
+          {
+            "k": "PROJECT",
+            "n": "Year‑end ratios now",
+            "l": "Before the close"
+          },
+          {
+            "k": "TALK",
+            "n": "To the bank early",
+            "l": "If headroom is thin"
+          }
+        ],
+        "say": "Find each test date, project your year-end ratios now, and talk to the bank early if headroom is thin.",
+        "cap": [
+          "Find each *test date*, project your year‑end ratios *now*, and talk to the bank early if headroom is thin."
+        ]
+      },
+      {
+        "type": "cta",
+        "q": "Know your headroom?",
+        "h": "BANKING & FINANCING",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Not investment advice. Illustrative example.",
+        "say": "Our banking and financing advisory helps you test it. Facility review coming up? Talk to us before you meet the bank.",
+        "cap": [
+          "Our banking & financing advisory helps you test it.",
+          "Facility review coming up?",
+          "Talk to us before you meet the bank."
+        ]
+      }
+    ]
+  }
+}

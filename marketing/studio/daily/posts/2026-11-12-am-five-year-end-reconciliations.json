@@ -1,0 +1,97 @@
+{
+  "id": "2026-11-12-am-five-year-end-reconciliations",
+  "date": "2026-11-12",
+  "series": "daily video",
+  "video": {
+    "scenes": [
+      {
+        "type": "personaAnim",
+        "kicker": "FINANCE IN 30S · 12 NOV 2026",
+        "bubble": "What must be reconciled before 31 December?",
+        "caption": "The year‑end close.",
+        "say": "Five reconciliations to finish before the thirty-first of December.",
+        "cap": [
+          "Five *reconciliations* to finish before *31 December*."
+        ],
+        "shirt": "navy"
+      },
+      {
+        "type": "chart",
+        "kind": "bar",
+        "kicker": "ILLUSTRATIVE EXAMPLE · UNEXPLAINED, AED THOUSANDS",
+        "head": "Where the <em>gaps</em> hide",
+        "data": [
+          {
+            "label": "Bank",
+            "v": 12,
+            "color": "navy"
+          },
+          {
+            "label": "Receivables",
+            "v": 85,
+            "color": "red"
+          },
+          {
+            "label": "Payables",
+            "v": 40,
+            "color": "navy"
+          },
+          {
+            "label": "Stock",
+            "v": 120,
+            "color": "red"
+          },
+          {
+            "label": "VAT",
+            "v": 18,
+            "color": "navy"
+          }
+        ],
+        "src": "Illustrative example, not a real company.",
+        "say": "Bank, receivables, payables, stock and V.A.T. In this illustrative example, stock and receivables hold the biggest unexplained gaps.",
+        "cap": [
+          "*Bank*, *receivables*, *payables*, *stock* and *VAT*.",
+          "Here, stock and receivables hold the biggest unexplained gaps."
+        ]
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "MATCH",
+            "n": "Ledger to source",
+            "l": "Bank, statements, counts"
+          },
+          {
+            "k": "EXPLAIN",
+            "n": "Every difference",
+            "l": "With evidence"
+          },
+          {
+            "k": "SIGN",
+            "n": "Reviewer sign‑off",
+            "l": "Dated"
+          }
+        ],
+        "say": "Match each ledger to its source, explain every difference, and have someone review and sign it.",
+        "cap": [
+          "Match each ledger to its *source*, explain *every difference*, and have someone *review and sign*."
+        ]
+      },
+      {
+        "type": "cta",
+        "q": "Which one takes you longest?",
+        "h": "ACCOUNTING & MIS",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Illustrative example, not a real company.",
+        "say": "Our accounting and M.I.S. advisory sets this up for your close. Tell us which one takes longest. Message us on WhatsApp.",
+        "cap": [
+          "Our accounting & MIS advisory sets this up for your close.",
+          "Tell us which one takes *longest*.",
+          "Message us on *WhatsApp*."
+        ]
+      }
+    ]
+  }
+}

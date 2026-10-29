@@ -1,0 +1,93 @@
+{
+  "id": "2026-11-09-pm-myth-audit-adjustments-mistakes",
+  "date": "2026-11-09",
+  "series": "daily video",
+  "video": {
+    "scenes": [
+      {
+        "type": "personaAnim",
+        "kicker": "MYTH OR FACT · 09 NOV 2026",
+        "bubble": "Audit adjustments? Someone made a mistake.",
+        "caption": "What adjustments usually say.",
+        "say": "Myth or fact? Audit adjustments mean someone made a mistake.",
+        "cap": [
+          "Myth or fact?",
+          "*Audit adjustments* mean someone made a mistake."
+        ],
+        "shirt": "navy"
+      },
+      {
+        "type": "chart",
+        "kind": "bar",
+        "kicker": "ILLUSTRATIVE EXAMPLE · NUMBER OF ADJUSTMENTS",
+        "head": "Where adjustments <em>come from</em>",
+        "data": [
+          {
+            "label": "Estimates|& provisions",
+            "v": 6,
+            "color": "gold"
+          },
+          {
+            "label": "Cut‑off",
+            "v": 4,
+            "color": "navy"
+          },
+          {
+            "label": "Reclass",
+            "v": 3,
+            "color": "teal"
+          },
+          {
+            "label": "Errors",
+            "v": 2,
+            "color": "red"
+          }
+        ],
+        "src": "Illustrative example, not a real company. Valorin is not an audit firm.",
+        "say": "In our view, often not. In this illustrative audit, most adjustments come from year-end estimates, cut-off and reclassifications, not errors.",
+        "cap": [
+          "In our view, *often not*.",
+          "In this illustrative audit, most adjustments come from *estimates*, *cut‑off* and *reclassifications*, not errors."
+        ]
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "ESTIMATES",
+            "n": "Agreed early",
+            "l": "Bad debts, stock, bonuses"
+          },
+          {
+            "k": "CUT‑OFF",
+            "n": "Checked before fieldwork",
+            "l": "Sales and purchases"
+          },
+          {
+            "k": "CLOSE",
+            "n": "Reconciled and reviewed",
+            "l": "Before the auditors arrive"
+          }
+        ],
+        "say": "Agree estimates early, check cut-off, and review the close before fieldwork.",
+        "cap": [
+          "Agree *estimates* early, check *cut‑off*, and review the close before fieldwork."
+        ]
+      },
+      {
+        "type": "cta",
+        "q": "How many adjustments last year?",
+        "h": "AUDIT & RISK ADVISORY",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Valorin is not an audit firm; audit readiness support only.",
+        "say": "Our audit readiness support helps you get there. Want to know where your gaps are? Send us a WhatsApp.",
+        "cap": [
+          "Our audit readiness support helps you get there.",
+          "Want to know where your *gaps* are?",
+          "Send us a *WhatsApp*."
+        ]
+      }
+    ]
+  }
+}

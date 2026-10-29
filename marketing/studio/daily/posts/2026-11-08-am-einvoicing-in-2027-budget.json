@@ -1,0 +1,95 @@
+{
+  "id": "2026-11-08-am-einvoicing-in-2027-budget",
+  "date": "2026-11-08",
+  "series": "daily video",
+  "video": {
+    "scenes": [
+      {
+        "type": "personaAnim",
+        "kicker": "FINANCE IN 30S · 08 NOV 2026",
+        "bubble": "Is e‑invoicing in our 2027 budget?",
+        "caption": "Phase 2 falls inside the 2027 budget year.",
+        "say": "Building your 2027 budget? Check that e-invoicing is in it.",
+        "cap": [
+          "Building your *2027 budget*?",
+          "Check that *e‑invoicing* is in it."
+        ],
+        "shirt": "navy"
+      },
+      {
+        "type": "gantt",
+        "kicker": "UAE E‑INVOICING · REVENUE BELOW AED 50M",
+        "head": "Two deadlines in your <em>budget year</em>",
+        "max": 12.5,
+        "ticks": [],
+        "rows": [
+          {
+            "label": "2027 budget year",
+            "from": 0,
+            "to": 12,
+            "color": "navy",
+            "d": "Jan–Dec 2027"
+          },
+          {
+            "label": "Appoint an ASP",
+            "from": 0,
+            "to": 3,
+            "color": "gold",
+            "d": "31 Mar"
+          },
+          {
+            "label": "Implement",
+            "from": 3,
+            "to": 6,
+            "color": "teal",
+            "d": "1 Jul"
+          }
+        ],
+        "src": "UAE Electronic Invoicing Guidelines V2.0, UAE Ministry of Finance, 26 Oct 2026, s. 8.3; checked 29 Oct 2026. In-scope businesses. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "say": "For in-scope businesses below fifty million dirhams, the provider must be appointed by the thirty-first of March, and the system implemented by the first of July twenty twenty-seven.",
+        "cap": [
+          "In‑scope businesses below AED 50m: appoint a provider by *31 March*, implement by *1 July 2027*."
+        ]
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "PROVIDER",
+            "n": "ASP fees",
+            "l": "Get quotes"
+          },
+          {
+            "k": "SYSTEMS",
+            "n": "ERP changes",
+            "l": "Mapping and testing"
+          },
+          {
+            "k": "PEOPLE",
+            "n": "Team time",
+            "l": "Data clean‑up"
+          }
+        ],
+        "say": "So budget for the provider, E.R.P. changes and testing, and your team's time on data.",
+        "cap": [
+          "So budget for the *provider*, *ERP changes* and testing, and your *team's time* on data."
+        ]
+      },
+      {
+        "type": "cta",
+        "q": "Is it in your budget?",
+        "h": "E‑INVOICING READINESS",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "say": "Valorin is not an A.S.P. We help you plan the work and the budget. Planning for March? Message us, and we'll map the steps with you.",
+        "cap": [
+          "Valorin is not an *ASP*.",
+          "We help you plan the work and the budget.",
+          "Planning for *March*?",
+          "Message us, and we'll map the steps with you."
+        ]
+      }
+    ]
+  }
+}

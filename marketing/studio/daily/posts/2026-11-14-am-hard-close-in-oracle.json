@@ -1,0 +1,91 @@
+{
+  "id": "2026-11-14-am-hard-close-in-oracle",
+  "date": "2026-11-14",
+  "series": "daily video",
+  "video": {
+    "scenes": [
+      {
+        "type": "personaAnim",
+        "kicker": "FINANCE IN 30S · 14 NOV 2026",
+        "bubble": "What does a hard close mean?",
+        "caption": "Year‑end in Oracle, or any ERP.",
+        "say": "What does a hard close mean in Oracle, or any E.R.P.?",
+        "cap": [
+          "What does a *hard close* mean in Oracle, or any ERP?"
+        ],
+        "shirt": "gold"
+      },
+      {
+        "type": "gantt",
+        "kicker": "ILLUSTRATIVE YEAR‑END CLOSE · DAYS AFTER 31 DEC",
+        "head": "Soft close, then <em>hard close</em>",
+        "max": 20.5,
+        "ticks": [
+          0,
+          10,
+          20
+        ],
+        "rows": [
+          {
+            "label": "Soft close: corrections allowed",
+            "from": 0,
+            "to": 10,
+            "color": "gold",
+            "d": "Days 1–10"
+          },
+          {
+            "label": "Hard close: period locked",
+            "from": 10,
+            "to": 20,
+            "color": "navy",
+            "d": "From day 10"
+          }
+        ],
+        "src": "Illustrative example, not a real company. Oracle is a trademark of its owner; no partnership implied.",
+        "say": "A soft close still lets the team post corrections. A hard close locks the period, so the numbers stop moving.",
+        "cap": [
+          "A *soft close* still lets the team post corrections.",
+          "A *hard close* locks the period, so the numbers stop moving."
+        ]
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "WHO",
+            "n": "Can reopen a period",
+            "l": "Named and limited"
+          },
+          {
+            "k": "WHEN",
+            "n": "Hard‑close date",
+            "l": "In the close calendar"
+          },
+          {
+            "k": "HOW",
+            "n": "Any later fix",
+            "l": "Approved, with a trail"
+          }
+        ],
+        "say": "Decide who can reopen a period, set the hard-close date in your calendar, and route any later fix through approval and an audit trail.",
+        "cap": [
+          "Decide *who* can reopen a period, set the *hard‑close date*, and route any later fix through approval and a trail."
+        ]
+      },
+      {
+        "type": "cta",
+        "q": "When does your year lock?",
+        "h": "ERP ADVISORY",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Oracle is a trademark of its owner; no partnership implied.",
+        "say": "Our E.R.P. advisory, including Oracle, sets up this control. Planning a system change, or a cleaner close? Talk to us.",
+        "cap": [
+          "Our ERP advisory, including Oracle, sets up this control.",
+          "Planning a system change, or a cleaner close?",
+          "Talk to us."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "2026-11-01-pm-myth-pdf-is-einvoice",
+  "date": "2026-11-01",
+  "series": "daily video",
+  "video": {
+    "scenes": [
+      {
+        "type": "personaAnim",
+        "kicker": "MYTH OR FACT · 01 NOV 2026",
+        "bubble": "We email PDFs. Isn't that e‑invoicing?",
+        "caption": "A common assumption in finance teams.",
+        "say": "Myth or fact? If we email our invoices as PDFs, we're already doing e-invoicing.",
+        "cap": [
+          "Myth or fact?",
+          "If we email invoices as *PDFs*, we're already doing *e‑invoicing*."
+        ],
+        "shirt": "navy"
+      },
+      {
+        "type": "figure",
+        "kicker": "FACT",
+        "n": "XML",
+        "desc": "An e‑invoice is structured data, exchanged through accredited providers. <b>A PDF is not an e‑invoice.</b>",
+        "src": "UAE Electronic Invoicing Guidelines V2.0, UAE Ministry of Finance, 26 Oct 2026, ss. 3, 5.3 and 10.2.1; checked 29 Oct 2026. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "say": "Fact: under the U.A.E. system, an e-invoice is structured data in X.M.L., sent through accredited service providers. A PDF doesn't count.",
+        "cap": [
+          "Fact: under the UAE system, an e‑invoice is *structured data* in XML, sent through accredited service providers.",
+          "A *PDF* doesn't count."
+        ]
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "STEP 1",
+            "n": "Map your invoice data",
+            "l": "Every field the format needs"
+          },
+          {
+            "k": "STEP 2",
+            "n": "Check your ERP output",
+            "l": "Can it produce structured data?"
+          },
+          {
+            "k": "STEP 3",
+            "n": "Then choose a provider",
+            "l": "An accredited ASP that fits"
+          }
+        ],
+        "say": "So start with your data. Check which fields you hold today, and whether your E.R.P. can produce them.",
+        "cap": [
+          "So start with your *data*.",
+          "Check which fields you hold today, and whether your ERP can produce them."
+        ]
+      },
+      {
+        "type": "cta",
+        "q": "Is your data ready?",
+        "h": "E‑INVOICING READINESS",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "say": "Valorin is not an A.S.P. Our readiness work starts with a gap assessment. Not sure where your invoice data stands? Send us a WhatsApp, and we'll go through it with you.",
+        "cap": [
+          "Valorin is not an *ASP*.",
+          "Our readiness work starts with a *gap assessment*.",
+          "Not sure where your invoice data stands?",
+          "Send us a *WhatsApp*, and we'll go through it with you."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "id": "2026-11-09-am-year-end-cut-off",
+  "date": "2026-11-09",
+  "series": "daily video",
+  "video": {
+    "scenes": [
+      {
+        "type": "personaAnim",
+        "kicker": "FINANCE IN 30S · 09 NOV 2026",
+        "bubble": "Shipped on the 31st, invoiced on the 2nd. Which year?",
+        "caption": "Year‑end cut‑off.",
+        "say": "Goods shipped on the thirty-first of December, invoiced on the second of January. Which year does the sale belong to?",
+        "cap": [
+          "Goods shipped on *31 December*, invoiced on *2 January*.",
+          "Which year does the sale belong to?"
+        ],
+        "shirt": "navy"
+      },
+      {
+        "type": "gantt",
+        "kicker": "ILLUSTRATIVE CUT‑OFF · DAYS AROUND YEAR‑END",
+        "head": "The last week <em>matters</em>",
+        "max": 10.5,
+        "ticks": [],
+        "rows": [
+          {
+            "label": "Delivered: 27–31 Dec",
+            "from": 0,
+            "to": 5,
+            "color": "navy",
+            "d": "2026"
+          },
+          {
+            "label": "Invoiced: 2 Jan",
+            "from": 6,
+            "to": 8,
+            "color": "gold",
+            "d": "2027"
+          }
+        ],
+        "gap": {
+          "from": 5,
+          "to": 6,
+          "label": "Year‑end"
+        },
+        "src": "Illustrative example, not a real company. Revenue timing depends on your contract terms and accounting standards.",
+        "say": "Often the year of delivery, depending on your terms. That's cut-off, and your E.R.P. needs dated delivery records to show it.",
+        "cap": [
+          "Often the year of *delivery*, depending on your terms.",
+          "That's *cut‑off*, and your ERP needs dated delivery records to show it."
+        ]
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "SALES",
+            "n": "Deliveries vs invoices",
+            "l": "Last and first week"
+          },
+          {
+            "k": "PURCHASES",
+            "n": "Received, not billed",
+            "l": "Accrue them"
+          },
+          {
+            "k": "STOCK",
+            "n": "Movements frozen",
+            "l": "For the count"
+          }
+        ],
+        "say": "Check deliveries against invoices, accrue goods received but not billed, and freeze stock movements for the count.",
+        "cap": [
+          "Check *deliveries* against invoices, accrue goods *received but not billed*, and *freeze stock* for the count."
+        ]
+      },
+      {
+        "type": "cta",
+        "q": "Does your ERP show cut‑off?",
+        "h": "ERP ADVISORY",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Illustrative example, not a real company.",
+        "say": "Our E.R.P. advisory sets up these checks. Planning your year-end close? Send us a WhatsApp.",
+        "cap": [
+          "Our ERP advisory sets up these checks.",
+          "Planning your *year‑end close*?",
+          "Send us a *WhatsApp*."
+        ]
+      }
+    ]
+  }
+}

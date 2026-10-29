@@ -1,0 +1,89 @@
+{
+  "id": "2026-11-03-pm-myth-last-year-plus-ten",
+  "date": "2026-11-03",
+  "series": "daily video",
+  "video": {
+    "scenes": [
+      {
+        "type": "personaAnim",
+        "kicker": "MYTH OR FACT · 03 NOV 2026",
+        "bubble": "Last year plus ten percent. Done.",
+        "caption": "A familiar budget shortcut.",
+        "say": "Myth or fact? Last year's numbers plus ten percent is a budget.",
+        "cap": [
+          "Myth or fact?",
+          "Last year's numbers *plus 10%* is a budget."
+        ],
+        "shirt": "gold"
+      },
+      {
+        "type": "impact",
+        "kicker": "ILLUSTRATIVE EXAMPLE · ONE SALES LINE",
+        "max": 1200,
+        "bars": [
+          {
+            "label": "Last year + 10%",
+            "v": 1100,
+            "d": "AED 1.10m",
+            "color": "navy"
+          },
+          {
+            "label": "Built from volume and price",
+            "v": 960,
+            "d": "AED 0.96m",
+            "color": "teal"
+          }
+        ],
+        "pre": "AED ",
+        "n": 140,
+        "unit": "K",
+        "desc": "gap, before the year even starts.",
+        "src": "Illustrative example, not a real company.",
+        "say": "In our view, that's a myth. Prices, customers and volumes change. Built from drivers, this illustrative sales line comes in a hundred and forty thousand lower.",
+        "cap": [
+          "In our view, that's a *myth*.",
+          "Prices, customers and volumes change.",
+          "Built from drivers, this illustrative sales line comes in *AED 140,000* lower."
+        ]
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "VOLUME",
+            "n": "Customers × orders",
+            "l": "Who buys, how often"
+          },
+          {
+            "k": "PRICE",
+            "n": "Agreed price changes",
+            "l": "By product"
+          },
+          {
+            "k": "COST",
+            "n": "Known contracts",
+            "l": "Rent, payroll, suppliers"
+          }
+        ],
+        "say": "Start from volume, price and known costs, line by line.",
+        "cap": [
+          "Start from *volume*, *price* and *known costs*, line by line."
+        ]
+      },
+      {
+        "type": "cta",
+        "q": "How do you build yours?",
+        "h": "FRACTIONAL CFO",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Illustrative example, not a real company.",
+        "say": "Our fractional C.F.O. service builds driver-based budgets with you. Want a clearer 2027 plan? Message us on WhatsApp.",
+        "cap": [
+          "Our fractional CFO service builds driver‑based budgets with you.",
+          "Want a clearer *2027 plan*?",
+          "Message us on *WhatsApp*."
+        ]
+      }
+    ]
+  }
+}

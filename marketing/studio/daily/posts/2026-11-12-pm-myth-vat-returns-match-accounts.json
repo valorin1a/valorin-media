@@ -1,0 +1,88 @@
+{
+  "id": "2026-11-12-pm-myth-vat-returns-match-accounts",
+  "date": "2026-11-12",
+  "series": "daily video",
+  "video": {
+    "scenes": [
+      {
+        "type": "personaAnim",
+        "kicker": "MYTH OR FACT · 12 NOV 2026",
+        "bubble": "Our VAT returns already match our accounts.",
+        "caption": "A year‑end check worth doing.",
+        "say": "Myth or fact? Your V.A.T. returns already match your accounts.",
+        "cap": [
+          "Myth or fact?",
+          "Your *VAT returns* already match your accounts."
+        ],
+        "shirt": "gold"
+      },
+      {
+        "type": "impact",
+        "kicker": "ILLUSTRATIVE EXAMPLE · OUTPUT VAT FOR THE YEAR",
+        "max": 650,
+        "bars": [
+          {
+            "label": "Per the ledger",
+            "v": 612,
+            "d": "AED 612k",
+            "color": "navy"
+          },
+          {
+            "label": "Per the returns filed",
+            "v": 585,
+            "d": "AED 585k",
+            "color": "gold"
+          }
+        ],
+        "pre": "AED ",
+        "n": 27,
+        "unit": "K",
+        "desc": "unexplained difference, found at year‑end.",
+        "src": "Illustrative example, not a real company.",
+        "say": "In our view, check, don't assume. In this illustrative case, the ledger and the returns differ by twenty-seven thousand dirhams.",
+        "cap": [
+          "In our view, *check*, don't assume.",
+          "In this illustrative case, the ledger and the returns differ by *AED 27,000*."
+        ]
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "COMPARE",
+            "n": "Returns to the ledger",
+            "l": "Period by period"
+          },
+          {
+            "k": "EXPLAIN",
+            "n": "Each difference",
+            "l": "Timing, credit notes, imports"
+          },
+          {
+            "k": "WHEN",
+            "n": "Before year‑end",
+            "l": "While records are fresh"
+          }
+        ],
+        "say": "Reconcile each return to the ledger, period by period, and explain every difference before the year closes.",
+        "cap": [
+          "Reconcile each return to the ledger, *period by period*, and explain every difference before the year closes."
+        ]
+      },
+      {
+        "type": "cta",
+        "q": "When did you last reconcile?",
+        "h": "VAT ADVISORY",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Illustrative example, not a real company.",
+        "say": "Our V.A.T. advisory reviews this with you. Want your V.A.T. reconciled before year-end? Talk to us.",
+        "cap": [
+          "Our VAT advisory reviews this with you.",
+          "Want your VAT reconciled before *year‑end*?",
+          "Talk to us."
+        ]
+      }
+    ]
+  }
+}

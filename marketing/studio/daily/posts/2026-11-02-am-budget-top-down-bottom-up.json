@@ -1,0 +1,96 @@
+{
+  "id": "2026-11-02-am-budget-top-down-bottom-up",
+  "date": "2026-11-02",
+  "series": "daily video",
+  "video": {
+    "scenes": [
+      {
+        "type": "personaAnim",
+        "kicker": "FINANCE IN 30S · 02 NOV 2026",
+        "bubble": "Should we budget top‑down or bottom‑up?",
+        "caption": "Budget season for a 31 December year‑end.",
+        "say": "Building the 2027 budget? First decide: top-down or bottom-up.",
+        "cap": [
+          "Building the *2027 budget*?",
+          "First decide: *top‑down* or *bottom‑up*."
+        ],
+        "shirt": "navy"
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "TOP‑DOWN",
+            "n": "Targets set by the board",
+            "l": "Fast, but can miss reality"
+          },
+          {
+            "k": "BOTTOM‑UP",
+            "n": "Built by each team",
+            "l": "Detailed, but slower"
+          }
+        ],
+        "say": "Top-down starts with the board's targets. It's fast, but can miss what teams can deliver. Bottom-up builds from each team's numbers. It's detailed, but slower.",
+        "cap": [
+          "*Top‑down* starts with the board's targets.",
+          "It's fast, but can miss what teams can deliver.",
+          "*Bottom‑up* builds from each team's numbers.",
+          "It's detailed, but slower."
+        ]
+      },
+      {
+        "type": "gantt",
+        "kicker": "ILLUSTRATIVE TIMELINE · WEEKS",
+        "head": "Both, in <em>sequence</em>",
+        "max": 7.5,
+        "ticks": [
+          0,
+          2,
+          5,
+          7
+        ],
+        "rows": [
+          {
+            "label": "Top‑down targets",
+            "from": 0,
+            "to": 2,
+            "color": "gold",
+            "d": "2 wks"
+          },
+          {
+            "label": "Bottom‑up detail",
+            "from": 1,
+            "to": 5,
+            "color": "navy",
+            "d": "4 wks"
+          }
+        ],
+        "gap": {
+          "from": 5,
+          "to": 7,
+          "label": "Reconcile the gap"
+        },
+        "src": "Illustrative example, not a real company. Our view.",
+        "say": "In our view, most businesses need both. Set the targets, build the detail, then close the gap between them.",
+        "cap": [
+          "In our view, most businesses need *both*.",
+          "Set the targets, build the detail, then *close the gap* between them."
+        ]
+      },
+      {
+        "type": "cta",
+        "q": "Which way do you budget?",
+        "h": "FRACTIONAL CFO",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Illustrative example, not a real company.",
+        "say": "Our fractional C.F.O. service runs this process with you. Building your 2027 budget? Send us a WhatsApp, and let's talk it through.",
+        "cap": [
+          "Our fractional CFO service runs this process with you.",
+          "Building your *2027 budget*?",
+          "Send us a *WhatsApp*, and let's talk it through."
+        ]
+      }
+    ]
+  }
+}

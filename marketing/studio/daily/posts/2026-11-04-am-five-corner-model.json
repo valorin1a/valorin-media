@@ -1,0 +1,82 @@
+{
+  "id": "2026-11-04-am-five-corner-model",
+  "date": "2026-11-04",
+  "series": "daily video",
+  "video": {
+    "scenes": [
+      {
+        "type": "personaAnim",
+        "kicker": "FINANCE IN 30S · 04 NOV 2026",
+        "bubble": "Who does my e‑invoice pass through?",
+        "caption": "The UAE five‑corner model.",
+        "say": "Where does a U.A.E. e-invoice actually go? Through five corners.",
+        "cap": [
+          "Where does a UAE e‑invoice actually go?",
+          "Through *five corners*."
+        ],
+        "shirt": "navy"
+      },
+      {
+        "type": "steps",
+        "kicker": "THE FIVE CORNERS",
+        "items": [
+          {
+            "t": "Supplier",
+            "small": "Issues the invoice data"
+          },
+          {
+            "t": "Supplier's ASP",
+            "small": "Accredited provider"
+          },
+          {
+            "t": "Buyer's ASP",
+            "small": "Accredited provider"
+          },
+          {
+            "t": "Buyer",
+            "small": "Receives the invoice"
+          },
+          {
+            "t": "Federal Tax Authority",
+            "small": "Receives the tax data"
+          }
+        ],
+        "say": "Corner one is the supplier. Two, the supplier's accredited provider. Three, the buyer's provider. Four, the buyer. And five, the Federal Tax Authority, which receives the tax data.",
+        "cap": [
+          "Corner *one* is the supplier.",
+          "*Two*, the supplier's accredited provider.",
+          "*Three*, the buyer's provider.",
+          "*Four*, the buyer.",
+          "And *five*, the Federal Tax Authority, which receives the tax data."
+        ]
+      },
+      {
+        "type": "figure",
+        "kicker": "WHERE YOU START",
+        "n": "1",
+        "unit": "CORNER ONE",
+        "desc": "Each business connects through its own accredited provider. <b>Your ERP data feeds corner one.</b>",
+        "src": "UAE Electronic Invoicing Guidelines V2.0, UAE Ministry of Finance, 26 Oct 2026, ss. 3 and 5.1; checked 29 Oct 2026. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "say": "For your business, it starts at corner one: the data your E.R.P. produces.",
+        "cap": [
+          "For your business, it starts at *corner one*: the data your ERP produces."
+        ]
+      },
+      {
+        "type": "cta",
+        "q": "Is corner one ready?",
+        "h": "E‑INVOICING READINESS",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "say": "Valorin is not an A.S.P. We help you get corner one right. In Phase 2? Message us, and we'll map the steps with you.",
+        "cap": [
+          "Valorin is not an *ASP*.",
+          "We help you get *corner one* right.",
+          "In Phase 2?",
+          "Message us, and we'll map the steps with you."
+        ]
+      }
+    ]
+  }
+}

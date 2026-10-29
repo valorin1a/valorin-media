@@ -1,0 +1,92 @@
+{
+  "id": "2026-11-06-am-bank-annual-review-what-they-check",
+  "date": "2026-11-06",
+  "series": "daily video",
+  "video": {
+    "scenes": [
+      {
+        "type": "personaAnim",
+        "kicker": "FINANCE IN 30S · 06 NOV 2026",
+        "bubble": "What will the bank look at this year?",
+        "caption": "Annual facility reviews.",
+        "say": "Annual facility review coming up? Here's what a bank usually looks at.",
+        "cap": [
+          "Annual *facility review* coming up?",
+          "Here's what a bank usually looks at."
+        ],
+        "shirt": "navy"
+      },
+      {
+        "type": "chart",
+        "kind": "bar",
+        "kicker": "ILLUSTRATIVE EXAMPLE · COVENANT RATIO, TIMES",
+        "head": "Headroom on <em>year‑end</em> numbers",
+        "data": [
+          {
+            "label": "Covenant|minimum",
+            "v": 1.25,
+            "d": "1.25x",
+            "color": "grey"
+          },
+          {
+            "label": "Last year",
+            "v": 1.6,
+            "d": "1.60x",
+            "color": "navy"
+          },
+          {
+            "label": "This year|forecast",
+            "v": 1.3,
+            "d": "1.30x",
+            "color": "red"
+          }
+        ],
+        "src": "Illustrative example, not a real company. Covenant definitions are in your facility letter.",
+        "say": "Your audited accounts and recent management accounts. Projections for next year. And covenant tests, like this illustrative ratio, where the headroom has shrunk.",
+        "cap": [
+          "Your *audited accounts* and recent *management accounts*.",
+          "*Projections* for next year.",
+          "And *covenant tests*, like this illustrative ratio, where the headroom has shrunk."
+        ]
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "HISTORY",
+            "n": "Audited accounts",
+            "l": "Last financial year"
+          },
+          {
+            "k": "TODAY",
+            "n": "Management accounts",
+            "l": "Recent and reconciled"
+          },
+          {
+            "k": "AHEAD",
+            "n": "Projections",
+            "l": "Cash, not just profit"
+          }
+        ],
+        "say": "Send them complete and consistent, and explain any change before the bank asks.",
+        "cap": [
+          "Send them complete and consistent, and *explain any change* before the bank asks."
+        ]
+      },
+      {
+        "type": "cta",
+        "q": "Is your pack ready?",
+        "h": "BANKING & FINANCING",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Not investment advice. Illustrative example.",
+        "say": "Our banking and financing advisory prepares the numbers with you. Preparing for a bank meeting? Talk to us first.",
+        "cap": [
+          "Our banking & financing advisory prepares the numbers with you.",
+          "Preparing for a *bank meeting*?",
+          "Talk to us first."
+        ]
+      }
+    ]
+  }
+}

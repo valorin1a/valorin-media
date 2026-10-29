@@ -1,0 +1,100 @@
+{
+  "id": "2026-11-02-pm-myth-facility-renews-itself",
+  "date": "2026-11-02",
+  "series": "daily video",
+  "video": {
+    "scenes": [
+      {
+        "type": "personaAnim",
+        "kicker": "MYTH OR FACT · 02 NOV 2026",
+        "bubble": "Our facility just rolls over, right?",
+        "caption": "Year‑end is review season for many lenders.",
+        "say": "Myth or fact? Your bank facility renews itself every year.",
+        "cap": [
+          "Myth or fact?",
+          "Your *bank facility* renews itself every year."
+        ],
+        "shirt": "navy"
+      },
+      {
+        "type": "gantt",
+        "kicker": "ILLUSTRATIVE ANNUAL REVIEW · WEEKS",
+        "head": "Renewal takes <em>time</em>",
+        "max": 9.5,
+        "ticks": [
+          0,
+          5,
+          9
+        ],
+        "rows": [
+          {
+            "label": "Bank requests documents",
+            "from": 0,
+            "to": 2,
+            "color": "gold",
+            "d": "2 wks"
+          },
+          {
+            "label": "You prepare the pack",
+            "from": 1,
+            "to": 5,
+            "color": "navy",
+            "d": "4 wks"
+          },
+          {
+            "label": "Bank credit review",
+            "from": 5,
+            "to": 9,
+            "color": "teal",
+            "d": "4 wks"
+          }
+        ],
+        "src": "Illustrative example, not a real bank. Terms differ by bank and are set in your facility letter.",
+        "say": "In our view, mostly myth. Many facilities come with an annual review. The bank asks for accounts, projections and covenant figures, then runs its own credit process.",
+        "cap": [
+          "In our view, mostly *myth*.",
+          "Many facilities come with an *annual review*.",
+          "The bank asks for accounts, projections and covenant figures, then runs its own credit process."
+        ]
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "CHECK",
+            "n": "Your review date",
+            "l": "In the facility letter"
+          },
+          {
+            "k": "PREPARE",
+            "n": "Accounts and projections",
+            "l": "Before the bank asks"
+          },
+          {
+            "k": "TEST",
+            "n": "Your covenants",
+            "l": "On year‑end numbers"
+          }
+        ],
+        "say": "So check the review date in your facility letter, and prepare the pack before the bank asks.",
+        "cap": [
+          "So check the *review date* in your facility letter, and prepare the pack before the bank asks."
+        ]
+      },
+      {
+        "type": "cta",
+        "q": "When is your review due?",
+        "h": "BANKING & FINANCING",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Not investment advice. Illustrative example.",
+        "say": "Our banking and financing advisory helps you prepare. Facility review coming up? Talk to us before you meet the bank.",
+        "cap": [
+          "Our banking & financing advisory helps you prepare.",
+          "Facility review coming up?",
+          "Talk to us before you meet the bank."
+        ]
+      }
+    ]
+  }
+}

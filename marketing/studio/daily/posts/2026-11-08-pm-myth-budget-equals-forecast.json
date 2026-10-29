@@ -1,0 +1,104 @@
+{
+  "id": "2026-11-08-pm-myth-budget-equals-forecast",
+  "date": "2026-11-08",
+  "series": "daily video",
+  "video": {
+    "scenes": [
+      {
+        "type": "personaAnim",
+        "kicker": "MYTH OR FACT · 08 NOV 2026",
+        "bubble": "Budget, forecast: same thing, right?",
+        "caption": "Two words often used as one.",
+        "say": "Myth or fact? A budget and a forecast are the same thing.",
+        "cap": [
+          "Myth or fact?",
+          "A *budget* and a *forecast* are the same thing."
+        ],
+        "shirt": "gold"
+      },
+      {
+        "type": "chart",
+        "kind": "bar",
+        "kicker": "ILLUSTRATIVE EXAMPLE · AED THOUSANDS",
+        "head": "Budget stays. Forecast <em>moves</em>.",
+        "data": [
+          {
+            "label": "Q1|budget",
+            "v": 300,
+            "color": "navy"
+          },
+          {
+            "label": "Q1|forecast",
+            "v": 280,
+            "color": "gold"
+          },
+          {
+            "label": "Q2|budget",
+            "v": 320,
+            "color": "navy"
+          },
+          {
+            "label": "Q2|forecast",
+            "v": 350,
+            "color": "gold"
+          },
+          {
+            "label": "Q3|budget",
+            "v": 340,
+            "color": "navy"
+          },
+          {
+            "label": "Q3|forecast",
+            "v": 310,
+            "color": "gold"
+          }
+        ],
+        "src": "Illustrative example, not a real company.",
+        "say": "Not quite. A budget is the plan the board approves for the year. A forecast is your latest view of what will actually happen, updated as the year moves.",
+        "cap": [
+          "Not quite.",
+          "A *budget* is the plan the board approves for the year.",
+          "A *forecast* is your latest view of what will actually happen, updated as the year moves."
+        ]
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "BUDGET",
+            "n": "Set once a year",
+            "l": "The target"
+          },
+          {
+            "k": "FORECAST",
+            "n": "Updated monthly or quarterly",
+            "l": "The latest view"
+          },
+          {
+            "k": "THE GAP",
+            "n": "Explained, not hidden",
+            "l": "Decisions start here"
+          }
+        ],
+        "say": "Keep the budget as the target, and use the forecast to decide what to do next.",
+        "cap": [
+          "Keep the budget as the *target*, and use the forecast to *decide what to do next*."
+        ]
+      },
+      {
+        "type": "cta",
+        "q": "Do you forecast, or only budget?",
+        "h": "FRACTIONAL CFO",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Illustrative example, not a real company.",
+        "say": "Our fractional C.F.O. service sets up both with you. Want a clearer view of your year? Message us on WhatsApp.",
+        "cap": [
+          "Our fractional CFO service sets up both with you.",
+          "Want a clearer view of your year?",
+          "Message us on *WhatsApp*."
+        ]
+      }
+    ]
+  }
+}

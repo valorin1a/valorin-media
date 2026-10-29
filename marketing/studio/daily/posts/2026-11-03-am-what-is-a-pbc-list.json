@@ -1,0 +1,80 @@
+{
+  "id": "2026-11-03-am-what-is-a-pbc-list",
+  "date": "2026-11-03",
+  "series": "daily video",
+  "video": {
+    "scenes": [
+      {
+        "type": "personaAnim",
+        "kicker": "FINANCE IN 30S · 03 NOV 2026",
+        "bubble": "The auditors sent a PBC list. Now what?",
+        "caption": "Audit preparation starts before year‑end.",
+        "say": "Your auditors just sent a P.B.C. list. What is it?",
+        "cap": [
+          "Your auditors just sent a *PBC list*.",
+          "What is it?"
+        ],
+        "shirt": "navy"
+      },
+      {
+        "type": "figure",
+        "kicker": "PREPARED BY CLIENT",
+        "n": "PBC",
+        "desc": "<b>The schedules and documents your team prepares for the audit.</b>",
+        "src": "General description. Lists differ by auditor.",
+        "say": "P.B.C. means prepared by client. It's the list of schedules and documents your team provides, so the audit can start.",
+        "cap": [
+          "*PBC* means *prepared by client*.",
+          "It's the list of schedules and documents your team provides, so the audit can start."
+        ]
+      },
+      {
+        "type": "gantt",
+        "kicker": "ILLUSTRATIVE TIMELINE · WEEKS",
+        "head": "Ready <em>before</em> fieldwork",
+        "max": 7.5,
+        "ticks": [
+          0,
+          4,
+          7
+        ],
+        "rows": [
+          {
+            "label": "Team prepares schedules",
+            "from": 0,
+            "to": 4,
+            "color": "gold",
+            "d": "4 wks"
+          },
+          {
+            "label": "Auditor fieldwork",
+            "from": 4,
+            "to": 7,
+            "color": "navy",
+            "d": "3 wks"
+          }
+        ],
+        "src": "Illustrative example, not a real company. Valorin is not an audit firm; audit readiness support only.",
+        "say": "Typical items: bank and receivables reconciliations, fixed asset registers, stock listings and confirmations. Ready before fieldwork means fewer questions later.",
+        "cap": [
+          "Typical items: bank and receivables reconciliations, fixed asset registers, stock listings, confirmations.",
+          "Ready *before fieldwork* means fewer questions later."
+        ]
+      },
+      {
+        "type": "cta",
+        "q": "Is your PBC list ready?",
+        "h": "AUDIT & RISK ADVISORY",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Valorin is not an audit firm; audit readiness support only.",
+        "say": "Our audit readiness support helps your team prepare. Preparing for your auditors? Talk to us before fieldwork starts.",
+        "cap": [
+          "Our *audit readiness* support helps your team prepare.",
+          "Preparing for your auditors?",
+          "Talk to us before fieldwork starts."
+        ]
+      }
+    ]
+  }
+}

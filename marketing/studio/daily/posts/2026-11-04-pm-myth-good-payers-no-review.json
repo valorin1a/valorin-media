@@ -1,0 +1,101 @@
+{
+  "id": "2026-11-04-pm-myth-good-payers-no-review",
+  "date": "2026-11-04",
+  "series": "daily video",
+  "video": {
+    "scenes": [
+      {
+        "type": "personaAnim",
+        "kicker": "MYTH OR FACT · 04 NOV 2026",
+        "bubble": "They always pay. Why review them?",
+        "caption": "Year‑end customer credit reviews.",
+        "say": "Myth or fact? Customers who always pay don't need a credit review.",
+        "cap": [
+          "Myth or fact?",
+          "Customers who always pay don't need a *credit review*."
+        ],
+        "shirt": "navy"
+      },
+      {
+        "type": "chart",
+        "kind": "line",
+        "color": "red",
+        "kicker": "ILLUSTRATIVE EXAMPLE · DAYS TO PAY",
+        "head": "Still paying, but <em>slower</em>",
+        "data": [
+          {
+            "label": "Jan",
+            "v": 45
+          },
+          {
+            "label": "Mar",
+            "v": 48
+          },
+          {
+            "label": "May",
+            "v": 55
+          },
+          {
+            "label": "Jul",
+            "v": 62
+          },
+          {
+            "label": "Sep",
+            "v": 70
+          },
+          {
+            "label": "Nov",
+            "v": 78
+          }
+        ],
+        "note": "Same customer. Same limit. Rising risk.",
+        "src": "Illustrative example, not a real company.",
+        "say": "In our view, myth. Take this illustrative customer. Still paying, but from forty-five days to seventy-eight in one year. The limit never changed.",
+        "cap": [
+          "In our view, *myth*.",
+          "Take this illustrative customer.",
+          "Still paying, but from *45 days* to *78* in one year.",
+          "The limit never changed."
+        ]
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "PAYMENT DAYS",
+            "n": "Trend, not average",
+            "l": "Last 12 months"
+          },
+          {
+            "k": "EXPOSURE",
+            "n": "Balance vs limit",
+            "l": "Today and at peak"
+          },
+          {
+            "k": "INFORMATION",
+            "n": "Latest accounts",
+            "l": "Or trade references"
+          }
+        ],
+        "say": "Review payment days, exposure against the limit, and up-to-date information, before you renew the limit.",
+        "cap": [
+          "Review *payment days*, *exposure* against the limit, and *up‑to‑date information*, before you renew the limit."
+        ]
+      },
+      {
+        "type": "cta",
+        "q": "When did you last review limits?",
+        "h": "ACCOUNTING & MIS",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Illustrative example, not a real company.",
+        "say": "Our accounting and M.I.S. advisory sets up this review. Reviewing customer limits this month? Message us, and we'll go through it with you.",
+        "cap": [
+          "Our accounting & MIS advisory sets up this review.",
+          "Reviewing *customer limits* this month?",
+          "Message us, and we'll go through it with you."
+        ]
+      }
+    ]
+  }
+}

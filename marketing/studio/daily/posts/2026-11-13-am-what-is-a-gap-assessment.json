@@ -1,0 +1,98 @@
+{
+  "id": "2026-11-13-am-what-is-a-gap-assessment",
+  "date": "2026-11-13",
+  "series": "daily video",
+  "video": {
+    "scenes": [
+      {
+        "type": "personaAnim",
+        "kicker": "FINANCE IN 30S · 13 NOV 2026",
+        "bubble": "What is an e‑invoicing gap assessment?",
+        "caption": "Where readiness starts.",
+        "say": "What is an e-invoicing gap assessment? It's where readiness starts.",
+        "cap": [
+          "What is an *e‑invoicing gap assessment*?",
+          "It's where readiness starts."
+        ],
+        "shirt": "navy"
+      },
+      {
+        "type": "chart",
+        "kind": "bar",
+        "kicker": "ILLUSTRATIVE EXAMPLE · SHARE OF FIELDS READY",
+        "head": "Where the <em>gaps</em> are",
+        "data": [
+          {
+            "label": "Customer|data",
+            "v": 90,
+            "d": "90%",
+            "color": "teal"
+          },
+          {
+            "label": "Item|codes",
+            "v": 60,
+            "d": "60%",
+            "color": "gold"
+          },
+          {
+            "label": "Tax|treatment",
+            "v": 75,
+            "d": "75%",
+            "color": "navy"
+          },
+          {
+            "label": "Credit|notes",
+            "v": 40,
+            "d": "40%",
+            "color": "red"
+          }
+        ],
+        "src": "Illustrative example, not a real company.",
+        "say": "It compares what your invoices and E.R.P. hold today with what the U.A.E. format needs. This illustrative result shows credit notes and item codes furthest behind.",
+        "cap": [
+          "It compares what your invoices and ERP hold today with what the *UAE format* needs.",
+          "Here, *credit notes* and *item codes* are furthest behind."
+        ]
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "INVOICES",
+            "n": "Fields and formats",
+            "l": "Against UAE requirements"
+          },
+          {
+            "k": "SYSTEMS",
+            "n": "ERP output",
+            "l": "What it can produce"
+          },
+          {
+            "k": "PROCESS",
+            "n": "Who does what",
+            "l": "Credit notes, exceptions"
+          }
+        ],
+        "say": "You get a list of gaps, owners and dates, before you sign with a provider.",
+        "cap": [
+          "You get a list of *gaps*, *owners* and *dates*, before you sign with a provider."
+        ]
+      },
+      {
+        "type": "cta",
+        "q": "Know your gaps?",
+        "h": "E‑INVOICING READINESS",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Valorin is not an ASP. Illustrative example, not a real company.",
+        "say": "Valorin is not an A.S.P. Our gap assessment is the first step of our readiness work. Not sure where your invoice data stands? Send us a WhatsApp.",
+        "cap": [
+          "Valorin is not an *ASP*.",
+          "Our *gap assessment* is the first step of our readiness work.",
+          "Not sure where your invoice data stands?",
+          "Send us a *WhatsApp*."
+        ]
+      }
+    ]
+  }
+}

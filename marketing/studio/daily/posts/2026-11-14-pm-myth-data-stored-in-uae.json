@@ -1,0 +1,73 @@
+{
+  "id": "2026-11-14-pm-myth-data-stored-in-uae",
+  "date": "2026-11-14",
+  "series": "daily video",
+  "video": {
+    "scenes": [
+      {
+        "type": "personaAnim",
+        "kicker": "MYTH OR FACT · 14 NOV 2026",
+        "bubble": "E‑invoice data must stay in the UAE.",
+        "caption": "A rule that changed in October.",
+        "say": "Myth or fact? Your e-invoice data must be stored inside the U.A.E.",
+        "cap": [
+          "Myth or fact?",
+          "Your *e‑invoice data* must be stored inside the UAE."
+        ],
+        "shirt": "navy"
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "BEFORE",
+            "n": "Stored in the UAE",
+            "l": "Previous requirement"
+          },
+          {
+            "k": "NOW",
+            "n": "Location requirement removed",
+            "l": "MD 197 of 2026, from 1 Oct 2026"
+          },
+          {
+            "k": "STILL",
+            "n": "Keep every e‑invoice",
+            "l": "And its associated data"
+          }
+        ],
+        "say": "Fact: Ministerial Decision one ninety-seven of twenty twenty-six removed the requirement to store it in the U.A.E. You must still keep every e-invoice and its data.",
+        "cap": [
+          "Fact: Ministerial Decision No. 197 of 2026 *removed* the UAE storage requirement.",
+          "You must still *keep* every e‑invoice and its data."
+        ]
+      },
+      {
+        "type": "figure",
+        "kicker": "ASK YOUR PROVIDER",
+        "n": "2",
+        "unit": "QUESTIONS",
+        "desc": "Where is our data stored? <b>How fast can we retrieve it on request?</b>",
+        "src": "UAE Ministry of Finance news, 19 Oct 2026 (Ministerial Decision No. 197 of 2026); checked 29 Oct 2026. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "say": "So ask your provider where it's stored, and how fast you can retrieve it.",
+        "cap": [
+          "Ask your provider *where* it's stored, and *how fast* you can retrieve it."
+        ]
+      },
+      {
+        "type": "cta",
+        "q": "Asked your provider yet?",
+        "h": "E‑INVOICING READINESS",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "say": "Valorin is not an A.S.P. We help you prepare your data and systems. Questions on your set-up? Send us a WhatsApp.",
+        "cap": [
+          "Valorin is not an *ASP*.",
+          "We help you prepare your data and systems.",
+          "Questions on your set‑up?",
+          "Send us a *WhatsApp*."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "id": "2026-11-05-pm-myth-stock-count-auditors-job",
+  "date": "2026-11-05",
+  "series": "daily video",
+  "video": {
+    "scenes": [
+      {
+        "type": "personaAnim",
+        "kicker": "MYTH OR FACT · 05 NOV 2026",
+        "bubble": "The auditors will count the stock, won't they?",
+        "caption": "Year‑end stock counts.",
+        "say": "Myth or fact? The year-end stock count is the auditor's job.",
+        "cap": [
+          "Myth or fact?",
+          "The year‑end *stock count* is the auditor's job."
+        ],
+        "shirt": "gold"
+      },
+      {
+        "type": "gantt",
+        "kicker": "ILLUSTRATIVE STOCK COUNT · DAYS",
+        "head": "Management counts. Auditors <em>observe</em>.",
+        "max": 16.5,
+        "ticks": [
+          0,
+          10,
+          13,
+          16
+        ],
+        "rows": [
+          {
+            "label": "Plan and instruct",
+            "from": 0,
+            "to": 10,
+            "color": "gold",
+            "d": "10 days"
+          },
+          {
+            "label": "Count",
+            "from": 10,
+            "to": 13,
+            "color": "navy",
+            "d": "3 days"
+          },
+          {
+            "label": "Reconcile",
+            "from": 13,
+            "to": 16,
+            "color": "teal",
+            "d": "3 days"
+          }
+        ],
+        "src": "Illustrative example, not a real company. Our view; arrangements differ by auditor. Valorin is not an audit firm.",
+        "say": "In our view, that's a myth. Management usually plans and runs the count. Auditors typically attend to observe and test it.",
+        "cap": [
+          "In our view, that's a *myth*.",
+          "*Management* usually plans and runs the count.",
+          "Auditors typically attend to *observe and test* it."
+        ]
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "BEFORE",
+            "n": "Count instructions",
+            "l": "Teams, areas, cut‑off"
+          },
+          {
+            "k": "ON THE DAY",
+            "n": "Tagged and recorded",
+            "l": "No movement during count"
+          },
+          {
+            "k": "AFTER",
+            "n": "Reconcile to the system",
+            "l": "Explain differences"
+          }
+        ],
+        "say": "Plan instructions and cut-off, record every item, then reconcile the count to the system.",
+        "cap": [
+          "Plan instructions and cut‑off, record every item, then *reconcile* the count to the system."
+        ]
+      },
+      {
+        "type": "cta",
+        "q": "Is your count planned?",
+        "h": "AUDIT & RISK ADVISORY",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Valorin is not an audit firm; audit readiness support only.",
+        "say": "Our audit readiness support helps you plan it. Count day coming up? Send us a WhatsApp, and we'll help you plan it.",
+        "cap": [
+          "Our audit readiness support helps you plan it.",
+          "Count day coming up?",
+          "Send us a *WhatsApp*, and we'll help you plan it."
+        ]
+      }
+    ]
+  }
+}

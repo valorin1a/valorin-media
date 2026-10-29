@@ -1,0 +1,88 @@
+{
+  "id": "2026-11-07-am-how-to-set-credit-limit",
+  "date": "2026-11-07",
+  "series": "daily video",
+  "video": {
+    "scenes": [
+      {
+        "type": "personaAnim",
+        "kicker": "FINANCE IN 30S · 07 NOV 2026",
+        "bubble": "How much credit should we give them?",
+        "caption": "Setting customer credit limits.",
+        "say": "How do you set a customer credit limit? Start with sales and terms.",
+        "cap": [
+          "How do you set a *customer credit limit*?",
+          "Start with *sales* and *terms*."
+        ],
+        "shirt": "gold"
+      },
+      {
+        "type": "impact",
+        "kicker": "ILLUSTRATIVE EXAMPLE",
+        "max": 450,
+        "bars": [
+          {
+            "label": "Monthly sales to the customer",
+            "v": 200,
+            "d": "AED 200k",
+            "color": "navy"
+          },
+          {
+            "label": "× 2 months (60‑day terms)",
+            "v": 400,
+            "d": "AED 400k",
+            "color": "gold"
+          }
+        ],
+        "pre": "AED ",
+        "n": 400,
+        "unit": "K",
+        "desc": "a starting limit: monthly sales × months of terms.",
+        "src": "Illustrative example, not a real company. Starting point only; adjust for risk.",
+        "say": "Take an illustrative customer buying two hundred thousand a month on sixty-day terms. A starting limit is about four hundred thousand.",
+        "cap": [
+          "An illustrative customer buys *AED 200,000* a month on *60‑day* terms.",
+          "A starting limit is about *AED 400,000*."
+        ]
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "ADJUST",
+            "n": "For payment history",
+            "l": "And latest accounts"
+          },
+          {
+            "k": "ALLOW",
+            "n": "For seasonal peaks",
+            "l": "Known in advance"
+          },
+          {
+            "k": "APPROVE",
+            "n": "Outside sales",
+            "l": "Segregation of duties"
+          }
+        ],
+        "say": "Then adjust it for payment history, seasonal peaks and the customer's latest accounts, and have someone outside sales approve it.",
+        "cap": [
+          "Then adjust it for *payment history*, *seasonal peaks* and *latest accounts*, and have someone outside sales approve it."
+        ]
+      },
+      {
+        "type": "cta",
+        "q": "How are your limits set?",
+        "h": "ACCOUNTING & MIS",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Illustrative example, not a real company.",
+        "say": "Our accounting and M.I.S. advisory builds this review with you. Want to know your number? Send us a WhatsApp.",
+        "cap": [
+          "Our accounting & MIS advisory builds this review with you.",
+          "Want to know your number?",
+          "Send us a *WhatsApp*."
+        ]
+      }
+    ]
+  }
+}

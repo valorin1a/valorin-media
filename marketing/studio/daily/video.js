@@ -272,16 +272,17 @@ fs.mkdirSync(framesDir);
   const over = await pg.evaluate(() => [...document.querySelectorAll('.scene')].map((s, i) => s.scrollHeight > s.clientHeight + 1 ? i : -1).filter(i => i >= 0));
   if (over.length) console.warn('WARNING: scene overflow in scenes', over.join(','));
   if (process.env.PREVIEW) {
-    for (const x of process.env.PREVIEW.split(',')) { await pg.evaluate((t) => window.renderAt(t), +x); await pg.screenshot({ path: path.join(path.dirname(out), `prev_${x}.png`) }); }
+    const pts = process.env.PREVIEW === 'auto' ? B.slice(0, -1).map((b, i) => +(b + (B[i + 1] - b) * 0.8).toFixed(2)) : process.env.PREVIEW.split(',');
+    for (const x of pts) { await pg.evaluate((t) => window.renderAt(t), +x); await pg.screenshot({ path: path.join(path.dirname(out), `prev_${x}.png`) }); }
     console.log('scene starts (s):', B.map(x => x.toFixed(1)).join(' ')); console.log('cues', JSON.stringify(CUES)); await browser.close(); process.exit(0);
   }
   const nFrames = Math.round(FPS * TOTAL);
   for (let i = 0; i < nFrames; i++) {
     await pg.evaluate((t) => window.renderAt(t), i / FPS);
-    await pg.screenshot({ path: path.join(framesDir, `f${String(i).padStart(4, '0')}.png`) });
+    await pg.screenshot({ path: path.join(framesDir, `f${String(i).padStart(4, '0')}.jpg`), type: 'jpeg', quality: 92 });
   }
   await browser.close();
-  execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-framerate', String(FPS), '-i', path.join(framesDir, 'f%04d.png'),
+  execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-framerate', String(FPS), '-i', path.join(framesDir, 'f%04d.jpg'),
     '-i', audioWav, '-af', 'loudnorm=I=-14:TP=-1.5:LRA=11', '-shortest', '-c:v', 'libx264', '-pix_fmt', 'yuv420p', '-profile:v', 'high', '-crf', '20',
     '-c:a', 'aac', '-b:a', '160k', '-ar', '48000', '-movflags', '+faststart', out]);
   fs.rmSync(framesDir, { recursive: true, force: true });

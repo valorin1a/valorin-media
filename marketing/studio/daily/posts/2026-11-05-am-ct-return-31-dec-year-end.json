@@ -1,0 +1,92 @@
+{
+  "id": "2026-11-05-am-ct-return-31-dec-year-end",
+  "date": "2026-11-05",
+  "series": "daily video",
+  "video": {
+    "scenes": [
+      {
+        "type": "personaAnim",
+        "kicker": "FINANCE IN 30S · 05 NOV 2026",
+        "bubble": "Year ends 31 December. When is the return due?",
+        "caption": "UAE corporate tax.",
+        "say": "A thirty-first of December year-end. So when is the corporate tax return due?",
+        "cap": [
+          "A *31 December* year‑end.",
+          "So when is the *corporate tax return* due?"
+        ],
+        "shirt": "navy"
+      },
+      {
+        "type": "gantt",
+        "kicker": "UAE CORPORATE TAX · MONTHS",
+        "head": "Nine months after <em>year‑end</em>",
+        "max": 22,
+        "ticks": [
+          0,
+          12,
+          21
+        ],
+        "rows": [
+          {
+            "label": "Tax period, 2026",
+            "from": 0,
+            "to": 12,
+            "color": "navy",
+            "d": "12 months"
+          },
+          {
+            "label": "Return and payment",
+            "from": 12,
+            "to": 21,
+            "color": "gold",
+            "d": "9 months"
+          }
+        ],
+        "src": "Federal Decree‑Law No. 47 of 2022, Arts. 48 and 53; FTA press release, 26 Sep 2026; checked 29 Oct 2026. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "say": "Generally within nine months of the end of the tax period, unless the F.T.A. sets another date. For a thirty-first of December twenty twenty-six year-end, that points to the thirtieth of September twenty twenty-seven.",
+        "cap": [
+          "Generally within *nine months* of the tax period end, unless the FTA sets another date.",
+          "For a 31 December 2026 year‑end, that points to *30 September 2027*."
+        ]
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "FILE",
+            "n": "The return",
+            "l": "Within nine months"
+          },
+          {
+            "k": "PAY",
+            "n": "The tax due",
+            "l": "Same deadline"
+          },
+          {
+            "k": "PLAN",
+            "n": "Your year‑end close",
+            "l": "With the deadline in mind"
+          }
+        ],
+        "say": "Filing and payment share that deadline, so plan the year-end close with it in mind.",
+        "cap": [
+          "Filing and payment share that deadline, so plan the *year‑end close* with it in mind."
+        ]
+      },
+      {
+        "type": "cta",
+        "q": "Is your timeline set?",
+        "h": "CORPORATE TAX ADVISORY",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "say": "Our corporate tax advisory helps you plan the timeline. Want to check yours? Message us on WhatsApp.",
+        "cap": [
+          "Our corporate tax advisory helps you plan the timeline.",
+          "Want to check yours?",
+          "Message us on *WhatsApp*."
+        ]
+      }
+    ]
+  }
+}

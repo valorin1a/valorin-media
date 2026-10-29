@@ -1,0 +1,88 @@
+{
+  "id": "2026-11-11-pm-myth-close-now-fix-later",
+  "date": "2026-11-11",
+  "series": "daily video",
+  "video": {
+    "scenes": [
+      {
+        "type": "personaAnim",
+        "kicker": "MYTH OR FACT · 11 NOV 2026",
+        "bubble": "Close the year now, fix it later.",
+        "caption": "Year‑end in the ERP.",
+        "say": "Myth or fact? You can close the year in the E.R.P. now and fix it later.",
+        "cap": [
+          "Myth or fact?",
+          "You can close the year in the ERP now and *fix it later*."
+        ],
+        "shirt": "gold"
+      },
+      {
+        "type": "chart",
+        "kind": "bar",
+        "kicker": "ILLUSTRATIVE EXAMPLE · ENTRIES INTO A CLOSED YEAR",
+        "head": "Late entries <em>pile up</em>",
+        "data": [
+          {
+            "label": "January",
+            "v": 12,
+            "color": "navy"
+          },
+          {
+            "label": "February",
+            "v": 19,
+            "color": "gold"
+          },
+          {
+            "label": "March",
+            "v": 27,
+            "color": "red"
+          }
+        ],
+        "src": "Illustrative example, not a real company.",
+        "say": "In our view, myth. Every late entry into a closed year changes numbers someone already used, for the bank, the auditors or the tax return.",
+        "cap": [
+          "In our view, *myth*.",
+          "Every late entry into a closed year changes numbers someone *already used*: the bank, the auditors, the tax return."
+        ]
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "LOCK",
+            "n": "The period in the system",
+            "l": "Hard close"
+          },
+          {
+            "k": "ADJUST",
+            "n": "With approval and a trail",
+            "l": "Who, what, why"
+          },
+          {
+            "k": "REPORT",
+            "n": "From one final ledger",
+            "l": "Bank, audit, tax"
+          }
+        ],
+        "say": "Lock the period, post any adjustment with approval and a clear trail, and report from one final ledger.",
+        "cap": [
+          "*Lock* the period, adjust with *approval and a trail*, and report from *one final ledger*."
+        ]
+      },
+      {
+        "type": "cta",
+        "q": "Is last year really closed?",
+        "h": "ERP ADVISORY",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Illustrative example, not a real company.",
+        "say": "Our E.R.P. advisory sets up a proper year-end close. Want your close checked before the auditors arrive? Talk to us.",
+        "cap": [
+          "Our ERP advisory sets up a proper *year‑end close*.",
+          "Want your close checked before the auditors arrive?",
+          "Talk to us."
+        ]
+      }
+    ]
+  }
+}
