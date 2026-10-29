@@ -1,0 +1,39 @@
+1
+00:00:00,250 --> 00:00:04,709
+Myth or fact?
+
+2
+00:00:05,409 --> 00:00:07,319
+In our view, mostly myth.
+
+3
+00:00:07,319 --> 00:00:10,986
+A new system only reports what you put into it.
+
+4
+00:00:10,986 --> 00:00:18,550
+If the old data, chart of accounts and habits move across unchanged, so do the reporting problems.
+
+5
+00:00:19,250 --> 00:00:29,341
+So fix three things before go-live: a chart of accounts built for the reports you need, clean master data, and a written close process.
+
+6
+00:00:30,041 --> 00:00:30,569
+Our E.
+
+7
+00:00:30,569 --> 00:00:30,745
+R.
+
+8
+00:00:30,745 --> 00:00:30,921
+P.
+
+9
+00:00:30,921 --> 00:00:35,940
+advisory, including Oracle, starts with that groundwork.
+
+10
+00:00:35,940 --> 00:00:40,430
+General information only, not legal or tax advice.

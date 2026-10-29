@@ -1,0 +1,52 @@
+{
+  "id": "2026-10-31-pm-myth-erp-fixes-reporting",
+  "date": "2026-10-31",
+  "series": "daily video",
+  "video": {
+    "scenes": [
+      {
+        "type": "persona",
+        "kicker": "MYTH OR FACT · 31 OCT 2026",
+        "bubble": "A new ERP will fix our reports.",
+        "caption": "Myth or fact?",
+        "shirt": "gold",
+        "say": "Myth or fact? A new E.R.P. will fix our reporting."
+      },
+      {
+        "type": "hook",
+        "kicker": "MOSTLY MYTH, IN OUR VIEW",
+        "head": "A new system only reports what you <em>put into it</em>.",
+        "say": "In our view, mostly myth. A new system only reports what you put into it. If the old data, chart of accounts and habits move across unchanged, so do the reporting problems."
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "CHART OF ACCOUNTS",
+            "n": "Accounts and dimensions",
+            "l": "Built for your reports"
+          },
+          {
+            "k": "MASTER DATA",
+            "n": "Customers, items, tax codes",
+            "l": "Cleaned, one owner each"
+          },
+          {
+            "k": "CLOSE PROCESS",
+            "n": "Written and timed",
+            "l": "Who does what, by which day"
+          }
+        ],
+        "say": "So fix three things before go-live: a chart of accounts built for the reports you need, clean master data, and a written close process."
+      },
+      {
+        "type": "cta",
+        "h": "ERP & ORACLE ADVISORY",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Oracle is a trademark of its owner; no partnership implied.",
+        "say": "Our E.R.P. advisory, including Oracle, starts with that groundwork. General information only, not legal or tax advice."
+      }
+    ]
+  }
+}

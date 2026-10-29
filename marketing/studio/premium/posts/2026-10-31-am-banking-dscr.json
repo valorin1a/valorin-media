@@ -1,0 +1,66 @@
+{
+  "id": "2026-10-31-am-banking-dscr",
+  "date": "2026-10-31",
+  "series": "daily video",
+  "video": {
+    "scenes": [
+      {
+        "type": "hook",
+        "kicker": "FINANCE IN 30S · 31 OCT 2026",
+        "head": "What is <em>DSCR</em>, and why does your bank ask?",
+        "say": "What is D.S.C.R., and why does your bank keep asking for it?"
+      },
+      {
+        "type": "chart",
+        "kind": "bar",
+        "kicker": "ILLUSTRATIVE EXAMPLE",
+        "head": "Debt service cover: <em>1.25x</em>",
+        "data": [
+          {
+            "label": "Cash available|for debt service",
+            "v": 1500,
+            "d": "1,500"
+          },
+          {
+            "label": "Principal|and interest",
+            "v": 1200,
+            "d": "1,200",
+            "color": "gold"
+          }
+        ],
+        "note": "1,500 ÷ 1,200 = 1.25x (AED thousands)",
+        "src": "Illustrative numbers, not a real company.",
+        "say": "The debt service coverage ratio compares the cash a business generates with the loan principal and interest due over the same period. Here, fifteen hundred against twelve hundred: one point two five times."
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "BELOW 1.0x",
+            "n": "Cash doesn't cover repayments",
+            "l": "Repayments need other funds"
+          },
+          {
+            "k": "COVENANTS",
+            "n": "Set by each lender",
+            "l": "Read your facility letter"
+          },
+          {
+            "k": "FORECAST",
+            "n": "Test it 12 months ahead",
+            "l": "Before you borrow more"
+          }
+        ],
+        "say": "Below one times, the cash generated doesn't cover the repayments. Each lender sets its own minimum and its own definition, usually in the facility letter. Test it twelve months ahead before you borrow more."
+      },
+      {
+        "type": "cta",
+        "h": "BANKING & FINANCING",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Illustrative example.",
+        "say": "Our banking and financing advisory prepares the numbers lenders ask for. General information only, not legal or tax advice."
+      }
+    ]
+  }
+}
