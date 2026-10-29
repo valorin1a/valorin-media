@@ -1,0 +1,53 @@
+{
+  "id": "2026-10-29-myth-vat-threshold",
+  "date": "2026-10-29",
+  "series": "Myth or Fact (daily video)",
+  "video": {
+    "scenes": [
+      {
+        "type": "hook",
+        "kicker": "MYTH OR FACT · 29 OCT 2026",
+        "head": "Register for VAT only <em>after</em> sales pass AED&nbsp;375,000?",
+        "say": "Myth or fact? You only register for VAT once your sales have already passed three hundred and seventy-five thousand dirhams."
+      },
+      {
+        "type": "figure",
+        "kicker": "MYTH. THERE ARE TWO TESTS",
+        "n": "375,000",
+        "unit": "AED",
+        "desc": "mandatory VAT registration threshold, on taxable supplies and imports",
+        "src": "Source: Federal Tax Authority, Mandatory Registration, tax.gov.ae; checked 29 Oct 2026. The threshold does not apply to foreign businesses. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "say": "Myth. The threshold is three hundred and seventy-five thousand dirhams of taxable supplies and imports, and the Federal Tax Authority applies two tests."
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "LOOK BACK",
+            "n": "Past 12 months",
+            "l": "Above the threshold: register"
+          },
+          {
+            "k": "LOOK AHEAD",
+            "n": "Next 30 days",
+            "l": "Expected to exceed it: register"
+          },
+          {
+            "k": "WHAT COUNTS",
+            "n": "Supplies and imports",
+            "l": "Taxable ones, not total turnover"
+          }
+        ],
+        "say": "Look back over the past twelve months. And look ahead: if you expect taxable supplies and imports to exceed it in the next thirty days, you must register too."
+      },
+      {
+        "type": "cta",
+        "h": "CHECK IT MONTHLY",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "say": "So check both tests every month, and again when you sign a large contract. Questions? Talk to us on WhatsApp. General information only, not legal or tax advice."
+      }
+    ]
+  }
+}

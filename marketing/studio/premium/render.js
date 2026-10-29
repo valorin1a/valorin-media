@@ -27,7 +27,7 @@ const tmp = path.join(__dirname, '_filled.html');
 fs.writeFileSync(tmp, html);
 
 (async () => {
-  const browser = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell' });
+  const browser = await chromium.launch(fs.existsSync('/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell') ? { executablePath: '/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell' } : { executablePath: process.env.PW_CHROMIUM || '/opt/pw-browsers/chromium' });
   const page = await browser.newPage({ viewport: { width: DIM[0], height: DIM[1] }, deviceScaleFactor: 1 });
   await page.goto('file://' + tmp);
   await page.evaluate(() => document.fonts.ready);

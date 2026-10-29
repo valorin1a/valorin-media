@@ -88,7 +88,7 @@ const framesDir = path.join(__dirname, '_frames');
 fs.rmSync(framesDir, { recursive: true, force: true });
 fs.mkdirSync(framesDir);
 (async () => {
-  const browser = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell' });
+  const browser = await chromium.launch(fs.existsSync('/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell') ? { executablePath: '/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell' } : { executablePath: process.env.PW_CHROMIUM || '/opt/pw-browsers/chromium' });
   const pg = await browser.newPage({ viewport: { width: 1080, height: 1920 } });
   await pg.goto('file://' + tmp);
   await pg.evaluate(() => document.fonts.ready);
