@@ -1,0 +1,79 @@
+{
+  "id": "2026-10-30-am-cfo-profit-vs-cash",
+  "date": "2026-10-30",
+  "series": "daily video",
+  "video": {
+    "scenes": [
+      {
+        "type": "persona",
+        "kicker": "FINANCE IN 30S · 30 OCT 2026",
+        "bubble": "Profit is up. So why is cash down?",
+        "caption": "A common month-end question.",
+        "say": "Profit is up. So why is the bank balance down?"
+      },
+      {
+        "type": "chart",
+        "kind": "waterfall",
+        "kicker": "ILLUSTRATIVE EXAMPLE",
+        "head": "From profit to <em>cash</em>, AED thousands",
+        "data": [
+          {
+            "label": "Profit",
+            "v": 500,
+            "total": true
+          },
+          {
+            "label": "Receivables|up",
+            "v": -320
+          },
+          {
+            "label": "Stock|up",
+            "v": -140
+          },
+          {
+            "label": "Payables|up",
+            "v": 90,
+            "d": "+90"
+          },
+          {
+            "label": "Cash",
+            "v": 130,
+            "total": true
+          }
+        ],
+        "note": "Working capital absorbed most of the profit.",
+        "src": "Illustrative numbers, not a real company. Ignores capex, loans and tax.",
+        "say": "Take an illustrative month. Five hundred thousand of profit. Customers paid later, stock built up, and only one hundred and thirty thousand reached the bank."
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "RECEIVABLES",
+            "n": "Who pays late?",
+            "l": "Ageing, every month"
+          },
+          {
+            "k": "STOCK",
+            "n": "What sits unsold?",
+            "l": "Slow lines, by value"
+          },
+          {
+            "k": "PAYABLES",
+            "n": "Terms you agreed",
+            "l": "On terms, not early"
+          }
+        ],
+        "say": "So each month, check who pays late, which stock sits unsold, and whether you pay suppliers earlier than you need to."
+      },
+      {
+        "type": "cta",
+        "h": "FRACTIONAL CFO",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Illustrative example.",
+        "say": "Our fractional C.F.O. service builds this cash view with you. General information only, not legal or tax advice."
+      }
+    ]
+  }
+}
