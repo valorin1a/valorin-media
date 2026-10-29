@@ -1,0 +1,9 @@
+{
+  "name": "valorin-pulse-tools",
+  "private": true,
+  "dependencies": {
+    "playwright": "1.47.2",
+    "@fontsource/roboto-condensed": "5.0.14",
+    "@fontsource/roboto": "5.0.13"
+  }
+}

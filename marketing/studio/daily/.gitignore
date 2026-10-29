@@ -1,0 +1,7 @@
+node_modules/
+_audio/
+_frames/
+_video_filled.html
+_filled.html
+out/
+prev_*.png

@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Valorin brand video</title>
+<style>
+@font-face{font-family:"RC";font-weight:600;src:url(node_modules/@fontsource/roboto-condensed/files/roboto-condensed-latin-600-normal.woff2)}
+@font-face{font-family:"RC";font-weight:700;src:url(node_modules/@fontsource/roboto-condensed/files/roboto-condensed-latin-700-normal.woff2)}
+@font-face{font-family:"RB";font-weight:300;src:url(node_modules/@fontsource/roboto/files/roboto-latin-300-normal.woff2)}
+@font-face{font-family:"RB";font-weight:400;src:url(node_modules/@fontsource/roboto/files/roboto-latin-400-normal.woff2)}
+@font-face{font-family:"RB";font-weight:500;src:url(node_modules/@fontsource/roboto/files/roboto-latin-500-normal.woff2)}
+@font-face{font-family:"RB";font-style:italic;font-weight:400;src:url(node_modules/@fontsource/roboto/files/roboto-latin-400-italic.woff2)}
+/* Same frame as the locked Peppol Pulse video (tools/video.html, 21 Oct 2026) */
+:root{--navy:#13283D;--navy2:#0E1F31;--gold:#B29A74;--gold2:#D6C29A;--goldT:#7A6545;--ivory:#F6F2EA;--line:#E6DFD2;--ink:#3E4A57;--mut:#6A6F76;--red:#B3261E;--teal:#0F6E68}
+*{box-sizing:border-box}
+html,body{margin:0;background:#fff}
+.v{position:relative;width:1080px;height:1920px;overflow:hidden;background:#fff;color:var(--navy);font-family:"RB",sans-serif}
+.c{font-family:"RC",sans-serif}
+.facet{position:absolute;top:0;right:0;width:430px;height:760px;background:var(--ivory);clip-path:polygon(40% 0,100% 0,100% 100%)}
+.facet2{position:absolute;top:0;right:0;width:430px;height:760px;background:#EFE8DA;clip-path:polygon(78% 0,100% 0,100% 46%)}
+.top{position:absolute;left:72px;right:72px;top:250px}
+.top img{height:68px;display:block}
+.top .tg{margin-top:14px;font-style:italic;font-weight:400;font-size:21px;letter-spacing:.01em;color:var(--goldT)}
+.scene{position:absolute;left:72px;right:110px;top:430px;bottom:590px;display:flex;flex-direction:column;justify-content:center;gap:34px}
+.el{will-change:opacity,transform}
+.k{font-weight:600;font-size:34px;letter-spacing:.22em;color:var(--goldT)}
+.rl{width:84px;height:3px;background:var(--gold)}
+.h1{font-family:"RB";font-weight:500;font-size:104px;line-height:1.04;letter-spacing:-.02em;color:var(--navy)}
+.h1 em{font-style:normal;color:#8C7550}
+.sub{font-weight:300;font-size:44px;line-height:1.3;color:var(--ink)}
+.num{font-family:"RB";font-weight:500;font-size:240px;line-height:.9;color:var(--navy);letter-spacing:-.025em}
+.num small{font-size:84px;margin-left:16px;letter-spacing:0}
+.desc{font-family:"RB";font-weight:400;font-size:52px;line-height:1.2;color:var(--navy)}
+.disc{font-size:25px;line-height:1.4;color:var(--mut)}
+.stat{border-left:6px solid var(--cc);padding:8px 0 8px 36px;display:flex;flex-direction:column;gap:8px}
+.stat .k2{font-weight:600;font-size:30px;letter-spacing:.2em;color:var(--goldT)}
+.stat .n{font-family:"RB";font-weight:500;font-size:66px;line-height:1.05;color:var(--navy)}
+.stat .l{font-family:"RB";font-size:36px;line-height:1.3;color:var(--ink)}
+.svc{display:flex;gap:30px;align-items:center}
+.svc .i{flex:none;width:92px;height:92px;border-radius:50%;border:3px solid var(--gold);color:var(--navy);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:48px}
+.svc .t{font-family:"RB";font-weight:500;font-size:50px;line-height:1.05;color:var(--navy)}
+.svc .t small{display:block;font-family:"RB";font-weight:400;font-size:34px;color:var(--ink);margin-top:8px}
+.cta{background:var(--navy2);color:#fff;border-radius:6px;border-left:8px solid var(--gold);padding:36px 42px;display:flex;flex-direction:column;gap:12px}
+.cta .h{font-weight:600;font-size:34px;letter-spacing:.2em;color:var(--gold2)}
+.cta .b{font-family:"RB";font-weight:500;font-size:52px;color:#fff}
+.cta .a{font-family:"RB";font-weight:500;font-size:52px;line-height:1;margin-top:6px}
+.ftr{position:absolute;left:0;right:0;bottom:0;height:442px;background:var(--navy2);border-top:4px solid var(--gold);color:#fff;padding:0 60px;display:flex;align-items:center;justify-content:space-between;font-family:"RB";font-size:22px;font-weight:400}
+.ftr span{display:flex;align-items:center;gap:11px}
+.sep{width:1px;height:30px;background:#34506D}
+.bar{position:absolute;left:0;bottom:446px;height:6px;background:var(--gold)}
+.ch{font-family:"RB";font-weight:500;font-size:72px;line-height:1.06;letter-spacing:-.015em;color:var(--navy)}
+.ch em{font-style:normal;color:#8C7550}
+.cn{font-family:"RB";font-weight:400;font-size:40px;line-height:1.25;color:var(--navy)}
+.cap{position:absolute;left:72px;right:72px;bottom:478px;min-height:96px;display:flex;align-items:center;justify-content:center;text-align:center;font-family:"RB";font-weight:500;font-size:38px;line-height:1.25;color:var(--navy);padding:0 10px}
+.cap b{background:linear-gradient(transparent 62%,#EADFC8 62%);font-weight:500}
+.bub{align-self:flex-start;max-width:898px;background:var(--ivory);border:3px solid var(--gold);border-radius:28px;padding:26px 36px;font-family:"RB";font-weight:500;font-size:50px;line-height:1.15;color:var(--navy)}
+</style>
+</head>
+<body>
+<div class="v" id="v">
+<div class="facet"></div><div class="facet2"></div>
+<div class="top"><img src="valorin_logo.png" alt="Valorin, Finance | Tax | Advisory"><div class="tg">Finance with Integrity. Growth with Insight.</div></div>
+{{SCENES}}
+<div class="cap" id="cap"></div>
+<div class="bar" id="bar"></div>
+<div class="ftr">
+<span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#D6C29A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.6"/></svg>Dubai, UAE</span>
+<div class="sep"></div>
+<span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#D6C29A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19"/><path d="M12 2.5c2.6 2.8 3.9 6 3.9 9.5s-1.3 6.7-3.9 9.5c-2.6-2.8-3.9-6-3.9-9.5s1.3-6.7 3.9-9.5z"/></svg>www.valorin.ae</span>
+<div class="sep"></div>
+<span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#D6C29A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3.5 6.5 8.5 6.5 8.5-6.5"/></svg>advisory@valorin.ae</span>
+<div class="sep"></div>
+<span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#D6C29A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 11.6a8.5 8.5 0 0 1-12.6 7.4L3.5 20.5l1.5-4.3A8.5 8.5 0 1 1 20.5 11.6z"/></svg>058-2754282</span>
+</div>
+</div>
+<script>
+const TOTAL = {{TOTAL}};
+const COUNTERS = {{COUNTERS}};
+const CUES = {{CUES}};
+function ease(x){x=Math.max(0,Math.min(1,x));return 1-Math.pow(1-x,3);}
+window.renderAt = function(t){
+  document.querySelectorAll('.scene').forEach(s=>{
+    const a=+s.dataset.s, b=+s.dataset.e, last=s.dataset.last==='1';
+    let o = t<a?0 : (!last && t>b)?0 : Math.min(1,(t-a)/0.25, last?1:(b-t)/0.25);
+    s.style.opacity=o; s.style.visibility=o>0?'visible':'hidden';
+  });
+  document.querySelectorAll('.el').forEach(e=>{
+    const p=ease((t-(+e.dataset.in))/0.45);
+    e.style.opacity=p; e.style.transform=`translateY(${(1-p)*40}px)`;
+  });
+  document.querySelectorAll('.gb').forEach(e=>{const p=ease((t-(+e.dataset.in))/0.7); e.style.transform=`scaleY(${Math.max(0.001,p)})`;});
+  document.querySelectorAll('.gl').forEach(e=>{const L=e.getTotalLength(); const p=ease((t-(+e.dataset.in))/1.2); e.style.strokeDasharray=L; e.style.strokeDashoffset=L*(1-p);});
+  document.querySelectorAll('.gf').forEach(e=>{const p=ease((t-(+e.dataset.in))/0.4); e.style.opacity=p;});
+  document.querySelectorAll('.gx').forEach(e=>{const p=ease((t-(+e.dataset.in))/0.8); e.style.transform=`scaleX(${Math.max(0.001,p)})`;});
+  document.querySelectorAll('.pop').forEach(e=>{const p=(t-(+e.dataset.in))/0.5; const sc=p<=0?0.6:p>=1?1:0.6+0.4*(1+2.2*Math.pow(p-1,3)+1.2*Math.pow(p-1,2)); e.style.transform=`scale(${sc})`; e.style.transformOrigin='left bottom';});
+  document.querySelectorAll('.qm').forEach(e=>{const p=ease((t-(+e.dataset.in))/0.5); e.style.opacity=p; e.style.transform=`translateY(${-Math.sin(t*2.2)*8}px)`;});
+  document.querySelectorAll('.bob').forEach(e=>{e.style.transform=`translateY(${Math.sin(t*1.6)*3}px)`;});
+  document.querySelectorAll('.eyes').forEach(e=>{const ph=t%3.4; e.style.transform=`scaleY(${ph>3.25?0.12:1})`;});
+  const cue=CUES.find(c=>t>=c.s&&t<c.e); const cp=document.getElementById('cap');
+  if(cue){ if(cp.dataset.t!==cue.t){cp.innerHTML='<span>'+cue.t.replace(/\*(.+?)\*/g,'<b>$1</b>')+'</span>'; cp.dataset.t=cue.t;} cp.style.opacity=Math.min(1,(t-cue.s)/0.15,(cue.e-t)/0.15);} else cp.style.opacity=0;
+  COUNTERS.forEach(c=>{
+    const el=document.getElementById(c.id); if(!el) return;
+    const raw=c.target*ease((t-c.at)/1.2); const v=c.dec?raw.toFixed(c.dec):Math.round(raw).toLocaleString('en-US');
+    el.firstChild.nodeValue=v;
+  });
+  document.getElementById('bar').style.width=(Math.min(1,t/TOTAL)*100)+'%';
+};
+window.renderAt(0);
+</script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+{
+  "id": "sample-am-mis-cash-conversion-cycle",
+  "date": "2026-11-01",
+  "series": "daily video (sample)",
+  "video": {
+    "scenes": [
+      {
+        "type": "personaAnim",
+        "kicker": "FINANCE IN 30S · SAMPLE",
+        "bubble": "How many days is our cash tied up?",
+        "caption": "The number most month‑end packs leave out.",
+        "say": "How many days does your cash sit in stock and unpaid invoices?",
+        "cap": [
+          "How many days does your cash sit in *stock* and *unpaid invoices*?"
+        ]
+      },
+      {
+        "type": "gantt",
+        "kicker": "ILLUSTRATIVE EXAMPLE · DAYS",
+        "head": "Where the <em>days</em> go",
+        "max": 145,
+        "ticks": [
+          0,
+          45,
+          60,
+          135
+        ],
+        "rows": [
+          {
+            "label": "Stock on the shelf",
+            "from": 0,
+            "to": 60,
+            "color": "gold",
+            "d": "60 days"
+          },
+          {
+            "label": "Customers pay",
+            "from": 60,
+            "to": 135,
+            "color": "navy",
+            "d": "75 days"
+          },
+          {
+            "label": "Suppliers paid",
+            "from": 0,
+            "to": 45,
+            "color": "teal",
+            "d": "45 days"
+          }
+        ],
+        "gap": {
+          "from": 45,
+          "to": 135,
+          "label": "90 days funded by you"
+        },
+        "src": "Illustrative example, not a real company.",
+        "say": "An illustrative trader. Stock sits sixty days. Customers pay in seventy-five. Suppliers are paid at forty-five.",
+        "cap": [
+          "An illustrative trader.",
+          "Stock sits *60 days*.",
+          "Customers pay in *75*.",
+          "Suppliers are paid at *45*."
+        ]
+      },
+      {
+        "type": "figure",
+        "kicker": "CASH CONVERSION CYCLE",
+        "n": "90",
+        "unit": "DAYS",
+        "desc": "60 + 75 − 45. <b>The gap your own cash has to fund.</b>",
+        "src": "Stock days + customer days − supplier days. Illustrative example, not a real company.",
+        "say": "So for ninety days, your own cash funds the business. That's the cash conversion cycle.",
+        "cap": [
+          "So for *90 days*, your own cash funds the business.",
+          "That's the *cash conversion cycle*."
+        ]
+      },
+      {
+        "type": "impact",
+        "kicker": "WHAT 15 DAYS IS WORTH",
+        "max": 100,
+        "bars": [
+          {
+            "label": "Cycle today",
+            "v": 90,
+            "d": "90 days",
+            "color": "navy"
+          },
+          {
+            "label": "Collect 15 days faster",
+            "v": 75,
+            "d": "75 days",
+            "color": "teal"
+          }
+        ],
+        "pre": "AED ",
+        "n": 1.5,
+        "dec": 1,
+        "unit": "M",
+        "desc": "cash released, at AED 100,000 of sales a day.",
+        "src": "15 days × AED 100,000. Illustrative example, not a real company.",
+        "say": "Collect fifteen days faster on a hundred thousand dirhams of daily sales, and one and a half million is released.",
+        "cap": [
+          "Collect *15 days faster* on AED 100,000 of daily sales, and *AED 1.5 million* is released."
+        ]
+      },
+      {
+        "type": "cta",
+        "h": "ACCOUNTING & MIS",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Illustrative example, not a real company.",
+        "say": "Our accounting and M.I.S. advisory tracks this every month. Want to know your cycle? Send us a WhatsApp, and we'll work it out with you.",
+        "cap": [
+          "Our accounting & MIS advisory tracks this every month.",
+          "Want to know *your* cycle?",
+          "Send us a *WhatsApp*, and we'll work it out with you."
+        ],
+        "q": "What's <em>your</em> cycle?"
+      }
+    ]
+  }
+}

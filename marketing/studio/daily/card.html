@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Valorin brand card</title>
+<style>
+@font-face{font-family:"RC";font-weight:500;src:url(node_modules/@fontsource/roboto-condensed/files/roboto-condensed-latin-500-normal.woff2)}
+@font-face{font-family:"RC";font-weight:600;src:url(node_modules/@fontsource/roboto-condensed/files/roboto-condensed-latin-600-normal.woff2)}
+@font-face{font-family:"RC";font-weight:700;src:url(node_modules/@fontsource/roboto-condensed/files/roboto-condensed-latin-700-normal.woff2)}
+@font-face{font-family:"RB";font-weight:300;src:url(node_modules/@fontsource/roboto/files/roboto-latin-300-normal.woff2)}
+@font-face{font-family:"RB";font-weight:400;src:url(node_modules/@fontsource/roboto/files/roboto-latin-400-normal.woff2)}
+@font-face{font-family:"RB";font-weight:500;src:url(node_modules/@fontsource/roboto/files/roboto-latin-500-normal.woff2)}
+@font-face{font-family:"RB";font-style:italic;font-weight:400;src:url(node_modules/@fontsource/roboto/files/roboto-latin-400-italic.woff2)}
+/* Same palette, header, diagonal and footer as the locked Peppol Pulse card (tools/card.html, 21 Oct 2026) */
+:root{--navy:#13283D;--navy2:#0E1F31;--gold:#B29A74;--goldT:#7A6545;--ivory:#F6F2EA;--line:#E6DFD2;--ink:#3E4A57;--muted:#6A6F76;--red:#B3261E}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{background:#fff}
+.card{position:relative;width:1080px;height:1350px;background:#fff;font-family:"RB",sans-serif;color:var(--navy);overflow:hidden;display:flex;flex-direction:column}
+.c{font-family:"RC",sans-serif}
+.facet{position:absolute;top:0;right:0;width:430px;height:560px;background:var(--ivory);clip-path:polygon(38% 0,100% 0,100% 100%)}
+.facet2{position:absolute;top:0;right:0;width:430px;height:560px;background:#EFE8DA;clip-path:polygon(78% 0,100% 0,100% 46%)}
+.top{position:relative;padding:68px 72px 0}
+.brand img{height:68px;display:block}
+.tagline{margin-top:14px;font-style:italic;font-weight:400;font-size:21px;letter-spacing:.01em;color:var(--goldT)}
+main{position:relative;flex:1;padding:0 72px;display:flex;flex-direction:column}
+.kicker{margin-top:84px;font-weight:600;font-size:22px;letter-spacing:.26em;color:var(--goldT)}
+.rule{width:64px;height:2px;background:var(--gold);margin-top:22px}
+.head{margin-top:30px;font-family:"RB";font-weight:500;font-size:72px;line-height:1.05;letter-spacing:-.015em;color:var(--navy);max-width:936px}
+.sub{margin-top:20px;font-weight:300;font-size:31px;line-height:1.3;color:var(--ink);max-width:936px}
+.fig{margin-top:46px;display:flex;align-items:flex-end;gap:30px}
+.fig .n{font-family:"RB";font-weight:500;font-size:150px;line-height:.86;letter-spacing:-.025em;color:var(--navy);white-space:nowrap}
+.fig .n small{font-size:54px;font-weight:500;letter-spacing:0;margin-left:10px}
+.fig .l{padding-bottom:6px;font-size:28px;line-height:1.3;color:var(--ink);max-width:470px}
+.fig .l b{font-weight:500;color:var(--navy)}
+.hr{height:1px;background:var(--line);margin-top:52px}
+.stats{display:grid;grid-template-columns:1fr 1fr 1fr;margin-top:40px}
+.stat{padding:0 30px;border-left:1px solid var(--line)}
+.stat:first-child{padding-left:0;border-left:0}
+.stat .k{font-weight:600;font-size:18px;letter-spacing:.2em;color:var(--goldT)}
+.stat .t{margin-top:14px;font-family:"RB";font-weight:500;font-size:31px;line-height:1.1;color:var(--navy)}
+.stat .t.alert{color:var(--red)}
+.stat .l{margin-top:10px;font-size:21px;line-height:1.35;color:var(--ink)}
+.cta{margin-top:auto;margin-bottom:34px;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:28px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.cta .h{font-weight:600;font-size:22px;letter-spacing:.2em;color:var(--goldT)}
+.cta .d{margin-top:10px;font-size:26px;font-weight:300;color:var(--navy)}
+.go{flex:none;display:flex;align-items:center;gap:14px;font-weight:500;font-size:30px;color:var(--navy)}
+.src{padding:0 72px 26px;font-size:15.5px;line-height:1.45;color:var(--muted)}
+.ftr{flex:none;height:92px;background:var(--navy2);border-top:4px solid var(--gold);color:#fff;padding:0 60px;display:flex;align-items:center;justify-content:space-between;font-size:22px;font-weight:400}
+.ftr span{display:flex;align-items:center;gap:11px}
+.sep{width:1px;height:30px;background:#34506D}
+/* Pinterest 2:3 */
+.card.pinterest{height:1620px}
+.card.pinterest .kicker{margin-top:140px}
+.card.pinterest .fig{margin-top:70px}
+.card.pinterest .hr{margin-top:80px}
+.card.pinterest .stats{margin-top:56px}
+/* Landscape 4:3 (GBP) */
+.card.landscape{width:1440px;height:1080px}
+.card.landscape .facet,.card.landscape .facet2{height:440px}
+.card.landscape .top{padding:48px 96px 0}
+.card.landscape .brand img{height:56px}
+.card.landscape .tagline{margin-top:10px;font-size:18px}
+.card.landscape main,.card.landscape .src{padding-left:96px;padding-right:96px}
+.card.landscape .kicker{margin-top:52px;font-size:20px}
+.card.landscape .rule{margin-top:14px}
+.card.landscape .head{margin-top:24px;font-size:70px;max-width:1150px}
+.card.landscape .sub{margin-top:14px;font-size:28px;max-width:1150px}
+.card.landscape .fig{margin-top:44px}
+.card.landscape .fig .n{font-size:130px}
+.card.landscape .fig .n small{font-size:42px}
+.card.landscape .fig .l{font-size:26px;max-width:640px}
+.card.landscape .hr{margin-top:46px}
+.card.landscape .stats{margin-top:36px}
+.card.landscape .stat{padding:0 44px}
+.card.landscape .stat:first-child{padding-left:0}
+.card.landscape .stat .k{font-size:16px}
+.card.landscape .stat .t{margin-top:10px;font-size:32px}
+.card.landscape .stat .l{margin-top:8px;font-size:20px}
+.card.landscape .cta{margin-bottom:16px;padding:14px 0}
+.card.landscape .cta .h{font-size:17px}
+.card.landscape .cta .d{margin-top:6px;font-size:21px}
+.card.landscape .go{font-size:25px}
+.card.landscape .src{padding-bottom:14px;font-size:13px;line-height:1.4}
+.card.landscape .ftr{padding:0 96px}
+/* X 16:9: headline and figure left, points right */
+.card.wide{width:1600px;height:900px}
+.card.wide .facet,.card.wide .facet2{height:400px;width:380px}
+.card.wide .top{padding:44px 88px 0}
+.card.wide .brand img{height:54px}
+.card.wide .tagline{margin-top:8px;font-size:18px}
+.card.wide main{padding:0 88px;display:grid;grid-template-columns:1.2fr 1fr;grid-template-rows:repeat(5,auto) 1fr auto;column-gap:72px}
+.card.wide .kicker{grid-column:1;margin-top:30px;font-size:19px}
+.card.wide .rule{grid-column:1;margin-top:14px}
+.card.wide .head{grid-column:1;margin-top:20px;font-size:58px}
+.card.wide .sub{grid-column:1;margin-top:10px;font-size:24px}
+.card.wide .fig{grid-column:1;margin-top:24px}
+.card.wide .fig .n{font-size:104px}
+.card.wide .fig .n small{font-size:40px}
+.card.wide .fig .l{font-size:22px;max-width:520px}
+.card.wide .hr{display:none}
+.card.wide .stats{grid-column:2;grid-row:1 / 7;align-self:center;margin-top:20px;grid-template-columns:1fr;row-gap:22px}
+.card.wide .stat,.card.wide .stat:first-child{padding:0 0 0 30px;border-left:1px solid var(--line)}
+.card.wide .stat .k{font-size:15px}
+.card.wide .stat .t{margin-top:6px;font-size:28px}
+.card.wide .stat .l{margin-top:4px;font-size:17px}
+.card.wide .cta{grid-column:1 / span 2;grid-row:7;margin:18px 0 12px;padding:12px 0}
+.card.wide .cta .h{font-size:15px}
+.card.wide .cta .d{margin-top:4px;font-size:19px}
+.card.wide .go{font-size:23px}
+.card.wide .src{padding:0 88px 12px;font-size:12px;line-height:1.35}
+.card.wide .ftr{height:76px;padding:0 88px;font-size:20px}
+</style>
+</head>
+<body>
+<div class="card">
+<div class="facet"></div><div class="facet2"></div>
+<div class="top">
+  <div class="brand"><img src="valorin_logo.png" alt="Valorin, Finance | Tax | Advisory"><div class="tagline">Finance with Integrity. Growth with Insight.</div></div>
+</div>
+<main>
+  <div class="kicker c">{{KICKER}}</div>
+  <div class="rule"></div>
+  <div class="head">{{HEAD}}</div>
+  <div class="sub">{{SUB}}</div>
+  {{FIG}}
+  <div class="hr"></div>
+  <div class="stats">{{TILES}}</div>
+  <div class="cta">
+    <div><div class="h c">{{CTAH}}</div><div class="d">{{CTAD}}</div></div>
+    <div class="go">{{CTAGO}}<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#B29A74" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg></div>
+  </div>
+</main>
+<div class="src">{{SOURCE}}</div>
+<div class="ftr">
+<span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#D6C29A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.6"/></svg>Dubai, UAE</span>
+<div class="sep"></div>
+<span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#D6C29A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19"/><path d="M12 2.5c2.6 2.8 3.9 6 3.9 9.5s-1.3 6.7-3.9 9.5c-2.6-2.8-3.9-6-3.9-9.5s1.3-6.7 3.9-9.5z"/></svg>www.valorin.ae</span>
+<div class="sep"></div>
+<span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#D6C29A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3.5 6.5 8.5 6.5 8.5-6.5"/></svg>advisory@valorin.ae</span>
+<div class="sep"></div>
+<span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#D6C29A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 11.6a8.5 8.5 0 0 1-12.6 7.4L3.5 20.5l1.5-4.3A8.5 8.5 0 1 1 20.5 11.6z"/></svg>058-2754282</span>
+</div>
+</div>
+</body>
+</html>
