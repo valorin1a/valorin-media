@@ -55,9 +55,9 @@
           }
         ],
         "src": "Illustrative example, not a real company. Valorin is not an audit firm; audit readiness support only.",
-        "say": "Typical items: bank and receivables reconciliations, fixed asset registers, stock listings and confirmations. Ready before fieldwork means fewer questions later.",
+        "say": "Typical items: bank and receivables reconciliations, fixed asset registers, stock listings and aged payables. Ready before fieldwork means fewer questions later.",
         "cap": [
-          "Typical items: bank and receivables reconciliations, fixed asset registers, stock listings, confirmations.",
+          "Typical items: bank and receivables reconciliations, fixed asset registers, stock listings, aged payables.",
           "Ready *before fieldwork* means fewer questions later."
         ]
       },

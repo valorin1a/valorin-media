@@ -38,16 +38,16 @@
             "color": "teal"
           },
           {
-            "label": "Errors",
+            "label": "Other|errors",
             "v": 2,
             "color": "red"
           }
         ],
         "src": "Illustrative example, not a real company. Valorin is not an audit firm.",
-        "say": "In our view, often not. In this illustrative audit, most adjustments come from year-end estimates, cut-off and reclassifications, not errors.",
+        "say": "In our view, often not. In this illustrative audit, most adjustments come from year-end estimates and reclassifications, not careless mistakes.",
         "cap": [
           "In our view, *often not*.",
-          "In this illustrative audit, most adjustments come from *estimates*, *cut‑off* and *reclassifications*, not errors."
+          "In this illustrative audit, most adjustments come from *estimates* and *reclassifications*, not careless mistakes."
         ]
       },
       {

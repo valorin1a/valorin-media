@@ -1,0 +1,89 @@
+{
+  "id": "2026-11-07-pm-myth-reverse-charge-self-invoice",
+  "date": "2026-11-07",
+  "series": "daily video",
+  "video": {
+    "scenes": [
+      {
+        "type": "personaAnim",
+        "kicker": "MYTH OR FACT · 07 NOV 2026",
+        "bubble": "Reverse charge? We still invoice ourselves.",
+        "caption": "Reverse‑charge purchases.",
+        "say": "Myth or fact? Under the reverse charge, you still have to issue an invoice to yourself.",
+        "cap": [
+          "Myth or fact?",
+          "Under the *reverse charge*, you still have to issue an invoice to *yourself*."
+        ],
+        "shirt": "navy"
+      },
+      {
+        "type": "gantt",
+        "kicker": "UAE VAT · REVERSE CHARGE",
+        "head": "Self‑invoice <em>replaced</em>",
+        "max": 12.5,
+        "ticks": [],
+        "rows": [
+          {
+            "label": "Before 2026: self‑invoice",
+            "from": 0,
+            "to": 6,
+            "color": "red",
+            "d": "To 31 Dec 2025"
+          },
+          {
+            "label": "Now: supporting documents",
+            "from": 6,
+            "to": 12,
+            "color": "teal",
+            "d": "From 1 Jan 2026"
+          }
+        ],
+        "src": "UAE Ministry of Finance news, 3 Dec 2025: Federal Decree‑Law No. 16 of 2025 amending the VAT Law, effective 1 Jan 2026; checked 29 Oct 2026. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "say": "Myth. Since the first of January twenty twenty-six, taxable persons no longer need to issue self-invoices under the reverse charge. The reverse charge still applies; they keep the supporting documents instead.",
+        "cap": [
+          "Myth.",
+          "Since *1 January 2026*, taxable persons no longer need to issue *self‑invoices* under the reverse charge.",
+          "The reverse charge still applies; they keep the *supporting documents* instead."
+        ]
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "NOT NEEDED",
+            "n": "Self‑invoices",
+            "l": "From 1 Jan 2026"
+          },
+          {
+            "k": "KEEP",
+            "n": "Supporting documents",
+            "l": "As the Executive Regulation specifies"
+          },
+          {
+            "k": "CHECK",
+            "n": "Your year‑end VAT file",
+            "l": "Before the close"
+          }
+        ],
+        "say": "So check your process and your year-end V.A.T. file: the documents need to be there.",
+        "cap": [
+          "So check your process and your *year‑end VAT file*: the documents need to be there."
+        ]
+      },
+      {
+        "type": "cta",
+        "q": "Still self‑invoicing?",
+        "h": "VAT ADVISORY",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "say": "Our V.A.T. advisory reviews this with you. Questions on your next return? Talk to us.",
+        "cap": [
+          "Our VAT advisory reviews this with you.",
+          "Questions on your next return?",
+          "Talk to us."
+        ]
+      }
+    ]
+  }
+}

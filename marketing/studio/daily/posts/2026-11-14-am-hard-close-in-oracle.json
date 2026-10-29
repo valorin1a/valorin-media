@@ -8,7 +8,7 @@
         "type": "personaAnim",
         "kicker": "FINANCE IN 30S · 14 NOV 2026",
         "bubble": "What does a hard close mean?",
-        "caption": "Year‑end in Oracle, or any ERP.",
+        "caption": "Month‑end and year‑end, in Oracle or any ERP.",
         "say": "What does a hard close mean in Oracle, or any E.R.P.?",
         "cap": [
           "What does a *hard close* mean in Oracle, or any ERP?"
@@ -17,7 +17,7 @@
       },
       {
         "type": "gantt",
-        "kicker": "ILLUSTRATIVE YEAR‑END CLOSE · DAYS AFTER 31 DEC",
+        "kicker": "ILLUSTRATIVE MONTH‑END CLOSE · DAYS AFTER PERIOD END",
         "head": "Soft close, then <em>hard close</em>",
         "max": 20.5,
         "ticks": [
@@ -41,7 +41,7 @@
             "d": "From day 10"
           }
         ],
-        "src": "Illustrative example, not a real company. Oracle is a trademark of its owner; no partnership implied.",
+        "src": "Illustrative example, not a real company. At year‑end, the final hard close usually follows audit adjustments. Oracle is a trademark of its owner; no partnership implied.",
         "say": "A soft close still lets the team post corrections. A hard close locks the period, so the numbers stop moving.",
         "cap": [
           "A *soft close* still lets the team post corrections.",

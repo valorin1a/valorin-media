@@ -85,11 +85,11 @@
         "b": "advisory@valorin.ae",
         "a": "WhatsApp 058-2754282",
         "disc": "General information only, not legal or tax advice. Valorin is not an ASP. Illustrative example, not a real company.",
-        "say": "Valorin is not an A.S.P. Our gap assessment is the first step of our readiness work. Not sure where your invoice data stands? Send us a WhatsApp.",
+        "say": "Valorin is not an A.S.P. Our gap assessment is the first step of our readiness work. Want to see your own gaps? Send us a WhatsApp.",
         "cap": [
           "Valorin is not an *ASP*.",
           "Our *gap assessment* is the first step of our readiness work.",
-          "Not sure where your invoice data stands?",
+          "Want to see your own *gaps*?",
           "Send us a *WhatsApp*."
         ]
       }

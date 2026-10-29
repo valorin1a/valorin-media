@@ -8,11 +8,11 @@
         "type": "personaAnim",
         "kicker": "FINANCE IN 30S · 08 NOV 2026",
         "bubble": "Is e‑invoicing in our 2027 budget?",
-        "caption": "Phase 2 falls inside the 2027 budget year.",
-        "say": "Building your 2027 budget? Check that e-invoicing is in it.",
+        "caption": "Both deadlines fall inside a calendar 2027 budget.",
+        "say": "Is e-invoicing a line in your 2027 budget? Check before it's approved.",
         "cap": [
-          "Building your *2027 budget*?",
-          "Check that *e‑invoicing* is in it."
+          "Is *e‑invoicing* a line in your *2027 budget*?",
+          "Check before it's approved."
         ],
         "shirt": "navy"
       },
@@ -46,9 +46,9 @@
           }
         ],
         "src": "UAE Electronic Invoicing Guidelines V2.0, UAE Ministry of Finance, 26 Oct 2026, s. 8.3; checked 29 Oct 2026. In-scope businesses. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
-        "say": "For in-scope businesses below fifty million dirhams, the provider must be appointed by the thirty-first of March, and the system implemented by the first of July twenty twenty-seven.",
+        "say": "For in-scope businesses below fifty million dirhams, the provider must be appointed by the thirty-first of March twenty twenty-seven, and the system implemented by the first of July twenty twenty-seven.",
         "cap": [
-          "In‑scope businesses below AED 50m: appoint a provider by *31 March*, implement by *1 July 2027*."
+          "In‑scope businesses below AED 50m: appoint a provider by *31 March 2027*, implement by *1 July 2027*."
         ]
       },
       {
@@ -57,7 +57,7 @@
           {
             "k": "PROVIDER",
             "n": "ASP fees",
-            "l": "Get quotes"
+            "l": "Set-up and annual"
           },
           {
             "k": "SYSTEMS",
@@ -82,12 +82,12 @@
         "b": "advisory@valorin.ae",
         "a": "WhatsApp 058-2754282",
         "disc": "General information only, not legal or tax advice. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
-        "say": "Valorin is not an A.S.P. We help you plan the work and the budget. Planning for March? Message us, and we'll map the steps with you.",
+        "say": "Valorin is not an A.S.P. We help you plan the work and the budget. Planning for March? Send us a WhatsApp.",
         "cap": [
           "Valorin is not an *ASP*.",
           "We help you plan the work and the budget.",
           "Planning for *March*?",
-          "Message us, and we'll map the steps with you."
+          "Send us a WhatsApp."
         ]
       }
     ]

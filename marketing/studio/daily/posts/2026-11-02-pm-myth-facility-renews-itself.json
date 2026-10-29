@@ -8,7 +8,7 @@
         "type": "personaAnim",
         "kicker": "MYTH OR FACT · 02 NOV 2026",
         "bubble": "Our facility just rolls over, right?",
-        "caption": "Year‑end is review season for many lenders.",
+        "caption": "Many reviews use your year‑end accounts.",
         "say": "Myth or fact? Your bank facility renews itself every year.",
         "cap": [
           "Myth or fact?",
@@ -50,11 +50,11 @@
           }
         ],
         "src": "Illustrative example, not a real bank. Terms differ by bank and are set in your facility letter.",
-        "say": "In our view, mostly myth. Many facilities come with an annual review. The bank asks for accounts, projections and covenant figures, then runs its own credit process.",
+        "say": "In our view, mostly myth. Many facilities come with an annual review. The bank asks for an updated pack, then runs its own credit process.",
         "cap": [
           "In our view, mostly *myth*.",
           "Many facilities come with an *annual review*.",
-          "The bank asks for accounts, projections and covenant figures, then runs its own credit process."
+          "The bank asks for an updated pack, then runs its own credit process."
         ]
       },
       {
@@ -87,7 +87,7 @@
         "h": "BANKING & FINANCING",
         "b": "advisory@valorin.ae",
         "a": "WhatsApp 058-2754282",
-        "disc": "General information only, not legal or tax advice. Not investment advice. Illustrative example.",
+        "disc": "General information only, not legal or tax advice. Not investment advice. Illustrative example, not a real company.",
         "say": "Our banking and financing advisory helps you prepare. Facility review coming up? Talk to us before you meet the bank.",
         "cap": [
           "Our banking & financing advisory helps you prepare.",

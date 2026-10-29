@@ -50,11 +50,11 @@
         ],
         "note": "Same customer. Same limit. Rising risk.",
         "src": "Illustrative example, not a real company.",
-        "say": "In our view, myth. Take this illustrative customer. Still paying, but from forty-five days to seventy-eight in one year. The limit never changed.",
+        "say": "In our view, myth. Take this illustrative customer. Still paying, but from forty-five days to seventy-eight in under a year. The limit never changed.",
         "cap": [
           "In our view, *myth*.",
           "Take this illustrative customer.",
-          "Still paying, but from *45 days* to *78* in one year.",
+          "Still paying, but from *45 days* to *78* in under a year.",
           "The limit never changed."
         ]
       },
@@ -89,11 +89,11 @@
         "b": "advisory@valorin.ae",
         "a": "WhatsApp 058-2754282",
         "disc": "General information only, not legal or tax advice. Illustrative example, not a real company.",
-        "say": "Our accounting and M.I.S. advisory sets up this review. Reviewing customer limits this month? Message us, and we'll go through it with you.",
+        "say": "Our accounting and M.I.S. advisory sets up this review. Reviewing customer limits this month? Message us on WhatsApp.",
         "cap": [
           "Our accounting & MIS advisory sets up this review.",
           "Reviewing *customer limits* this month?",
-          "Message us, and we'll go through it with you."
+          "Message us on WhatsApp."
         ]
       }
     ]

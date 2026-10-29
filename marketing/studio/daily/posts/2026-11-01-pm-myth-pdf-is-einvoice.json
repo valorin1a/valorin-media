@@ -18,13 +18,14 @@
       },
       {
         "type": "figure",
-        "kicker": "FACT",
+        "kicker": "MYTH · THE RULE",
         "n": "XML",
         "desc": "An e‑invoice is structured data, exchanged through accredited providers. <b>A PDF is not an e‑invoice.</b>",
         "src": "UAE Electronic Invoicing Guidelines V2.0, UAE Ministry of Finance, 26 Oct 2026, ss. 3, 5.3 and 10.2.1; checked 29 Oct 2026. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
-        "say": "Fact: under the U.A.E. system, an e-invoice is structured data in X.M.L., sent through accredited service providers. A PDF doesn't count.",
+        "say": "Myth. Under the U.A.E. system, an e-invoice is structured data in X.M.L., sent through accredited service providers. A PDF doesn't count.",
         "cap": [
-          "Fact: under the UAE system, an e‑invoice is *structured data* in XML, sent through accredited service providers.",
+          "Myth.",
+          "Under the UAE system, an e‑invoice is *structured data* in XML, sent through accredited service providers.",
           "A *PDF* doesn't count."
         ]
       },
@@ -44,7 +45,7 @@
           {
             "k": "STEP 3",
             "n": "Then choose a provider",
-            "l": "An accredited ASP that fits"
+            "l": "If not yet appointed"
           }
         ],
         "say": "So start with your data. Check which fields you hold today, and whether your E.R.P. can produce them.",

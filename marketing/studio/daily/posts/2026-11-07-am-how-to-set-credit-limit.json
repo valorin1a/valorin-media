@@ -39,7 +39,7 @@
         "unit": "K",
         "desc": "a starting limit: monthly sales × months of terms.",
         "src": "Illustrative example, not a real company. Starting point only; adjust for risk.",
-        "say": "Take an illustrative customer buying two hundred thousand a month on sixty-day terms. A starting limit is about four hundred thousand.",
+        "say": "Take an illustrative customer buying two hundred thousand dirhams a month on sixty-day terms. A starting limit is about four hundred thousand dirhams.",
         "cap": [
           "An illustrative customer buys *AED 200,000* a month on *60‑day* terms.",
           "A starting limit is about *AED 400,000*."

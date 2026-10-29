@@ -7,11 +7,11 @@
       {
         "type": "personaAnim",
         "kicker": "FINANCE IN 30S · 09 NOV 2026",
-        "bubble": "Shipped on the 31st, invoiced on the 2nd. Which year?",
+        "bubble": "Delivered on the 31st, invoiced on the 2nd. Which year?",
         "caption": "Year‑end cut‑off.",
-        "say": "Goods shipped on the thirty-first of December, invoiced on the second of January. Which year does the sale belong to?",
+        "say": "Goods delivered on the thirty-first of December, invoiced on the second of January. Which year does the sale belong to?",
         "cap": [
-          "Goods shipped on *31 December*, invoiced on *2 January*.",
+          "Goods delivered on *31 December*, invoiced on *2 January*.",
           "Which year does the sale belong to?"
         ],
         "shirt": "navy"
@@ -71,7 +71,7 @@
         ],
         "say": "Check deliveries against invoices, accrue goods received but not billed, and freeze stock movements for the count.",
         "cap": [
-          "Check *deliveries* against invoices, accrue goods *received but not billed*, and *freeze stock* for the count."
+          "Check *deliveries* against invoices, accrue goods *received but not billed*, and *freeze stock movements* for the count."
         ]
       },
       {

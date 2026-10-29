@@ -1,0 +1,83 @@
+1
+00:00:00,250 --> 00:00:06,991
+A common assumption in finance teams.
+
+2
+00:00:07,691 --> 00:00:08,113
+Myth.
+
+3
+00:00:08,113 --> 00:00:09,211
+Under the U.
+
+4
+00:00:09,211 --> 00:00:09,379
+A.
+
+5
+00:00:09,379 --> 00:00:09,548
+E.
+
+6
+00:00:09,548 --> 00:00:13,430
+system, an e-invoice is structured data in X.
+
+7
+00:00:13,430 --> 00:00:13,599
+M.
+
+8
+00:00:13,599 --> 00:00:13,768
+L.
+
+9
+00:00:13,768 --> 00:00:17,482
+, sent through accredited service providers.
+
+10
+00:00:17,482 --> 00:00:19,254
+A PDF doesn't count.
+
+11
+00:00:19,954 --> 00:00:21,703
+So start with your data.
+
+12
+00:00:21,703 --> 00:00:25,711
+Check which fields you hold today, and whether your E.
+
+13
+00:00:25,711 --> 00:00:25,857
+R.
+
+14
+00:00:25,857 --> 00:00:26,002
+P.
+
+15
+00:00:26,002 --> 00:00:27,314
+can produce them.
+
+16
+00:00:28,014 --> 00:00:29,467
+Valorin is not an A.
+
+17
+00:00:29,467 --> 00:00:29,612
+S.
+
+18
+00:00:29,612 --> 00:00:29,757
+P.
+
+19
+00:00:29,757 --> 00:00:33,316
+Our readiness work starts with a gap assessment.
+
+20
+00:00:33,316 --> 00:00:36,294
+Not sure where your invoice data stands?
+
+21
+00:00:36,294 --> 00:00:40,217
+Send us a WhatsApp, and we'll go through it with you.

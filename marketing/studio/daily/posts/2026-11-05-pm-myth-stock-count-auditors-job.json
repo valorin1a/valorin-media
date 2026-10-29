@@ -51,10 +51,10 @@
           }
         ],
         "src": "Illustrative example, not a real company. Our view; arrangements differ by auditor. Valorin is not an audit firm.",
-        "say": "In our view, that's a myth. Management usually plans and runs the count. Auditors typically attend to observe and test it.",
+        "say": "Usually not. Management plans and runs the count, with its own staff. Auditors typically attend to observe and test it.",
         "cap": [
-          "In our view, that's a *myth*.",
-          "*Management* usually plans and runs the count.",
+          "Usually *not*.",
+          "*Management* plans and runs the count, with its own staff.",
           "Auditors typically attend to *observe and test* it."
         ]
       },
@@ -89,11 +89,11 @@
         "b": "advisory@valorin.ae",
         "a": "WhatsApp 058-2754282",
         "disc": "General information only, not legal or tax advice. Valorin is not an audit firm; audit readiness support only.",
-        "say": "Our audit readiness support helps you plan it. Count day coming up? Send us a WhatsApp, and we'll help you plan it.",
+        "say": "Our audit readiness support covers count planning. Count day coming up? Send us a WhatsApp before the count.",
         "cap": [
-          "Our audit readiness support helps you plan it.",
+          "Our audit readiness support covers count planning.",
           "Count day coming up?",
-          "Send us a *WhatsApp*, and we'll help you plan it."
+          "Send us a *WhatsApp* before the count."
         ]
       }
     ]

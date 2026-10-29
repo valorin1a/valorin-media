@@ -8,10 +8,10 @@
         "type": "personaAnim",
         "kicker": "FINANCE IN 30S · 01 NOV 2026",
         "bubble": "How many days is our cash tied up?",
-        "caption": "The number most month‑end packs leave out.",
-        "say": "How many days does your cash sit in stock and unpaid invoices?",
+        "caption": "A number worth adding to your month‑end pack.",
+        "say": "How long does your cash sit in stock and unpaid invoices?",
         "cap": [
-          "How many days does your cash sit in *stock* and *unpaid invoices*?"
+          "How long does your cash sit in *stock* and *unpaid invoices*?"
         ]
       },
       {
@@ -99,7 +99,7 @@
         "unit": "M",
         "desc": "cash released, at AED 100,000 of sales a day.",
         "src": "15 days × AED 100,000. Illustrative example, not a real company.",
-        "say": "Collect fifteen days faster on a hundred thousand dirhams of daily sales, and one and a half million is released.",
+        "say": "Collect fifteen days faster on a hundred thousand dirhams of daily sales, and one and a half million dirhams is released.",
         "cap": [
           "Collect *15 days faster* on AED 100,000 of daily sales, and *AED 1.5 million* is released."
         ]
@@ -110,11 +110,11 @@
         "b": "advisory@valorin.ae",
         "a": "WhatsApp 058-2754282",
         "disc": "General information only, not legal or tax advice. Illustrative example, not a real company.",
-        "say": "Our accounting and M.I.S. advisory tracks this every month. Want to know your cycle? Send us a WhatsApp, and we'll work it out with you.",
+        "say": "Our accounting and M.I.S. advisory can track this with you every month. Want to know your cycle? Send us a WhatsApp.",
         "cap": [
-          "Our accounting & MIS advisory tracks this every month.",
+          "Our accounting & MIS advisory can track this with you every month.",
           "Want to know *your* cycle?",
-          "Send us a *WhatsApp*, and we'll work it out with you."
+          "Send us a *WhatsApp*."
         ],
         "q": "What's <em>your</em> cycle?"
       }

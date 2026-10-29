@@ -46,9 +46,10 @@
           }
         ],
         "src": "UAE Electronic Invoicing Guidelines V2.0, UAE Ministry of Finance, 26 Oct 2026, ss. 8.2 and 8.3; checked 29 Oct 2026. In-scope businesses. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
-        "say": "Fact: any business can adopt e-invoicing voluntarily from the first of July twenty twenty-six. In-scope businesses below fifty million dirhams in revenue must appoint a provider by the thirty-first of March twenty twenty-seven.",
+        "say": "Myth. Any business can adopt e-invoicing voluntarily from the first of July twenty twenty-six. In-scope businesses below fifty million dirhams in revenue must appoint a provider by the thirty-first of March twenty twenty-seven.",
         "cap": [
-          "Fact: any business can adopt e‑invoicing *voluntarily* from 1 July 2026.",
+          "Myth.",
+          "Any business can adopt e‑invoicing *voluntarily* from 1 July 2026.",
           "In‑scope businesses below AED 50m in revenue must appoint a provider by *31 March 2027*."
         ]
       },

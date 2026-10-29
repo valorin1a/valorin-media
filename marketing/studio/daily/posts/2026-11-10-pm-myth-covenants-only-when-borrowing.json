@@ -35,16 +35,16 @@
             "color": "navy"
           },
           {
-            "label": "This year",
+            "label": "This year|projected",
             "v": 3.2,
             "d": "3.2x",
             "color": "red"
           }
         ],
         "src": "Illustrative example, not a real company. Definitions and test dates are in your facility letter.",
-        "say": "In our view, myth. Covenants are usually tested on set dates, often on year-end figures. Here, an illustrative ratio crosses the limit with no new borrowing.",
+        "say": "Myth, in most cases. Covenants are usually tested on set dates, often on year-end figures. Here, an illustrative ratio crosses the limit with no new borrowing.",
         "cap": [
-          "In our view, *myth*.",
+          "Myth, in most *cases*.",
           "Covenants are usually tested on *set dates*, often on year‑end figures.",
           "Here, an illustrative ratio crosses the limit with *no new borrowing*."
         ]
@@ -79,12 +79,12 @@
         "h": "BANKING & FINANCING",
         "b": "advisory@valorin.ae",
         "a": "WhatsApp 058-2754282",
-        "disc": "General information only, not legal or tax advice. Not investment advice. Illustrative example.",
-        "say": "Our banking and financing advisory helps you test it. Facility review coming up? Talk to us before you meet the bank.",
+        "disc": "General information only, not legal or tax advice. Not investment advice. Illustrative example, not a real company.",
+        "say": "Our banking and financing advisory helps you test it. Close to a limit? Talk to us before the test date.",
         "cap": [
           "Our banking & financing advisory helps you test it.",
-          "Facility review coming up?",
-          "Talk to us before you meet the bank."
+          "Close to a *limit*?",
+          "Talk to us before the test date."
         ]
       }
     ]

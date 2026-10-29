@@ -29,7 +29,7 @@
           },
           {
             "label": "Jan|actual",
-            "v": 195,
+            "v": 205,
             "color": "teal"
           },
           {
@@ -91,11 +91,11 @@
         "b": "advisory@valorin.ae",
         "a": "WhatsApp 058-2754282",
         "disc": "General information only, not legal or tax advice. Illustrative example, not a real company.",
-        "say": "Our fractional C.F.O. service runs this review with you. Building your 2027 budget? Send us a WhatsApp, and let's talk it through.",
+        "say": "Our fractional C.F.O. service runs this review with you. Who reviews yours each month? Send us a WhatsApp.",
         "cap": [
           "Our fractional CFO service runs this review with you.",
-          "Building your *2027 budget*?",
-          "Send us a *WhatsApp*, and let's talk it through."
+          "Who reviews *yours* each month?",
+          "Send us a *WhatsApp*."
         ]
       }
     ]

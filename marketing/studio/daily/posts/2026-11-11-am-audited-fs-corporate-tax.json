@@ -61,10 +61,10 @@
           {
             "k": "ALIGN",
             "n": "Audit and tax timelines",
-            "l": "Nine‑month return window"
+            "l": "Before the return is due"
           }
         ],
-        "say": "So check your revenue against the threshold, and book the audit early enough for the tax return.",
+        "say": "Check your revenue against the threshold, and book the audit early enough for the tax return.",
         "cap": [
           "Check revenue against the threshold, and book the audit *early enough* for the tax return."
         ]
@@ -76,10 +76,10 @@
         "b": "advisory@valorin.ae",
         "a": "WhatsApp 058-2754282",
         "disc": "General information only, not legal or tax advice. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
-        "say": "Our corporate tax advisory helps you plan both timelines. Want to check yours? Message us on WhatsApp.",
+        "say": "Our corporate tax advisory helps you plan both timelines. Close to the threshold? Message us on WhatsApp.",
         "cap": [
           "Our corporate tax advisory helps you plan both timelines.",
-          "Want to check yours?",
+          "Close to the *threshold*?",
           "Message us on *WhatsApp*."
         ]
       }

@@ -57,9 +57,9 @@
         "unit": "CORNER ONE",
         "desc": "Each business connects through its own accredited provider. <b>Your ERP data feeds corner one.</b>",
         "src": "UAE Electronic Invoicing Guidelines V2.0, UAE Ministry of Finance, 26 Oct 2026, ss. 3 and 5.1; checked 29 Oct 2026. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
-        "say": "For your business, it starts at corner one: the data your E.R.P. produces.",
+        "say": "For your sales invoices, it starts at corner one: the data your E.R.P. produces.",
         "cap": [
-          "For your business, it starts at *corner one*: the data your ERP produces."
+          "For your sales invoices, it starts at *corner one*: the data your ERP produces."
         ]
       },
       {
@@ -69,11 +69,11 @@
         "b": "advisory@valorin.ae",
         "a": "WhatsApp 058-2754282",
         "disc": "General information only, not legal or tax advice. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
-        "say": "Valorin is not an A.S.P. We help you get corner one right. In Phase 2? Message us, and we'll map the steps with you.",
+        "say": "Valorin is not an A.S.P. We help you prepare corner one. Revenue below fifty million dirhams? Message us, and we'll map the steps with you.",
         "cap": [
           "Valorin is not an *ASP*.",
-          "We help you get *corner one* right.",
-          "In Phase 2?",
+          "We help you prepare *corner one*.",
+          "Revenue below *AED 50m*?",
           "Message us, and we'll map the steps with you."
         ]
       }
