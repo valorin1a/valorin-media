@@ -1,0 +1,104 @@
+{
+  "id": "2026-10-29-mis-monthly-pack",
+  "date": "2026-10-29",
+  "card": {
+    "kicker": "ACCOUNTING & MIS · 29 OCT 2026",
+    "head": "What should a monthly management pack include?",
+    "sub": "UAE e‑invoicing measures revenue on your financial statements.",
+    "figure": {
+      "n": "50",
+      "unit": "MILLION AED",
+      "label": "the revenue line between e‑invoicing Phase&nbsp;1 and Phase&nbsp;2. <b>Measured on the latest financial statements.</b>"
+    },
+    "tiles": [
+      {
+        "k": "REVENUE",
+        "t": "Per entity, tied to the ledger",
+        "l": "Same basis as the statements"
+      },
+      {
+        "k": "BALANCE SHEET",
+        "t": "Reconciled monthly",
+        "l": "Banks and balances"
+      },
+      {
+        "k": "CASH",
+        "t": "Cash and ageing",
+        "l": "Overdue receivables"
+      }
+    ],
+    "cta": {
+      "h": "TALK TO US",
+      "d": "Accounting & MIS advisory: pack and close.",
+      "go": "WhatsApp 058-2754282"
+    },
+    "source": "Source: UAE Ministry of Finance, UAE Electronic Invoicing Guidelines (V1.1, 1 Jun 2026), sections 3 and 8.3; checked 29 Oct 2026. General information only, not legal or tax advice. Valorin is an independent advisory firm, not affiliated with the FTA or MoF."
+  },
+  "video": {
+    "scenes": [
+      {
+        "type": "hook",
+        "kicker": "ACCOUNTING & MIS · 29 OCT 2026",
+        "head": "In scope? Your <em>financial statements</em> decide the phase.",
+        "say": "In scope for UAE e-invoicing? Your financial statements decide which phase."
+      },
+      {
+        "type": "figure",
+        "kicker": "REVENUE LINE",
+        "n": "50",
+        "unit": "MILLION AED",
+        "desc": "revenue line between Phase&nbsp;1 and Phase&nbsp;2",
+        "src": "UAE Ministry of Finance, Electronic Invoicing Guidelines, sections 3 and 8.3. Checked 29 Oct 2026. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "say": "The Ministry of Finance guidelines measure revenue as gross income in the most recent accounting period, from financial statements prepared under UAE law. Fifty million dirhams is the line between phase one and phase two."
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "REVENUE",
+            "n": "Per entity, tied to the ledger",
+            "l": "Same basis as the statements"
+          },
+          {
+            "k": "BALANCE SHEET",
+            "n": "Reconciled monthly",
+            "l": "Banks, receivables, payables"
+          },
+          {
+            "k": "CASH",
+            "n": "Cash and ageing",
+            "l": "Position and overdue receivables"
+          }
+        ],
+        "say": "So the monthly pack should tie revenue to the ledger, entity by entity, reconcile the balance sheet, and show cash and receivables."
+      },
+      {
+        "type": "steps",
+        "kicker": "HOW VALORIN HELPS",
+        "items": [
+          {
+            "t": "Set up the pack",
+            "small": "Monthly management reporting"
+          },
+          {
+            "t": "Tighten the close",
+            "small": "Month-end routine"
+          },
+          {
+            "t": "Check against year-end",
+            "small": "Monthly and statutory figures"
+          }
+        ],
+        "say": "We help set up the pack and the close, and check them against year-end."
+      },
+      {
+        "type": "cta",
+        "h": "TALK TO US",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "say": "Talk to us on WhatsApp, or email advisory at valorin dot A E. General information only, not legal or tax advice."
+      }
+    ]
+  }
+}
