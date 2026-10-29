@@ -37,12 +37,12 @@
         "pre": "AED ",
         "n": 62,
         "unit": "M",
-        "desc": "revenue in the period: above the line, so audited statements are required.",
-        "src": "Ministerial Decision No. 84 of 2025, Arts. 2 and 4 (mof.gov.ae); checked 29 Oct 2026. Tax periods starting on or after 1 Jan 2025. Rules for Tax Groups differ. Illustrative example, not a real company. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "desc": "revenue: above the line, so audited statements are required.",
+        "src": "Ministerial Decision No. 84 of 2025, Arts. 2 and 4; checked 29 Oct 2026. Tax Groups differ. Illustrative example, not a real company.",
         "say": "Under Ministerial Decision eighty-four of twenty twenty-five, taxable persons with revenue above fifty million dirhams, and qualifying free zone persons, must prepare and maintain audited financial statements. It applies to tax periods starting on or after the first of January twenty twenty-five.",
         "cap": [
-          "Ministerial Decision No. 84 of 2025: taxable persons with revenue above *AED 50m*, and *Qualifying Free Zone Persons*, must prepare and maintain *audited financial statements*.",
-          "It applies to tax periods starting on or after *1 January 2025*."
+          "Revenue above *AED 50m*, or a *Qualifying Free Zone Person*: *audited financial statements* required (MD 84 of 2025).",
+          "For tax periods from *1 January 2025*."
         ]
       },
       {
