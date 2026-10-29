@@ -17,7 +17,7 @@
       },
       {
         "type": "gantt",
-        "kicker": "ILLUSTRATIVE MONTH‑END CLOSE · DAYS AFTER PERIOD END",
+        "kicker": "ILLUSTRATIVE · MONTH‑END CLOSE",
         "head": "Soft close, then <em>hard close</em>",
         "max": 20.5,
         "ticks": [

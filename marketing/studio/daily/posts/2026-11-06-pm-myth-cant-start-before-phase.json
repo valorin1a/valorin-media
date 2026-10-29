@@ -18,7 +18,7 @@
       },
       {
         "type": "gantt",
-        "kicker": "UAE E‑INVOICING · REVENUE BELOW AED 50M",
+        "kicker": "UAE E‑INVOICING · BELOW AED 50M",
         "head": "Voluntary from <em>1 July 2026</em>",
         "max": 12.5,
         "ticks": [],

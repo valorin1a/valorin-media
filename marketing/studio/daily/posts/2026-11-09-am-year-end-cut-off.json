@@ -18,7 +18,7 @@
       },
       {
         "type": "gantt",
-        "kicker": "ILLUSTRATIVE CUT‑OFF · DAYS AROUND YEAR‑END",
+        "kicker": "ILLUSTRATIVE · YEAR‑END CUT‑OFF",
         "head": "The last week <em>matters</em>",
         "max": 10.5,
         "ticks": [],

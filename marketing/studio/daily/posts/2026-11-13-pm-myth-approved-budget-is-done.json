@@ -19,7 +19,7 @@
       {
         "type": "chart",
         "kind": "bar",
-        "kicker": "ILLUSTRATIVE EXAMPLE · GROSS PROFIT, AED THOUSANDS",
+        "kicker": "ILLUSTRATIVE · GROSS PROFIT",
         "head": "Budget vs <em>actual</em>",
         "data": [
           {

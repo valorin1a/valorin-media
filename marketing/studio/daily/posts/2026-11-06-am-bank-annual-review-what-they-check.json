@@ -19,8 +19,8 @@
       {
         "type": "chart",
         "kind": "bar",
-        "kicker": "ILLUSTRATIVE EXAMPLE · COVENANT RATIO, TIMES",
-        "head": "Headroom on <em>year‑end</em> numbers",
+        "kicker": "ILLUSTRATIVE · COVENANT RATIO",
+        "head": "Headroom at <em>year‑end</em>",
         "data": [
           {
             "label": "Covenant|minimum",

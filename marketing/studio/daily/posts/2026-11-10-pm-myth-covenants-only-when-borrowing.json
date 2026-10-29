@@ -19,7 +19,7 @@
       {
         "type": "chart",
         "kind": "bar",
-        "kicker": "ILLUSTRATIVE EXAMPLE · DEBT TO EBITDA, TIMES",
+        "kicker": "ILLUSTRATIVE · DEBT TO EBITDA",
         "head": "Tested on <em>year‑end</em> numbers",
         "data": [
           {

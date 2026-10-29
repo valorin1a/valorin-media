@@ -18,7 +18,7 @@
       },
       {
         "type": "gantt",
-        "kicker": "UAE E‑INVOICING · REVENUE BELOW AED 50M",
+        "kicker": "UAE E‑INVOICING · BELOW AED 50M",
         "head": "Two deadlines in your <em>budget year</em>",
         "max": 12.5,
         "ticks": [],

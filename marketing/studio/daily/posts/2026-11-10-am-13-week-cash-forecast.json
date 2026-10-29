@@ -20,7 +20,7 @@
         "type": "chart",
         "kind": "line",
         "color": "navy",
-        "kicker": "ILLUSTRATIVE EXAMPLE · CLOSING CASH, AED THOUSANDS",
+        "kicker": "ILLUSTRATIVE · CASH, AED 000",
         "head": "Cash, week by <em>week</em>",
         "data": [
           {

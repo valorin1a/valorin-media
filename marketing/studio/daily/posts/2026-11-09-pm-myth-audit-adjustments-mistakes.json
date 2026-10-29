@@ -19,7 +19,7 @@
       {
         "type": "chart",
         "kind": "bar",
-        "kicker": "ILLUSTRATIVE EXAMPLE · NUMBER OF ADJUSTMENTS",
+        "kicker": "ILLUSTRATIVE · ADJUSTMENTS",
         "head": "Where adjustments <em>come from</em>",
         "data": [
           {
