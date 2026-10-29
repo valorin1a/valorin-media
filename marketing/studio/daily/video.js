@@ -127,6 +127,8 @@ function ganttSvg(sc, t0) {
     g += `<path class="gx" data-in="${tg}" style="transform-box:fill-box;transform-origin:left center" d="M${x(sc.gap.from)} ${gy} v-18 M${x(sc.gap.from)} ${gy} H${x(sc.gap.to)} v-18" fill="none" stroke="#B3261E" stroke-width="5"/>`;
     g += `<text class="gf" data-in="${(+tg + 0.5).toFixed(2)}" x="${(x(sc.gap.from) + x(sc.gap.to)) / 2}" y="${gy + 52}" text-anchor="middle" font-family="RB" font-weight="500" font-size="40" fill="#B3261E">${sc.gap.label}</text>`;
     yy = gy + 70;
+  } else {
+    yy = ay + ((sc.ticks || []).length ? 56 : 14);
   }
   return `<svg width="${W}" height="${yy}" viewBox="0 0 ${W} ${yy}" style="overflow:visible">${g}</svg>`;
 }
