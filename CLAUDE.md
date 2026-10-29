@@ -26,6 +26,9 @@ credentials, account IDs, client data or anything private. Account IDs live in t
    card.png → Instagram, Facebook, LinkedIn (company page); card-pinterest.png → Pinterest (board "UAE E-Invoicing Tracker",
    link with UTM); card-landscape.png → Google Business Profile (type publication); video.mp4 → YouTube (type short,
    madeForKids false, category EDUCATION, isAiGeneratedContent true) and TikTok (commercialContentOwnBrand true, isAigc true).
+   LinkedIn: always send linkedinData {"type":"post","previewIncluded":false} so the card shows as a full image.
+   With previewIncluded true, LinkedIn turns the post into a small website link preview and the card is lost (user, 29 Oct 2026).
+   Keep the UTM link in the caption text.
    Set videoCoverMilliseconds on both videos (see design section). card-x.png is for X, posted manually until X is connected.
    YouTube description must end with: "Voiceover: synthetic voice (Kokoro-82M TTS, Apache 2.0). Music: original."
    Video length follows the voiceover (about 40 s at speed 0.85).
