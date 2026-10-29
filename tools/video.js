@@ -58,24 +58,25 @@ if (data.previousRegistered) {
 
 const ratioTxt = pct < 1 ? "Fewer than <em>1 in 100</em> of the UAE's 1.4M+ companies"
   : pct < 1.5 ? "About <em>1 in 100</em> of the UAE's 1.4M+ companies"
-  : `About <em>1 in ${Math.round(total / reg)}</em> of the UAE's 1.4M+ companies`;
+  : `Fewer than <em>1 in ${Math.floor(total / reg)}</em> of the UAE's 1.4M+ companies`;
 const ratioSay = pct < 1 ? 'Fewer than one in a hundred UAE companies.'
   : pct < 1.5 ? 'About one in a hundred UAE companies.'
-  : `About one in ${words(Math.round(total / reg))} UAE companies.`;
-const hook = dsay ? `<em>${days} days</em> to the Phase&nbsp;1 ASP deadline` : 'Is your company on Peppol yet?';
+  : `Fewer than one in ${words(Math.floor(total / reg))} UAE companies.`;
+const daysW = days === 1 ? 'DAY' : 'DAYS';
+const hook = !dsay ? 'Is your company on Peppol yet?' : days === 1 ? '<em>Tomorrow</em> is the Phase&nbsp;1 ASP deadline' : `<em>${days} days</em> to the Phase&nbsp;1 ASP deadline`;
 const dl = new Date(milestones.find(m => m[2] === dsay)?.[0] + 'T00:00:00Z');
 const dlSay = dsay ? `${dl.getUTCDate()} ${MONF[dl.getUTCMonth()]}` : '';
 const segments = [
-  dsay ? `UAE e-invoicing update. ${words(days)} days to the Phase 1 deadline, on ${dlSay}.` : 'UAE e-invoicing update. Is your company on Peppol yet?',
+  !dsay ? 'UAE e-invoicing update. Is your company on Peppol yet?' : days === 1 ? `UAE e-invoicing update. Tomorrow, ${dlSay}, is the Phase 1 deadline.` : `UAE e-invoicing update. ${words(days)} days to the Phase 1 deadline, on ${dlSay}.`,
   `As of ${d.getUTCDate()} ${MONF[d.getUTCMonth()]}, ${words(reg)} UAE entities are listed in the Peppol Directory. ${ratioSay}`,
   (deltaSay ? deltaSay : '') + (dsay ? 'For in-scope businesses, missing the provider deadline can cost five thousand dirhams a month.' : 'For in-scope businesses, penalties can reach five thousand dirhams a month.'),
-  'Key dates and sources are at valorin dot A E. Or message Valorin on WhatsApp.',
+  'Still need to appoint a provider? Message Valorin on WhatsApp today. Key dates and sources are at valorin dot A E.',
 ];
 
 const vals = {
   DATE: `${d.getUTCDate()} ${MON[d.getUTCMonth()]} ${d.getUTCFullYear()}`,
   DATEPLAIN: `${d.getUTCDate()} ${MONP[d.getUTCMonth()]} ${d.getUTCFullYear()}`,
-  RATIO: ratioTxt, HOOK: hook, DELTATAG: deltaTag, DELTA: delta, DELTALBL: deltaLbl, DAYS: days, DLBL: dlbl, DKEY: dkey,
+  RATIO: ratioTxt, HOOK: hook, DELTATAG: deltaTag, DELTA: delta, DELTALBL: deltaLbl, DAYS: days, DAYSW: daysW, DLBL: dlbl, DKEY: dkey,
   TOTAL: 15, REGNUM: reg,
 };
 let html = fs.readFileSync(path.join(__dirname, 'video.html'), 'utf8');

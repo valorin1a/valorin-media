@@ -60,11 +60,11 @@ const vals = {
   PCT: pct < 1 ? 'Under 1%' : pct < 1.5 ? 'About 1%' : 'About ' + pct.toFixed(1) + '%',
   RATIO: pct < 1 ? "Fewer than <b>1 in 100</b> of the UAE's 1.4M+ companies"
        : pct < 1.5 ? "About <b>1 in 100</b> of the UAE's 1.4M+ companies"
-       : `About <b>1 in ${Math.round(total / reg)}</b> of the UAE's 1.4M+ companies`,
+       : `Fewer than <b>1 in ${Math.floor(total / reg)}</b> of the UAE's 1.4M+ companies`,
   BARW: Math.max(pct, 0.5).toFixed(2) + '%',
   DOTS: dots,
   T1TAG: t1tag, T1NUM: t1num, T1LBL: t1lbl,
-  DAYS: days, DLBL: dlbl, DKEY: dkey,
+  DAYS: days, DAYSW: days === 1 ? 'DAY' : 'DAYS', DLBL: dlbl, DKEY: dkey,
 };
 
 let html = fs.readFileSync(path.join(__dirname, 'card.html'), 'utf8');
