@@ -31,6 +31,75 @@ const TOTAL = B[B.length - 1];
 const audioWav = path.join(audioDir, 'mix.wav');
 execFileSync('python3', [path.join(__dirname, 'audio.py'), 'mix', audioDir, String(TOTAL), audioWav], { stdio: 'inherit' });
 
+
+// ---- chart and illustration helpers (added 29 Oct 2026) ----
+// chart: {kind:'bar'|'waterfall'|'line', data:[{label, v, d?, color?, total?}], kicker?, head?, note?, src?}
+// Bars grow from the baseline; a line draws left to right; value labels fade in after.
+function chartSvg(sc, t0) {
+  const W = 898, H = sc.h || (sc.head && (sc.note || sc.src) ? 430 : 600), padB = 90, padT = 70, data = sc.data, n = data.length;
+  const cols = { navy: '#13283D', gold: '#B29A74', red: '#B3261E', teal: '#0F6E68', grey: '#9AA3AD' };
+  let lo = 0, hi = 0, run = 0; const seg = [];
+  data.forEach(d => {
+    if (sc.kind === 'waterfall') {
+      if (d.total) { seg.push([0, d.v]); run = d.v; } else { seg.push([run, run + d.v]); run += d.v; }
+    } else seg.push([0, d.v]);
+  });
+  seg.forEach(([a, b]) => { lo = Math.min(lo, a, b); hi = Math.max(hi, a, b); });
+  const y = v => padT + (hi - v) / ((hi - lo) || 1) * (H - padT - padB);
+  const slot = W / n, bw = Math.min(150, slot * 0.62);
+  let g = `<line x1="0" x2="${W}" y1="${y(0)}" y2="${y(0)}" stroke="#C9C1B2" stroke-width="2"/>`;
+  if (sc.kind === 'line') {
+    const pts = data.map((d, k) => [slot * k + slot / 2, y(d.v)]);
+    const dpath = pts.map((p, k) => (k ? 'L' : 'M') + p[0].toFixed(1) + ' ' + p[1].toFixed(1)).join(' ');
+    g += `<path class="gl" data-in="${t0}" d="${dpath}" fill="none" stroke="${cols[sc.color] || cols.navy}" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>`;
+    pts.forEach((p, k) => {
+      const tk = (t0 + 1.0 * (k + 1) / n).toFixed(2), d = data[k];
+      g += `<circle class="gf" data-in="${tk}" cx="${p[0]}" cy="${p[1]}" r="13" fill="${cols[d.color] || cols.gold}"/>`
+        + `<text class="gf" data-in="${tk}" x="${p[0]}" y="${p[1] - 30}" text-anchor="middle" font-family="RB" font-weight="500" font-size="38" fill="#13283D">${d.d ?? d.v}</text>`;
+    });
+  } else {
+    seg.forEach(([a, b], k) => {
+      const d = data[k], x = slot * k + (slot - bw) / 2, top = y(Math.max(a, b)), bot = y(Math.min(a, b));
+      const color = cols[d.color] || (sc.kind === 'waterfall' ? (d.total ? cols.navy : (d.v < 0 ? cols.red : cols.teal)) : cols.navy);
+      const grows = sc.kind === 'waterfall' && !d.total && d.v < 0 ? 'top' : 'bottom';
+      const tk = (t0 + 0.35 * k).toFixed(2);
+      g += `<rect class="gb" data-in="${tk}" style="transform-box:fill-box;transform-origin:center ${grows}" x="${x}" y="${top}" width="${bw}" height="${Math.max(2, bot - top)}" rx="4" fill="${color}"/>`;
+      if (sc.kind === 'waterfall' && k < n - 1) {
+        const lvl = y(b);
+        g += `<line class="gf" data-in="${(+tk + 0.5).toFixed(2)}" x1="${x + bw}" x2="${x + slot}" y1="${lvl}" y2="${lvl}" stroke="#9AA3AD" stroke-width="2" stroke-dasharray="6 6"/>`;
+      }
+      g += `<text class="gf" data-in="${(+tk + 0.55).toFixed(2)}" x="${x + bw / 2}" y="${top - 18}" text-anchor="middle" font-family="RB" font-weight="500" font-size="38" fill="#13283D">${d.d ?? d.v}</text>`;
+    });
+  }
+  data.forEach((d, k) => {
+    const lines = String(d.label).split('|');
+    lines.forEach((ln, j) => {
+      g += `<text x="${slot * k + slot / 2}" y="${H - padB + 44 + j * 34}" text-anchor="middle" font-family="RB" font-size="30" fill="#3E4A57">${ln}</text>`;
+    });
+  });
+  return `<svg width="${W}" height="${H + 30}" viewBox="0 0 ${W} ${H + 30}" style="overflow:visible">${g}</svg>`;
+}
+
+// persona: a flat illustrated figure at a desk (generic, not a real person), optional speech bubble
+function personaSvg(sc) {
+  const skin = '#C99B7A', hair = '#2B2420', shirt = sc.shirt === 'gold' ? '#B29A74' : '#13283D';
+  return `<svg width="898" height="470" viewBox="0 0 898 470">
+    <rect x="40" y="380" width="818" height="18" rx="6" fill="#13283D"/>
+    <rect x="110" y="398" width="16" height="72" fill="#13283D"/><rect x="772" y="398" width="16" height="72" fill="#13283D"/>
+    <circle cx="300" cy="150" r="62" fill="${skin}"/>
+    <path d="M238 140 q8-78 62-80 q60 2 64 76 q-14-36-64-38 q-46 2-62 42z" fill="${hair}"/>
+    <path d="M190 380 q0-150 110-158 q110 8 110 158z" fill="${shirt}"/>
+    <path d="M282 222 l18 34 l18-34z" fill="#fff"/>
+    <rect x="420" y="250" width="250" height="130" rx="10" fill="#E6DFD2" stroke="#13283D" stroke-width="5"/>
+    <rect x="400" y="372" width="290" height="14" rx="5" fill="#13283D"/>
+    <rect x="450" y="320" width="26" height="40" fill="#0F6E68"/><rect x="488" y="300" width="26" height="60" fill="#B29A74"/>
+    <rect x="526" y="285" width="26" height="75" fill="#13283D"/><rect x="564" y="305" width="26" height="55" fill="#B3261E"/>
+    <rect x="602" y="275" width="26" height="85" fill="#0F6E68"/>
+    <rect x="700" y="330" width="56" height="50" rx="6" fill="#fff" stroke="#B29A74" stroke-width="5"/>
+    <path d="M756 342 q22 0 22 16 q0 16-22 16" fill="none" stroke="#B29A74" stroke-width="5"/>
+  </svg>`;
+}
+
 // ---- scenes to HTML ----
 const counters = [];
 const at = (s, k) => (B[s] + 0.2 + k * 0.45).toFixed(2);
@@ -58,6 +127,17 @@ const html = scenes.map((sc, i) => {
   } else if (sc.type === 'cta') {
     body = `<div class="el cta c" data-in="${at(i, 0)}"><div class="h">${sc.h}</div><div class="b">${sc.b}</div><div class="a">${sc.a}</div></div>`
       + `<div class="el disc" data-in="${at(i, 1)}">${sc.disc}</div>`;
+  } else if (sc.type === 'chart') {
+    body = (sc.kicker ? `<div class="el k c" data-in="${at(i, 0)}">${sc.kicker}</div>` : '')
+      + (sc.head ? `<div class="el ch" data-in="${at(i, 0.5)}">${sc.head}</div>` : '')
+      + `<div class="el" data-in="${at(i, 1)}" data-still="1">${chartSvg(sc, +at(i, 1.4))}</div>`
+      + (sc.note ? `<div class="el cn" data-in="${at(i, 4)}">${sc.note}</div>` : '')
+      + (sc.src ? `<div class="el disc" data-in="${at(i, 4.5)}">${sc.src}</div>` : '');
+  } else if (sc.type === 'persona') {
+    body = (sc.kicker ? `<div class="el k c" data-in="${at(i, 0)}">${sc.kicker}</div>` : '')
+      + `<div class="el" data-in="${at(i, 0.5)}" data-still="1">${personaSvg(sc)}</div>`
+      + (sc.bubble ? `<div class="el bub" data-in="${at(i, 1.5)}">${sc.bubble}</div>` : '')
+      + (sc.caption ? `<div class="el sub" data-in="${at(i, 2.5)}">${sc.caption}</div>` : '');
   } else throw new Error('unknown scene type ' + sc.type);
   return `<div class="scene" data-s="${B[i].toFixed(2)}" data-e="${B[i + 1].toFixed(2)}"${last}>${body}</div>`;
 }).join('\n');

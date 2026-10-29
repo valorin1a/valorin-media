@@ -48,6 +48,10 @@ html,body{margin:0;background:#fff}
 .ftr span{display:flex;align-items:center;gap:11px}
 .sep{width:1px;height:30px;background:#34506D}
 .bar{position:absolute;left:0;bottom:446px;height:6px;background:var(--gold)}
+.ch{font-family:"RB";font-weight:500;font-size:72px;line-height:1.06;letter-spacing:-.015em;color:var(--navy)}
+.ch em{font-style:normal;color:#8C7550}
+.cn{font-family:"RB";font-weight:400;font-size:40px;line-height:1.25;color:var(--navy)}
+.bub{align-self:flex-start;max-width:820px;background:var(--ivory);border:3px solid var(--gold);border-radius:28px;padding:26px 36px;font-family:"RB";font-weight:500;font-size:50px;line-height:1.15;color:var(--navy)}
 </style>
 </head>
 <body>
@@ -80,6 +84,9 @@ window.renderAt = function(t){
     const p=ease((t-(+e.dataset.in))/0.45);
     e.style.opacity=p; e.style.transform=`translateY(${(1-p)*40}px)`;
   });
+  document.querySelectorAll('.gb').forEach(e=>{const p=ease((t-(+e.dataset.in))/0.7); e.style.transform=`scaleY(${Math.max(0.001,p)})`;});
+  document.querySelectorAll('.gl').forEach(e=>{const L=e.getTotalLength(); const p=ease((t-(+e.dataset.in))/1.2); e.style.strokeDasharray=L; e.style.strokeDashoffset=L*(1-p);});
+  document.querySelectorAll('.gf').forEach(e=>{const p=ease((t-(+e.dataset.in))/0.4); e.style.opacity=p;});
   COUNTERS.forEach(c=>{
     const el=document.getElementById(c.id); if(!el) return;
     const v=Math.round(c.target*ease((t-c.at)/1.2));
