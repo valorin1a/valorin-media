@@ -1,0 +1,39 @@
+1
+00:00:00,250 --> 00:00:04,517
+Month‑end and year‑end, in Oracle or any ERP.
+
+2
+00:00:05,217 --> 00:00:08,896
+A soft close still lets the team post corrections.
+
+3
+00:00:08,896 --> 00:00:13,238
+A hard close locks the period, so the numbers stop moving.
+
+4
+00:00:13,938 --> 00:00:23,858
+Decide who can reopen a period, set the hard-close date in your calendar, and route any later fix through approval and an audit trail.
+
+5
+00:00:24,558 --> 00:00:25,040
+Our E.
+
+6
+00:00:25,040 --> 00:00:25,200
+R.
+
+7
+00:00:25,200 --> 00:00:25,361
+P.
+
+8
+00:00:25,361 --> 00:00:29,374
+advisory, including Oracle, sets up this control.
+
+9
+00:00:29,374 --> 00:00:33,067
+Planning a system change, or a cleaner close?
+
+10
+00:00:33,067 --> 00:00:34,030
+Talk to us.
