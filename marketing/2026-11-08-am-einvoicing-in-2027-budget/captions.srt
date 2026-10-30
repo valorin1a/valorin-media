@@ -23,25 +23,13 @@ P.
 changes and testing, and your team's time on data.
 
 7
-00:00:31,961 --> 00:00:33,506
-Valorin is not an A.
-
-8
-00:00:33,506 --> 00:00:33,661
-S.
-
-9
-00:00:33,661 --> 00:00:33,815
-P.
-
-10
-00:00:33,815 --> 00:00:37,061
+00:00:31,961 --> 00:00:34,699
 We help you plan the work and the budget.
 
-11
-00:00:37,061 --> 00:00:38,607
+8
+00:00:34,699 --> 00:00:36,035
 Planning for March?
 
-12
-00:00:38,607 --> 00:00:40,153
-Send us a WhatsApp.
+9
+00:00:36,035 --> 00:00:40,110
+Send us a WhatsApp, and we'll build the cost lines with you.

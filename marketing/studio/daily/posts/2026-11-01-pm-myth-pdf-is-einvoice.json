@@ -61,12 +61,11 @@
         "b": "advisory@valorin.ae",
         "a": "WhatsApp 058-2754282",
         "disc": "General information only, not legal or tax advice. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
-        "say": "Valorin is not an A.S.P. Our readiness work starts with a gap assessment. Not sure where your invoice data stands? Send us a WhatsApp, and we'll go through it with you.",
+        "say": "Our readiness work starts with a gap assessment. Not sure where your invoice data stands? Send us a WhatsApp, and we'll go through it with you, field by field.",
         "cap": [
-          "Valorin is not an *ASP*.",
-          "Our readiness work starts with a *gap assessment*.",
+          "Our readiness work starts with a gap assessment.",
           "Not sure where your invoice data stands?",
-          "Send us a *WhatsApp*, and we'll go through it with you."
+          "Send us a *WhatsApp*, and we'll go through it with you, field by field."
         ]
       }
     ]
