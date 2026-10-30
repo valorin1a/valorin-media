@@ -19,21 +19,25 @@ If the old data, chart of accounts and habits move across unchanged, so do the r
 So fix three things before go-live: a chart of accounts built for the reports you need, clean master data, and a written close process.
 
 6
-00:00:30,041 --> 00:00:30,569
+00:00:30,041 --> 00:00:30,493
 Our E.
 
 7
-00:00:30,569 --> 00:00:30,745
+00:00:30,493 --> 00:00:30,644
 R.
 
 8
-00:00:30,745 --> 00:00:30,921
+00:00:30,644 --> 00:00:30,795
 P.
 
 9
-00:00:30,921 --> 00:00:35,940
+00:00:30,795 --> 00:00:35,092
 advisory, including Oracle, starts with that groundwork.
 
 10
-00:00:35,940 --> 00:00:40,430
-General information only, not legal or tax advice.
+00:00:35,092 --> 00:00:36,826
+Planning a new system?
+
+11
+00:00:36,826 --> 00:00:41,049
+Talk to us first, and we'll look at your data with you.

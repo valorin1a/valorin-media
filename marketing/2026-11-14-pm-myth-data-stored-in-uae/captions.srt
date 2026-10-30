@@ -27,25 +27,13 @@ In-scope businesses must still keep every e-invoice and its data.
 So ask your provider where it's stored, and how fast you can retrieve it.
 
 8
-00:00:29,230 --> 00:00:30,842
-Valorin is not an A.
-
-9
-00:00:30,842 --> 00:00:31,004
-S.
-
-10
-00:00:31,004 --> 00:00:31,165
-P.
-
-11
-00:00:31,165 --> 00:00:34,631
+00:00:29,230 --> 00:00:32,084
 We help you prepare your data and systems.
 
-12
-00:00:34,631 --> 00:00:36,727
+9
+00:00:32,084 --> 00:00:33,851
 Questions on your set-up?
 
-13
-00:00:36,727 --> 00:00:38,339
-Send us a WhatsApp.
+10
+00:00:33,851 --> 00:00:37,657
+Send us a WhatsApp, and we'll talk it through with you.

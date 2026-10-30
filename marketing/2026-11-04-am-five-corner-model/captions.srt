@@ -39,25 +39,13 @@ P.
 produces.
 
 11
-00:00:28,675 --> 00:00:30,232
-Valorin is not an A.
+00:00:28,675 --> 00:00:32,905
+We help you prepare corner one: your own data and systems.
 
 12
-00:00:30,232 --> 00:00:30,387
-S.
-
-13
-00:00:30,387 --> 00:00:30,543
-P.
-
-14
-00:00:30,543 --> 00:00:33,033
-We help you prepare corner one.
-
-15
-00:00:33,033 --> 00:00:35,912
+00:00:32,905 --> 00:00:35,603
 Revenue below fifty million dirhams?
 
-16
-00:00:35,912 --> 00:00:39,491
+13
+00:00:35,603 --> 00:00:38,958
 Message us, and we'll map the steps with you.
