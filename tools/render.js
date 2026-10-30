@@ -64,7 +64,7 @@ const vals = {
   BARW: Math.max(pct, 0.5).toFixed(2) + '%',
   DOTS: dots,
   T1TAG: t1tag, T1NUM: t1num, T1LBL: t1lbl,
-  DAYS: days, DAYSW: days === 1 ? 'DAY' : 'DAYS', DLBL: dlbl, DKEY: dkey,
+  DAYS: days === 0 ? 'TODAY' : days, DAYSW: days === 0 ? '' : days === 1 ? 'DAY' : 'DAYS', DLBL: days === 0 ? dlbl.replace(/^to appoint/, 'last day to appoint') : dlbl, DKEY: dkey,
 };
 
 let html = fs.readFileSync(path.join(__dirname, 'card.html'), 'utf8');
@@ -74,7 +74,7 @@ const tmp = path.join(__dirname, '_filled.html');
 fs.writeFileSync(tmp, html);
 
 (async () => {
-  const browser = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell' });
+  const browser = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell' });
   const page = await browser.newPage({ viewport: { width: DIM[0], height: DIM[1] }, deviceScaleFactor: 1 });
   await page.goto('file://' + tmp);
   await page.evaluate(() => document.fonts.ready);
