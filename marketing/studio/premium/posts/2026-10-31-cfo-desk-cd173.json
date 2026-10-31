@@ -1,0 +1,85 @@
+{
+  "id": "2026-10-31-cfo-desk-cd173",
+  "date": "2026-10-31",
+  "card": {
+    "kicker": "CFO DESK · 31 OCT 2026",
+    "head": "E‑invoicing penalties: a new Cabinet Decision",
+    "sub": "What changed, who it affects, what we'd look at this week.",
+    "figure": {
+      "n": "173",
+      "unit": "OF 2026",
+      "label": "Cabinet Decision cited for e‑invoicing penalties in the MoF Guidelines V2.0. <b>For in‑scope businesses.</b>"
+    },
+    "tiles": [
+      {
+        "k": "REFERENCES",
+        "t": "Re‑check No. 106 citations",
+        "l": "Policies and board papers"
+      },
+      {
+        "k": "GO‑LIVE",
+        "t": "1 Jan 2027",
+        "l": "Phase 1, Ministerial Resolution No. 66 of 2026",
+        "alert": true
+      },
+      {
+        "k": "NEW ENTITIES",
+        "t": "ASP before first invoice",
+        "l": "Guidelines V2.0, s.8.4"
+      }
+    ],
+    "cta": {
+      "h": "TALK TO US",
+      "d": "Gap assessment, ERP integration and testing. Valorin is not an ASP.",
+      "go": "WhatsApp 058-2754282"
+    },
+    "source": "Source: UAE Electronic Invoicing Guidelines V2.0, ss. 8.4, 11.2 (UAE Ministry of Finance, 26 Oct 2026); mof.gov.ae, updated 30 Oct 2026; checked 31 Oct 2026. General information only, not legal or tax advice. Valorin is an independent advisory firm, not affiliated with the FTA or MoF."
+  },
+  "video": {
+    "scenes": [
+      {
+        "type": "hook",
+        "kicker": "CFO DESK · 31 OCT 2026",
+        "head": "E‑invoicing penalties: <em>a new decision</em>",
+        "sub": "Is your risk register up to date?",
+        "say": "Updating your e-invoicing risk register? First, check which penalty decision it cites."
+      },
+      {
+        "type": "figure",
+        "kicker": "E‑INVOICING PENALTIES",
+        "n": "173",
+        "unit": "OF 2026",
+        "desc": "Cabinet Decision cited for e‑invoicing penalties, for in‑scope businesses.",
+        "src": "UAE Electronic Invoicing Guidelines V2.0, s.11.2, UAE Ministry of Finance, 26 Oct 2026; mof.gov.ae, updated 30 Oct 2026. Checked 31 Oct 2026. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "say": "The Ministry of Finance's guidelines, version two, now cite Cabinet Decision one seventy-three of twenty twenty-six for e-invoicing penalties."
+      },
+      {
+        "type": "steps",
+        "kicker": "WHAT WE'D LOOK AT THIS WEEK",
+        "items": [
+          {
+            "t": "Re‑check references",
+            "small": "Anything citing No. 106 of 2025"
+          },
+          {
+            "t": "Phase and go‑live",
+            "small": "Each entity; Phase 1: 1 Jan 2027"
+          },
+          {
+            "t": "New entities",
+            "small": "ASP before the first invoice"
+          }
+        ],
+        "say": "This week, we'd re-check anything that still cites decision one-oh-six, confirm each entity's phase and go-live date, and make sure any new company has its provider before its first invoice."
+      },
+      {
+        "type": "cta",
+        "h": "TALK TO US",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Valorin is an independent advisory firm, not affiliated with the FTA or MoF. Valorin is not an ASP.",
+        "say": "Planning your go-live before January? Send us a WhatsApp, and we'll go through it with you."
+      }
+    ]
+  }
+}

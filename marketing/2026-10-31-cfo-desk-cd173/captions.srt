@@ -1,0 +1,23 @@
+1
+00:00:00,250 --> 00:00:03,435
+Updating your e-invoicing risk register?
+
+2
+00:00:03,435 --> 00:00:07,098
+First, check which penalty decision it cites.
+
+3
+00:00:07,798 --> 00:00:19,190
+The Ministry of Finance's Guidelines V2.0 now cite Cabinet Decision No. 173 of 2026 for e-invoicing penalties.
+
+4
+00:00:19,890 --> 00:00:34,546
+This week, we'd re-check anything that still cites Decision No. 106 of 2025, confirm each entity's phase and go-live date, and make sure any new company has its provider before its first invoice.
+
+5
+00:00:35,246 --> 00:00:37,709
+Planning your go-live before January?
+
+6
+00:00:37,709 --> 00:00:41,305
+Send us a WhatsApp, and we'll go through it with you.
