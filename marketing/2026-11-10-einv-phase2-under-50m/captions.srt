@@ -1,0 +1,27 @@
+1
+00:00:00,250 --> 00:00:05,223
+Does a business under fifty million dirhams need e-invoicing?
+
+2
+00:00:05,223 --> 00:00:07,098
+Yes, if it's in scope.
+
+3
+00:00:07,798 --> 00:00:19,304
+In-scope businesses below that level appoint an accredited provider by the thirty-first of March, twenty twenty-seven, and implement by the first of July.
+
+4
+00:00:19,304 --> 00:00:24,459
+Businesses selling only to consumers are outside the system for now.
+
+5
+00:00:25,159 --> 00:00:37,383
+When the quotes arrive, compare four things: how the connector fits your ERP, the pricing basis, onboarding time and support, and the exit terms if you switch later.
+
+6
+00:00:38,083 --> 00:00:39,830
+Comparing provider quotes?
+
+7
+00:00:39,830 --> 00:00:43,054
+Message us, and we'll go through them with you.
