@@ -1,0 +1,122 @@
+{
+  "id": "2026-11-05-erp-oracle-timeline",
+  "date": "2026-11-05",
+  "path": "/services/erp-advisory",
+  "campaign": "erp-oracle",
+  "question": "How long does an Oracle implementation take?",
+  "keyword": "oracle implementation dubai",
+  "card": {
+    "kicker": "ERP & ORACLE · 05 NOV 2026",
+    "head": "How long does an Oracle implementation take?",
+    "sub": "It depends on scope. So plan backwards from the date it has to work.",
+    "figure": {
+      "n": "1 Jul",
+      "unit": "2027",
+      "label": "Phase 2 e‑invoicing go‑live, in‑scope businesses below AED 50m. <b>A new ERP sending e‑invoices must work by then.</b>"
+    },
+    "tiles": [
+      {
+        "k": "DEC – JAN",
+        "t": "Design",
+        "l": "Processes, chart of accounts"
+      },
+      {
+        "k": "FEB – MAR",
+        "t": "Data migration",
+        "l": "Load, reconcile, appoint the ASP"
+      },
+      {
+        "k": "APR – MAY",
+        "t": "Test, then a parallel close",
+        "l": "June kept as buffer",
+        "alert": true
+      }
+    ],
+    "cta": {
+      "h": "TALK TO US",
+      "d": "ERP advisory, Oracle first. Hypothetical example, not a real company.",
+      "go": "WhatsApp 058-2754282"
+    },
+    "source": "Source: Ministerial Decision No. 244 of 2025, Art. 5(1)(b) (mof.gov.ae); checked 2 Nov 2026. Timeline is a hypothetical example and our view. Oracle is a trademark of its owner; no partnership implied. General information only, not legal or tax advice. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF."
+  },
+  "video": {
+    "scenes": [
+      {
+        "type": "hook",
+        "kicker": "ERP & ORACLE · 05 NOV 2026",
+        "head": "How long does an <em>Oracle</em> implementation take?",
+        "sub": "A hypothetical plan, worked backwards",
+        "say": "How long does an Oracle implementation take? It depends on scope, so start from the date it has to work."
+      },
+      {
+        "type": "figure",
+        "kicker": "PHASE 2 GO‑LIVE",
+        "n": "1 Jul",
+        "unit": "2027",
+        "desc": "E‑invoicing for in‑scope businesses below AED 50m.",
+        "src": "Ministerial Decision No. 244 of 2025, Art. 5(1)(b) (mof.gov.ae). Checked 2 Nov 2026. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "say": "For in-scope businesses below fifty million dirhams in revenue, e-invoicing must be implemented by the first of July, twenty twenty-seven. If a new system will send those invoices, that's your end date."
+      },
+      {
+        "type": "steps",
+        "kicker": "HYPOTHETICAL PLAN · OUR VIEW",
+        "items": [
+          {
+            "t": "Design",
+            "small": "December to January"
+          },
+          {
+            "t": "Data migration, ASP appointed",
+            "small": "February to March"
+          },
+          {
+            "t": "Testing, incl. e‑invoicing",
+            "small": "April"
+          },
+          {
+            "t": "Parallel close of April",
+            "small": "May, then June as buffer"
+          }
+        ],
+        "say": "In this hypothetical plan for a trading business, design runs to January and data migration to March, when the provider is appointed. Testing takes April, May is a parallel close of the April books, and June is kept as buffer."
+      },
+      {
+        "type": "cta",
+        "h": "TALK TO US",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Hypothetical example, not a real company. Oracle is a trademark of its owner; no partnership implied. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "say": "Planning an Oracle project for twenty twenty-seven? Send us a WhatsApp, and we'll map the timeline with you."
+      }
+    ]
+  },
+  "captions": {
+    "linkedin": "Oracle implementation time depends on scope, entities and the state of your data, so we'd start from the date the system has to work and plan backwards.\n\nFor many businesses that date is set by e-invoicing. In-scope businesses with revenue below AED 50m must appoint an ASP by 31 March 2027 and implement e-invoicing by 1 July 2027 (Ministerial Decision No. 244 of 2025, Art. 5(1)(b); mof.gov.ae, checked 2 Nov 2026).\n\nHypothetical example, a trading business:\nDesign to January → data migration to March, ASP appointed → testing, e-invoicing included, in April → a parallel close of the April books in May → June kept as buffer.\n\nThat timeline is our view, not a promised duration.\n\n{CTA}\n\n{TAG}\n{D} Hypothetical example, not a real company. Oracle is a trademark of its owner; no partnership implied. {ASP} {IND}\n\n#OracleERP #ERP #DubaiBusiness",
+    "facebook": "An ERP project is easier to plan from the end date than from the start date.\n\nIf a new system will send your e-invoices, it has to work by 1 July 2027 for in-scope businesses below AED 50m (Ministerial Decision No. 244 of 2025; mof.gov.ae, checked 2 Nov 2026).\n\nIn our hypothetical example, that leaves design to January, data to March, testing in April, a parallel close in May and June as buffer. Tighter than it looks.\n\n{CTA}\n{TAG}\n{D} Hypothetical example, not a real company. Oracle is a trademark of its owner; no partnership implied. {ASP} {IND}\n#OracleERP #ERP",
+    "instagram": "Oracle implementation timeline, planned backwards from UAE e-invoicing.\n\nIn-scope businesses below AED 50m implement e-invoicing by 1 July 2027 (Ministerial Decision No. 244 of 2025; checked 2 Nov 2026).\n\nHypothetical plan, our view:\nDec–Jan: design\nFeb–Mar: data migration, ASP appointed\nApr: testing, e-invoicing included\nMay: parallel close of April\nJun: buffer\n\nOur ERP advisory starts with the timeline.\n{CTA_IG}\n{TAG}\n{D} Hypothetical example, not a real company. Oracle is a trademark of its owner; no partnership implied. {ASP} {IND}\n#OracleERP #ERP #UAEEInvoicing #DubaiBusiness #Dubai #CFO",
+    "tiktok_title": "How long does an Oracle ERP implementation take?",
+    "tiktok": "Plan an Oracle implementation in Dubai backwards from 1 July 2027, the e-invoicing date for in-scope businesses below AED 50m (Ministerial Decision No. 244 of 2025, checked 2 Nov 2026). Hypothetical plan: design, data, testing, parallel close, buffer.\n{CTA_TT}\n{TAG}\n{D} Hypothetical example, not a real company. Oracle is a trademark of its owner; no partnership implied. {ASP} {IND}\n#OracleERP #ERP #DubaiBusiness",
+    "youtube_title": "How long does an Oracle implementation take? Plan backwards",
+    "youtube": "It depends on scope, so plan backwards from the date the system has to work. For in-scope businesses below AED 50m, e-invoicing must be implemented by 1 July 2027 (Ministerial Decision No. 244 of 2025, Art. 5(1)(b); mof.gov.ae, checked 2 Nov 2026). Hypothetical plan: design to January, data migration to March, testing in April, a parallel close in May, June as buffer.\n{CTA}\n{TAG}\n{D} Hypothetical example, not a real company. Oracle is a trademark of its owner; no partnership implied. {ASP} {IND}\n{YT}\n#OracleERP #Shorts",
+    "pinterest_title": "Oracle ERP implementation timeline for UAE e-invoicing 2027",
+    "pinterest": "A hypothetical Oracle ERP plan worked back from 1 July 2027, the UAE e-invoicing date for in-scope businesses below AED 50m (Ministerial Decision No. 244 of 2025; checked 2 Nov 2026). Design, data migration, testing, parallel close, buffer.\n{D} Hypothetical example, not a real company. Oracle is a trademark of its owner; no partnership implied. {ASP} {IND}",
+    "gbp": "ERP and Oracle implementation advisory in Dubai, planned back from your e-invoicing date. In-scope businesses below AED 50m must implement e-invoicing by 1 July 2027 (Ministerial Decision No. 244 of 2025; checked 2 Nov 2026). In a hypothetical plan, that leaves design to January, data migration to March, testing in April, a parallel close in May and June as buffer.\n{TAG}\n{D} Hypothetical example, not a real company. Oracle is a trademark of its owner; no partnership implied. {ASP} {IND}\n{GBP}",
+    "x": "New ERP sending e-invoices? In scope, under AED 50m: implement by 1 Jul 2027 (MD 244/2025; checked 2 Nov). Plan back. {D} {ASP} {IND} #ERP",
+    "alt": "Card: how long an Oracle implementation takes, planned backwards from 1 July 2027: design to January, data migration to March, testing in April, a parallel close in May, June as buffer. Hypothetical example, not a real company."
+  },
+  "captions_expanded": {
+    "linkedin": "Oracle implementation time depends on scope, entities and the state of your data, so we'd start from the date the system has to work and plan backwards.\n\nFor many businesses that date is set by e-invoicing. In-scope businesses with revenue below AED 50m must appoint an ASP by 31 March 2027 and implement e-invoicing by 1 July 2027 (Ministerial Decision No. 244 of 2025, Art. 5(1)(b); mof.gov.ae, checked 2 Nov 2026).\n\nHypothetical example, a trading business:\nDesign to January → data migration to March, ASP appointed → testing, e-invoicing included, in April → a parallel close of the April books in May → June kept as buffer.\n\nThat timeline is our view, not a promised duration.\n\nTalk to us: WhatsApp 058-2754282 · advisory@valorin.ae\nhttps://www.valorin.ae/services/erp-advisory?utm_source=linkedin&utm_medium=social&utm_campaign=erp-oracle\n\nFinance with Integrity. Growth with Insight.\nGeneral information only, not legal or tax advice. Hypothetical example, not a real company. Oracle is a trademark of its owner; no partnership implied. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.\n\n#OracleERP #ERP #DubaiBusiness",
+    "facebook": "An ERP project is easier to plan from the end date than from the start date.\n\nIf a new system will send your e-invoices, it has to work by 1 July 2027 for in-scope businesses below AED 50m (Ministerial Decision No. 244 of 2025; mof.gov.ae, checked 2 Nov 2026).\n\nIn our hypothetical example, that leaves design to January, data to March, testing in April, a parallel close in May and June as buffer. Tighter than it looks.\n\nTalk to us: WhatsApp 058-2754282 · advisory@valorin.ae\nhttps://www.valorin.ae/services/erp-advisory?utm_source=facebook&utm_medium=social&utm_campaign=erp-oracle\nFinance with Integrity. Growth with Insight.\nGeneral information only, not legal or tax advice. Hypothetical example, not a real company. Oracle is a trademark of its owner; no partnership implied. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.\n#OracleERP #ERP",
+    "instagram": "Oracle implementation timeline, planned backwards from UAE e-invoicing.\n\nIn-scope businesses below AED 50m implement e-invoicing by 1 July 2027 (Ministerial Decision No. 244 of 2025; checked 2 Nov 2026).\n\nHypothetical plan, our view:\nDec–Jan: design\nFeb–Mar: data migration, ASP appointed\nApr: testing, e-invoicing included\nMay: parallel close of April\nJun: buffer\n\nOur ERP advisory starts with the timeline.\nTalk to us: link in bio\nDubai, UAE · www.valorin.ae · advisory@valorin.ae · WhatsApp 058-2754282\nFinance with Integrity. Growth with Insight.\nGeneral information only, not legal or tax advice. Hypothetical example, not a real company. Oracle is a trademark of its owner; no partnership implied. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.\n#OracleERP #ERP #UAEEInvoicing #DubaiBusiness #Dubai #CFO",
+    "tiktok_title": "How long does an Oracle ERP implementation take?",
+    "tiktok": "Plan an Oracle implementation in Dubai backwards from 1 July 2027, the e-invoicing date for in-scope businesses below AED 50m (Ministerial Decision No. 244 of 2025, checked 2 Nov 2026). Hypothetical plan: design, data, testing, parallel close, buffer.\nTalk to us: www.valorin.ae · WhatsApp 058-2754282 · advisory@valorin.ae\nFinance with Integrity. Growth with Insight.\nGeneral information only, not legal or tax advice. Hypothetical example, not a real company. Oracle is a trademark of its owner; no partnership implied. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.\n#OracleERP #ERP #DubaiBusiness",
+    "youtube_title": "How long does an Oracle implementation take? Plan backwards",
+    "youtube": "It depends on scope, so plan backwards from the date the system has to work. For in-scope businesses below AED 50m, e-invoicing must be implemented by 1 July 2027 (Ministerial Decision No. 244 of 2025, Art. 5(1)(b); mof.gov.ae, checked 2 Nov 2026). Hypothetical plan: design to January, data migration to March, testing in April, a parallel close in May, June as buffer.\nTalk to us: WhatsApp 058-2754282 · advisory@valorin.ae\nhttps://www.valorin.ae/services/erp-advisory?utm_source=youtube&utm_medium=social&utm_campaign=erp-oracle\nFinance with Integrity. Growth with Insight.\nGeneral information only, not legal or tax advice. Hypothetical example, not a real company. Oracle is a trademark of its owner; no partnership implied. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.\nVoiceover: synthetic voice (Kokoro-82M TTS, Apache 2.0). Music: original.\n#OracleERP #Shorts",
+    "pinterest_title": "Oracle ERP implementation timeline for UAE e-invoicing 2027",
+    "pinterest": "A hypothetical Oracle ERP plan worked back from 1 July 2027, the UAE e-invoicing date for in-scope businesses below AED 50m (Ministerial Decision No. 244 of 2025; checked 2 Nov 2026). Design, data migration, testing, parallel close, buffer.\nGeneral information only, not legal or tax advice. Hypothetical example, not a real company. Oracle is a trademark of its owner; no partnership implied. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+    "gbp": "ERP and Oracle implementation advisory in Dubai, planned back from your e-invoicing date. In-scope businesses below AED 50m must implement e-invoicing by 1 July 2027 (Ministerial Decision No. 244 of 2025; checked 2 Nov 2026). In a hypothetical plan, that leaves design to January, data migration to March, testing in April, a parallel close in May and June as buffer.\nFinance with Integrity. Growth with Insight.\nGeneral information only, not legal or tax advice. Hypothetical example, not a real company. Oracle is a trademark of its owner; no partnership implied. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.\nUse the Call or Website button on this profile to talk to us.",
+    "x": "New ERP sending e-invoices? In scope, under AED 50m: implement by 1 Jul 2027 (MD 244/2025; checked 2 Nov). Plan back. General information only, not legal or tax advice. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF. #ERP",
+    "alt": "Card: how long an Oracle implementation takes, planned backwards from 1 July 2027: design to January, data migration to March, testing in April, a parallel close in May, June as buffer. Hypothetical example, not a real company.",
+    "pinterest_link": "https://www.valorin.ae/services/erp-advisory?utm_source=pinterest&utm_medium=social&utm_campaign=erp-oracle"
+  }
+}

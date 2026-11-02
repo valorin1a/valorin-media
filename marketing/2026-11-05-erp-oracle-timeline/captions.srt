@@ -1,0 +1,31 @@
+1
+00:00:00,250 --> 00:00:03,662
+How long does an Oracle implementation take?
+
+2
+00:00:03,662 --> 00:00:08,314
+It depends on scope, so start from the date it has to work.
+
+3
+00:00:09,014 --> 00:00:19,580
+For in-scope businesses below fifty million dirhams in revenue, e-invoicing must be implemented by the first of July, twenty twenty-seven.
+
+4
+00:00:19,580 --> 00:00:24,481
+If a new system will send those invoices, that's your end date.
+
+5
+00:00:25,181 --> 00:00:35,425
+In this hypothetical plan for a trading business, design runs to January and data migration to March, when the provider is appointed.
+
+6
+00:00:35,425 --> 00:00:42,589
+Testing takes April, May is a parallel close of the April books, and June is kept as buffer.
+
+7
+00:00:43,289 --> 00:00:46,704
+Planning an Oracle project for twenty twenty-seven?
+
+8
+00:00:46,704 --> 00:00:50,521
+Send us a WhatsApp, and we'll map the timeline with you.
