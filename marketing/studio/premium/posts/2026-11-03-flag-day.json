@@ -1,0 +1,33 @@
+{
+  "id": "2026-11-03-flag-day",
+  "date": "2026-11-03",
+  "path": "",
+  "campaign": "",
+  "card": {
+    "kicker": "03 NOV 2026",
+    "head": "Happy Flag Day",
+    "sub": "With appreciation to everyone who builds the UAE economy, day by day.",
+    "tiles": [],
+    "cta": {
+      "h": "FROM ALL OF US AT VALORIN",
+      "d": "Valorin Finance & Advisory LLC, Dubai, UAE.",
+      "go": "www.valorin.ae"
+    },
+    "source": "Valorin Finance & Advisory LLC · Dubai, UAE",
+    "figure": {
+      "n": "3",
+      "unit": "NOVEMBER",
+      "label": "Flag Day. <b>With appreciation, from all of us in Dubai.</b>"
+    }
+  },
+  "captions": {
+    "linkedin": "Happy Flag Day to everyone across the UAE.\n\nToday we mark the day with appreciation for the people who build this economy: in offices and warehouses, at ports and on shop floors, every working day.\n\nFrom all of us at Valorin Finance & Advisory, Dubai.\n\n{TAG}\n\n#Dubai #DubaiBusiness #FinanceLeadership",
+    "gbp": "Happy Flag Day from Valorin Finance & Advisory in Dubai. With appreciation to everyone who builds the UAE economy, today and every working day.\n{TAG}",
+    "alt": "Text card: Happy Flag Day, with appreciation to everyone who builds the UAE economy. From Valorin Finance & Advisory, Dubai."
+  },
+  "captions_expanded": {
+    "linkedin": "Happy Flag Day to everyone across the UAE.\n\nToday we mark the day with appreciation for the people who build this economy: in offices and warehouses, at ports and on shop floors, every working day.\n\nFrom all of us at Valorin Finance & Advisory, Dubai.\n\nFinance with Integrity. Growth with Insight.\n\n#Dubai #DubaiBusiness #FinanceLeadership",
+    "gbp": "Happy Flag Day from Valorin Finance & Advisory in Dubai. With appreciation to everyone who builds the UAE economy, today and every working day.\nFinance with Integrity. Growth with Insight.",
+    "alt": "Text card: Happy Flag Day, with appreciation to everyone who builds the UAE economy. From Valorin Finance & Advisory, Dubai."
+  }
+}

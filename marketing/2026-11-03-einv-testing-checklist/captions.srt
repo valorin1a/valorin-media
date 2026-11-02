@@ -1,0 +1,35 @@
+1
+00:00:00,250 --> 00:00:03,871
+What should you test before e-invoicing goes live?
+
+2
+00:00:03,871 --> 00:00:08,143
+Start with the invoices that don't follow the normal path.
+
+3
+00:00:08,843 --> 00:00:20,193
+For in-scope businesses with revenue of fifty million dirhams or more, e-invoicing must be implemented by the first of January, twenty twenty-seven.
+
+4
+00:00:20,893 --> 00:00:24,510
+Test credit notes against the original invoice.
+
+5
+00:00:24,510 --> 00:00:29,127
+Agree who fixes a rejected or failed invoice, and how fast.
+
+6
+00:00:29,127 --> 00:00:32,975
+Check buyer tax numbers and electronic addresses.
+
+7
+00:00:32,975 --> 00:00:37,746
+And set up every company in the group, not only the main one.
+
+8
+00:00:38,446 --> 00:00:40,049
+Testing before January?
+
+9
+00:00:40,049 --> 00:00:44,718
+Send us a WhatsApp, and we'll go through your test cases with you.

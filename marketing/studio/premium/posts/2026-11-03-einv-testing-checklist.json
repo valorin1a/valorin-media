@@ -1,0 +1,125 @@
+{
+  "id": "2026-11-03-einv-testing-checklist",
+  "date": "2026-11-03",
+  "path": "/services/e-invoicing-uae",
+  "campaign": "einv-phase1",
+  "question": "What should we test before e-invoicing go-live?",
+  "keyword": "e-invoicing implementation uae",
+  "card": {
+    "kicker": "E‑INVOICING BRIEF · 03 NOV 2026",
+    "head": "What to test before e‑invoicing go‑live",
+    "sub": "The standard invoice usually works. Test the exceptions first.",
+    "figure": {
+      "n": "1 Jan",
+      "unit": "2027",
+      "label": "Phase 1 go‑live for in‑scope businesses with revenue of AED 50m or more. <b>Test the exceptions first.</b>"
+    },
+    "tiles": [
+      {
+        "k": "CREDIT NOTES",
+        "t": "Linked to the original",
+        "l": "Partial and full reversals"
+      },
+      {
+        "k": "REJECTIONS",
+        "t": "An owner and a fix time",
+        "l": "Rejected or failed sends",
+        "alert": true
+      },
+      {
+        "k": "BUYER DATA",
+        "t": "TRNs and endpoints",
+        "l": "In the customer master"
+      }
+    ],
+    "cta": {
+      "h": "TALK TO US",
+      "d": "ERP integration and testing to go‑live. Valorin is not an ASP.",
+      "go": "WhatsApp 058-2754282"
+    },
+    "source": "Source: Ministerial Decision No. 244 of 2025, Art. 5(1)(a) as replaced by Ministerial Resolution No. 66 of 2026, and Art. 5(3) (mof.gov.ae); checked 2 Nov 2026. General information only, not legal or tax advice. Valorin is an independent advisory firm, not affiliated with the FTA or MoF."
+  },
+  "video": {
+    "scenes": [
+      {
+        "type": "hook",
+        "kicker": "E‑INVOICING BRIEF · 03 NOV 2026",
+        "head": "Before go‑live, test <em>the exceptions</em>",
+        "sub": "Phase 1 · 1 January 2027",
+        "say": "What should you test before e-invoicing goes live? Start with the invoices that don't follow the normal path."
+      },
+      {
+        "type": "figure",
+        "kicker": "PHASE 1 GO‑LIVE",
+        "n": "1 Jan",
+        "unit": "2027",
+        "desc": "In‑scope businesses with revenue of AED 50m or more.",
+        "src": "Ministerial Decision No. 244 of 2025, Art. 5, as amended by Ministerial Resolution No. 66 of 2026 (mof.gov.ae). Checked 2 Nov 2026. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "say": "For in-scope businesses with revenue of fifty million dirhams or more, e-invoicing must be implemented by the first of January, twenty twenty-seven."
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "CREDIT NOTES",
+            "n": "Linked to the original",
+            "l": "Partial and full"
+          },
+          {
+            "k": "REJECTIONS",
+            "n": "Who fixes, how fast",
+            "l": "Rejected or failed sends"
+          },
+          {
+            "k": "BUYER DATA",
+            "n": "TRNs and endpoints",
+            "l": "Customer master"
+          },
+          {
+            "k": "ENTITIES",
+            "n": "Every company set up",
+            "l": "Not only the main one"
+          }
+        ],
+        "say": "Test credit notes against the original invoice. Agree who fixes a rejected or failed invoice, and how fast. Check buyer tax numbers and electronic addresses. And set up every company in the group, not only the main one."
+      },
+      {
+        "type": "cta",
+        "h": "TALK TO US",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "say": "Testing before January? Send us a WhatsApp, and we'll go through your test cases with you."
+      }
+    ]
+  },
+  "captions": {
+    "linkedin": "Before e-invoicing goes live, test the invoices that don't follow the normal path. That's where go-live problems usually start.\n\nUnder Ministerial Decision No. 244 of 2025, as amended by Ministerial Resolution No. 66 of 2026, in-scope businesses with revenue of AED 50m or more must implement e-invoicing by 1 January 2027 (mof.gov.ae, checked 2 Nov 2026).\n\nFour e-invoicing implementation test cases we'd put on the list now:\n• Credit notes, partial and full, linked to the original invoice\n• Rejected or failed sends, with an owner and a fix time\n• Buyer TRNs and electronic addresses in the customer master\n• Every group company set up, not only the main one\n\n{CTA}\n\n{TAG}\n{D} {ASP} {IND}\n\n#UAEEInvoicing #ERP #DubaiBusiness",
+    "facebook": "Going live with e-invoicing on 1 January? The standard invoice usually works. Credit notes, rejected sends and incomplete customer records are where testing pays off.\n\nIn-scope businesses with revenue of AED 50m or more must implement e-invoicing by 1 January 2027 (Ministerial Decision No. 244 of 2025, as amended by Ministerial Resolution No. 66 of 2026; mof.gov.ae, checked 2 Nov 2026).\n\nIs credit-note testing on your plan yet?\n\n{CTA}\n{TAG}\n{D} {ASP} {IND}\n#UAEEInvoicing #DubaiBusiness",
+    "instagram": "Exceptions first: that's how we'd test before UAE e-invoicing go-live.\n\nIn-scope businesses with revenue of AED 50m or more go live by 1 January 2027 (Ministerial Decision No. 244 of 2025, as amended by Ministerial Resolution No. 66 of 2026; checked 2 Nov 2026).\n\nTest these first:\n1. Credit notes linked to the original invoice\n2. Rejected or failed sends\n3. Buyer TRNs and electronic addresses\n4. Every group company\n\nWe help with ERP integration and testing to go-live.\n{CTA_IG}\n{TAG}\n{D} {ASP} {IND}\n#UAEEInvoicing #EInvoicingUAE #ERP #DubaiBusiness #Dubai #FinanceLeadership",
+    "tiktok_title": "What to test before UAE e-invoicing go-live",
+    "tiktok": "Credit notes, rejected sends, buyer TRNs, every group company: test these before UAE e-invoicing go-live on 1 January 2027, the date for in-scope businesses with revenue of AED 50m or more (Ministerial Decision No. 244 of 2025 as amended by Ministerial Resolution No. 66 of 2026, checked 2 Nov 2026).\n{CTA_TT}\n{TAG}\n{D} {ASP} {IND}\n#UAEEInvoicing #EInvoicingUAE #ERP #DubaiBusiness",
+    "youtube_title": "What should you test before UAE e-invoicing go-live?",
+    "youtube": "Test the exceptions first: credit notes linked to the original invoice, rejected or failed sends, buyer TRNs and electronic addresses, and every group company. In-scope businesses with revenue of AED 50m or more must implement e-invoicing by 1 January 2027 (Ministerial Decision No. 244 of 2025, as amended by Ministerial Resolution No. 66 of 2026; mof.gov.ae, checked 2 Nov 2026).\nWe help with ERP integration and testing to go-live.\n{CTA}\n{TAG}\n{D} {ASP} {IND}\n{YT}\n#UAEEInvoicing #Shorts",
+    "pinterest_title": "UAE e-invoicing go-live testing checklist (Phase 1, 2027)",
+    "pinterest": "Phase 1 test cases for UAE e-invoicing: credit notes, rejected sends, buyer TRNs, group companies. Go-live 1 Jan 2027 for in-scope businesses with revenue of AED 50m or more (Ministerial Resolution No. 66 of 2026; checked 2 Nov 2026).\n{D} {ASP} {IND}",
+    "gbp": "E-invoicing testing support for Dubai businesses going live on 1 January 2027. In-scope businesses with revenue of AED 50m or more must implement e-invoicing by that date (Ministerial Decision No. 244 of 2025, as amended by Ministerial Resolution No. 66 of 2026; checked 2 Nov 2026). Before go-live, we'd test credit notes, rejected sends, buyer TRNs and every group company.\n{TAG}\n{D} {ASP} {IND}\n{GBP}",
+    "x": "AED 50m+ and in scope? Live by 1 Jan 2027 (MR 66/2026; checked 2 Nov). Test credit notes, rejections, TRNs. {D} {ASP} {IND} #UAEEInvoicing",
+    "alt": "Card: what to test before UAE e-invoicing go-live on 1 January 2027 (in-scope businesses with revenue of AED 50m or more): credit notes linked to the original invoice, rejected sends with an owner, buyer TRNs and endpoints."
+  },
+  "captions_expanded": {
+    "linkedin": "Before e-invoicing goes live, test the invoices that don't follow the normal path. That's where go-live problems usually start.\n\nUnder Ministerial Decision No. 244 of 2025, as amended by Ministerial Resolution No. 66 of 2026, in-scope businesses with revenue of AED 50m or more must implement e-invoicing by 1 January 2027 (mof.gov.ae, checked 2 Nov 2026).\n\nFour e-invoicing implementation test cases we'd put on the list now:\n• Credit notes, partial and full, linked to the original invoice\n• Rejected or failed sends, with an owner and a fix time\n• Buyer TRNs and electronic addresses in the customer master\n• Every group company set up, not only the main one\n\nTalk to us: WhatsApp 058-2754282 · advisory@valorin.ae\nhttps://www.valorin.ae/services/e-invoicing-uae?utm_source=linkedin&utm_medium=social&utm_campaign=einv-phase1\n\nFinance with Integrity. Growth with Insight.\nGeneral information only, not legal or tax advice. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.\n\n#UAEEInvoicing #ERP #DubaiBusiness",
+    "facebook": "Going live with e-invoicing on 1 January? The standard invoice usually works. Credit notes, rejected sends and incomplete customer records are where testing pays off.\n\nIn-scope businesses with revenue of AED 50m or more must implement e-invoicing by 1 January 2027 (Ministerial Decision No. 244 of 2025, as amended by Ministerial Resolution No. 66 of 2026; mof.gov.ae, checked 2 Nov 2026).\n\nIs credit-note testing on your plan yet?\n\nTalk to us: WhatsApp 058-2754282 · advisory@valorin.ae\nhttps://www.valorin.ae/services/e-invoicing-uae?utm_source=facebook&utm_medium=social&utm_campaign=einv-phase1\nFinance with Integrity. Growth with Insight.\nGeneral information only, not legal or tax advice. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.\n#UAEEInvoicing #DubaiBusiness",
+    "instagram": "Exceptions first: that's how we'd test before UAE e-invoicing go-live.\n\nIn-scope businesses with revenue of AED 50m or more go live by 1 January 2027 (Ministerial Decision No. 244 of 2025, as amended by Ministerial Resolution No. 66 of 2026; checked 2 Nov 2026).\n\nTest these first:\n1. Credit notes linked to the original invoice\n2. Rejected or failed sends\n3. Buyer TRNs and electronic addresses\n4. Every group company\n\nWe help with ERP integration and testing to go-live.\nTalk to us: link in bio\nDubai, UAE · www.valorin.ae · advisory@valorin.ae · WhatsApp 058-2754282\nFinance with Integrity. Growth with Insight.\nGeneral information only, not legal or tax advice. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.\n#UAEEInvoicing #EInvoicingUAE #ERP #DubaiBusiness #Dubai #FinanceLeadership",
+    "tiktok_title": "What to test before UAE e-invoicing go-live",
+    "tiktok": "Credit notes, rejected sends, buyer TRNs, every group company: test these before UAE e-invoicing go-live on 1 January 2027, the date for in-scope businesses with revenue of AED 50m or more (Ministerial Decision No. 244 of 2025 as amended by Ministerial Resolution No. 66 of 2026, checked 2 Nov 2026).\nTalk to us: www.valorin.ae · WhatsApp 058-2754282 · advisory@valorin.ae\nFinance with Integrity. Growth with Insight.\nGeneral information only, not legal or tax advice. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.\n#UAEEInvoicing #EInvoicingUAE #ERP #DubaiBusiness",
+    "youtube_title": "What should you test before UAE e-invoicing go-live?",
+    "youtube": "Test the exceptions first: credit notes linked to the original invoice, rejected or failed sends, buyer TRNs and electronic addresses, and every group company. In-scope businesses with revenue of AED 50m or more must implement e-invoicing by 1 January 2027 (Ministerial Decision No. 244 of 2025, as amended by Ministerial Resolution No. 66 of 2026; mof.gov.ae, checked 2 Nov 2026).\nWe help with ERP integration and testing to go-live.\nTalk to us: WhatsApp 058-2754282 · advisory@valorin.ae\nhttps://www.valorin.ae/services/e-invoicing-uae?utm_source=youtube&utm_medium=social&utm_campaign=einv-phase1\nFinance with Integrity. Growth with Insight.\nGeneral information only, not legal or tax advice. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.\nVoiceover: synthetic voice (Kokoro-82M TTS, Apache 2.0). Music: original.\n#UAEEInvoicing #Shorts",
+    "pinterest_title": "UAE e-invoicing go-live testing checklist (Phase 1, 2027)",
+    "pinterest": "Phase 1 test cases for UAE e-invoicing: credit notes, rejected sends, buyer TRNs, group companies. Go-live 1 Jan 2027 for in-scope businesses with revenue of AED 50m or more (Ministerial Resolution No. 66 of 2026; checked 2 Nov 2026).\nGeneral information only, not legal or tax advice. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+    "gbp": "E-invoicing testing support for Dubai businesses going live on 1 January 2027. In-scope businesses with revenue of AED 50m or more must implement e-invoicing by that date (Ministerial Decision No. 244 of 2025, as amended by Ministerial Resolution No. 66 of 2026; checked 2 Nov 2026). Before go-live, we'd test credit notes, rejected sends, buyer TRNs and every group company.\nFinance with Integrity. Growth with Insight.\nGeneral information only, not legal or tax advice. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.\nUse the Call or Website button on this profile to talk to us.",
+    "x": "AED 50m+ and in scope? Live by 1 Jan 2027 (MR 66/2026; checked 2 Nov). Test credit notes, rejections, TRNs. General information only, not legal or tax advice. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF. #UAEEInvoicing",
+    "alt": "Card: what to test before UAE e-invoicing go-live on 1 January 2027 (in-scope businesses with revenue of AED 50m or more): credit notes linked to the original invoice, rejected sends with an owner, buyer TRNs and endpoints.",
+    "pinterest_link": "https://www.valorin.ae/services/e-invoicing-uae?utm_source=pinterest&utm_medium=social&utm_campaign=einv-phase1"
+  }
+}
