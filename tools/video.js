@@ -63,11 +63,14 @@ const ratioSay = pct < 1 ? 'Fewer than one in a hundred UAE companies.'
   : pct < 1.5 ? 'About one in a hundred UAE companies.'
   : `Fewer than one in ${words(Math.floor(total / reg))} UAE companies.`;
 const daysW = days === 0 ? '' : days === 1 ? 'DAY' : 'DAYS';
-const hook = !dsay ? 'Is your company on Peppol yet?' : days === 0 ? '<em>Today</em> is the Phase&nbsp;1 ASP deadline' : days === 1 ? '<em>Tomorrow</em> is the Phase&nbsp;1 ASP deadline' : `<em>${days} days</em> to the Phase&nbsp;1 ASP deadline`;
+const msDate = milestones.find(m => m[2] === dsay)?.[0];
+const evH = { '2026-10-30': 'the Phase&nbsp;1 ASP deadline', '2027-01-01': 'Phase&nbsp;1 go-live', '2027-03-31': 'the Phase&nbsp;2 ASP deadline', '2027-07-01': 'Phase&nbsp;2 go-live' }[msDate];
+const evS = { '2026-10-30': 'the Phase 1 deadline', '2027-01-01': 'Phase 1 go-live', '2027-03-31': 'the Phase 2 provider deadline', '2027-07-01': 'Phase 2 go-live' }[msDate];
+const hook = !dsay ? 'Is your company on Peppol yet?' : days === 0 ? `<em>Today</em> is ${evH}` : days === 1 ? `<em>Tomorrow</em> is ${evH}` : `<em>${days} days</em> to ${evH}`;
 const dl = new Date(milestones.find(m => m[2] === dsay)?.[0] + 'T00:00:00Z');
 const dlSay = dsay ? `${dl.getUTCDate()} ${MONF[dl.getUTCMonth()]}` : '';
 const segments = [
-  !dsay ? 'UAE e-invoicing update. Is your company on Peppol yet?' : days === 0 ? `UAE e-invoicing update. Today, ${dlSay}, is the Phase 1 deadline.` : days === 1 ? `UAE e-invoicing update. Tomorrow, ${dlSay}, is the Phase 1 deadline.` : `UAE e-invoicing update. ${words(days)} days to the Phase 1 deadline, on ${dlSay}.`,
+  !dsay ? 'UAE e-invoicing update. Is your company on Peppol yet?' : days === 0 ? `UAE e-invoicing update. Today, ${dlSay}, is ${evS}.` : days === 1 ? `UAE e-invoicing update. Tomorrow, ${dlSay}, is ${evS}.` : `UAE e-invoicing update. ${words(days)} days to ${evS}, on ${dlSay}.`,
   `As of ${d.getUTCDate()} ${MONF[d.getUTCMonth()]}, ${words(reg)} UAE entities are listed in the Peppol Directory. ${ratioSay}`,
   (deltaSay ? deltaSay : '') + (dsay ? 'For in-scope businesses, missing the provider deadline can cost five thousand dirhams a month.' : 'For in-scope businesses, penalties can reach five thousand dirhams a month.'),
   'Still need to appoint a provider? Message Valorin on WhatsApp today. Key dates and sources are at valorin dot A E.',
