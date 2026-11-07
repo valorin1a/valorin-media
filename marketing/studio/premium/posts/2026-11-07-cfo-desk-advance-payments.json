@@ -1,0 +1,107 @@
+{
+  "id": "2026-11-07-cfo-desk-advance-payments",
+  "date": "2026-11-07",
+  "path": "/services/e-invoicing-uae",
+  "campaign": "cfo-desk",
+  "question": "How are advance payments invoiced under UAE e-invoicing?",
+  "keyword": "e-invoicing implementation uae",
+  "card": {
+    "kicker": "CFO DESK · 7 NOV 2026",
+    "head": "Advance payment received? Invoice it on receipt.",
+    "sub": "The final invoice then covers only the balance.",
+    "figure": {
+      "n": "1 Jan",
+      "unit": "2027",
+      "label": "Go‑live for in‑scope businesses with revenue of AED 50m+. <b>Set up advance and retention invoicing first.</b>"
+    },
+    "tiles": [
+      {
+        "k": "ADVANCES",
+        "t": "Invoice on receipt",
+        "l": "When the advance arrives"
+      },
+      {
+        "k": "FINAL INVOICE",
+        "t": "Balance only",
+        "l": "Not the full value"
+      },
+      {
+        "k": "RETENTIONS",
+        "t": "Set a method",
+        "l": "e.g. net, then release"
+      }
+    ],
+    "cta": {
+      "h": "TALK TO US",
+      "d": "ERP integration and testing support for e‑invoicing. Valorin is not an ASP.",
+      "go": "WhatsApp 058-2754282"
+    },
+    "source": "Source: UAE Electronic Invoicing Guidelines V2.0, UAE Ministry of Finance, 26 Oct 2026, ss. 8 and 17 (mof.gov.ae); checked 7 Nov 2026. General information only, not legal or tax advice. Valorin is an independent advisory firm, not affiliated with the FTA or MoF."
+  },
+  "video": {
+    "scenes": [
+      {
+        "type": "hook",
+        "kicker": "CFO DESK · 7 NOV 2026",
+        "head": "Took an <em>advance</em>? Invoice it on receipt.",
+        "sub": "UAE e‑invoicing · advance payments",
+        "say": "Took an advance from a customer? The UAE e-invoicing guidelines say you invoice it when the money arrives."
+      },
+      {
+        "type": "chart",
+        "kind": "waterfall",
+        "kicker": "ILLUSTRATIVE EXAMPLE",
+        "head": "One contract, <em>two invoices</em>",
+        "data": [
+          {
+            "label": "Contract|value",
+            "v": 1000,
+            "total": true
+          },
+          {
+            "label": "Advance|invoiced",
+            "v": -300,
+            "d": "−300"
+          },
+          {
+            "label": "Final|invoice",
+            "v": 700,
+            "total": true
+          }
+        ],
+        "note": "AED thousands, excluding VAT. Illustrative example, not a real company.",
+        "src": "UAE Electronic Invoicing Guidelines V2.0, s. 17 (UAE Ministry of Finance, 26 Oct 2026); checked 7 Nov 2026.",
+        "say": "Say a contract is worth one million dirhams, with three hundred thousand paid up front. The advance is invoiced on receipt. The final invoice is seven hundred thousand plus VAT, not the full million."
+      },
+      {
+        "type": "points",
+        "items": [
+          {
+            "k": "ADVANCES",
+            "n": "Invoice on receipt",
+            "l": "When the advance arrives"
+          },
+          {
+            "k": "FINAL INVOICE",
+            "n": "Balance only",
+            "l": "Not the full value"
+          },
+          {
+            "k": "RETENTIONS",
+            "n": "Set a method",
+            "l": "e.g. net, then release"
+          }
+        ],
+        "say": "That's from the Ministry of Finance's guidelines, version two. Going live on the first of January? Check all three in your E R P."
+      },
+      {
+        "type": "cta",
+        "h": "TALK TO US",
+        "b": "advisory@valorin.ae",
+        "a": "WhatsApp 058-2754282",
+        "disc": "General information only, not legal or tax advice. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "say": "Want a second look at how your ERP handles advances? Send us a WhatsApp."
+      }
+    ]
+  }
+}

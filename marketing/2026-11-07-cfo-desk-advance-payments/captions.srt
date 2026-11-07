@@ -1,0 +1,39 @@
+1
+00:00:00,250 --> 00:00:02,665
+Took an advance from a customer?
+
+2
+00:00:02,665 --> 00:00:08,250
+The UAE e-invoicing guidelines say you invoice it when the money arrives.
+
+3
+00:00:08,950 --> 00:00:15,684
+Say a contract is worth one million dirhams, with three hundred thousand paid up front.
+
+4
+00:00:15,684 --> 00:00:18,470
+The advance is invoiced on receipt.
+
+5
+00:00:18,470 --> 00:00:24,353
+The final invoice is seven hundred thousand plus VAT, not the full million.
+
+6
+00:00:25,053 --> 00:00:29,882
+That's from the Ministry of Finance's guidelines, version two.
+
+7
+00:00:29,882 --> 00:00:32,686
+Going live on the first of January?
+
+8
+00:00:32,686 --> 00:00:35,101
+Check all three in your ERP.
+
+9
+00:00:35,801 --> 00:00:40,146
+Want a second look at how your ERP handles advances?
+
+10
+00:00:40,146 --> 00:00:41,817
+Send us a WhatsApp.
