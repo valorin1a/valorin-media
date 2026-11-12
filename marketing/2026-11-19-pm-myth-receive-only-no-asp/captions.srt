@@ -1,0 +1,31 @@
+1
+00:00:00,060 --> 00:00:05,624
+Myth or fact? If we only receive invoices, we don't need an A.S.P.
+
+2
+00:00:05,744 --> 00:00:08,063
+Myth, for in-scope businesses.
+
+3
+00:00:08,183 --> 00:00:16,822
+Issuer and recipient both work through their appointed ASP.
+
+4
+00:00:16,942 --> 00:00:20,304
+Which suppliers will send e-invoices.
+
+5
+00:00:20,424 --> 00:00:23,842
+Whether your ERP can take them in.
+
+6
+00:00:23,962 --> 00:00:25,591
+And who approves them.
+
+7
+00:00:25,711 --> 00:00:29,828
+Our readiness work covers incoming invoices too.
+
+8
+00:00:29,948 --> 00:00:34,895
+Mostly a buyer? Send us a WhatsApp.
