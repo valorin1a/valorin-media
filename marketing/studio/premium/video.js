@@ -168,7 +168,12 @@ const framesDir = path.join(__dirname, '_frames');
 fs.rmSync(framesDir, { recursive: true, force: true });
 fs.mkdirSync(framesDir);
 (async () => {
-  const browser = await chromium.launch(fs.existsSync('/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell') ? { executablePath: '/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell' } : { executablePath: process.env.PW_CHROMIUM || '/opt/pw-browsers/chromium' });
+  const browser = await chromium.launch((() => {   // path list updated 12 Nov 2026: workspace browser build is now 1243
+    const exe = [process.env.PW_CHROMIUM,
+      '/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell',
+      '/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell'].filter(Boolean).find(p => fs.existsSync(p));
+    return exe ? { executablePath: exe } : {};
+  })());
   const pg = await browser.newPage({ viewport: { width: 1080, height: 1920 } });
   await pg.goto('file://' + tmp);
   await pg.evaluate(() => document.fonts.ready);

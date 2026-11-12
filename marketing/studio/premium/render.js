@@ -27,7 +27,12 @@ const tmp = path.join(__dirname, '_filled.html');
 fs.writeFileSync(tmp, html);
 
 (async () => {
-  const browser = await chromium.launch(fs.existsSync('/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell') ? { executablePath: '/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell' } : { executablePath: process.env.PW_CHROMIUM || '/opt/pw-browsers/chromium' });
+  const browser = await chromium.launch((() => {   // path list updated 12 Nov 2026: workspace browser build is now 1243
+    const exe = [process.env.PW_CHROMIUM,
+      '/opt/pw-browsers/chromium_headless_shell-1243/chrome-headless-shell-linux64/chrome-headless-shell',
+      '/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell'].filter(Boolean).find(p => fs.existsSync(p));
+    return exe ? { executablePath: exe } : {};
+  })());
   const page = await browser.newPage({ viewport: { width: DIM[0], height: DIM[1] }, deviceScaleFactor: 1 });
   await page.goto('file://' + tmp);
   await page.evaluate(() => document.fonts.ready);
