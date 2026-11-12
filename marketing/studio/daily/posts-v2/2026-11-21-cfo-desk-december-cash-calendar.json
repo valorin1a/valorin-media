@@ -6,7 +6,7 @@
  "format": "document zoom",
  "video": {
   "hookBg": "sand",
-  "frame": "light",
+  "frame": "report",
   "scenes": [
    {
     "type": "hook",

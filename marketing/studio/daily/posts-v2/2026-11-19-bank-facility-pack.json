@@ -6,7 +6,7 @@
  "format": "checklist (strike list)",
  "video": {
   "hookBg": "navy",
-  "frame": "light",
+  "frame": "report",
   "scenes": [
    {
     "type": "hook",
