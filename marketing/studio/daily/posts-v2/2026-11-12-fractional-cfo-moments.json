@@ -1,0 +1,122 @@
+{
+  "id": "2026-11-12-fractional-cfo-moments",
+  "series": "Fractional CFO (weekly service post, new look)",
+  "service": "Fractional CFO",
+  "video": {
+    "scenes": [
+      {
+        "type": "hook",
+        "kicker": "FRACTIONAL CFO · 12 NOV 2026",
+        "head": "When do you need a *fractional* CFO?",
+        "lines": [
+          {
+            "say": "When does a U.A.E. business need a fractional C.F.O.?",
+            "nocap": true
+          }
+        ]
+      },
+      {
+        "type": "strike",
+        "kicker": "USUALLY, IT'S A MOMENT",
+        "head": "Moments like…",
+        "items": [
+          {
+            "t": "The bank wants a forecast",
+            "at": 0,
+            "dt": 0.6,
+            "keep": true
+          },
+          {
+            "t": "A second company opens",
+            "at": 1,
+            "dt": 0,
+            "keep": true
+          },
+          {
+            "t": "The first tax return is due",
+            "at": 2,
+            "dt": 0,
+            "keep": true
+          }
+        ],
+        "after": {
+          "t": "CFO-level advice, *no full-time hire*.",
+          "at": 3
+        },
+        "lines": [
+          {
+            "say": "Usually, it's a moment. The bank wants a forecast.",
+            "cap": "Usually, it's a moment. The bank wants a *forecast*."
+          },
+          {
+            "say": "A second company opens.",
+            "cap": "A *second company* opens."
+          },
+          {
+            "say": "Or the first tax return is due.",
+            "cap": "Or the first *tax return* is due."
+          },
+          {
+            "say": "That's when C.F.O.-level advice helps, without a full-time hire.",
+            "cap": "That's when *CFO-level advice* helps, without a full-time hire."
+          }
+        ]
+      },
+      {
+        "type": "hook",
+        "kicker": "THE TAX DATE",
+        "head": "*Nine months* to file and pay.",
+        "sub": "Unless the FTA sets another date.<br>Federal Decree-Law No. 47 of 2022, Arts. 48 and 53 · checked 12 Nov 2026.",
+        "subAt": 1,
+        "lines": [
+          {
+            "say": "Corporate tax is generally filed and paid",
+            "cap": "Generally filed and paid"
+          },
+          {
+            "say": "within nine months of the end of the tax period,",
+            "cap": "within *9 months* of the tax period end,"
+          },
+          {
+            "say": "unless the F.T.A. sets another date.",
+            "cap": "unless the *FTA* sets another date."
+          }
+        ]
+      },
+      {
+        "type": "founder",
+        "mode": "photo",
+        "kicker": "OUR FOUNDER",
+        "stat": {
+          "at": 1
+        },
+        "lines": [
+          {
+            "say": "Our founder, Muhammad Imran, was a Finance Manager for ten years,",
+            "cap": "Our founder, *Muhammad Imran*, was a Finance Manager for *10 years*,"
+          },
+          {
+            "say": "responsible for budgets, cash flow and board reporting.",
+            "cap": "responsible for *budgets*, *cash flow* and *board reporting*."
+          }
+        ]
+      },
+      {
+        "type": "end",
+        "h": "FRACTIONAL CFO",
+        "q": "Bank asking for *numbers?*",
+        "disc": "General information only, not legal or tax advice. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "lines": [
+          {
+            "say": "Our fractional C.F.O. service covers reporting, cash forecasting, budgets and bank talks.",
+            "cap": "Our *fractional CFO* service: reporting, cash forecasts, budgets, bank talks."
+          },
+          {
+            "say": "Bank asking for numbers? Message us on WhatsApp, and we'll work through them with you.",
+            "cap": "Bank asking for numbers? Message us on *WhatsApp*."
+          }
+        ]
+      }
+    ]
+  }
+}
