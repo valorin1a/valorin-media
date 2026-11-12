@@ -1,0 +1,35 @@
+1
+00:00:00,060 --> 00:00:02,466
+Profit's up. Will the bank lend?
+
+2
+00:00:02,586 --> 00:00:05,412
+Profit's up twenty percent. The bank should be easy.
+
+3
+00:00:05,532 --> 00:00:08,645
+Banks are repaid from cash, not profit.
+
+4
+00:00:08,765 --> 00:00:10,425
+Isn't that the same thing?
+
+5
+00:00:10,545 --> 00:00:14,092
+Not when customers take ninety days to pay.
+
+6
+00:00:14,212 --> 00:00:16,361
+In our view, that's a myth.
+
+7
+00:00:16,481 --> 00:00:24,065
+Banks look at profit, but lend on the cash that repays the loan.
+
+8
+00:00:24,185 --> 00:00:29,229
+Our banking & financing advisory prepares the cash flow view.
+
+9
+00:00:29,349 --> 00:00:33,699
+Facility review coming up? Talk to us first.
