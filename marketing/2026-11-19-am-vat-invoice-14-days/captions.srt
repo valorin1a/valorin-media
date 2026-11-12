@@ -1,0 +1,27 @@
+1
+00:00:00,060 --> 00:00:07,018
+Delivered on the 2nd, invoiced on the 20th. On time?
+
+2
+00:00:07,138 --> 00:00:14,352
+Issue a tax invoice within 14 days of the date of supply.
+
+3
+00:00:14,472 --> 00:00:17,183
+Supply was on the 2nd.
+
+4
+00:00:17,303 --> 00:00:21,984
+Invoiced on the 20th: 18 days.
+
+5
+00:00:22,104 --> 00:00:27,844
+Invoice at dispatch. Review late invoices weekly.
+
+6
+00:00:27,964 --> 00:00:34,001
+Our VAT advisory checks invoice dates against supply dates.
+
+7
+00:00:34,121 --> 00:00:37,674
+Invoicing late? Talk to us.

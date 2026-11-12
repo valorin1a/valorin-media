@@ -1,0 +1,31 @@
+1
+00:00:00,060 --> 00:00:04,959
+Myth or fact? If the trial balance balances, the books are right.
+
+2
+00:00:05,079 --> 00:00:05,840
+Myth.
+
+3
+00:00:05,960 --> 00:00:10,333
+A sale posted to the wrong account.
+
+4
+00:00:10,453 --> 00:00:13,346
+An invoice never recorded.
+
+5
+00:00:13,466 --> 00:00:16,237
+The same bill entered twice.
+
+6
+00:00:16,357 --> 00:00:21,172
+Reconciliations and reviews come before the report.
+
+7
+00:00:21,292 --> 00:00:28,066
+Our accounting & MIS advisory builds these checks into your month-end.
+
+8
+00:00:28,186 --> 00:00:33,384
+Closing the year? Message us before sign-off.
