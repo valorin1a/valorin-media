@@ -1,0 +1,35 @@
+1
+00:00:00,060 --> 00:00:03,872
+Before you pay a supplier, three documents should agree.
+
+2
+00:00:03,992 --> 00:00:10,511
+Our founder, Muhammad Imran, has 20+ years in finance and business management.
+
+3
+00:00:10,631 --> 00:00:16,040
+It's called a three-way match.
+
+4
+00:00:16,160 --> 00:00:19,010
+The order says 100 units.
+
+5
+00:00:19,130 --> 00:00:21,537
+The store received 90.
+
+6
+00:00:21,657 --> 00:00:24,195
+But the invoice bills 100.
+
+7
+00:00:24,315 --> 00:00:27,426
+Pay for 90, or ask for a credit note.
+
+8
+00:00:27,546 --> 00:00:34,120
+Oracle and many ERPs can hold an invoice until all three agree.
+
+9
+00:00:34,240 --> 00:00:38,627
+Want it set up to catch this? Send us a WhatsApp.

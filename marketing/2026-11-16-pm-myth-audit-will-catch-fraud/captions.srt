@@ -1,0 +1,35 @@
+1
+00:00:00,060 --> 00:00:02,846
+Will your external auditor catch fraud?
+
+2
+00:00:02,966 --> 00:00:05,116
+In our view, that's a myth.
+
+3
+00:00:05,236 --> 00:00:09,982
+An audit tests samples. It isn't designed to find everything.
+
+4
+00:00:10,102 --> 00:00:13,759
+Preventing fraud starts with your own controls.
+
+5
+00:00:13,879 --> 00:00:16,604
+Two people approve every payment.
+
+6
+00:00:16,724 --> 00:00:22,539
+Bank changes confirmed on a number you already hold.
+
+7
+00:00:22,659 --> 00:00:28,295
+Someone other than the preparer reviews reconciliations.
+
+8
+00:00:28,415 --> 00:00:33,686
+Our audit & risk advisory reviews controls before year-end.
+
+9
+00:00:33,806 --> 00:00:38,470
+Preparing for your auditors? Talk to us.

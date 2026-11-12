@@ -5,3 +5,7 @@ _video_filled.html
 _filled.html
 out/
 prev_*.png
+_audio2/
+_frames2/
+_shorts_filled.html
+__pycache__/
