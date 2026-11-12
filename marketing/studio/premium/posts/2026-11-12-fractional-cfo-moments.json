@@ -1,0 +1,38 @@
+{
+  "id": "2026-11-12-fractional-cfo-moments",
+  "date": "2026-11-12",
+  "card": {
+    "kicker": "FRACTIONAL CFO · 12 NOV 2026",
+    "head": "When does a UAE business need a fractional CFO?",
+    "sub": "When a decision outgrows the finance team.",
+    "figure": {
+      "n": "9",
+      "unit": "MONTHS",
+      "label": "To file the corporate tax return and pay, from the end of the tax period, <b>unless the FTA sets another date.</b>"
+    },
+    "tiles": [
+      {
+        "k": "MOMENT 1",
+        "t": "Bank asks for a forecast",
+        "l": "A view the lender can test"
+      },
+      {
+        "k": "MOMENT 2",
+        "t": "A second company opens",
+        "l": "Separate books, one view"
+      },
+      {
+        "k": "MOMENT 3",
+        "t": "First tax return due",
+        "l": "Generally nine months from period end",
+        "alert": true
+      }
+    ],
+    "cta": {
+      "h": "FRACTIONAL CFO",
+      "d": "Reporting, cash forecasts, budgets, bank talks",
+      "go": "WhatsApp 058-2754282"
+    },
+    "source": "Source: Federal Decree-Law No. 47 of 2022, Arts. 48 and 53 (MoF consolidated text); FTA, 2 Sep 2026; checked 12 Nov 2026. General information only, not legal or tax advice. Valorin is an independent advisory firm, not affiliated with the FTA or MoF."
+  }
+}
