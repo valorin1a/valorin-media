@@ -1,0 +1,35 @@
+1
+00:00:00,060 --> 00:00:04,441
+You add a twenty-five percent markup. So what's your margin?
+
+2
+00:00:04,561 --> 00:00:09,546
+Cost AED 100. You sell at AED 125.
+
+3
+00:00:09,666 --> 00:00:13,964
+Is the margin 25, 20 or 30 percent?
+
+4
+00:00:16,484 --> 00:00:18,214
+It's 20 percent.
+
+5
+00:00:18,334 --> 00:00:21,309
+Same AED 25 of profit.
+
+6
+00:00:21,429 --> 00:00:24,407
+Divide by cost: markup.
+
+7
+00:00:24,527 --> 00:00:27,564
+Divide by price: margin.
+
+8
+00:00:27,684 --> 00:00:34,682
+Our accounting & MIS advisory keeps the two apart.
+
+9
+00:00:34,802 --> 00:00:39,419
+Comment your answer, or send us a WhatsApp.

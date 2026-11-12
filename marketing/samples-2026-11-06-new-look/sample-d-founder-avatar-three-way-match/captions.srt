@@ -1,0 +1,35 @@
+1
+00:00:00,060 --> 00:00:03,872
+Before you pay a supplier, three documents should agree.
+
+2
+00:00:03,992 --> 00:00:06,017
+It's called a three-way match.
+
+3
+00:00:06,137 --> 00:00:11,272
+Purchase order, goods received note, supplier invoice.
+
+4
+00:00:11,392 --> 00:00:14,242
+The order says 100 units.
+
+5
+00:00:14,362 --> 00:00:16,769
+The store received 90.
+
+6
+00:00:16,889 --> 00:00:19,427
+But the invoice bills 100.
+
+7
+00:00:19,547 --> 00:00:23,520
+Pay it as it is, and you pay for 10 units you never got.
+
+8
+00:00:23,640 --> 00:00:30,214
+Oracle and many ERPs can hold an invoice until all three agree.
+
+9
+00:00:30,334 --> 00:00:34,721
+Want it set up to catch this? Send us a WhatsApp.

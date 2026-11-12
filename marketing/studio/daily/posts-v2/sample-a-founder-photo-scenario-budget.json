@@ -1,0 +1,29 @@
+{
+  "id": "sample-a-founder-photo-scenario-budget",
+  "series": "Finance in 30s (new-look sample A: founder photo + strike + whiteboard)",
+  "service": "Fractional CFO",
+  "video": {
+    "scenes": [
+      { "type": "hook", "kicker": "FINANCE IN 30S · SAMPLE", "head": "One budget number is *one guess.*",
+        "lines": [ { "say": "One number in your 2027 budget is one guess.", "nocap": true } ] },
+      { "type": "founder", "mode": "photo", "kicker": "OUR FOUNDER", "stat": { "at": 0 },
+        "lines": [ { "say": "Our founder, Muhammad Imran, has over twenty years in finance and business management.", "cap": "Our founder, *Muhammad Imran*, has *20+ years* in finance and business management." },
+                   { "say": "Here's a habit worth building." } ] },
+      { "type": "strike", "kicker": "WHAT ONE NUMBER GIVES YOU", "head": "Most budgets have…",
+        "items": [ { "t": "One sales figure", "at": 0, "dt": 0.3, "strikeDt": 1.2 }, { "t": "One outcome", "at": 0, "dt": 0.9, "strikeDt": 1.8 }, { "t": "No plan B", "at": 0, "dt": 1.5, "strikeDt": 2.4 } ],
+        "after": { "t": "Build *three cases* instead.", "at": 1 },
+        "lines": [ { "say": "Most budgets give you one sales figure, one outcome, and no plan B.", "cap": "One sales figure, one outcome, and *no plan B*." },
+                   { "say": "Build three cases instead.", "cap": "Build *three cases* instead." } ] },
+      { "type": "draw", "kind": "bars", "style": "board", "kicker": "ILLUSTRATIVE EXAMPLE · 2027 SALES", "head": "Low, base, *high.*", "h": 400,
+        "data": [ { "label": "Low", "v": 10.2, "d": "10.2M", "color": "red" }, { "label": "Base", "v": 12, "d": "12M", "color": "navy" }, { "label": "High", "v": 13.5, "d": "13.5M", "color": "teal" } ],
+        "min": 6, "note": { "text": "cash still OK?", "i": 0, "at": 1, "x": 330, "y": 40 },
+        "src": "AED. Illustrative example, not a real company.",
+        "lines": [ { "say": "Low, base and high. Same costs, three sales outcomes.", "cap": "*Low, base* and *high*. Same costs, three sales outcomes." },
+                   { "say": "Then check your cash and covenants hold in the low case.", "cap": "Then check your *cash* and *covenants* hold in the low case." } ] },
+      { "type": "end", "h": "FRACTIONAL CFO", "q": "Want a *second look* at your 2027 budget?",
+        "disc": "General information only, not legal or tax advice. Illustrative example, not a real company.",
+        "lines": [ { "say": "Scenario budgets are part of our fractional C.F.O. work.", "cap": "Scenario budgets are part of our *fractional CFO* work." },
+                   { "say": "Building your 2027 budget? Send us a WhatsApp, and let's talk it through.", "cap": "Building your 2027 budget? Send us a *WhatsApp*." } ] }
+    ]
+  }
+}
