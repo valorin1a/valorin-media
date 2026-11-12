@@ -1,0 +1,47 @@
+1
+00:00:00,060 --> 00:00:05,958
+First week of January. An e-invoice is rejected. Who fixes it?
+
+2
+00:00:06,078 --> 00:00:10,958
+Your ASP, your ERP team, or one coordinator?
+
+3
+00:00:11,078 --> 00:00:12,062
+Pick one.
+
+4
+00:00:14,582 --> 00:00:22,716
+Usually all three teams. Name one coordinator.
+
+5
+00:00:22,836 --> 00:00:28,099
+In-scope businesses with revenue of AED 50m or more
+
+6
+00:00:28,219 --> 00:00:33,902
+implement by 1 January 2027.
+
+7
+00:00:34,022 --> 00:00:38,235
+Give each issue an owner. Rejected invoices.
+
+8
+00:00:38,355 --> 00:00:40,615
+Missing buyer details.
+
+9
+00:00:40,735 --> 00:00:42,655
+Credit note corrections.
+
+10
+00:00:42,775 --> 00:00:45,848
+Then one person to coordinate.
+
+11
+00:00:45,968 --> 00:00:49,432
+We can be your one contact across all three.
+
+12
+00:00:49,552 --> 00:00:54,540
+Not sure who owns what? Send us a WhatsApp.

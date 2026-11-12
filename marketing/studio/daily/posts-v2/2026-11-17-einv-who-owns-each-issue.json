@@ -1,0 +1,132 @@
+{
+ "id": "2026-11-17-einv-who-owns-each-issue",
+ "date": "2026-11-17",
+ "series": "E-Invoicing Brief (weekly service post, new look)",
+ "service": "E-invoicing",
+ "format": "quiz",
+ "video": {
+  "hookBg": "ivory",
+  "frame": "light",
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "E-INVOICING BRIEF · 17 NOV 2026",
+    "head": "Who fixes a *rejected* e-invoice?",
+    "lines": [
+     {
+      "say": "First working week of January. An e-invoice is rejected. Who fixes it?",
+      "cap": "First week of January. An e-invoice is *rejected*. Who fixes it?"
+     }
+    ]
+   },
+   {
+    "type": "quiz",
+    "kicker": "QUICK QUIZ",
+    "q": "Who owns the *fix?*",
+    "options": [
+     "Your ASP",
+     "Your ERP team",
+     "One coordinator"
+    ],
+    "answer": 2,
+    "optsAt": 1,
+    "revealAt": 2,
+    "lines": [
+     {
+      "say": "Your provider, your E.R.P. team, or one named coordinator?",
+      "cap": "Your *ASP*, your *ERP team*, or *one coordinator*?"
+     },
+     {
+      "say": "Pick one.",
+      "cap": "Pick one.",
+      "pause": 2.4
+     },
+     {
+      "say": "Usually the fix needs the provider, the E.R.P. team and finance, so name one person to coordinate them.",
+      "cap": "Usually all three teams. Name *one coordinator*."
+     }
+    ]
+   },
+   {
+    "type": "hook",
+    "kicker": "THE GO-LIVE DATE",
+    "head": "*1 January* 2027",
+    "sub": "In-scope businesses with revenue of AED 50m or more.<br>Ministerial Decision No. 244 of 2025, Art. 5(1)(a), as amended by Ministerial Resolution No. 66 of 2026 · checked 12 Nov 2026.",
+    "subAt": 1,
+    "lines": [
+     {
+      "say": "In-scope businesses with revenue of fifty million dirhams or more",
+      "cap": "In-scope businesses with revenue of *AED 50m* or more"
+     },
+     {
+      "say": "must implement e-invoicing by the first of January, twenty twenty-seven.",
+      "cap": "implement by *1 January 2027*."
+     }
+    ]
+   },
+   {
+    "type": "strike",
+    "kicker": "NAME AN OWNER FOR",
+    "head": "Before go-live",
+    "items": [
+     {
+      "t": "Rejected invoices",
+      "at": 0,
+      "dt": 0.4,
+      "keep": true
+     },
+     {
+      "t": "Missing buyer details",
+      "at": 1,
+      "dt": 0,
+      "keep": true
+     },
+     {
+      "t": "Credit note corrections",
+      "at": 2,
+      "dt": 0,
+      "keep": true
+     }
+    ],
+    "after": {
+     "t": "Then *one person* to coordinate.",
+     "at": 3
+    },
+    "lines": [
+     {
+      "say": "Give each issue an owner. Rejected invoices.",
+      "cap": "Give each issue an owner. *Rejected* invoices."
+     },
+     {
+      "say": "Missing buyer details.",
+      "cap": "Missing *buyer details*."
+     },
+     {
+      "say": "Credit note corrections.",
+      "cap": "*Credit note* corrections."
+     },
+     {
+      "say": "Then one person to coordinate them.",
+      "cap": "Then *one person* to coordinate."
+     }
+    ]
+   },
+   {
+    "type": "end",
+    "h": "E-INVOICING READINESS",
+    "q": "Who owns *your* fixes?",
+    "disc": "General information only, not legal or tax advice. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+    "lines": [
+     {
+      "say": "We can be your one contact across all three.",
+      "cap": "We can be your *one contact* across all three."
+     },
+     {
+      "say": "Not sure who owns what? Send us a WhatsApp, and we'll map it with you.",
+      "cap": "Not sure who owns what? Send us a *WhatsApp*."
+     }
+    ]
+   }
+  ]
+ }
+}

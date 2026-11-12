@@ -1,0 +1,110 @@
+{
+ "id": "2026-11-19-bank-facility-pack",
+ "date": "2026-11-19",
+ "series": "Banking & Financing (weekly service post, new look)",
+ "service": "Banking & financing",
+ "format": "checklist (strike list)",
+ "video": {
+  "hookBg": "navy",
+  "frame": "light",
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "BANKING & FINANCING · 19 NOV 2026",
+    "head": "What will the bank *ask* for?",
+    "lines": [
+     {
+      "say": "Asking the bank for a new facility? Here's the pack we'd have ready.",
+      "cap": "New facility? Here's the pack we'd have *ready*."
+     }
+    ]
+   },
+   {
+    "type": "hook",
+    "kicker": "THE RULE",
+    "head": "*Financial information* from you",
+    "sub": "CBUAE Credit Risk Management Regulation, Circular C 3/2024, Art. 5.2 · checked 12 Nov 2026.",
+    "subAt": 1,
+    "lines": [
+     {
+      "say": "Under Central Bank rules, a bank's underwriting covers",
+      "cap": "Under *CBUAE* rules, a bank's underwriting covers"
+     },
+     {
+      "say": "due diligence and financial information from the borrower.",
+      "cap": "due diligence and *financial information* from the borrower."
+     }
+    ]
+   },
+   {
+    "type": "strike",
+    "kicker": "WHAT WE'D HAVE READY",
+    "head": "Before the first meeting",
+    "items": [
+     {
+      "t": "Financial statements",
+      "at": 0,
+      "dt": 0.4,
+      "keep": true
+     },
+     {
+      "t": "12-month cash forecast",
+      "at": 1,
+      "dt": 0,
+      "keep": true
+     },
+     {
+      "t": "Debtor and creditor ageing",
+      "at": 2,
+      "dt": 0,
+      "keep": true
+     },
+     {
+      "t": "Use of funds and repayment",
+      "at": 3,
+      "dt": 0,
+      "keep": true
+     }
+    ],
+    "lines": [
+     {
+      "say": "In our view, four things. The latest financial statements.",
+      "cap": "In our view, four things. The latest *statements*."
+     },
+     {
+      "say": "A twelve-month cash forecast, with the new facility in it.",
+      "cap": "A *12-month* cash forecast, with the facility in it."
+     },
+     {
+      "say": "Debtor and creditor ageing.",
+      "cap": "Debtor and creditor *ageing*."
+     },
+     {
+      "say": "And how the money will be used and repaid.",
+      "cap": "How the money is *used and repaid*."
+     },
+     {
+      "say": "Each bank sets its own list, so ask early.",
+      "cap": "Each bank sets its *own list*. Ask early."
+     }
+    ]
+   },
+   {
+    "type": "end",
+    "h": "BANKING & FINANCING",
+    "q": "Meeting the bank *soon?*",
+    "disc": "General information only, not legal or tax advice. Not investment advice. Valorin is an independent advisory firm, not affiliated with the CBUAE or any bank. Valorin does not arrange, broker or guarantee financing. The document list is our view; each bank sets its own requirements.",
+    "lines": [
+     {
+      "say": "Our banking and financing advisory prepares the pack with you.",
+      "cap": "Our *banking & financing* advisory prepares the pack with you."
+     },
+     {
+      "say": "Applying for a facility? Send us a WhatsApp, and we'll get the numbers ready together.",
+      "cap": "Applying for a facility? Send us a *WhatsApp*."
+     }
+    ]
+   }
+  ]
+ }
+}

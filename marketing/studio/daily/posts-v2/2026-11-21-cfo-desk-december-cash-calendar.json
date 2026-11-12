@@ -1,0 +1,144 @@
+{
+ "id": "2026-11-21-cfo-desk-december-cash-calendar",
+ "date": "2026-11-21",
+ "series": "CFO Desk (weekly, new look)",
+ "service": "Fractional CFO",
+ "format": "document zoom",
+ "video": {
+  "hookBg": "sand",
+  "frame": "light",
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "CFO DESK · 21 NOV 2026",
+    "head": "A holiday, then *year-end*.",
+    "lines": [
+     {
+      "say": "Early December has the National Day holiday, then the year-end close. Is your cash plan ready?",
+      "cap": "The National Day *holiday*, then year-end. Cash plan ready?"
+     }
+    ]
+   },
+   {
+    "type": "hook",
+    "kicker": "WHAT'S ON THE CALENDAR",
+    "head": "*2 and 3* December",
+    "sub": "National Day public holiday, public and private sectors.<br>u.ae, page updated 29 Oct 2026 · checked 12 Nov 2026.",
+    "subAt": 1,
+    "lines": [
+     {
+      "say": "The U.A.E. government portal lists the National Day holiday",
+      "cap": "The *UAE government portal* lists the National Day holiday"
+     },
+     {
+      "say": "as the second and third of December, for the public and private sectors.",
+      "cap": "as *2 and 3 December*, public and private sectors."
+     },
+     {
+      "say": "Check the official announcement for this year, then set your dates.",
+      "cap": "Check this year's *official announcement* first."
+     }
+    ]
+   },
+   {
+    "type": "doc",
+    "kicker": "ILLUSTRATIVE EXAMPLE",
+    "head": "December *cash plan*",
+    "viewH": 520,
+    "docs": [
+     {
+      "title": "DECEMBER CASH PLAN",
+      "sub": "Illustrative · not a real company",
+      "rows": [
+       [
+        "Payroll",
+        "Date fixed, cut-off checked"
+       ],
+       [
+        "Supplier run",
+        "Moved off 2–3 Dec"
+       ],
+       [
+        "Loan repayment",
+        "Due date confirmed"
+       ],
+       [
+        "Cash buffer",
+        "For late receipts"
+       ]
+      ]
+     }
+    ],
+    "focus": [
+     {
+      "at": 0,
+      "doc": 0,
+      "row": 0,
+      "cls": "good"
+     },
+     {
+      "at": 1,
+      "doc": 0,
+      "row": 1,
+      "cls": "good"
+     },
+     {
+      "at": 2,
+      "doc": 0,
+      "row": 2,
+      "cls": "good"
+     },
+     {
+      "at": 3,
+      "doc": 0,
+      "row": 3,
+      "cls": "good"
+     },
+     {
+      "at": 4,
+      "overview": true
+     }
+    ],
+    "src": "Illustrative example, not a real company.",
+    "lines": [
+     {
+      "say": "This week, fix the payroll date, and check the bank's cut-off.",
+      "cap": "Fix the *payroll* date. Check the bank's *cut-off*."
+     },
+     {
+      "say": "Move supplier runs that fall on those days.",
+      "cap": "Move *supplier runs* off those days."
+     },
+     {
+      "say": "Confirm when loan repayments are due.",
+      "cap": "Confirm *loan repayment* dates."
+     },
+     {
+      "say": "And hold a buffer for customers who pay late.",
+      "cap": "Hold a *buffer* for late receipts."
+     },
+     {
+      "say": "Then the year-end close has room to breathe.",
+      "cap": "Then year-end has *room to breathe*."
+     }
+    ]
+   },
+   {
+    "type": "end",
+    "h": "CFO DESK · FRACTIONAL CFO",
+    "q": "December plan *ready?*",
+    "disc": "General information only, not legal or tax advice. Illustrative example, not a real company.",
+    "lines": [
+     {
+      "say": "Our fractional C.F.O. service builds the month-by-month cash plan with you.",
+      "cap": "Our *fractional CFO* service builds the cash plan with you."
+     },
+     {
+      "say": "Want a clearer view of your December cash? Message us on WhatsApp.",
+      "cap": "Want a clearer view of December cash? *Message us*."
+     }
+    ]
+   }
+  ]
+ }
+}
