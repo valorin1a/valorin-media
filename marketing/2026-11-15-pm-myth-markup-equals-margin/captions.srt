@@ -1,0 +1,39 @@
+1
+00:00:00,060 --> 00:00:06,446
+Myth or fact? A twenty-five percent markup means a twenty-five percent margin.
+
+2
+00:00:06,566 --> 00:00:11,550
+Cost AED 100. You sell at AED 125.
+
+3
+00:00:11,670 --> 00:00:15,969
+Is the margin 25, 20 or 30 percent?
+
+4
+00:00:18,489 --> 00:00:21,112
+It's 20 percent. So, myth.
+
+5
+00:00:21,232 --> 00:00:24,207
+Same AED 25 of profit.
+
+6
+00:00:24,327 --> 00:00:27,306
+Divide by cost: markup.
+
+7
+00:00:27,426 --> 00:00:30,462
+Divide by price: margin.
+
+8
+00:00:30,582 --> 00:00:34,768
+For a 25% margin, mark up by 33.3%.
+
+9
+00:00:34,888 --> 00:00:40,403
+Our accounting & MIS advisory keeps the two apart.
+
+10
+00:00:40,523 --> 00:00:43,724
+Comment your answer, or send us a WhatsApp.

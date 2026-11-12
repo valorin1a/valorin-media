@@ -1,0 +1,88 @@
+{
+  "id": "2026-11-18-pm-myth-balanced-tb-books-right",
+  "date": "2026-11-18",
+  "series": "daily video (new look)",
+  "service": "Accounting & MIS",
+  "format": "checklist (strike)",
+  "video": {
+    "hookBg": "sand",
+    "scenes": [
+      {
+        "type": "hook",
+        "kicker": "MYTH OR FACT · 18 NOV 2026",
+        "head": "The trial balance balances. So the books are *right*?",
+        "lines": [
+          {
+            "say": "Myth or fact? If the trial balance balances, the books are right.",
+            "nocap": true
+          }
+        ]
+      },
+      {
+        "type": "strike",
+        "kicker": "A BALANCED TB STILL MISSES",
+        "head": "*Myth.* It still balances with…",
+        "items": [
+          {
+            "t": "A sale posted to the wrong account",
+            "at": 1,
+            "keep": true
+          },
+          {
+            "t": "An invoice never recorded",
+            "at": 2,
+            "keep": true
+          },
+          {
+            "t": "The same bill entered twice",
+            "at": 3,
+            "keep": true
+          }
+        ],
+        "after": {
+          "t": "Reconcile and review, *then* report.",
+          "at": 4
+        },
+        "lines": [
+          {
+            "say": "Myth.",
+            "cap": "*Myth.*"
+          },
+          {
+            "say": "It still balances with a sale posted to the wrong account.",
+            "cap": "A sale posted to the *wrong account*."
+          },
+          {
+            "say": "An invoice that was never recorded.",
+            "cap": "An invoice *never recorded*."
+          },
+          {
+            "say": "Or the same bill entered twice.",
+            "cap": "The same bill entered *twice*."
+          },
+          {
+            "say": "That's why reconciliations and reviews come before the report.",
+            "cap": "*Reconciliations and reviews* come before the report."
+          }
+        ]
+      },
+      {
+        "type": "end",
+        "h": "ACCOUNTING & MIS",
+        "q": "Would your close *catch* these?",
+        "disc": "General information only, not legal or tax advice. Our view.",
+        "lines": [
+          {
+            "say": "Our accounting and M.I.S. advisory builds these checks into your month-end.",
+            "cap": "Our *accounting & MIS* advisory builds these checks into your month-end."
+          },
+          {
+            "say": "Closing the year in December? Message us before you sign off the accounts.",
+            "cap": "Closing the year? *Message us* before sign-off."
+          }
+        ]
+      }
+    ],
+    "frame": "light"
+  }
+}

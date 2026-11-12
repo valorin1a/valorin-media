@@ -1,0 +1,96 @@
+{
+  "id": "2026-11-20-am-what-is-break-even",
+  "date": "2026-11-20",
+  "series": "daily video (new look)",
+  "service": "Fractional CFO",
+  "format": "whiteboard",
+  "video": {
+    "hookBg": "navy",
+    "scenes": [
+      {
+        "type": "hook",
+        "kicker": "FINANCE IN 30S · 20 NOV 2026",
+        "head": "How much must you sell just to *cover* your costs?",
+        "lines": [
+          {
+            "say": "How much do you need to sell just to cover your costs? That's break-even.",
+            "cap": "Sell how much to *cover your costs*? That's *break-even*."
+          }
+        ]
+      },
+      {
+        "type": "draw",
+        "kind": "line",
+        "style": "board",
+        "kicker": "ILLUSTRATIVE EXAMPLE · AED",
+        "head": "Profit at three sales levels",
+        "h": 400,
+        "data": [
+          {
+            "label": "Sales 1.5M",
+            "v": -150,
+            "d": "−150k",
+            "color": "red"
+          },
+          {
+            "label": "Sales 2.0M",
+            "v": 0,
+            "d": "0",
+            "color": "gold"
+          },
+          {
+            "label": "Sales 2.5M",
+            "v": 150,
+            "d": "+150k",
+            "color": "teal"
+          }
+        ],
+        "drawAt": 1,
+        "note": {
+          "text": "break-even",
+          "i": 1,
+          "at": 2,
+          "x": 40,
+          "y": 40
+        },
+        "after": {
+          "t": "600k ÷ 30% = *AED 2M*",
+          "at": 2,
+          "dt": 0.6
+        },
+        "src": "Illustrative example, not a real company.",
+        "lines": [
+          {
+            "say": "An illustrative business has six hundred thousand dirhams of fixed costs a year.",
+            "cap": "*AED 600,000* of fixed costs a year."
+          },
+          {
+            "say": "Every sale leaves thirty percent after variable costs.",
+            "cap": "Every sale leaves *30%* after variable costs."
+          },
+          {
+            "say": "So break-even is two million in sales: six hundred thousand divided by thirty percent.",
+            "cap": "Break-even: *AED 2 million* in sales."
+          }
+        ]
+      },
+      {
+        "type": "end",
+        "h": "FRACTIONAL CFO",
+        "q": "Do you know *your* break-even?",
+        "disc": "General information only, not legal or tax advice. Illustrative example, not a real company.",
+        "lines": [
+          {
+            "say": "Our fractional C.F.O. work puts this number in your monthly pack.",
+            "cap": "Our *fractional CFO* work puts it in your monthly pack."
+          },
+          {
+            "say": "Want to know your number? Send us a WhatsApp.",
+            "cap": "Want your number? Send us a *WhatsApp*."
+          }
+        ]
+      }
+    ],
+    "frame": "light"
+  }
+}

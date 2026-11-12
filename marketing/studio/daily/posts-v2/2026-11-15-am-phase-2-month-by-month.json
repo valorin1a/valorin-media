@@ -1,0 +1,88 @@
+{
+  "id": "2026-11-15-am-phase-2-month-by-month",
+  "date": "2026-11-15",
+  "series": "daily video (new look)",
+  "service": "E-invoicing readiness",
+  "format": "checklist (strike)",
+  "video": {
+    "hookBg": "sand",
+    "scenes": [
+      {
+        "type": "hook",
+        "kicker": "FINANCE IN 30S · 15 NOV 2026",
+        "head": "An ASP by *31 March*: what does each month need?",
+        "lines": [
+          {
+            "say": "An A.S.P. by thirty-first March. What does each month need?",
+            "nocap": true
+          }
+        ]
+      },
+      {
+        "type": "strike",
+        "kicker": "IF YOU ARE IN SCOPE",
+        "head": "ASP by *31 Mar 2027*. Live *1 Jul 2027*.",
+        "items": [
+          {
+            "t": "Dec · Gap assessment",
+            "at": 1,
+            "keep": true
+          },
+          {
+            "t": "Jan · Fix data and ERP output",
+            "at": 2,
+            "keep": true
+          },
+          {
+            "t": "Feb · Compare providers, shortlist",
+            "at": 3,
+            "keep": true
+          },
+          {
+            "t": "Mar · Appoint early, plan testing",
+            "at": 4,
+            "keep": true
+          }
+        ],
+        "lines": [
+          {
+            "say": "If you're in scope with revenue under fifty million dirhams, appoint an accredited service provider by thirty-first March 2027. Go-live is first July.",
+            "cap": "In scope, revenue under AED 50m: appoint an *ASP by 31 March 2027*. Go-live *1 July 2027*."
+          },
+          {
+            "say": "December: a gap assessment.",
+            "cap": "December: a *gap assessment*."
+          },
+          {
+            "say": "January: fix the data and E.R.P. output.",
+            "cap": "January: fix the *data* and ERP output."
+          },
+          {
+            "say": "February: compare providers and shortlist.",
+            "cap": "February: *compare* and shortlist."
+          },
+          {
+            "say": "March: appoint early, and plan testing.",
+            "cap": "March: *appoint early*, plan testing."
+          }
+        ]
+      },
+      {
+        "type": "end",
+        "h": "E-INVOICING READINESS",
+        "q": "Where does *your* invoice data stand?",
+        "disc": "General information only, not legal or tax advice. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF. Source: Ministerial Decision No. 244 of 2025, Art. 5(1)(b), mof.gov.ae, checked 12 Nov 2026.",
+        "lines": [
+          {
+            "say": "Our readiness work starts with that gap assessment."
+          },
+          {
+            "say": "Planning for March? Message us, and we'll map the steps with you.",
+            "cap": "Planning for March? *Message us*."
+          }
+        ]
+      }
+    ],
+    "frame": "light"
+  }
+}

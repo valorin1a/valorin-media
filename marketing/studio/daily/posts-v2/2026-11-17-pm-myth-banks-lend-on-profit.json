@@ -1,0 +1,101 @@
+{
+  "id": "2026-11-17-pm-myth-banks-lend-on-profit",
+  "date": "2026-11-17",
+  "series": "daily video (new look)",
+  "service": "Banking & financing",
+  "format": "dialogue + split",
+  "video": {
+    "voices": {
+      "n": "bm_george@0.85",
+      "o": "bf_emma@0.9"
+    },
+    "cast": {
+      "owner": {
+        "fig": "owner",
+        "name": "BUSINESS OWNER",
+        "voice": "o"
+      },
+      "lead": {
+        "fig": "adviser",
+        "name": "FINANCE LEAD",
+        "voice": "n"
+      }
+    },
+    "scenes": [
+      {
+        "type": "hook",
+        "kicker": "MYTH OR FACT · 17 NOV 2026",
+        "head": "Profit's up. Will the bank *lend*?",
+        "lines": [
+          {
+            "say": "Profit's up. Will the bank lend?",
+            "nocap": true
+          }
+        ]
+      },
+      {
+        "type": "dialogue",
+        "lines": [
+          {
+            "who": "owner",
+            "say": "Profit's up twenty percent. The bank should be easy.",
+            "bubble": "Profit's up 20%. The bank should be *easy*."
+          },
+          {
+            "who": "lead",
+            "say": "Banks are repaid from cash, not profit.",
+            "bubble": "Banks are repaid from *cash*, not profit."
+          },
+          {
+            "who": "owner",
+            "say": "Isn't that the same thing?",
+            "bubble": "Isn't that the same thing?"
+          },
+          {
+            "who": "lead",
+            "say": "Not when customers take ninety days to pay.",
+            "bubble": "Not when customers take *90 days* to pay."
+          }
+        ]
+      },
+      {
+        "type": "split",
+        "kicker": "THE ANSWER",
+        "myth": "Higher profit means the bank *will lend.*",
+        "verdict": "MYTH",
+        "fact": "They look at the *cash* that repays the loan.",
+        "src": "Our view. Each bank's criteria differ; check your facility letter.",
+        "strikeAt": 0,
+        "factAt": 1,
+        "lines": [
+          {
+            "say": "In our view, that's a myth.",
+            "cap": "In our view, that's a *myth*."
+          },
+          {
+            "say": "Banks look at profit, but they lend on the cash that repays the loan, and how well it covers each payment.",
+            "cap": "Banks look at profit, but lend on the *cash* that repays the loan."
+          }
+        ]
+      },
+      {
+        "type": "end",
+        "h": "BANKING & FINANCING",
+        "q": "Is your *bank meeting* next?",
+        "disc": "General information only, not legal or tax advice. Illustrative conversation, not a real client. Our view; each bank's criteria differ.",
+        "lines": [
+          {
+            "say": "Our banking and financing advisory prepares the cash flow view.",
+            "cap": "Our *banking & financing* advisory prepares the cash flow view."
+          },
+          {
+            "say": "Facility review coming up? Talk to us before you meet the bank.",
+            "cap": "Facility review coming up? *Talk to us* first."
+          }
+        ]
+      }
+    ],
+    "hookBg": "navy",
+    "frame": "light"
+  }
+}

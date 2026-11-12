@@ -1,0 +1,176 @@
+{
+  "id": "2026-11-17-am-three-way-match",
+  "date": "2026-11-17",
+  "series": "daily video (new look)",
+  "service": "ERP / Oracle advisory",
+  "format": "founder photo + document zoom",
+  "video": {
+    "scenes": [
+      {
+        "type": "hook",
+        "kicker": "FINANCE IN 30S · 17 NOV 2026",
+        "head": "Three documents. *One* question.",
+        "lines": [
+          {
+            "say": "Before you pay a supplier, three documents should agree.",
+            "cap": "Before you pay a supplier, *three documents* should agree."
+          }
+        ]
+      },
+      {
+        "type": "founder",
+        "mode": "photo",
+        "kicker": "OUR FOUNDER",
+        "lines": [
+          {
+            "say": "Our founder, Muhammad Imran, has over twenty years in finance and business management.",
+            "cap": "Our founder, *Muhammad Imran*, has *20+ years* in finance and business management."
+          }
+        ],
+        "stat": {
+          "at": 0
+        }
+      },
+      {
+        "type": "doc",
+        "kicker": "ILLUSTRATIVE EXAMPLE",
+        "viewH": 560,
+        "docs": [
+          {
+            "title": "PURCHASE ORDER",
+            "sub": "PO-1042 · Supplier A",
+            "rows": [
+              [
+                "Item",
+                "Steel pipe"
+              ],
+              [
+                "Quantity",
+                "100"
+              ],
+              [
+                "Unit price",
+                "AED 48"
+              ],
+              [
+                "Total",
+                "AED 4,800"
+              ]
+            ]
+          },
+          {
+            "title": "GOODS RECEIVED",
+            "sub": "GRN-0877 · Store",
+            "rows": [
+              [
+                "Item",
+                "Steel pipe"
+              ],
+              [
+                "Received",
+                "90"
+              ],
+              [
+                "Date",
+                "3 Nov"
+              ],
+              [
+                "Checked by",
+                "Store"
+              ]
+            ]
+          },
+          {
+            "title": "INVOICE",
+            "sub": "INV-5531 · Supplier A",
+            "rows": [
+              [
+                "Item",
+                "Steel pipe"
+              ],
+              [
+                "Billed",
+                "100"
+              ],
+              [
+                "Unit price",
+                "AED 48"
+              ],
+              [
+                "Total",
+                "AED 4,800"
+              ]
+            ]
+          }
+        ],
+        "focus": [
+          {
+            "at": 1,
+            "doc": 0,
+            "row": 1,
+            "cls": "good"
+          },
+          {
+            "at": 2,
+            "doc": 1,
+            "row": 1,
+            "cls": "good"
+          },
+          {
+            "at": 3,
+            "doc": 2,
+            "row": 1,
+            "cls": "hit",
+            "note": "10 units never arrived"
+          },
+          {
+            "at": 4,
+            "overview": true
+          }
+        ],
+        "src": "Illustrative example, not a real company.",
+        "lines": [
+          {
+            "say": "It's called a three-way match: the order, the delivery note, and the invoice.",
+            "cap": "It's called a *three-way match*."
+          },
+          {
+            "say": "The order says one hundred units.",
+            "cap": "The order says *100 units*."
+          },
+          {
+            "say": "The store received ninety.",
+            "cap": "The store received *90*."
+          },
+          {
+            "say": "But the invoice bills one hundred.",
+            "cap": "But the invoice bills *100*."
+          },
+          {
+            "say": "Pay for ninety, or ask for a credit note.",
+            "cap": "Pay for *90*, or ask for a *credit note*."
+          }
+        ],
+        "head": "Order. Delivery. *Invoice.*"
+      },
+      {
+        "type": "end",
+        "h": "ERP / ORACLE ADVISORY",
+        "q": "Does your ERP *hold* the mismatch?",
+        "disc": "General information only, not legal or tax advice. Illustrative example, not a real company. Oracle is a trademark of its owner; no partnership implied.",
+        "lines": [
+          {
+            "say": "Oracle and many other E.R.P.s can hold an invoice until all three agree.",
+            "cap": "Oracle and many ERPs can *hold* an invoice until all three agree."
+          },
+          {
+            "say": "Want your system set up to catch this? Send us a WhatsApp.",
+            "cap": "Want it set up to catch this? Send us a *WhatsApp*."
+          }
+        ]
+      }
+    ],
+    "hookBg": "sand",
+    "frame": "light"
+  }
+}

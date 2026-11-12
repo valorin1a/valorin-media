@@ -158,8 +158,8 @@ const html = scenes.map((sc, i) => {
   } else if (sc.type === 'split') {
     b += kick(i, sc.kicker);
     const ts = T(i, sc.strikeAt ?? 1);
-    b += el('half m', T(i, 0), `<div class="pill" style="background:var(--navy)">${sc.topLabel || 'THE BELIEF'}</div><div class="tx">${em(sc.myth)}<div class="st" data-st="${ts}"></div></div>`
-      + `<div class="pop" data-pop="${ts}" style="position:absolute;right:40px;top:26px;transform-origin:center"><div style="transform:rotate(-8deg);border:5px solid var(--red);color:var(--red);font-family:RC;font-weight:700;font-size:50px;letter-spacing:.12em;padding:4px 20px;border-radius:10px">${sc.verdict || 'MYTH'}</div></div>`, 'style="position:relative"');
+    b += el('half m', T(i, 0), `<div class="pill" style="background:var(--navy)">${sc.topLabel || 'THE BELIEF'}</div><div class="tx">${em(sc.myth)}${sc.noStrike ? '' : `<div class="st" data-st="${ts}"></div>`}</div>`
+      + `<div class="pop" data-pop="${ts}" style="position:absolute;right:40px;top:26px;transform-origin:center"><div style="transform:rotate(-8deg);border:5px solid ${sc.verdictColor === 'teal' ? 'var(--teal)' : 'var(--red)'};color:${sc.verdictColor === 'teal' ? 'var(--teal)' : 'var(--red)'};font-family:RC;font-weight:700;font-size:${(sc.verdict || 'MYTH').length > 6 ? 34 : 50}px;letter-spacing:.12em;padding:4px 20px;border-radius:10px">${sc.verdict || 'MYTH'}</div></div>`, 'style="position:relative"');
     b += el('half f', T(i, sc.factAt ?? 1, 0.3), `<div class="pill" style="background:var(--teal)">${sc.factLabel || "WHAT'S TRUE"}</div><div class="tx">${em(sc.fact)}</div>${sc.src ? `<div class="src">${sc.src}</div>` : ''}`);
   } else if (sc.type === 'doc') {
     b += kick(i, sc.kicker);

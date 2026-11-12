@@ -1,0 +1,31 @@
+1
+00:00:00,060 --> 00:00:05,031
+An A.S.P. by thirty-first March. What does each month need?
+
+2
+00:00:05,151 --> 00:00:18,638
+In scope, revenue under AED 50m: appoint an ASP by 31 March 2027. Go-live 1 July 2027.
+
+3
+00:00:18,758 --> 00:00:21,168
+December: a gap assessment.
+
+4
+00:00:21,288 --> 00:00:25,167
+January: fix the data and ERP output.
+
+5
+00:00:25,287 --> 00:00:28,681
+February: compare and shortlist.
+
+6
+00:00:28,801 --> 00:00:32,119
+March: appoint early, plan testing.
+
+7
+00:00:32,239 --> 00:00:35,832
+Our readiness work starts with that gap assessment.
+
+8
+00:00:35,952 --> 00:00:40,476
+Planning for March? Message us.

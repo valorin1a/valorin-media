@@ -1,0 +1,100 @@
+{
+  "id": "2026-11-16-pm-myth-audit-will-catch-fraud",
+  "date": "2026-11-16",
+  "series": "daily video (new look)",
+  "service": "Audit & risk",
+  "format": "myth/fact split + checklist",
+  "video": {
+    "hookBg": "navy",
+    "scenes": [
+      {
+        "type": "hook",
+        "kicker": "MYTH OR FACT · 16 NOV 2026",
+        "head": "Will your external auditor *catch* fraud?",
+        "lines": [
+          {
+            "say": "Will your external auditor catch fraud?",
+            "nocap": true
+          }
+        ]
+      },
+      {
+        "type": "split",
+        "kicker": "IN OUR VIEW",
+        "myth": "The audit will catch *any* fraud.",
+        "verdict": "MYTH",
+        "fact": "Fraud is stopped by *your* controls first.",
+        "src": "Our view. An audit gives reasonable assurance, not a guarantee.",
+        "strikeAt": 0,
+        "factAt": 2,
+        "lines": [
+          {
+            "say": "In our view, that's a myth.",
+            "cap": "In our view, that's a *myth*."
+          },
+          {
+            "say": "An audit tests samples. It isn't designed to find everything.",
+            "cap": "An audit tests *samples*. It isn't designed to find everything."
+          },
+          {
+            "say": "Preventing fraud starts with your own controls.",
+            "cap": "Preventing fraud starts with *your own controls*."
+          }
+        ]
+      },
+      {
+        "type": "strike",
+        "kicker": "THREE CONTROLS TO CHECK",
+        "head": "This *month*:",
+        "items": [
+          {
+            "t": "Two people approve payments",
+            "at": 0,
+            "keep": true
+          },
+          {
+            "t": "Bank changes confirmed on a number you hold",
+            "at": 1,
+            "keep": true
+          },
+          {
+            "t": "Reconciliations reviewed by someone else",
+            "at": 2,
+            "keep": true
+          }
+        ],
+        "lines": [
+          {
+            "say": "Two people approve every payment.",
+            "cap": "*Two people* approve every payment."
+          },
+          {
+            "say": "Supplier bank changes are confirmed by calling a number you already hold.",
+            "cap": "Bank changes confirmed on a *number you already hold*."
+          },
+          {
+            "say": "And someone other than the preparer reviews bank reconciliations every month.",
+            "cap": "Someone *other than the preparer* reviews reconciliations."
+          }
+        ]
+      },
+      {
+        "type": "end",
+        "h": "AUDIT & RISK",
+        "q": "Are your controls *audit-ready*?",
+        "disc": "General information only, not legal or tax advice. Our view. Valorin is not an audit firm.",
+        "lines": [
+          {
+            "say": "Our audit and risk advisory reviews controls before year-end.",
+            "cap": "Our *audit & risk* advisory reviews controls before year-end."
+          },
+          {
+            "say": "Preparing for your auditors? Talk to us before fieldwork starts.",
+            "cap": "Preparing for your auditors? *Talk to us*."
+          }
+        ]
+      }
+    ],
+    "frame": "light"
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "id": "2026-11-18-am-small-business-relief-2029",
+  "date": "2026-11-18",
+  "series": "daily video (new look)",
+  "service": "Corporate tax",
+  "format": "quiz + checklist",
+  "video": {
+    "hookBg": "ivory",
+    "scenes": [
+      {
+        "type": "hook",
+        "kicker": "FINANCE IN 30S · 18 NOV 2026",
+        "head": "Small Business Relief *didn't* end in 2026.",
+        "lines": [
+          {
+            "say": "Small Business Relief didn't end in 2026.",
+            "nocap": true
+          }
+        ]
+      },
+      {
+        "type": "quiz",
+        "kicker": "QUICK QUIZ",
+        "q": "SBR now covers tax periods *ending by*…",
+        "options": [
+          "31 Dec 2026",
+          "31 Dec 2029",
+          "No end date"
+        ],
+        "answer": 1,
+        "optsAt": 1,
+        "revealAt": 2,
+        "lines": [
+          {
+            "say": "Small Business Relief now covers tax periods ending by when?",
+            "cap": "Small Business Relief now covers tax periods *ending by when*?"
+          },
+          {
+            "say": "Twenty twenty-six, twenty twenty-nine, or no end date?",
+            "cap": "*2026*, *2029*, or no end date?",
+            "pause": 2.4
+          },
+          {
+            "say": "Thirty-first December 2029. The Ministry of Finance extended it in August.",
+            "cap": "*31 December 2029*. Extended in August 2026."
+          }
+        ]
+      },
+      {
+        "type": "strike",
+        "kicker": "BEFORE YOU ELECT IT",
+        "head": "Before you *elect* it:",
+        "items": [
+          {
+            "t": "AED 3m or less this period",
+            "at": 0,
+            "keep": true
+          },
+          {
+            "t": "And in every period since 1 June 2023",
+            "at": 1,
+            "keep": true
+          },
+          {
+            "t": "Elected in your corporate tax return",
+            "at": 2,
+            "keep": true
+          }
+        ],
+        "lines": [
+          {
+            "say": "Revenue of three million dirhams or less this period.",
+            "cap": "Revenue *AED 3 million or less* this period."
+          },
+          {
+            "say": "And in every earlier period since June 2023.",
+            "cap": "And in *every earlier period* since June 2023."
+          },
+          {
+            "say": "It's elected in your corporate tax return.",
+            "cap": "It's *elected* in your corporate tax return."
+          }
+        ]
+      },
+      {
+        "type": "end",
+        "h": "CORPORATE TAX ADVISORY",
+        "q": "Does SBR *still* fit your business?",
+        "disc": "General information only, not legal or tax advice. Valorin is an independent advisory firm, not affiliated with the FTA or MoF. Other conditions apply under Ministerial Decision No. 73 of 2023. Sources: MoF, 7 Aug 2026 (Ministerial Decision No. 131); Ministerial Decision No. 73 of 2023; checked 12 Nov 2026.",
+        "lines": [
+          {
+            "say": "Our corporate tax advisory helps you check it.",
+            "cap": "Our *corporate tax* advisory helps you check it."
+          },
+          {
+            "say": "Thinking of electing it this year? Message us on WhatsApp.",
+            "cap": "Electing it? *Message us* on WhatsApp."
+          }
+        ]
+      }
+    ],
+    "frame": "light"
+  }
+}

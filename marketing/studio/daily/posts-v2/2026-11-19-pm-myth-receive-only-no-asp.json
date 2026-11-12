@@ -1,0 +1,96 @@
+{
+  "id": "2026-11-19-pm-myth-receive-only-no-asp",
+  "date": "2026-11-19",
+  "series": "daily video (new look)",
+  "service": "E-invoicing readiness",
+  "format": "myth/fact split + checklist",
+  "video": {
+    "hookBg": "ivory",
+    "scenes": [
+      {
+        "type": "hook",
+        "kicker": "MYTH OR FACT · 19 NOV 2026",
+        "head": "We only *receive* invoices. No ASP needed?",
+        "lines": [
+          {
+            "say": "Myth or fact? If we only receive invoices, we don't need an A.S.P.",
+            "nocap": true
+          }
+        ]
+      },
+      {
+        "type": "split",
+        "kicker": "THE RULE",
+        "myth": "Receiving only? No ASP *needed*.",
+        "verdict": "MYTH",
+        "fact": "Issuer *and* recipient each work through their appointed ASP.",
+        "src": "UAE Ministry of Finance, 29 Sep 2025; checked 12 Nov 2026. In-scope businesses.",
+        "strikeAt": 0,
+        "factAt": 1,
+        "lines": [
+          {
+            "say": "Myth, for in-scope businesses.",
+            "cap": "*Myth*, for in-scope businesses."
+          },
+          {
+            "say": "The Ministry of Finance says the issuer and the recipient both meet their obligations through the provider they appoint.",
+            "cap": "Issuer *and* recipient both work through their *appointed ASP*."
+          }
+        ]
+      },
+      {
+        "type": "strike",
+        "kicker": "IF YOU MOSTLY BUY",
+        "head": "Check *three* things:",
+        "items": [
+          {
+            "t": "Which suppliers will send e-invoices",
+            "at": 0,
+            "keep": true
+          },
+          {
+            "t": "Can your ERP take them in?",
+            "at": 1,
+            "keep": true
+          },
+          {
+            "t": "Who approves them",
+            "at": 2,
+            "keep": true
+          }
+        ],
+        "lines": [
+          {
+            "say": "Which suppliers will send you e-invoices.",
+            "cap": "Which *suppliers* will send e-invoices."
+          },
+          {
+            "say": "Whether your E.R.P. can take them in.",
+            "cap": "Whether your *ERP* can take them in."
+          },
+          {
+            "say": "And who approves them.",
+            "cap": "And who *approves* them."
+          }
+        ]
+      },
+      {
+        "type": "end",
+        "h": "E-INVOICING READINESS",
+        "q": "Ready to *receive*, not just send?",
+        "disc": "General information only, not legal or tax advice. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "lines": [
+          {
+            "say": "Our readiness work covers incoming invoices too.",
+            "cap": "Our readiness work covers *incoming* invoices too."
+          },
+          {
+            "say": "Mostly a buyer? Send us a WhatsApp before you choose an A.S.P.",
+            "cap": "Mostly a buyer? Send us a *WhatsApp*."
+          }
+        ]
+      }
+    ],
+    "frame": "light"
+  }
+}

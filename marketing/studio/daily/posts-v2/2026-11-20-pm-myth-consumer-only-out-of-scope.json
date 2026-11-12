@@ -1,0 +1,103 @@
+{
+  "id": "2026-11-20-pm-myth-consumer-only-out-of-scope",
+  "date": "2026-11-20",
+  "series": "daily video (new look)",
+  "service": "E-invoicing readiness",
+  "format": "dialogue + split",
+  "video": {
+    "hookBg": "white",
+    "voices": {
+      "n": "bm_george@0.85",
+      "o": "bf_emma@0.9"
+    },
+    "cast": {
+      "owner": {
+        "fig": "owner",
+        "name": "BUSINESS OWNER",
+        "voice": "o"
+      },
+      "lead": {
+        "fig": "adviser",
+        "name": "FINANCE LEAD",
+        "voice": "n"
+      }
+    },
+    "scenes": [
+      {
+        "type": "hook",
+        "kicker": "MYTH OR FACT · 20 NOV 2026",
+        "head": "Consumer-only? E-invoicing *doesn't* apply?",
+        "lines": [
+          {
+            "say": "Myth or fact? If we only sell to consumers, e-invoicing doesn't apply to us.",
+            "nocap": true
+          }
+        ]
+      },
+      {
+        "type": "dialogue",
+        "lines": [
+          {
+            "who": "owner",
+            "say": "We only sell to consumers. E-invoicing isn't for us, right?",
+            "bubble": "We only sell to *consumers*. Not for us, right?"
+          },
+          {
+            "who": "lead",
+            "say": "For now, that's right.",
+            "bubble": "For now, that's *right*."
+          },
+          {
+            "who": "owner",
+            "say": "So we can forget it?",
+            "bubble": "So we can forget it?"
+          },
+          {
+            "who": "lead",
+            "say": "Not if you add business customers.",
+            "bubble": "Not if you add *business customers*."
+          }
+        ]
+      },
+      {
+        "type": "split",
+        "kicker": "THE ANSWER",
+        "myth": "Consumer-only? It *doesn't* apply.",
+        "verdict": "FACT, FOR NOW",
+        "verdictColor": "teal",
+        "noStrike": true,
+        "fact": "Consumer-only is outside it *until a later decision*.",
+        "src": "Ministerial Decision No. 244 of 2025, mof.gov.ae, checked 12 Nov 2026.",
+        "strikeAt": 0,
+        "factAt": 1,
+        "lines": [
+          {
+            "say": "Fact, for now.",
+            "cap": "*Fact*, for now."
+          },
+          {
+            "say": "Ministerial Decision two forty-four keeps consumer-only businesses outside, until a later decision.",
+            "cap": "MD 244 of 2025 keeps *consumer-only* businesses outside, until a later decision."
+          }
+        ]
+      },
+      {
+        "type": "end",
+        "h": "E-INVOICING READINESS",
+        "q": "Any *business* customers on your list?",
+        "disc": "General information only, not legal or tax advice. Illustrative conversation, not a real client. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+        "lines": [
+          {
+            "say": "Our readiness work starts by checking your scope.",
+            "cap": "Our readiness work starts with your *scope*."
+          },
+          {
+            "say": "Not sure if you're in scope? Message us, and we'll go through it with you.",
+            "cap": "Not sure? *Message us*."
+          }
+        ]
+      }
+    ],
+    "frame": "light"
+  }
+}
