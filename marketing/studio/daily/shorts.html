@@ -111,11 +111,36 @@ html,body{margin:0;background:#fff}
 .bar{position:absolute;left:0;top:1474px;height:6px;background:var(--gold);z-index:3}
 .ai{position:absolute;right:160px;top:340px;font-family:"RC";font-weight:600;font-size:22px;letter-spacing:.12em;color:var(--mut);border:1.5px solid #C9C1B2;border-radius:20px;padding:4px 14px}
 .safe{position:absolute;background:rgba(255,0,0,.18);z-index:9;pointer-events:none}
+
+/* ---- Light frame (owner, 12 Nov 2026): small logo during the video, background changes with the format,
+   full brand block (logo, tagline, contact row, WhatsApp) on the end card only. ---- */
+.bgl{position:absolute;inset:0;opacity:0}
+.bgl.ivory{background:var(--ivory)} .bgl.sand{background:#EFE6D4} .bgl.white{background:#fff} .bgl.navy{background:var(--navy2)}
+.bug{position:absolute;left:64px;top:290px;height:44px;z-index:4;display:none}
+.bug img{height:44px;position:absolute;left:0;top:0}
+.light .top,.light .ftr,.light .bar{display:none}
+.light .bug{display:block}
+.light .scene{top:350px;height:820px}
+.light .cap{top:1188px;height:140px}
+.light .cap.dk{color:var(--ivory)} .light .cap.dk span.key{color:var(--gold2)} .light .cap.dk span.on{color:var(--navy)}
+.scene{z-index:2} .glow{z-index:1} .cap{z-index:3}
+.dk .h,.dk .hm,.dk .q,.dk .sub,.dk .stat .l,.dk .mail,.dk .hw{color:var(--ivory)}
+.dk .h em,.dk .hm em,.dk .q em,.dk .stat .n{color:var(--gold2)}
+.dk .k{color:var(--gold2)} .dk .k:before{background:var(--gold2)}
+.dk .src{color:#B8C2CC} .dk .next{color:var(--gold2)}
+.dk .tag{color:var(--gold2);border-color:var(--gold2)} .dk .who .nm{color:var(--gold2)}
+.dk .wa{background:var(--gold);color:var(--navy2)} .dk .wa svg{stroke:var(--navy2)} .dk .wa svg path[fill]{fill:var(--navy2)}
+.dk .photo{border-color:var(--gold2)}
+.sig img{height:78px;display:block} .sig .tg{margin-top:10px;font-style:italic;font-size:28px;color:var(--gold2)}
+.light .endc{gap:24px} .light .endc .h{font-size:78px!important}
+.dk .badge{background:var(--gold);color:var(--navy2)}
 </style>
 </head>
 <body>
-<div class="v" id="v">
+<div class="v{{FRAMECLS}}" id="v">
+{{BGS}}
 <div class="glow" id="glow"></div>
+<div class="bug"><img id="bugD" src="valorin_logo.png" alt="Valorin"><img id="bugL" src="valorin_logo_light.png" alt="Valorin"></div>
 <div class="top"><img src="valorin_logo.png" alt="Valorin, Finance | Tax | Advisory"><div class="tg">Finance with Integrity. Growth with Insight.</div></div>
 {{AI}}
 {{SCENES}}
@@ -152,6 +177,11 @@ window.renderAt=function(t){
     const lt=(s.dataset.lines||'').split(',').filter(x=>x!==''&&+x<=t).map(Number).pop()||a;
     const punch=1+0.012*ease((t-lt)/0.5)+0.004*ln; s.style.opacity=vis?p:0;
     s.style.transform=`translateX(${(!last&&t>=b?-(1-p):(1-p))*60}px) scale(${punch})`;});
+  let curDark=false, curEnd=false;
+  q('.bgl').forEach(g=>{const a=+g.dataset.s,b=+g.dataset.e; const on=t>=a-0.001&&t<b+0.25; g.style.opacity=on?(a<=0?1:ease((t-a)/0.22)):0; g.style.zIndex=on?1:0;});
+  scenes.forEach(s=>{const a=+s.dataset.s,b=+s.dataset.e,last=s.dataset.last==='1'; if(t>=a-0.001&&(last||t<b)){curDark=s.classList.contains('dk'); curEnd=s.classList.contains('endc');}});
+  const bD=document.getElementById('bugD'),bL=document.getElementById('bugL'); if(bD){bD.style.opacity=curEnd||curDark?0:1; bL.style.opacity=!curEnd&&curDark?1:0;}
+  document.getElementById('cap').classList.toggle('dk',curDark);
   els.forEach(e=>{const p=ease((t-(+e.dataset.in))/0.3); e.style.opacity=p; if(!e.classList.contains('nomove')) e.style.transform=`translateY(${(1-p)*36}px)`;});
   outs.forEach(e=>{if(t>=+e.dataset.out) e.style.display='none'; else e.style.display='';});
   q('.wd').forEach(e=>{const p=ease((t-(+e.dataset.w))/0.28); e.style.opacity=t<+e.dataset.w?0:p; e.style.transform=`translateY(${(1-p)*30}px) scale(${0.92+0.08*p})`;});

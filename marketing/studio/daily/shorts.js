@@ -8,7 +8,7 @@ const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
 const { chromium } = require('playwright');
-const { founderSvg, genericSvg } = require('./figures.js');
+const { genericSvg } = require('./figures.js');   // generic illustrated people for dialogue only; never the founder
 
 const post = JSON.parse(fs.readFileSync(process.argv[2], 'utf8'));
 const out = path.resolve(process.argv[3] || 'video.mp4');
@@ -55,6 +55,10 @@ const el = (cls, t, html, extra = '') => `<div class="el ${cls}" data-in="${t}" 
 const kick = (i, txt) => txt ? el('k', i === 0 ? -1 : T(i, 0), txt) : '';
 const cols = { navy: '#13283D', gold: '#B29A74', red: '#B3261E', teal: '#0F6E68', grey: '#9AA3AD' };
 const SPEAK = [], CAMS = [];
+// Light frame (default from 12 Nov 2026): background per scene; dark scenes get class "dk".
+const LIGHT = (V.frame || 'light') === 'light';
+const DEFBG = { hook: V.hookBg || 'ivory', strike: 'ivory', founder: 'navy', dialogue: 'sand', quiz: 'ivory', split: 'white', doc: 'white', end: 'navy' };
+const bgOf = sc => !LIGHT ? 'none' : (sc.bg || (sc.type === 'draw' ? (sc.style === 'card' ? 'white' : 'sand') : DEFBG[sc.type]) || 'ivory');
 const WA = `<svg width="54" height="54" viewBox="0 0 24 24" fill="none" stroke="#D6C29A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 11.6a8.5 8.5 0 0 1-12.6 7.4L3.5 20.5l1.5-4.3A8.5 8.5 0 1 1 20.5 11.6z"/><path d="M8.6 8.4c.2 2.9 2.2 5.4 5.4 6.6l1.2-1.3 1.9.9-.4 1.6c-3.6.4-8.4-3.6-8.7-7.3l1.5-.6.9 1.9z" fill="#D6C29A" stroke="none"/></svg>`;
 let rnd = 7; const jit = (a) => { rnd = (rnd * 9301 + 49297) % 233280; return (rnd / 233280 - 0.5) * a; };
 
@@ -121,17 +125,15 @@ const html = scenes.map((sc, i) => {
     });
     if (sc.after) b += el('hm', T(i, sc.after.at, sc.after.dt || 0), em(sc.after.t), 'style="font-size:64px"');
   } else if (sc.type === 'founder') {
-    const ph = sc.stat ? 500 : sc.bubble ? 470 : 580;
+    const ph = sc.stat ? (LIGHT ? 430 : 500) : sc.bubble ? (LIGHT ? 420 : 470) : 560;
     b += kick(i, sc.kicker);
-    const pic = sc.mode === 'avatar'
-      ? `<div style="width:${ph}px;height:${ph}px;margin:0 auto">${founderSvg(ph, 'founder')}</div>`
-      : `<div class="photo" style="height:${ph}px;width:${Math.round(ph * 0.92)}px;margin:0 auto"><img class="kb" data-kb="${T(i, 0)}" src="${FOUNDER_PHOTO}" alt="Muhammad Imran, ACMA, Founder and Managing Director of Valorin"></div>`;
-    b += `<div class="el fwrap" data-in="${T(i, 0, 0.05)}" style="width:${sc.mode === 'avatar' ? ph : Math.round(ph * 0.92)}px">${pic}`
+    // Owner, 12 Nov 2026: the founder appears ONLY as the real photo. No illustrated or AI avatar.
+    if (sc.mode && sc.mode !== 'photo') throw new Error('founder scene: only mode "photo" is allowed (owner decision 12 Nov 2026)');
+    const pic = `<div class="photo" style="height:${ph}px;width:${Math.round(ph * 0.92)}px;margin:0 auto"><img class="kb" data-kb="${T(i, 0)}" src="${FOUNDER_PHOTO}" alt="Muhammad Imran, ACMA, Founder and Managing Director of Valorin"></div>`;
+    b += `<div class="el fwrap" data-in="${T(i, 0, 0.05)}" style="width:${Math.round(ph * 0.92)}px">${pic}`
       + `<div class="el plate" data-in="${T(i, 0, 0.5)}"><b>${FOUNDER.name}</b><span>${FOUNDER.role}</span></div></div>`;
-    if (sc.mode === 'avatar' && sc.speaks) sc.lines.forEach((_, k) => SPEAK.push({ s: T(i, k), e: speechEnd(i, k), who: 'founder' }));
     if (sc.stat) b += `<div class="el stat" data-in="${T(i, sc.stat.at ?? 1)}"><div class="n">${FOUNDER.years}</div><div class="l">${FOUNDER.yearsL}</div></div>`;
     if (sc.bubble) b += `<div class="bub pop" data-pop="${T(i, sc.bubble.at ?? 1)}" style="transform-origin:50% 0">${em(sc.bubble.t)}</div>`;
-    if (sc.mode === 'avatar') b += el('src', T(i, 0, 0.8), 'Illustration of our founder · narrated voice', 'style="text-align:center;margin-top:-6px"');
   } else if (sc.type === 'dialogue') {
     const keys = Object.keys(CAST);
     b += el('tag', T(i, 0), sc.tag || 'ILLUSTRATIVE CONVERSATION');
@@ -181,15 +183,17 @@ const html = scenes.map((sc, i) => {
     if (sc.after) b += el('sub', T(i, sc.after.at, sc.after.dt || 0), em(sc.after.t), 'style="font-weight:500;color:var(--navy)"');
     if (sc.src) b += el('src', T(i, 0, 1.2), sc.src);
   } else if (sc.type === 'end') {
+    if (LIGHT) b += el('sig', T(i, 0), `<img src="${bgOf(sc) === 'navy' ? 'valorin_logo_light.png' : 'valorin_logo.png'}" alt="Valorin, Finance | Tax | Advisory"><div class="tg">Finance with Integrity. Growth with Insight.</div>`);
     b += kick(i, sc.h);
     b += el('h', T(i, 0, 0.05), em(sc.q), 'style="font-size:88px"');
     b += `<div class="wa pop" data-pop="${T(i, sc.waAt ?? Math.min(1, nl - 1), sc.waAt === undefined && nl === 1 ? 0.8 : 0)}" style="transform-origin:0 50%">${WA}<span>WhatsApp 058-2754282</span></div>`;
-    b += el('mail', T(i, 0, 1.1), 'advisory@valorin.ae · www.valorin.ae');
+    b += el('mail', T(i, 0, 1.1), LIGHT ? 'advisory@valorin.ae · www.valorin.ae · Dubai, UAE' : 'advisory@valorin.ae · www.valorin.ae');
     if (V.episode && V.episode.next) b += el('next', T(i, 0, 1.3), `NEXT · ${V.episode.next}`);
     b += el('src', T(i, 0, 1.4), sc.disc);
   } else throw new Error('unknown scene type ' + sc.type);
   const lines = sc.lines.map((_, k) => T(i, k)).join(',');
-  return `<div class="scene" data-s="${SS[i].toFixed(2)}" data-e="${SS[i + 1].toFixed(2)}" data-lines="${lines}"${i === scenes.length - 1 ? ' data-last="1"' : ''}>${b}</div>`;
+  const dk = (bgOf(sc) === 'navy' ? ' dk' : '') + (sc.type === 'end' ? ' endc' : '');
+  return `<div class="scene${dk}" data-s="${SS[i].toFixed(2)}" data-e="${SS[i + 1].toFixed(2)}" data-lines="${lines}"${i === scenes.length - 1 ? ' data-last="1"' : ''}>${b}</div>`;
 }).join('\n');
 
 // ---- word-by-word captions ----
@@ -217,9 +221,10 @@ LINES.forEach((l, k) => {
   });
 });
 
-const safe = process.env.SAFE ? '<div class="safe" style="left:0;right:0;top:0;height:250px"></div><div class="safe" style="left:0;right:0;bottom:0;height:400px"></div><div class="safe" style="right:0;top:250px;bottom:400px;width:150px"></div>' : '';
+const sb = LIGHT ? 580 : 400, st = LIGHT ? 270 : 250;
+const safe = process.env.SAFE ? `<div class="safe" style="left:0;right:0;top:0;height:${st}px"></div><div class="safe" style="left:0;right:0;bottom:0;height:${sb}px"></div><div class="safe" style="right:0;top:${st}px;bottom:${sb}px;width:150px"></div>` : '';
 const page = fs.readFileSync(path.join(__dirname, 'shorts.html'), 'utf8')
-  .replace('{{SCENES}}', html).replace('{{AI}}', V.aiAvatar ? '<div class="ai">AI AVATAR</div>' : '').replace('{{SAFE}}', safe)
+  .replace('{{SCENES}}', html).replace('{{FRAMECLS}}', LIGHT ? ' light' : '').replace('{{BGS}}', LIGHT ? scenes.map((sc, i) => `<div class="bgl ${bgOf(sc)}" data-s="${SS[i].toFixed(2)}" data-e="${SS[i + 1].toFixed(2)}"></div>`).join('') : '').replace('{{AI}}', V.aiAvatar ? '<div class="ai">AI AVATAR</div>' : '').replace('{{SAFE}}', safe)
   .replace('{{TOTAL}}', TOTAL.toFixed(2)).replace('{{WORDS}}', JSON.stringify(WORDS)).replace('{{ENV}}', JSON.stringify(ENV))
   .replace('{{FPS}}', FPS).replace('{{SPEAK}}', JSON.stringify(SPEAK)).replace('{{CAMS}}', JSON.stringify(CAMS));
 const tmp = path.join(__dirname, '_shorts_filled.html');

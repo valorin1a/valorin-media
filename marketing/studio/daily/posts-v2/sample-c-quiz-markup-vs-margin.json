@@ -4,23 +4,102 @@
   "service": "Accounting & MIS",
   "video": {
     "scenes": [
-      { "type": "hook", "kicker": "FINANCE IN 30S · SAMPLE", "head": "A 25% markup. So what's your *margin?*",
-        "lines": [ { "say": "You add a twenty-five percent markup. So what's your margin?", "nocap": true } ] },
-      { "type": "quiz", "kicker": "QUICK QUIZ", "q": "Cost AED 100. Price AED 125. *Margin?*", "options": ["25%", "20%", "30%"], "answer": 1, "optsAt": 1, "revealAt": 2,
-        "lines": [ { "say": "Cost is a hundred dirhams. You sell at a hundred and twenty-five.", "cap": "Cost *AED 100*. You sell at *AED 125*." },
-                   { "say": "Is the margin twenty-five, twenty, or thirty percent?", "cap": "Is the margin *25*, *20* or *30* percent?", "pause": 2.4 },
-                   { "say": "It's twenty percent.", "cap": "It's *20 percent*." } ] },
-      { "type": "draw", "kind": "bars", "style": "card", "kicker": "SAME 25 DIRHAMS, TWO ANSWERS", "h": 420,
-        "data": [ { "label": "Markup|25 ÷ 100 cost", "v": 25, "d": "25%" }, { "label": "Margin|25 ÷ 125 price", "v": 20, "d": "20%", "color": "teal" } ],
+      {
+        "type": "hook",
+        "kicker": "FINANCE IN 30S · SAMPLE",
+        "head": "A 25% markup. So what's your *margin?*",
+        "lines": [
+          {
+            "say": "You add a twenty-five percent markup. So what's your margin?",
+            "nocap": true
+          }
+        ]
+      },
+      {
+        "type": "quiz",
+        "kicker": "QUICK QUIZ",
+        "q": "Cost AED 100. Price AED 125. *Margin?*",
+        "options": [
+          "25%",
+          "20%",
+          "30%"
+        ],
+        "answer": 1,
+        "optsAt": 1,
+        "revealAt": 2,
+        "lines": [
+          {
+            "say": "Cost is a hundred dirhams. You sell at a hundred and twenty-five.",
+            "cap": "Cost *AED 100*. You sell at *AED 125*."
+          },
+          {
+            "say": "Is the margin twenty-five, twenty, or thirty percent?",
+            "cap": "Is the margin *25*, *20* or *30* percent?",
+            "pause": 2.4
+          },
+          {
+            "say": "It's twenty percent.",
+            "cap": "It's *20 percent*."
+          }
+        ]
+      },
+      {
+        "type": "draw",
+        "kind": "bars",
+        "style": "card",
+        "kicker": "SAME 25 DIRHAMS, TWO ANSWERS",
+        "h": 420,
+        "data": [
+          {
+            "label": "Markup|25 ÷ 100 cost",
+            "v": 25,
+            "d": "25%"
+          },
+          {
+            "label": "Margin|25 ÷ 125 price",
+            "v": 20,
+            "d": "20%",
+            "color": "teal"
+          }
+        ],
         "src": "Illustrative example, not a real company.",
-        "after": { "t": "Divide by *price* for margin.", "at": 2 },
-        "lines": [ { "say": "Same twenty-five dirhams of profit.", "cap": "Same *AED 25* of profit." },
-                   { "say": "Divide it by cost, and it's markup.", "cap": "Divide by *cost*: markup." },
-                   { "say": "Divide it by price, and it's margin.", "cap": "Divide by *price*: margin." } ] },
-      { "type": "end", "h": "ACCOUNTING & MIS", "q": "Do your reports mix up *margin* and markup?",
+        "after": {
+          "t": "Divide by *price* for margin.",
+          "at": 2
+        },
+        "lines": [
+          {
+            "say": "Same twenty-five dirhams of profit.",
+            "cap": "Same *AED 25* of profit."
+          },
+          {
+            "say": "Divide it by cost, and it's markup.",
+            "cap": "Divide by *cost*: markup."
+          },
+          {
+            "say": "Divide it by price, and it's margin.",
+            "cap": "Divide by *price*: margin."
+          }
+        ]
+      },
+      {
+        "type": "end",
+        "h": "ACCOUNTING & MIS",
+        "q": "Do your reports mix up *margin* and markup?",
         "disc": "General information only, not legal or tax advice. Illustrative example, not a real company.",
-        "lines": [ { "say": "Our accounting and M.I.S. advisory sets up reports that keep the two apart.", "cap": "Our *accounting & MIS* advisory keeps the two apart." },
-                   { "say": "Comment your answer, or send us a WhatsApp to check your margins.", "cap": "Comment your answer, or send us a *WhatsApp*." } ] }
-    ]
+        "lines": [
+          {
+            "say": "Our accounting and M.I.S. advisory sets up reports that keep the two apart.",
+            "cap": "Our *accounting & MIS* advisory keeps the two apart."
+          },
+          {
+            "say": "Comment your answer, or send us a WhatsApp to check your margins.",
+            "cap": "Comment your answer, or send us a *WhatsApp*."
+          }
+        ]
+      }
+    ],
+    "hookBg": "white",
+    "frame": "light"
   }
 }

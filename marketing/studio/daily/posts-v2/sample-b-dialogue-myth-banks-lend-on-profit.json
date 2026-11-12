@@ -3,24 +3,97 @@
   "series": "Myth or Fact (new-look sample B: dialogue + myth/fact split)",
   "service": "Banking & financing",
   "video": {
-    "voices": { "n": "bm_george@0.85", "o": "bf_emma@0.9" },
-    "cast": { "owner": { "fig": "owner", "name": "BUSINESS OWNER", "voice": "o" }, "lead": { "fig": "adviser", "name": "FINANCE LEAD", "voice": "n" } },
+    "voices": {
+      "n": "bm_george@0.85",
+      "o": "bf_emma@0.9"
+    },
+    "cast": {
+      "owner": {
+        "fig": "owner",
+        "name": "BUSINESS OWNER",
+        "voice": "o"
+      },
+      "lead": {
+        "fig": "adviser",
+        "name": "FINANCE LEAD",
+        "voice": "n"
+      }
+    },
     "scenes": [
-      { "type": "hook", "kicker": "MYTH OR FACT · SAMPLE", "head": "Profit is up. So the bank *will lend?*",
-        "lines": [ { "say": "Myth or fact? If profit is up, the bank will lend.", "nocap": true } ] },
-      { "type": "dialogue",
-        "lines": [ { "who": "owner", "say": "Profit's up twenty percent. The bank should be easy.", "bubble": "Profit's up 20%. The bank should be *easy*." },
-                   { "who": "lead", "say": "Banks are repaid from cash, not profit.", "bubble": "Banks are repaid from *cash*, not profit." },
-                   { "who": "owner", "say": "Isn't that the same thing?", "bubble": "Isn't that the same thing?" },
-                   { "who": "lead", "say": "Not when customers take ninety days to pay.", "bubble": "Not when customers take *90 days* to pay." } ] },
-      { "type": "split", "kicker": "THE ANSWER", "myth": "Banks lend on *profit.*", "verdict": "MYTH",
-        "fact": "They look at the *cash* that repays the loan.", "src": "Our view. Each bank's criteria differ; check your facility letter.", "strikeAt": 0, "factAt": 1,
-        "lines": [ { "say": "In our view, that's a myth.", "cap": "In our view, that's a *myth*." },
-                   { "say": "Banks look at the cash that repays the loan, and how well it covers each payment.", "cap": "Banks look at the *cash* that repays the loan, and how well it covers each payment." } ] },
-      { "type": "end", "h": "BANKING & FINANCING", "q": "Is your *bank meeting* next?",
+      {
+        "type": "hook",
+        "kicker": "MYTH OR FACT · SAMPLE",
+        "head": "Profit is up. So the bank *will lend?*",
+        "lines": [
+          {
+            "say": "Myth or fact? If profit is up, the bank will lend.",
+            "nocap": true
+          }
+        ]
+      },
+      {
+        "type": "dialogue",
+        "lines": [
+          {
+            "who": "owner",
+            "say": "Profit's up twenty percent. The bank should be easy.",
+            "bubble": "Profit's up 20%. The bank should be *easy*."
+          },
+          {
+            "who": "lead",
+            "say": "Banks are repaid from cash, not profit.",
+            "bubble": "Banks are repaid from *cash*, not profit."
+          },
+          {
+            "who": "owner",
+            "say": "Isn't that the same thing?",
+            "bubble": "Isn't that the same thing?"
+          },
+          {
+            "who": "lead",
+            "say": "Not when customers take ninety days to pay.",
+            "bubble": "Not when customers take *90 days* to pay."
+          }
+        ]
+      },
+      {
+        "type": "split",
+        "kicker": "THE ANSWER",
+        "myth": "Banks lend on *profit.*",
+        "verdict": "MYTH",
+        "fact": "They look at the *cash* that repays the loan.",
+        "src": "Our view. Each bank's criteria differ; check your facility letter.",
+        "strikeAt": 0,
+        "factAt": 1,
+        "lines": [
+          {
+            "say": "In our view, that's a myth.",
+            "cap": "In our view, that's a *myth*."
+          },
+          {
+            "say": "Banks look at the cash that repays the loan, and how well it covers each payment.",
+            "cap": "Banks look at the *cash* that repays the loan, and how well it covers each payment."
+          }
+        ]
+      },
+      {
+        "type": "end",
+        "h": "BANKING & FINANCING",
+        "q": "Is your *bank meeting* next?",
         "disc": "General information only, not legal or tax advice. Illustrative conversation, not a real client. Our view; each bank's criteria differ.",
-        "lines": [ { "say": "Our banking and financing advisory prepares this.", "cap": "Our *banking & financing* advisory prepares this with you." },
-                   { "say": "Facility review coming up? Talk to us before you meet the bank.", "cap": "Facility review coming up? *Talk to us* first." } ] }
-    ]
+        "lines": [
+          {
+            "say": "Our banking and financing advisory prepares this.",
+            "cap": "Our *banking & financing* advisory prepares this with you."
+          },
+          {
+            "say": "Facility review coming up? Talk to us before you meet the bank.",
+            "cap": "Facility review coming up? *Talk to us* first."
+          }
+        ]
+      }
+    ],
+    "hookBg": "navy",
+    "frame": "light"
   }
 }

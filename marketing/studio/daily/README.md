@@ -64,6 +64,13 @@ is for the videos already scheduled (1–14 Nov) and any re-render of them.
 
 About 4–6 minutes per 35–45 s video. One render at a time (shared `_audio2/`, `_frames2/`).
 
+## Frame (owner, 12 Nov 2026)
+`video.frame: "light"` (default): no letterhead during the video. A small Valorin logo sits top-left; the background
+changes with the scene (`bg`: ivory, sand, white, navy; defaults: hook `video.hookBg`, founder and end navy, split and
+doc white, dialogue and whiteboard sand); the end card carries the full brand block (logo, "Finance with Integrity.
+Growth with Insight.", WhatsApp button, contact row, written compliance lines). Vary `hookBg` from video to video.
+`video.frame: "letterhead"` gives the 6 Nov version (header and navy footer on every frame).
+
 ## What is different
 - **Hook from frame 0:** big serif headline (Fraunces), one gold italic word (`*word*`), words land in the first second.
 - **A visual change on every spoken line.** Each scene has `lines` (one sentence each, about 2–3 s); elements appear on
@@ -71,9 +78,10 @@ About 4–6 minutes per 35–45 s video. One render at a time (shared `_audio2/`
 - **Word-by-word captions** above the footer (max 4 words at a time, current word highlighted, `*key*` words in gold).
   `cap` = on-screen text (digits), `say` = spoken (numbers in words). `nocap: true` when the words are already the headline.
   Dialogue lines show as chat bubbles instead of captions.
-- **Safe zone:** content between y 410 and 1290, x 72 to 930; captions 1312–1462; nothing important in the top 250 px,
-  the bottom 400 px or the right 150 px (approximate; verify against each network's current guidance).
-- **Locked frame unchanged:** logo header and tagline, navy contact footer, Roboto for body and captions, palette.
+- **Safe zone (light frame):** content between y 350 and 1170, x 72 to 930; captions 1188–1328; nothing important in the
+  top ~270 px, the bottom ~580 px or the right ~150 px (approximate; Meta's guide uses 14% top and up to 35% bottom for
+  ads; verify per network). Letterhead frame: content 410–1290, captions 1312–1462.
+- **Brand elements:** logo, tagline and contact row (on the end card in the light frame), Roboto for body and captions, palette.
   Additions: ivory background (daily look), Fraunces serif for headlines, Caveat for whiteboard handwriting.
 - **Voices:** narrator George (`n`, bm_george 0.85, locked). Optional second voice for dialogue (`voices` + `cast`);
   the sample uses bf_emma for the business owner. Only after the team approves a second voice (file 18 s.2).
@@ -83,7 +91,7 @@ About 4–6 minutes per 35–45 s video. One render at a time (shared `_audio2/`
 |---|---|---|
 | `hook` | Always first | `kicker`, `head` (`*gold italic*`), `sub`, `subAt` |
 | `strike` | Pain points struck through | `head`, `items:[{t, at, dt, strikeAt, strikeDt, keep}]`, `after:{t, at}` |
-| `founder` | Founder scene | `mode: "photo"` (real headshot, `../../reference/founder-headshot.jpg`) or `"avatar"` (illustrated, `figures.js`); `stat:{at}` shows "20+ years in finance & business management"; `bubble:{t, at}`; `speaks: true` moves the avatar's mouth with the narrator (avatar shows "Illustration of our founder · narrated voice") |
+| `founder` | Founder scene: **real photo only** (owner, 12 Nov 2026; no illustrated or AI avatar) | `mode: "photo"` (`../../reference/founder-headshot.jpg`); `stat:{at}` shows "20+ years in finance & business management"; `bubble:{t, at}` |
 | `dialogue` | Two illustrated people in chat bubbles | `video.cast:{key:{fig:"owner"|"adviser", name, voice}}`, lines with `who` and `bubble`; tag "ILLUSTRATIVE CONVERSATION" |
 | `quiz` | Question, pause with countdown, reveal | `q`, `options`, `answer`, `optsAt`, `revealAt`; put `pause: 2.4` on the line before the reveal; `explain:{t, at}` |
 | `split` | Myth vs fact | `myth`, `verdict`, `fact`, `src`, `strikeAt`, `factAt`, `topLabel`, `factLabel` |
