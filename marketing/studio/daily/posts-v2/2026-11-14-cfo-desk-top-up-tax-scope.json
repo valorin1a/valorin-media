@@ -1,0 +1,120 @@
+{
+ "id": "2026-11-14-cfo-desk-top-up-tax-scope",
+ "date": "2026-11-14",
+ "series": "CFO Desk (weekly, new look)",
+ "service": "Corporate tax advisory",
+ "format": "quiz",
+ "video": {
+  "hookBg": "ivory",
+  "frame": "report",
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "CFO DESK · 14 NOV 2026",
+    "head": "Is your entity in *scope*?",
+    "lines": [
+     {
+      "say": "In a multinational group? Your U.A.E. company may need to register for Top-up Tax.",
+      "cap": "In a multinational group? You may need to register for *Top-up Tax*."
+     }
+    ]
+   },
+   {
+    "type": "quiz",
+    "kicker": "QUICK QUIZ",
+    "q": "Who is *in scope?*",
+    "options": [
+     "Every UAE company",
+     "EUR 750m+ multinationals",
+     "Listed companies only"
+    ],
+    "answer": 1,
+    "optsAt": 0,
+    "revealAt": 1,
+    "lines": [
+     {
+      "say": "Every company, multinational groups, or listed companies only?",
+      "cap": "Every company, multinational groups, or listed only?",
+      "pause": 2.4
+     },
+     {
+      "say": "Large multinational groups. It's the group's consolidated revenue that counts.",
+      "cap": "Large *multinational* groups. Group revenue counts."
+     }
+    ]
+   },
+   {
+    "type": "hook",
+    "kicker": "THE TEST",
+    "head": "EUR 750m in *2 of 4* years",
+    "sub": "Federal Tax Authority, 7 Oct 2026 · checked 14 Nov 2026.<br>Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+    "subAt": 0,
+    "lines": [
+     {
+      "say": "The Federal Tax Authority's test is group revenue of seven hundred and fifty million euros or more,",
+      "cap": "The *FTA*'s test: group revenue of *EUR 750m* or more,"
+     },
+     {
+      "say": "in at least two of the four preceding financial years.",
+      "cap": "in at least *2 of the 4* preceding years."
+     }
+    ]
+   },
+   {
+    "type": "strike",
+    "kicker": "WHAT WE'D CHECK THIS WEEK",
+    "head": "Three checks",
+    "items": [
+     {
+      "t": "Four years of group revenue",
+      "at": 0,
+      "dt": 0.3,
+      "keep": true
+     },
+     {
+      "t": "UAE entities in it",
+      "at": 1,
+      "dt": 0,
+      "keep": true
+     },
+     {
+      "t": "Registration timeline",
+      "at": 2,
+      "dt": 0,
+      "keep": true
+     }
+    ],
+    "lines": [
+     {
+      "say": "First, four years of group revenue.",
+      "cap": "First, *four years* of group revenue."
+     },
+     {
+      "say": "Then, the U.A.E. entities in the group.",
+      "cap": "Then, which *UAE entities* are in the group."
+     },
+     {
+      "say": "And which registration timeline applies, confirmed with your tax agent.",
+      "cap": "And the *registration timeline*, with your tax agent."
+     }
+    ]
+   },
+   {
+    "type": "end",
+    "h": "CFO DESK · CORPORATE TAX",
+    "q": "In *scope*?",
+    "disc": "General information only, not legal or tax advice. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+    "lines": [
+     {
+      "say": "We prepare and check the group figures, alongside your tax agent.",
+      "cap": "We *prepare and check* the figures, with your tax agent."
+     },
+     {
+      "say": "Group revenue close to the line? Message Valorin on WhatsApp, and we'll check the figures with you.",
+      "cap": "Close to the line? Message us on *WhatsApp*."
+     }
+    ]
+   }
+  ]
+ }
+}
