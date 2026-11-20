@@ -1,0 +1,108 @@
+{
+ "id": "2026-11-20-cfo-week-issue-1",
+ "date": "2026-11-20",
+ "series": "The CFO Week (Friday bulletin, issue 1)",
+ "service": "Tax, banking & financing, e-invoicing, CFO",
+ "format": "four-topic bulletin",
+ "video": {
+  "hookBg": "navy",
+  "frame": "report",
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "THE CFO WEEK · 20 NOV 2026",
+    "head": "*4 things* on your finance desk this week",
+    "lines": [
+     {
+      "say": "Four things on your finance desk this week.",
+      "cap": "*4 things* on your finance desk this week."
+     }
+    ]
+   },
+   {
+    "type": "hook",
+    "kicker": "1 · TAX",
+    "head": "*10 days* to file your VAT return",
+    "sub": "FTA announcements · final VAT filing date, 30 Nov 2026 · checked 20 Nov 2026.",
+    "subAt": 1,
+    "lines": [
+     {
+      "say": "One. The tax authority lists the thirtieth of November as the final date for VAT returns.",
+      "cap": "The *tax authority* lists *30 Nov* as the final VAT date."
+     },
+     {
+      "say": "Check which period yours covers, and file early.",
+      "cap": "Check your *period*. File *early*."
+     }
+    ]
+   },
+   {
+    "type": "hook",
+    "kicker": "2 · LOANS",
+    "head": "Variable-rate loan? *Ask your bank*",
+    "sub": "US Federal Reserve, 18 Nov 2026 · checked 20 Nov 2026.",
+    "subAt": 1,
+    "lines": [
+     {
+      "say": "Two. The US central bank held rates, and meets again on the eighth and ninth of December.",
+      "cap": "The *US Fed* held rates. Next meeting *8–9 Dec*."
+     },
+     {
+      "say": "Ask when your rate changes, and what a rise would cost.",
+      "cap": "Ask when your rate changes, and what a *rise* costs."
+     }
+    ]
+   },
+   {
+    "type": "hook",
+    "kicker": "3 · E-INVOICING",
+    "head": "*42 days* to go-live",
+    "sub": "UAE Ministry of Finance, Ministerial Decision 244 of 2025 · checked 20 Nov 2026.",
+    "subAt": 1,
+    "lines": [
+     {
+      "say": "Three. Revenue of fifty million dirhams or more? E-invoicing starts on the first of January.",
+      "cap": "Revenue *AED 50m+*? E-invoicing starts *1 Jan*."
+     },
+     {
+      "say": "Test last month's invoices, credit notes too.",
+      "cap": "Test last month's invoices. *Credit notes* too."
+     }
+    ]
+   },
+   {
+    "type": "hook",
+    "kicker": "4 · CASH",
+    "head": "Biggest customer pays *30 days late*?",
+    "sub": "Illustrative example, not a real company.",
+    "subAt": 0,
+    "lines": [
+     {
+      "say": "Four. Could you still pay salaries if your biggest customer paid thirty days late?",
+      "cap": "Could you still pay *salaries*?"
+     },
+     {
+      "say": "Write down the next three months of cash in and cash out.",
+      "cap": "Write down *3 months* of cash in and out."
+     }
+    ]
+   },
+   {
+    "type": "end",
+    "h": "THE CFO WEEK",
+    "q": "Which one is *yours?*",
+    "disc": "General information only, not legal or tax advice. Not investment advice. Valorin is an independent advisory firm, not affiliated with the FTA or MoF. Valorin is not an ASP. Valorin does not arrange, broker or guarantee financing. The loan point is a cost check, not a rate forecast.",
+    "lines": [
+     {
+      "say": "Tax, loans, e-invoicing or cash: we help with all four.",
+      "cap": "Tax, loans, e-invoicing, cash: we *help* with all four."
+     },
+     {
+      "say": "Send us a WhatsApp, and we'll tell you what we'd do first.",
+      "cap": "Send us a *WhatsApp*."
+     }
+    ]
+   }
+  ]
+ }
+}
