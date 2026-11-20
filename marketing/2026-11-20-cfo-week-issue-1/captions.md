@@ -57,5 +57,5 @@ Link: https://www.valorin.ae/?utm_source=pinterest&utm_medium=social&utm_campaig
 ## Google Business Profile (card slide 1, text only, no contacts, URL or hashtags)
 This week's finance checks for Dubai businesses: the final VAT filing date listed by the Federal Tax Authority, variable-rate loan costs, e-invoicing timelines and cash planning. General information only, not legal or tax advice. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.
 
-## X (manual, 252 characters)
+## X (manual, 267 characters)
 UAE finance desk, 20 Nov: FTA lists 30 Nov as the final VAT filing date; e-invoicing starts 1 Jan 2027 for AED 50m+ businesses; check variable-rate loans and late-payer cash risk. WhatsApp 058-2754282. Not legal/tax advice. Not affiliated with the FTA or MoF. #UAEVAT
