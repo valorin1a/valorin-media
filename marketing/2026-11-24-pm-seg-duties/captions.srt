@@ -1,0 +1,39 @@
+1
+00:00:00,060 --> 00:00:04,755
+One person orders, approves and pays. What could go wrong?
+
+2
+00:00:04,875 --> 00:00:06,869
+Quick quiz: pick the risk.
+
+3
+00:00:06,989 --> 00:00:11,852
+Errors or fraud unseen? Slower payments? Higher fees?
+
+4
+00:00:14,372 --> 00:00:21,774
+The first: nobody else sees it.
+
+5
+00:00:21,894 --> 00:00:24,285
+Raise the order.
+
+6
+00:00:24,405 --> 00:00:27,342
+A different person approves the invoice.
+
+7
+00:00:27,462 --> 00:00:30,051
+A third releases the payment.
+
+8
+00:00:30,171 --> 00:00:34,394
+Small team? Add a second review.
+
+9
+00:00:34,514 --> 00:00:38,803
+Our audit & risk advisory maps who can do what.
+
+10
+00:00:38,923 --> 00:00:42,433
+Controls review? Send us a WhatsApp.

@@ -1,0 +1,112 @@
+{
+ "id": "2026-11-24-pm-seg-duties",
+ "date": "2026-11-24",
+ "series": "daily video (new look)",
+ "service": "Audit & risk",
+ "format": "quiz + checklist",
+ "video": {
+  "hookBg": "white",
+  "frame": "light",
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "FINANCE IN 30S · 24 NOV 2026",
+    "head": "Who *approves* what your business pays?",
+    "lines": [
+     {
+      "say": "One person orders, approves and pays. What could go wrong?",
+      "nocap": true
+     }
+    ]
+   },
+   {
+    "type": "quiz",
+    "kicker": "QUICK QUIZ",
+    "q": "One person does *all three.*",
+    "options": [
+     "Errors or fraud go unseen",
+     "Payments get slower",
+     "Bank fees go up"
+    ],
+    "answer": 0,
+    "optsAt": 1,
+    "revealAt": 2,
+    "lines": [
+     {
+      "say": "Quick quiz. Pick the risk.",
+      "cap": "Quick quiz: *pick the risk*."
+     },
+     {
+      "say": "Errors or fraud unseen, slower payments, or higher bank fees?",
+      "cap": "Errors or fraud unseen? Slower payments? Higher fees?",
+      "pause": 2.4
+     },
+     {
+      "say": "The first. Nobody else sees the mistake. Splitting those jobs is called segregation of duties.",
+      "cap": "The first: *nobody else sees it*."
+     }
+    ]
+   },
+   {
+    "type": "strike",
+    "kicker": "SPLIT THREE JOBS",
+    "head": "Three jobs, *three* people:",
+    "items": [
+     {
+      "t": "Raise the order",
+      "at": 0,
+      "keep": true
+     },
+     {
+      "t": "Approve the invoice",
+      "at": 1,
+      "keep": true
+     },
+     {
+      "t": "Release the payment",
+      "at": 2,
+      "keep": true
+     }
+    ],
+    "after": {
+     "t": "Small team? Add a *second review*.",
+     "at": 3
+    },
+    "lines": [
+     {
+      "say": "Someone raises the order.",
+      "cap": "*Raise* the order."
+     },
+     {
+      "say": "A different person approves the invoice.",
+      "cap": "A different person *approves* the invoice."
+     },
+     {
+      "say": "A third releases the payment.",
+      "cap": "A third *releases* the payment."
+     },
+     {
+      "say": "In a small team, add a second review of each payment run.",
+      "cap": "Small team? Add a *second review*."
+     }
+    ]
+   },
+   {
+    "type": "end",
+    "h": "AUDIT & RISK",
+    "q": "Who checks *your* payments?",
+    "disc": "General information only, not legal or tax advice. Illustrative, our view. Valorin is not an audit firm.",
+    "lines": [
+     {
+      "say": "Our audit and risk advisory maps who can do what.",
+      "cap": "Our *audit & risk* advisory maps who can do what."
+     },
+     {
+      "say": "Planning a controls review? Send us a WhatsApp.",
+      "cap": "Controls review? Send us a *WhatsApp*."
+     }
+    ]
+   }
+  ]
+ }
+}
