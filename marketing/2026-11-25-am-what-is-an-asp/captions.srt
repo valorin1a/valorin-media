@@ -1,0 +1,39 @@
+1
+00:00:00,060 --> 00:00:03,608
+What is an A.S.P., in plain words?
+
+2
+00:00:03,728 --> 00:00:05,852
+What actually is an A.S.P.?
+
+3
+00:00:05,972 --> 00:00:10,386
+A provider the Ministry of Finance accredits and lists.
+
+4
+00:00:10,506 --> 00:00:12,636
+Does it replace our E.R.P.?
+
+5
+00:00:12,756 --> 00:00:15,773
+No. Your E.R.P. connects to it.
+
+6
+00:00:15,893 --> 00:00:18,695
+Which systems issue invoices.
+
+7
+00:00:18,815 --> 00:00:20,571
+How many entities.
+
+8
+00:00:20,691 --> 00:00:23,507
+How it connects to your ERP.
+
+9
+00:00:23,627 --> 00:00:27,100
+Our readiness work starts with a gap assessment.
+
+10
+00:00:27,220 --> 00:00:30,652
+Send us a WhatsApp, and we'll go through it.

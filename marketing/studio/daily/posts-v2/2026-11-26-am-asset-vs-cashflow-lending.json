@@ -1,0 +1,100 @@
+{
+ "id": "2026-11-26-am-asset-vs-cashflow-lending",
+ "date": "2026-11-26",
+ "series": "daily video (new look)",
+ "service": "Banking & financing",
+ "format": "labelled split + checklist",
+ "video": {
+  "hookBg": "ivory",
+  "frame": "light",
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "FINANCE IN 30S · 26 NOV 2026",
+    "head": "Will the bank lend on your *assets* or your cash?",
+    "lines": [
+     {
+      "say": "Will a bank lend against your assets, or against your cash flow?",
+      "nocap": true
+     }
+    ]
+   },
+   {
+    "type": "split",
+    "kicker": "TWO WAYS BANKS LEND",
+    "topLabel": "ASSET-BACKED",
+    "myth": "The *asset* is the safety: stock, receivables, property.",
+    "verdict": "VS",
+    "verdictColor": "teal",
+    "noStrike": true,
+    "factLabel": "CASH-FLOW",
+    "fact": "The *cash* the business makes repays the loan.",
+    "src": "Our view. Each bank sets its own criteria; check your facility letter.",
+    "strikeAt": 0,
+    "factAt": 1,
+    "lines": [
+     {
+      "say": "Asset-backed lending leans on what you own: stock, receivables or property.",
+      "cap": "*Asset-backed* leans on what you *own*."
+     },
+     {
+      "say": "Cash-flow lending leans on the cash your business generates to repay.",
+      "cap": "*Cash-flow* leans on the cash you *generate*."
+     }
+    ]
+   },
+   {
+    "type": "strike",
+    "kicker": "IF A BANK LOOKS AT CASH FLOW",
+    "head": "Expect *three* questions:",
+    "items": [
+     {
+      "t": "How much cash is left after costs?",
+      "at": 0,
+      "keep": true
+     },
+     {
+      "t": "Is it steady month to month?",
+      "at": 1,
+      "keep": true
+     },
+     {
+      "t": "Does it cover each repayment?",
+      "at": 2,
+      "keep": true
+     }
+    ],
+    "lines": [
+     {
+      "say": "How much cash is left after costs.",
+      "cap": "How much cash is *left after costs*?"
+     },
+     {
+      "say": "Whether it's steady from month to month.",
+      "cap": "Is it *steady* month to month?"
+     },
+     {
+      "say": "And whether it covers every repayment.",
+      "cap": "Does it cover *each repayment*?"
+     }
+    ]
+   },
+   {
+    "type": "end",
+    "h": "BANKING & FINANCING",
+    "q": "Which *story* will your numbers tell?",
+    "disc": "General information only, not legal or tax advice. Our view; each bank's criteria differ.",
+    "lines": [
+     {
+      "say": "Our banking and financing advisory gets your numbers ready for either conversation.",
+      "cap": "Our *banking & financing* advisory prepares you for both."
+     },
+     {
+      "say": "Talking to a bank soon? Message us on WhatsApp first.",
+      "cap": "Talking to a bank soon? *Message us* first."
+     }
+    ]
+   }
+  ]
+ }
+}

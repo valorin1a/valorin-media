@@ -1,0 +1,117 @@
+{
+ "id": "2026-11-25-am-what-is-an-asp",
+ "date": "2026-11-25",
+ "series": "daily video (new look)",
+ "service": "E-invoicing readiness",
+ "format": "two-voice dialogue + checklist",
+ "video": {
+  "hookBg": "sand",
+  "frame": "light",
+  "voices": {
+   "n": "bm_george@0.85",
+   "o": "bf_emma@0.9"
+  },
+  "cast": {
+   "owner": {
+    "fig": "owner",
+    "name": "BUSINESS OWNER",
+    "voice": "o"
+   },
+   "lead": {
+    "fig": "adviser",
+    "name": "FINANCE LEAD",
+    "voice": "n"
+   }
+  },
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "FINANCE IN 30S · 25 NOV 2026",
+    "head": "Everyone says ASP. What *is* it?",
+    "lines": [
+     {
+      "say": "What is an A.S.P., in plain words?",
+      "nocap": true
+     }
+    ]
+   },
+   {
+    "type": "dialogue",
+    "lines": [
+     {
+      "who": "owner",
+      "say": "What actually is an A.S.P.?",
+      "bubble": "Everyone says ASP. What *is* it?"
+     },
+     {
+      "who": "lead",
+      "say": "A provider the Ministry of Finance accredits and lists.",
+      "bubble": "An *Accredited Service Provider*. The Ministry of Finance accredits it and publishes the list."
+     },
+     {
+      "who": "owner",
+      "say": "Does it replace our E.R.P.?",
+      "bubble": "Does it replace our *ERP*?"
+     },
+     {
+      "who": "lead",
+      "say": "No. Your E.R.P. connects to it.",
+      "bubble": "No. Your ERP *connects* to it. It handles the exchange of invoice data."
+     }
+    ]
+   },
+   {
+    "type": "strike",
+    "kicker": "BEFORE YOU CHOOSE",
+    "head": "Know *three* things first:",
+    "items": [
+     {
+      "t": "Which systems issue invoices",
+      "at": 0,
+      "keep": true
+     },
+     {
+      "t": "How many entities you have",
+      "at": 1,
+      "keep": true
+     },
+     {
+      "t": "How it connects to your ERP",
+      "at": 2,
+      "keep": true
+     }
+    ],
+    "lines": [
+     {
+      "say": "Which systems issue invoices.",
+      "cap": "Which *systems* issue invoices."
+     },
+     {
+      "say": "How many entities.",
+      "cap": "How many *entities*."
+     },
+     {
+      "say": "How it connects to your E.R.P.",
+      "cap": "How it connects to your *ERP*."
+     }
+    ]
+   },
+   {
+    "type": "end",
+    "h": "E-INVOICING READINESS",
+    "q": "Not sure where your *invoice data* stands?",
+    "disc": "General information only, not legal or tax advice. Valorin is not an ASP. Illustrative conversation, not a real client. Source: UAE Ministry of Finance, e-invoicing ASP page. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+    "lines": [
+     {
+      "say": "Our readiness work starts with a gap assessment.",
+      "cap": "Our readiness work starts with a *gap assessment*."
+     },
+     {
+      "say": "Send us a WhatsApp, and we'll go through it with you.",
+      "cap": "Send us a *WhatsApp*, and we'll go through it."
+     }
+    ]
+   }
+  ]
+ }
+}
