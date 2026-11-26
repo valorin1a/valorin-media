@@ -1,0 +1,39 @@
+1
+00:00:00,060 --> 00:00:05,303
+Under AED 50m and in scope for e-invoicing?
+
+2
+00:00:05,423 --> 00:00:11,867
+Appoint a provider by 31 March 2027.
+
+3
+00:00:11,987 --> 00:00:16,809
+Sign first, sort the data later?
+
+4
+00:00:16,929 --> 00:00:22,589
+Map the data first. Then compare quotes.
+
+5
+00:00:22,709 --> 00:00:27,769
+Invoices and credit notes vs PINT AE.
+
+6
+00:00:27,889 --> 00:00:32,370
+Buyer TRNs, and how your ERP sends them.
+
+7
+00:00:32,490 --> 00:00:37,301
+Every entity, volume and invoice type.
+
+8
+00:00:37,421 --> 00:00:41,478
+Then quotes are judged on what you need.
+
+9
+00:00:41,598 --> 00:00:47,360
+Gap assessment through to go-live.
+
+10
+00:00:47,480 --> 00:00:56,660
+Quotes in? WhatsApp us your ERP.

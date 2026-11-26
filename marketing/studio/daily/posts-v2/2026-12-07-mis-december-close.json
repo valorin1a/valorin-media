@@ -1,0 +1,144 @@
+{
+ "id": "2026-12-07-mis-december-close",
+ "date": "2026-12-07",
+ "series": "Accounting & MIS (weekly service post, new look)",
+ "service": "Accounting & MIS",
+ "format": "quiz + document zoom",
+ "video": {
+  "hookBg": "navy",
+  "frame": "report",
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "ACCOUNTING & MIS · 7 DEC 2026",
+    "head": "Your audit starts in *December*",
+    "lines": [
+     {
+      "say": "If your year ends on the thirty-first of December, your auditor will test those balances.",
+      "cap": "*31 December* year-end? Your auditor tests those balances."
+     },
+     {
+      "say": "Every one of them comes out of the December close.",
+      "cap": "They all come from the *December close*."
+     }
+    ]
+   },
+   {
+    "type": "hook",
+    "kicker": "THE RULE",
+    "head": "Above *AED 50m*? Audited statements.",
+    "sub": "Ministerial Decision No. 84 of 2025, Arts. 2 and 4 · taxable persons that are not a Tax Group · tax periods from 1 Jan 2025.",
+    "subAt": 0,
+    "lines": [
+     {
+      "say": "Under a Ministry of Finance decision, a taxable person with revenue over fifty million dirhams in a tax period",
+      "cap": "Revenue over *AED 50m* in a tax period?"
+     },
+     {
+      "say": "must prepare audited financial statements.",
+      "cap": "Then *audited* financial statements."
+     }
+    ]
+   },
+   {
+    "type": "doc",
+    "kicker": "ILLUSTRATIVE CHECKLIST",
+    "head": "December *close file*",
+    "viewH": 520,
+    "docs": [
+     {
+      "title": "DECEMBER CLOSE FILE",
+      "sub": "Illustrative · not a real company",
+      "rows": [
+       [
+        "Bank and intercompany",
+        "Reconciled to statements"
+       ],
+       [
+        "Control accounts",
+        "Agree to sub-ledgers"
+       ],
+       [
+        "Cut-off at 31 Dec",
+        "Sales, purchases, stock"
+       ],
+       [
+        "Accruals",
+        "A schedule behind each"
+       ]
+      ]
+     }
+    ],
+    "focus": [
+     {
+      "at": 0,
+      "doc": 0,
+      "row": 0,
+      "cls": "good"
+     },
+     {
+      "at": 1,
+      "doc": 0,
+      "row": 1,
+      "cls": "good"
+     },
+     {
+      "at": 2,
+      "doc": 0,
+      "row": 2,
+      "cls": "good"
+     },
+     {
+      "at": 3,
+      "doc": 0,
+      "row": 3,
+      "cls": "good"
+     },
+     {
+      "at": 4,
+      "overview": true
+     }
+    ],
+    "src": "Illustrative checklist, not a real company.",
+    "lines": [
+     {
+      "say": "So we'd reconcile bank and intercompany accounts first.",
+      "cap": "Reconcile *bank* and *intercompany*."
+     },
+     {
+      "say": "Agree the control accounts to their ledgers.",
+      "cap": "Agree *control accounts* to ledgers."
+     },
+     {
+      "say": "Fix the cut-off for sales, purchases and stock.",
+      "cap": "Fix the *cut-off* at 31 December."
+     },
+     {
+      "say": "And put a schedule behind every accrual.",
+      "cap": "A *schedule* behind every accrual."
+     },
+     {
+      "say": "Then the audit tests numbers you can already explain.",
+      "cap": "Numbers you can *already explain*."
+     }
+    ]
+   },
+   {
+    "type": "end",
+    "h": "ACCOUNTING & MIS",
+    "q": "December close *planned?*",
+    "disc": "General information only, not legal or tax advice. Valorin is an independent advisory firm, not affiliated with the FTA or MoF. We help prepare and review your close; the audit is carried out by your licensed auditor. Illustrative checklist, not a real company.",
+    "lines": [
+     {
+      "say": "Our accounting and M.I.S. advisory helps prepare and review the close.",
+      "cap": "Our *accounting & MIS* advisory helps."
+     },
+     {
+      "say": "Has your auditor sent the year-end request list? Send us a WhatsApp, and we'll go through it with you.",
+      "cap": "Auditor's list in? Send us a *WhatsApp*."
+     }
+    ]
+   }
+  ]
+ }
+}

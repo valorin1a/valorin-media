@@ -1,0 +1,109 @@
+{
+ "id": "2026-12-01-einv-gap-before-asp",
+ "date": "2026-12-01",
+ "series": "E-Invoicing Brief (weekly service post, new look)",
+ "service": "E-invoicing",
+ "format": "myth vs fact split + strike list",
+ "video": {
+  "hookBg": "ivory",
+  "frame": "report",
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "E-INVOICING BRIEF · 1 DEC 2026",
+    "head": "ASP first, data *later?*",
+    "sub": "In scope, revenue below AED 50m: ASP by 31 Mar 2027, go-live by 1 Jul 2027 · Ministerial Decision No. 244 of 2025, Art. 5(1)(b).",
+    "subAt": 1,
+    "lines": [
+     {
+      "say": "Under fifty million dirhams in revenue, and in scope for e-invoicing?",
+      "cap": "Under *AED 50m* and in scope for e-invoicing?"
+     },
+     {
+      "say": "Your deadline to appoint a provider is the thirty-first of March, twenty twenty-seven.",
+      "cap": "Appoint a provider by *31 March 2027*."
+     }
+    ]
+   },
+   {
+    "type": "split",
+    "kicker": "IN OUR VIEW",
+    "myth": "Sign with a provider first. Fix the data *later*.",
+    "verdict": "MYTH",
+    "fact": "Map your data *first*. Then compare quotes.",
+    "src": "Our view. Deadline: Ministerial Decision No. 244 of 2025, Art. 5(1)(b).",
+    "strikeAt": 0,
+    "factAt": 1,
+    "lines": [
+     {
+      "say": "A common plan is to sign first and sort the data out later.",
+      "cap": "Sign first, sort the data *later*?"
+     },
+     {
+      "say": "In our view, it works the other way round. Map the data, then compare quotes.",
+      "cap": "Map the data *first*. Then compare quotes."
+     }
+    ]
+   },
+   {
+    "type": "strike",
+    "kicker": "THE GAP ASSESSMENT",
+    "head": "Before you sign",
+    "items": [
+     {
+      "t": "Invoice data vs PINT AE",
+      "at": 0,
+      "dt": 0.3,
+      "keep": true
+     },
+     {
+      "t": "Buyer TRNs from the ERP",
+      "at": 1,
+      "dt": 0,
+      "keep": true
+     },
+     {
+      "t": "Entities, volumes, invoice types",
+      "at": 2,
+      "dt": 0,
+      "keep": true
+     }
+    ],
+    "lines": [
+     {
+      "say": "Check your invoices and credit notes against the required fields.",
+      "cap": "Invoices and credit notes vs *PINT AE*."
+     },
+     {
+      "say": "Check buyer tax numbers, and how your E.R.P. sends them.",
+      "cap": "Buyer *TRNs*, and how your ERP sends them."
+     },
+     {
+      "say": "And list every entity, volume and invoice type in scope.",
+      "cap": "Every *entity*, volume and invoice type."
+     },
+     {
+      "say": "Then each quote is judged on what you actually need.",
+      "cap": "Then quotes are judged on *what you need*."
+     }
+    ]
+   },
+   {
+    "type": "end",
+    "h": "E-INVOICING READINESS",
+    "q": "Comparing *quotes?*",
+    "disc": "General information only, not legal or tax advice. Valorin is an independent advisory firm, not affiliated with the FTA or MoF. Valorin is not an ASP. If an ASP pays Valorin a referral fee, we disclose it to you in writing before you choose.",
+    "lines": [
+     {
+      "say": "Valorin's e-invoicing support runs from gap assessment through to go-live.",
+      "cap": "Gap assessment through to *go-live*."
+     },
+     {
+      "say": "Comparing provider quotes? Send us a WhatsApp with your E.R.P. and invoice volume, and we'll outline the gap assessment with you.",
+      "cap": "Quotes in? WhatsApp us your *ERP*."
+     }
+    ]
+   }
+  ]
+ }
+}
