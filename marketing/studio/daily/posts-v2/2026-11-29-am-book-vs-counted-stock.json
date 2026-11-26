@@ -1,0 +1,108 @@
+{
+ "id": "2026-11-29-am-book-vs-counted-stock",
+ "date": "2026-11-29",
+ "service": "Accounting & MIS",
+ "format": "quiz + checklist",
+ "video": {
+  "hookBg": "ivory",
+  "frame": "light",
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "FINANCE IN 30S · 29 NOV 2026",
+    "head": "Books say 1,000. The count finds *940.*",
+    "lines": [
+     {
+      "say": "The books say a thousand units. The year-end count finds nine hundred and forty.",
+      "nocap": true
+     }
+    ]
+   },
+   {
+    "type": "quiz",
+    "kicker": "QUICK QUIZ",
+    "q": "Which number goes in the *accounts?*",
+    "options": [
+     "Books: 1,000",
+     "Count: 940",
+     "Average: 970"
+    ],
+    "answer": 1,
+    "optsAt": 0,
+    "revealAt": 1,
+    "explain": {
+     "t": "Then find out *why* 60 are missing.",
+     "at": 2
+    },
+    "lines": [
+     {
+      "say": "Which number goes in the year-end accounts?",
+      "cap": "Which number goes in the *accounts*?",
+      "pause": 2.4
+     },
+     {
+      "say": "Usually the count, once it's been checked.",
+      "cap": "Usually the *count*, once it's checked."
+     },
+     {
+      "say": "Then find out why sixty units are missing.",
+      "cap": "Then find out *why* 60 are missing."
+     }
+    ]
+   },
+   {
+    "type": "strike",
+    "kicker": "WHERE THE GAP USUALLY COMES FROM",
+    "head": "Check *three* places:",
+    "items": [
+     {
+      "t": "Sales not booked out",
+      "at": 0,
+      "keep": true
+     },
+     {
+      "t": "Receipts not booked in",
+      "at": 1,
+      "keep": true
+     },
+     {
+      "t": "Damage or loss not recorded",
+      "at": 2,
+      "keep": true
+     }
+    ],
+    "lines": [
+     {
+      "say": "Goods sold but not booked out.",
+      "cap": "Sold but not *booked out*."
+     },
+     {
+      "say": "Deliveries received but not booked in.",
+      "cap": "Received but not *booked in*."
+     },
+     {
+      "say": "Or damage and loss nobody recorded.",
+      "cap": "*Damage* or loss not recorded."
+     }
+    ]
+   },
+   {
+    "type": "end",
+    "h": "ACCOUNTING & MIS",
+    "q": "What does *your* stock gap say?",
+    "disc": "General information only, not legal or tax advice. Illustrative example, not a real company.",
+    "lines": [
+     {
+      "say": "Our accounting and M.I.S. advisory reconciles the two before year-end.",
+      "cap": "Our *accounting & MIS* advisory reconciles the two."
+     },
+     {
+      "say": "Counting stock this month? Message us, and we'll go through the gap with you.",
+      "cap": "Counting stock? *Message us*."
+     }
+    ]
+   }
+  ]
+ },
+ "series": "daily video (new look)"
+}

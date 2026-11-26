@@ -1,0 +1,131 @@
+{
+ "id": "2026-11-27-am-cash-runway",
+ "date": "2026-11-27",
+ "service": "Fractional CFO",
+ "format": "whiteboard chart + checklist",
+ "video": {
+  "hookBg": "white",
+  "frame": "light",
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "FINANCE IN 30S · 27 NOV 2026",
+    "head": "A big customer pays late. How *long* can you last?",
+    "lines": [
+     {
+      "say": "A big customer pays late. How many months could you keep paying the bills?",
+      "nocap": true
+     }
+    ]
+   },
+   {
+    "type": "draw",
+    "kind": "bars",
+    "style": "board",
+    "kicker": "ILLUSTRATIVE EXAMPLE · AED",
+    "head": "Cash runway",
+    "h": 320,
+    "data": [
+     {
+      "label": "Today",
+      "v": 900,
+      "d": "900k",
+      "color": "teal"
+     },
+     {
+      "label": "Month 2",
+      "v": 600,
+      "d": "600k",
+      "color": "gold"
+     },
+     {
+      "label": "Month 4",
+      "v": 300,
+      "d": "300k",
+      "color": "gold"
+     },
+     {
+      "label": "Month 6",
+      "v": 0,
+      "d": "0",
+      "color": "red"
+     }
+    ],
+    "drawAt": 1,
+    "after": {
+     "t": "900k ÷ 150k = *6 months*",
+     "at": 2,
+     "dt": 0.6
+    },
+    "src": "Illustrative example, not a real company.",
+    "lines": [
+     {
+      "say": "That's your cash runway.",
+      "cap": "That's your *cash runway*."
+     },
+     {
+      "say": "This illustrative business has nine hundred thousand dirhams and burns a hundred and fifty thousand a month.",
+      "cap": "*AED 900k* in the bank, *AED 150k* out each month."
+     },
+     {
+      "say": "Nine hundred divided by a hundred and fifty: six months.",
+      "cap": "900 ÷ 150 = *6 months*."
+     }
+    ]
+   },
+   {
+    "type": "strike",
+    "kicker": "WORK IT OUT EVERY MONTH",
+    "head": "You need *three* numbers:",
+    "items": [
+     {
+      "t": "Cash in the bank today",
+      "at": 0,
+      "keep": true
+     },
+     {
+      "t": "Net cash out each month",
+      "at": 1,
+      "keep": true
+     },
+     {
+      "t": "Loan repayments falling due",
+      "at": 2,
+      "keep": true
+     }
+    ],
+    "lines": [
+     {
+      "say": "Cash in the bank today.",
+      "cap": "*Cash* in the bank today."
+     },
+     {
+      "say": "What goes out each month, after collections.",
+      "cap": "Net cash *out* each month."
+     },
+     {
+      "say": "And loan repayments coming up.",
+      "cap": "Loan *repayments* falling due."
+     }
+    ]
+   },
+   {
+    "type": "end",
+    "h": "FRACTIONAL CFO",
+    "q": "How many *months* do you have?",
+    "disc": "General information only, not legal or tax advice. Illustrative example, not a real company.",
+    "lines": [
+     {
+      "say": "Our fractional C.F.O. work puts runway in your monthly pack.",
+      "cap": "Our *fractional CFO* work puts runway in your monthly pack."
+     },
+     {
+      "say": "Not sure how long your cash lasts? Send us a WhatsApp.",
+      "cap": "How long does your cash last? Send us a *WhatsApp*."
+     }
+    ]
+   }
+  ]
+ },
+ "series": "daily video (new look)"
+}

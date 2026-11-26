@@ -1,0 +1,153 @@
+{
+ "id": "2026-11-28-am-customer-master-einvoicing",
+ "date": "2026-11-28",
+ "service": "E-invoicing readiness",
+ "format": "document zoom",
+ "video": {
+  "hookBg": "navy",
+  "frame": "light",
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "FINANCE IN 30S · 28 NOV 2026",
+    "head": "Your e-invoices read *this* record.",
+    "sub": "Phase 1 go-live: *1 January 2027*",
+    "subAt": 1,
+    "lines": [
+     {
+      "say": "Each e-invoice usually pulls buyer details from your E.R.P. customer list.",
+      "nocap": true
+     },
+     {
+      "say": "In scope, with revenue of fifty million dirhams or more? You go live by the first of January twenty twenty-seven.",
+      "cap": "AED 50m+ and in scope: live by *1 January 2027*."
+     }
+    ]
+   },
+   {
+    "type": "doc",
+    "kicker": "ILLUSTRATIVE EXAMPLE",
+    "viewH": 460,
+    "docs": [
+     {
+      "title": "CUSTOMER MASTER",
+      "sub": "Customer A · B2B",
+      "rows": [
+       [
+        "Legal name",
+        "Cust. A"
+       ],
+       [
+        "TRN",
+        "(blank)"
+       ],
+       [
+        "Address",
+        "Dubai"
+       ],
+       [
+        "Email",
+        "(blank)"
+       ]
+      ]
+     }
+    ],
+    "focus": [
+     {
+      "at": 1,
+      "doc": 0,
+      "row": 1,
+      "cls": "hit",
+      "note": "No TRN"
+     },
+     {
+      "at": 2,
+      "doc": 0,
+      "row": 0,
+      "cls": "hit",
+      "note": "Short name"
+     },
+     {
+      "at": 3,
+      "doc": 0,
+      "row": 2,
+      "cls": "hit",
+      "note": "Incomplete"
+     }
+    ],
+    "src": "Illustrative example, not a real company. Source: Ministerial Decision No. 244 of 2025, Art. 5(1)(a), as amended by Ministerial Resolution No. 66 of 2026 (UAE Ministry of Finance).",
+    "lines": [
+     {
+      "say": "One illustrative customer record.",
+      "cap": "One *illustrative* customer record."
+     },
+     {
+      "say": "The tax registration number is blank.",
+      "cap": "The *TRN* is blank."
+     },
+     {
+      "say": "The legal name is shortened.",
+      "cap": "The legal name is *shortened*."
+     },
+     {
+      "say": "And the address just says Dubai.",
+      "cap": "The address just says *Dubai*."
+     }
+    ]
+   },
+   {
+    "type": "strike",
+    "kicker": "IN OUR VIEW, CLEAN IT NOW",
+    "head": "Three *checks* this month:",
+    "items": [
+     {
+      "t": "TRN on every VAT-registered customer",
+      "at": 0,
+      "keep": true
+     },
+     {
+      "t": "Legal names as registered",
+      "at": 1,
+      "keep": true
+     },
+     {
+      "t": "One owner for new records",
+      "at": 2,
+      "keep": true
+     }
+    ],
+    "lines": [
+     {
+      "say": "A T.R.N. on every V.A.T.-registered customer.",
+      "cap": "A *TRN* on every VAT-registered customer."
+     },
+     {
+      "say": "Legal names as registered.",
+      "cap": "Legal names *as registered*."
+     },
+     {
+      "say": "One owner for new records.",
+      "cap": "One *owner* for new records."
+     }
+    ]
+   },
+   {
+    "type": "end",
+    "h": "E-INVOICING READINESS",
+    "q": "How clean is your *customer* data?",
+    "disc": "General information only, not legal or tax advice. Illustrative example, not a real company. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+    "lines": [
+     {
+      "say": "Our gap assessment checks data like this.",
+      "cap": "Our *gap assessment* checks data like this."
+     },
+     {
+      "say": "Cleaning customer data before go-live? Send us a WhatsApp.",
+      "cap": "Cleaning your data? Send us a *WhatsApp*."
+     }
+    ]
+   }
+  ]
+ },
+ "series": "daily video (new look)"
+}

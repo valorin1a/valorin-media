@@ -1,0 +1,86 @@
+{
+ "id": "2026-12-03-am-myth-einvoicing-is-it",
+ "date": "2026-12-03",
+ "service": "E-invoicing readiness",
+ "format": "myth/fact split + founder photo",
+ "video": {
+  "hookBg": "navy",
+  "frame": "light",
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "MYTH OR FACT · 3 DEC 2026",
+    "head": "E-invoicing is a job for *IT.*",
+    "lines": [
+     {
+      "say": "Myth or fact? E-invoicing is an I.T. job.",
+      "nocap": true
+     }
+    ]
+   },
+   {
+    "type": "split",
+    "kicker": "OUR VIEW",
+    "myth": "E-invoicing is an *IT* project.",
+    "verdict": "MYTH",
+    "fact": "IT connects the systems. *Finance* owns the data.",
+    "src": "Under AED 50m and in scope: ASP by 31 Mar 2027, live by 1 Jul 2027. Ministerial Decision No. 244 of 2025, Art. 5(1)(b) (UAE Ministry of Finance).",
+    "strikeAt": 0,
+    "factAt": 1,
+    "lines": [
+     {
+      "say": "In our view, that's a myth.",
+      "cap": "In our view: *myth*."
+     },
+     {
+      "say": "I.T. connects the systems. Finance owns the data.",
+      "cap": "IT connects. *Finance* owns the data."
+     },
+     {
+      "say": "In scope and under fifty million dirhams? A.S.P. by the thirty-first of March, live by the first of July twenty twenty-seven.",
+      "cap": "ASP by *31 Mar 2027*, live *1 Jul 2027*."
+     }
+    ]
+   },
+   {
+    "type": "founder",
+    "mode": "photo",
+    "kicker": "OUR VIEW",
+    "stat": {
+     "at": 0
+    },
+    "bubble": {
+     "t": "Our view: put *finance* in charge.",
+     "at": 1
+    },
+    "lines": [
+     {
+      "say": "Our founder has over twenty years in finance and business management.",
+      "cap": "Our founder: *20+ years* in finance."
+     },
+     {
+      "say": "So we'd put a finance lead in charge from day one.",
+      "cap": "A *finance lead* in charge from day one."
+     }
+    ]
+   },
+   {
+    "type": "end",
+    "h": "E-INVOICING READINESS",
+    "q": "Is *finance* leading yours?",
+    "disc": "General information only, not legal or tax advice. Valorin is not an ASP. Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+    "lines": [
+     {
+      "say": "Our readiness work brings finance and I.T. together.",
+      "cap": "Our *readiness* work brings finance and IT together."
+     },
+     {
+      "say": "Choosing an A.S.P. by March? Send us a WhatsApp.",
+      "cap": "Choosing an ASP? Send us a *WhatsApp*."
+     }
+    ]
+   }
+  ]
+ },
+ "series": "daily video (new look)"
+}

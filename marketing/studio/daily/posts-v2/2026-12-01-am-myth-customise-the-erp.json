@@ -1,0 +1,100 @@
+{
+ "id": "2026-12-01-am-myth-customise-the-erp",
+ "date": "2026-12-01",
+ "service": "ERP / Oracle advisory",
+ "format": "myth/fact split + checklist",
+ "video": {
+  "hookBg": "sand",
+  "frame": "light",
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "MYTH OR FACT · 1 DEC 2026",
+    "head": "Messy process? *Customise* the ERP.",
+    "lines": [
+     {
+      "say": "Myth or fact? If a process is messy, customise the E.R.P. and it's fixed.",
+      "nocap": true
+     }
+    ]
+   },
+   {
+    "type": "split",
+    "kicker": "OUR VIEW",
+    "myth": "Customise the ERP and the *process* is fixed.",
+    "verdict": "MYTH",
+    "fact": "Fix the *process* first. Then configure the system.",
+    "src": "Our view.",
+    "strikeAt": 0,
+    "factAt": 2,
+    "lines": [
+     {
+      "say": "In our view, that's a myth.",
+      "cap": "In our view: *myth*."
+     },
+     {
+      "say": "Custom code on a broken process makes it faster, and harder to change.",
+      "cap": "Custom code makes a broken process *harder to change*."
+     },
+     {
+      "say": "Fix the process first, then configure the system.",
+      "cap": "Fix the *process* first. Then configure."
+     }
+    ]
+   },
+   {
+    "type": "strike",
+    "kicker": "BEFORE ANY CHANGE REQUEST",
+    "head": "Ask *three* questions:",
+    "items": [
+     {
+      "t": "Why do we do this step?",
+      "at": 0,
+      "keep": true
+     },
+     {
+      "t": "Can standard settings do it?",
+      "at": 1,
+      "keep": true
+     },
+     {
+      "t": "Who maintains it after go-live?",
+      "at": 2,
+      "keep": true
+     }
+    ],
+    "lines": [
+     {
+      "say": "Why do we do this step at all?",
+      "cap": "*Why* do we do this step?"
+     },
+     {
+      "say": "Can standard settings already do it?",
+      "cap": "Can *standard settings* do it?"
+     },
+     {
+      "say": "And who maintains it after go-live?",
+      "cap": "Who *maintains* it after go-live?"
+     }
+    ]
+   },
+   {
+    "type": "end",
+    "h": "ERP / ORACLE ADVISORY",
+    "q": "Process first, or *code* first?",
+    "disc": "General information only, not legal or tax advice. Our view. Oracle is a registered trademark of Oracle and/or its affiliates.",
+    "lines": [
+     {
+      "say": "Our E.R.P. advisory starts with the process, then the system.",
+      "cap": "Our *ERP advisory* starts with the process."
+     },
+     {
+      "say": "Planning changes to your E.R.P.? Send us a WhatsApp.",
+      "cap": "Planning ERP changes? Send us a *WhatsApp*."
+     }
+    ]
+   }
+  ]
+ },
+ "series": "daily video (new look)"
+}

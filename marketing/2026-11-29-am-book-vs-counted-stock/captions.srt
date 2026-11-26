@@ -1,0 +1,35 @@
+1
+00:00:00,060 --> 00:00:05,873
+The books say a thousand units. The year-end count finds nine hundred and forty.
+
+2
+00:00:05,993 --> 00:00:09,268
+Which number goes in the accounts?
+
+3
+00:00:11,788 --> 00:00:14,920
+Usually the count, once it's checked.
+
+4
+00:00:15,040 --> 00:00:18,542
+Then find out why 60 are missing.
+
+5
+00:00:18,662 --> 00:00:21,100
+Sold but not booked out.
+
+6
+00:00:21,220 --> 00:00:24,252
+Received but not booked in.
+
+7
+00:00:24,372 --> 00:00:27,611
+Damage or loss not recorded.
+
+8
+00:00:27,731 --> 00:00:34,307
+Our accounting & MIS advisory reconciles the two.
+
+9
+00:00:34,427 --> 00:00:39,591
+Counting stock? Message us.

@@ -1,0 +1,43 @@
+1
+00:00:00,060 --> 00:00:06,074
+Each e-invoice usually pulls buyer details from your E.R.P. customer list.
+
+2
+00:00:06,194 --> 00:00:14,740
+AED 50m+ and in scope: live by 1 January 2027.
+
+3
+00:00:14,860 --> 00:00:17,910
+One illustrative customer record.
+
+4
+00:00:18,030 --> 00:00:21,312
+The TRN is blank.
+
+5
+00:00:21,432 --> 00:00:23,810
+The legal name is shortened.
+
+6
+00:00:23,930 --> 00:00:26,482
+The address just says Dubai.
+
+7
+00:00:26,602 --> 00:00:30,988
+A TRN on every VAT-registered customer.
+
+8
+00:00:31,108 --> 00:00:33,629
+Legal names as registered.
+
+9
+00:00:33,749 --> 00:00:36,169
+One owner for new records.
+
+10
+00:00:36,289 --> 00:00:39,385
+Our gap assessment checks data like this.
+
+11
+00:00:39,505 --> 00:00:44,149
+Cleaning your data? Send us a WhatsApp.

@@ -1,0 +1,35 @@
+1
+00:00:00,060 --> 00:00:06,172
+Myth or fact? If a process is messy, customise the E.R.P. and it's fixed.
+
+2
+00:00:06,292 --> 00:00:08,441
+In our view: myth.
+
+3
+00:00:08,561 --> 00:00:14,276
+Custom code makes a broken process harder to change.
+
+4
+00:00:14,396 --> 00:00:18,264
+Fix the process first. Then configure.
+
+5
+00:00:18,384 --> 00:00:20,512
+Why do we do this step?
+
+6
+00:00:20,632 --> 00:00:23,519
+Can standard settings do it?
+
+7
+00:00:23,639 --> 00:00:26,651
+Who maintains it after go-live?
+
+8
+00:00:26,771 --> 00:00:32,128
+Our ERP advisory starts with the process.
+
+9
+00:00:32,248 --> 00:00:36,579
+Planning ERP changes? Send us a WhatsApp.

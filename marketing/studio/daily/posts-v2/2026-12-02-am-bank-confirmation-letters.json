@@ -1,0 +1,117 @@
+{
+ "id": "2026-12-02-am-bank-confirmation-letters",
+ "date": "2026-12-02",
+ "service": "Audit & risk",
+ "format": "two-voice dialogue + checklist",
+ "video": {
+  "hookBg": "white",
+  "frame": "light",
+  "voices": {
+   "n": "bm_george@0.85",
+   "o": "bf_emma@0.9"
+  },
+  "cast": {
+   "owner": {
+    "fig": "owner",
+    "name": "BUSINESS OWNER",
+    "voice": "o"
+   },
+   "lead": {
+    "fig": "adviser",
+    "name": "FINANCE LEAD",
+    "voice": "n"
+   }
+  },
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "FINANCE IN 30S · 2 DEC 2026",
+    "head": "Why do auditors write to *your* bank?",
+    "lines": [
+     {
+      "say": "Why do your auditors write to your bank, not to you?",
+      "nocap": true
+     }
+    ]
+   },
+   {
+    "type": "dialogue",
+    "lines": [
+     {
+      "say": "Why are the auditors writing to our bank?",
+      "who": "owner",
+      "bubble": "Why are the auditors writing to *our bank*?"
+     },
+     {
+      "say": "It's a bank confirmation. The bank confirms balances directly.",
+      "who": "lead",
+      "bubble": "It's a *bank confirmation*. The bank confirms your balances directly to them."
+     },
+     {
+      "say": "Can't we just send our statements?",
+      "who": "owner",
+      "bubble": "Can't we just send our *statements*?"
+     },
+     {
+      "say": "Usually not. Evidence straight from the bank carries more weight.",
+      "who": "lead",
+      "bubble": "Usually not. Evidence *from the bank* carries more weight."
+     }
+    ]
+   },
+   {
+    "type": "strike",
+    "kicker": "IN OUR VIEW, BEFORE YEAR-END",
+    "head": "Get *three* things ready:",
+    "items": [
+     {
+      "t": "Sign the bank's consent early",
+      "at": 0,
+      "keep": true
+     },
+     {
+      "t": "List every account and loan",
+      "at": 1,
+      "keep": true
+     },
+     {
+      "t": "Reconcile each balance",
+      "at": 2,
+      "keep": true
+     }
+    ],
+    "lines": [
+     {
+      "say": "Sign the bank's consent letter early.",
+      "cap": "Sign the bank's *consent* early."
+     },
+     {
+      "say": "List every account, loan and guarantee.",
+      "cap": "List *every* account and loan."
+     },
+     {
+      "say": "And reconcile each balance to the books.",
+      "cap": "*Reconcile* each balance."
+     }
+    ]
+   },
+   {
+    "type": "end",
+    "h": "AUDIT & RISK ADVISORY",
+    "q": "Is your bank list *complete?*",
+    "disc": "General information only, not legal or tax advice. Our view; practice differs by bank and auditor. Valorin is not an audit firm.",
+    "lines": [
+     {
+      "say": "Our audit and risk advisory helps you prepare.",
+      "cap": "Our *audit & risk* advisory helps you prepare."
+     },
+     {
+      "say": "Auditors' letters going out? Send us a WhatsApp, and we'll check your bank list.",
+      "cap": "Auditors' letters going out? Send us a *WhatsApp*."
+     }
+    ]
+   }
+  ]
+ },
+ "series": "daily video (new look)"
+}
