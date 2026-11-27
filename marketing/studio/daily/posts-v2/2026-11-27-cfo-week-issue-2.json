@@ -1,0 +1,104 @@
+{
+ "id": "2026-11-27-cfo-week-issue-2",
+ "date": "2026-11-27",
+ "series": "The CFO Week (Friday bulletin, issue 2, calendar theme)",
+ "service": "Tax, CFO and cash, e-invoicing, audit and risk",
+ "format": "four-part bulletin",
+ "video": {
+  "hookBg": "ivory",
+  "frame": "report",
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "THE CFO WEEK · ISSUE 2 · 27 NOV 2026",
+    "head": "Your finance week, *day by day*",
+    "lines": [
+     {
+      "say": "Two deadlines on Monday, and a holiday midweek. Here's your finance week.",
+      "cap": "Two *deadlines* Monday. A *holiday* midweek."
+     }
+    ]
+   },
+   {
+    "type": "hook",
+    "kicker": "LAST WEEK · WED 25 NOV",
+    "head": "E-invoicing guidelines: *version 2.1*",
+    "sub": "UAE Ministry of Finance, Electronic Invoicing Guidelines V2.1, 25 Nov 2026. Valorin is an independent advisory firm, not affiliated with the FTA or MoF. Valorin is not an ASP.",
+    "subAt": 0,
+    "lines": [
+     {
+      "say": "Last week, the Ministry of Finance published e-invoicing guidelines, version two point one.",
+      "cap": "*Ministry of Finance*: e-invoicing guidelines *V2.1*."
+     },
+     {
+      "say": "Work from that version.",
+      "cap": "Work from *V2.1*."
+     }
+    ]
+   },
+   {
+    "type": "hook",
+    "kicker": "DO NEXT WEEK · MON 30 NOV",
+    "head": "File by *Monday 30 Nov*",
+    "sub": "FTA announcements: final deadline for filing VAT returns, 30 Nov 2026. Federal Decree-Law No. 47 of 2022, Arts. 48 and 53: nine months from the end of the tax period, unless the FTA sets another date.",
+    "subAt": 0,
+    "lines": [
+     {
+      "say": "Do: file your VAT return by Monday, the thirtieth of November.",
+      "cap": "File your *VAT return* by *30 Nov*."
+     },
+     {
+      "say": "Tax period ended the twenty-eighth of February? Your corporate tax return points to the same day.",
+      "cap": "Tax period ended *28 Feb*? Corporate tax points to *30 Nov* too."
+     }
+    ]
+   },
+   {
+    "type": "hook",
+    "kicker": "AVOID NEXT WEEK · 2–3 DEC",
+    "head": "Don't pay *on the holiday*",
+    "sub": "u.ae lists National Day as 2 and 3 December. Confirm against the official 2026 announcement.",
+    "subAt": 0,
+    "lines": [
+     {
+      "say": "Avoid: paying on the National Day holiday, the second and third of December.",
+      "cap": "Avoid paying on *2–3 Dec*."
+     },
+     {
+      "say": "Move payroll earlier, and check your bank's cut-off times.",
+      "cap": "Move *payroll* earlier. Check bank *cut-offs*."
+     }
+    ]
+   },
+   {
+    "type": "hook",
+    "kicker": "COMING UP · 30 NOV – 15 DEC",
+    "head": "Dates to *ring*",
+    "sub": "Mon 30 Nov: VAT returns, final deadline (FTA) · Mon 30 Nov: corporate tax, periods ended 28 Feb 2026 · Wed 2 – Thu 3 Dec: National Day holiday (u.ae; confirm against the official 2026 announcement) · Tue 8 – Wed 9 Dec: US Federal Reserve meeting · Tue 15 Dec: Excise returns, final deadline (FTA)",
+    "subAt": 0,
+    "lines": [
+     {
+      "say": "Coming up: VAT returns on Monday, then the holiday.",
+      "cap": "*VAT* Monday, then the *holiday*."
+     },
+     {
+      "say": "The Fed meets on the eighth and ninth of December.",
+      "cap": "The *Fed* meets *8–9 Dec*."
+     }
+    ]
+   },
+   {
+    "type": "end",
+    "h": "THE CFO WEEK",
+    "q": "Which one is *yours?*",
+    "disc": "General information only, not legal or tax advice. Valorin is an independent advisory firm, not affiliated with the FTA or MoF. Valorin is not an ASP. The Fed date is a calendar fact, not a rate forecast.",
+    "lines": [
+     {
+      "say": "Which one is yours? Send us a WhatsApp, and we'll tell you what we'd do first.",
+      "cap": "Which one is *yours*? Send us a *WhatsApp*."
+     }
+    ]
+   }
+  ]
+ }
+}
