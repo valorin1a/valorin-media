@@ -1,0 +1,92 @@
+{
+ "id": "2026-11-27-einv-guidelines-v21",
+ "date": "2026-11-27",
+ "series": "E-Invoicing Brief (owner request, guidelines V2.1)",
+ "service": "E-invoicing",
+ "format": "split (before vs V2.1) + strike list",
+ "video": {
+  "hookBg": "sand",
+  "frame": "report",
+  "scenes": [
+   {
+    "type": "hook",
+    "kicker": "E-INVOICING BRIEF · 27 NOV 2026",
+    "head": "Guidelines *V2.1* are out",
+    "sub": "UAE Electronic Invoicing Guidelines, Version 2.1, 25 Nov 2026 (UAE Ministry of Finance). Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
+    "subAt": 1,
+    "lines": [
+     {
+      "say": "The UAE e-invoicing guidelines changed on the twenty-fifth of November.",
+      "cap": "New guidelines: *25 November 2026*."
+     },
+     {
+      "say": "Version two point one. Here's what it means for your E.R.P.",
+      "cap": "Version *2.1*. What it means for your ERP."
+     }
+    ]
+   },
+   {
+    "type": "split",
+    "kicker": "CHANGE 1 · INVOICE TYPE CODE",
+    "topLabel": "EXEMPT-ONLY INVOICE",
+    "myth": "Send it as a tax invoice, *code 380*.",
+    "verdict": "CHANGED",
+    "factLabel": "VERSION 2.1",
+    "fact": "Use *code 480*, the commercial invoice.",
+    "src": "Guidelines V2.1, s.18.3.1 (MoF, 25 Nov 2026).",
+    "strikeAt": 0,
+    "factAt": 1,
+    "lines": [
+     {
+      "say": "An invoice made up only of exempt supplies.",
+      "cap": "An invoice of only *exempt* supplies?"
+     },
+     {
+      "say": "Version two point one puts it on code four eighty, the commercial invoice.",
+      "cap": "V2.1: *code 480*, commercial invoice."
+     }
+    ]
+   },
+   {
+    "type": "strike",
+    "kicker": "ALSO IN VERSION 2.1",
+    "head": "Re-test these",
+    "items": [
+      {"t": "Foreign buyer IDs from their own country", "at": 0, "dt": 0.2, "keep": true},
+      {"t": "Retention credit notes: BTAE-03", "at": 1, "dt": 0, "keep": true},
+      {"t": "GTINs on reverse-charge lines", "at": 2, "dt": 0, "keep": true}
+    ],
+    "lines": [
+     {
+      "say": "Foreign buyers can use an I.D. from their own country.",
+      "cap": "Foreign buyers: *home-country* ID."
+     },
+     {
+      "say": "Credit notes for retention need a reason code.",
+      "cap": "Retention credit notes: *reason code*."
+     },
+     {
+      "say": "And reverse-charge goods lines carry a product code.",
+      "cap": "Reverse-charge lines: *GTIN*."
+     },
+     {
+      "say": "The go-live dates stay the same.",
+      "cap": "Go-live dates: *unchanged*."
+     }
+    ]
+   },
+   {
+    "type": "end",
+    "h": "E-INVOICING READINESS",
+    "q": "ERP mapping *ready?*",
+    "disc": "General information only, not legal or tax advice. Valorin is an independent advisory firm, not affiliated with the FTA or MoF. Valorin is not an ASP. Source: UAE Electronic Invoicing Guidelines V2.1, 25 Nov 2026.",
+    "lines": [
+     {
+      "say": "Updating your invoice mapping? Send us a WhatsApp, and we'll go through version two point one with you.",
+      "cap": "Updating your mapping? *WhatsApp* us."
+     }
+    ]
+   }
+  ]
+ }
+}

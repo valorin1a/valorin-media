@@ -1,0 +1,35 @@
+1
+00:00:00,060 --> 00:00:05,844
+New guidelines: 25 November 2026.
+
+2
+00:00:05,964 --> 00:00:10,559
+Version 2.1. What it means for your ERP.
+
+3
+00:00:10,679 --> 00:00:14,571
+An invoice of only exempt supplies?
+
+4
+00:00:14,691 --> 00:00:20,436
+V2.1: code 480, commercial invoice.
+
+5
+00:00:20,556 --> 00:00:24,850
+Foreign buyers: home-country ID.
+
+6
+00:00:24,970 --> 00:00:28,907
+Retention credit notes: reason code.
+
+7
+00:00:29,027 --> 00:00:32,876
+Reverse-charge lines: GTIN.
+
+8
+00:00:32,996 --> 00:00:35,615
+Go-live dates: unchanged.
+
+9
+00:00:35,735 --> 00:00:42,793
+Updating your mapping? WhatsApp us.
