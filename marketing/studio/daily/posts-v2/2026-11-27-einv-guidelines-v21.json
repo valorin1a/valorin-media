@@ -10,8 +10,8 @@
   "scenes": [
    {
     "type": "hook",
-    "kicker": "E-INVOICING BRIEF · 27 NOV 2026",
-    "head": "Guidelines *V2.1* are out",
+    "kicker": "UAE E-INVOICING · V2.0 → V2.1",
+    "head": "*5 changes* in the e-invoicing rules",
     "sub": "UAE Electronic Invoicing Guidelines, Version 2.1, 25 Nov 2026 (UAE Ministry of Finance). Valorin is an independent advisory firm, not affiliated with the FTA or MoF.",
     "subAt": 1,
     "lines": [
@@ -20,16 +20,16 @@
       "cap": "New guidelines: *25 November 2026*."
      },
      {
-      "say": "Version two point one. Here's what it means for your E.R.P.",
-      "cap": "Version *2.1*. What it means for your ERP."
+      "say": "Five things are different. Number one hits every exempt-only invoice.",
+      "cap": "*5 changes*. Number 1 hits exempt invoices."
      }
     ]
    },
    {
     "type": "split",
-    "kicker": "CHANGE 1 · INVOICE TYPE CODE",
+    "kicker": "CHANGE 1 OF 5 · INVOICE TYPE",
     "topLabel": "EXEMPT-ONLY INVOICE",
-    "myth": "Send it as a tax invoice, *code 380*.",
+    "myth": "Before: tax invoice, *code 380*.",
     "verdict": "CHANGED",
     "factLabel": "VERSION 2.1",
     "fact": "Use *code 480*, the commercial invoice.",
@@ -49,12 +49,33 @@
    },
    {
     "type": "strike",
-    "kicker": "ALSO IN VERSION 2.1",
-    "head": "Re-test these",
+    "kicker": "CHANGES 2 TO 5",
+    "head": "Also different",
     "items": [
-      {"t": "Foreign buyer IDs from their own country", "at": 0, "dt": 0.2, "keep": true},
-      {"t": "Retention credit notes: BTAE-03", "at": 1, "dt": 0, "keep": true},
-      {"t": "GTINs on reverse-charge lines", "at": 2, "dt": 0, "keep": true}
+     {
+      "t": "Foreign buyer IDs from their own country",
+      "at": 0,
+      "dt": 0.2,
+      "keep": true
+     },
+     {
+      "t": "Retention credit notes: BTAE-03",
+      "at": 1,
+      "dt": 0,
+      "keep": true
+     },
+     {
+      "t": "GTINs on reverse-charge lines",
+      "at": 2,
+      "dt": 0,
+      "keep": true
+     },
+     {
+      "t": "No summary invoices for commercial invoices",
+      "at": 3,
+      "dt": 0,
+      "keep": true
+     }
     ],
     "lines": [
      {
@@ -66,8 +87,12 @@
       "cap": "Retention credit notes: *reason code*."
      },
      {
-      "say": "And reverse-charge goods lines carry a product code.",
+      "say": "Reverse-charge goods lines carry a product code.",
       "cap": "Reverse-charge lines: *GTIN*."
+     },
+     {
+      "say": "And summary invoices no longer apply to commercial invoices.",
+      "cap": "Summary invoices: *not* for commercial."
      },
      {
       "say": "The go-live dates stay the same.",
@@ -78,12 +103,12 @@
    {
     "type": "end",
     "h": "E-INVOICING READINESS",
-    "q": "ERP mapping *ready?*",
+    "q": "Which apply to *you?*",
     "disc": "General information only, not legal or tax advice. Valorin is an independent advisory firm, not affiliated with the FTA or MoF. Valorin is not an ASP. Source: UAE Electronic Invoicing Guidelines V2.1, 25 Nov 2026.",
     "lines": [
      {
-      "say": "Updating your invoice mapping? Send us a WhatsApp, and we'll go through version two point one with you.",
-      "cap": "Updating your mapping? *WhatsApp* us."
+      "say": "Not sure which changes apply to you? Send us a WhatsApp, and we'll check it with you.",
+      "cap": "Not sure? *WhatsApp* us."
      }
     ]
    }

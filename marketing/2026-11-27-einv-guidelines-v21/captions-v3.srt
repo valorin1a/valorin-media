@@ -1,0 +1,39 @@
+1
+00:00:00,060 --> 00:00:05,844
+New guidelines: 25 November 2026.
+
+2
+00:00:05,964 --> 00:00:11,468
+5 changes. Number 1 hits exempt invoices.
+
+3
+00:00:11,588 --> 00:00:15,480
+An invoice of only exempt supplies?
+
+4
+00:00:15,600 --> 00:00:21,345
+V2.1: code 480, commercial invoice.
+
+5
+00:00:21,465 --> 00:00:25,759
+Foreign buyers: home-country ID.
+
+6
+00:00:25,879 --> 00:00:29,816
+Retention credit notes: reason code.
+
+7
+00:00:29,936 --> 00:00:33,623
+Reverse-charge lines: GTIN.
+
+8
+00:00:33,743 --> 00:00:38,649
+Summary invoices: not for commercial.
+
+9
+00:00:38,769 --> 00:00:41,389
+Go-live dates: unchanged.
+
+10
+00:00:41,509 --> 00:00:47,225
+Not sure? WhatsApp us.
